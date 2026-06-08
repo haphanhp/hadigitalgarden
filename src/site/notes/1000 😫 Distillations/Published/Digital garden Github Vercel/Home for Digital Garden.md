@@ -5,7 +5,7 @@
 
 # Giới thiệu
 
-Chào mừng đến digital garden của Hà. [https://hadigitalgarden.vercel.app/](https://hadigitalgarden.vercel.app/)
+Chào mừng đến [digital garden của Hà.](https://hadigitalgarden.vercel.app/)
 Ở đây lưu trữ 
 - idea cá nhân 
 - các mối quan tâm
