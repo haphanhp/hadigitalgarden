@@ -6,4 +6,9 @@
 # Giới thiệu
 
 Chào mừng đến digital garden của Hà. [https://hadigitalgarden.vercel.app/](https://hadigitalgarden.vercel.app/)
-Ở đây lưu trữ idea cá nhân và các mối quan tâm, những câu hỏi chưa được giải đáp và các vấn đề cần được giải quyết, và những dự án muốn hoàn thiện. 
+Ở đây lưu trữ 
+- idea cá nhân 
+- các mối quan tâm
+- những câu hỏi chưa được giải đáp 
+- các vấn đề cần được giải quyết
+- và những dự án muốn hoàn thiện. 
