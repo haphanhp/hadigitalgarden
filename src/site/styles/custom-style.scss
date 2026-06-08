@@ -1,13 +1,46 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  // background-color: white;
+  // .content {
+  //  font-size: 14px;
+  // }
+  // h1 {
+  //  color: black;
+  // }
+}
+
+/* Mermaid card — Ocean → Violet */
+.mermaid-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  background: linear-gradient(
+    130deg,
+    #38BCD4 0%,
+    #5DD4E8 20%,
+    #9370DB 65%,
+    #C084C8 100%
+  );
+  background-size: 220% 220%;
+  animation: shimmer 8s ease infinite;
+}
+
+.mermaid-card::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -40px;
+  width: 260px;
+  height: 200px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255,255,255,0.55) 0%,
+    rgba(255,255,255,0.18) 45%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0%,100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
 }
