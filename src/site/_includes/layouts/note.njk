@@ -13,6 +13,56 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
   </head>
+<!-- Google Translate Widget -->
+<div id="google_translate_element"></div>
+
+<style>
+#google_translate_element {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  background: #0f1318;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(147, 112, 219, 0.4);
+  box-shadow: 0 0 12px rgba(147, 112, 219, 0.2);
+}
+
+/* Ẩn banner "Powered by Google" và các thứ thừa */
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+.goog-te-gadget select {
+  background: transparent !important;
+  border: none !important;
+  color: #C084C8 !important;
+  font-size: 0.85rem !important;
+  font-family: inherit !important;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 4px;
+}
+.goog-te-gadget select:hover {
+  color: #5DD4E8 !important;
+}
+/* Ẩn dòng chữ "Google Translate" bên dưới */
+.goog-te-gadget > span {
+  display: none !important;
+}
+</style>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'vi',
+    includedLanguages: 'en,vi',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     
