@@ -1,16 +1,13 @@
+/* ============================================
+   BODY BACKGROUND
+   ============================================ */
 body {
   background-color: #1E2840 !important;
-  
-  // Bạn có thể giữ lại hoặc xóa các comment cũ nếu không dùng
-  // .content {
-  //   font-size: 14px;
-  // }
-  // h1 {
-  //   color: black;
-  // }
 }
 
-/* Mermaid — Ocean → Violet */
+/* ============================================
+   CONTENT CARD — gradient chỉ bọc nội dung chính
+   ============================================ */
 .content {
   position: relative;
   overflow: hidden;
@@ -25,7 +22,6 @@ body {
   background-size: 220% 220%;
   animation: shimmer 8s ease infinite;
   padding: 2rem;
-  color: white;
 }
 
 .content::before {
@@ -50,7 +46,144 @@ body {
   z-index: 1;
 }
 
+/* Fix chữ dễ đọc trên nền gradient */
+.content,
+.content p,
+.content li,
+.content ul,
+.content ol {
+  color: #ffffff !important;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+
+.content a {
+  color: #fff !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.content a:hover {
+  color: #fde68a !important;
+}
+
 @keyframes shimmer {
   0%,100% { background-position: 0% 50%; }
   50%      { background-position: 100% 50%; }
+}
+
+/* ============================================
+   GRAPH VIEW
+   ============================================ */
+.graph-view-container,
+#graph-canvas,
+.graph {
+  background: #0d1117 !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(147, 112, 219, 0.3) !important;
+}
+
+.graph-view.color-fill        { color: #C084C8; }
+.graph-view.color-fill-highlight { color: #5DD4E8; }
+.graph-view.color-arrow       { color: rgba(93, 212, 232, 0.4); }
+.graph-view.color-line        { color: rgba(147, 112, 219, 0.35); }
+.graph-view.color-text        { color: #e2d9f3; }
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+.sidebar {
+  background: #0f1318 !important;
+  border-right: 1px solid rgba(147, 112, 219, 0.2) !important;
+}
+
+.sidebar a,
+.filetree-sidebar a {
+  color: #b8a9d9 !important;
+  font-size: 0.88rem;
+}
+.sidebar a:hover,
+.filetree-sidebar a:hover {
+  color: #5DD4E8 !important;
+}
+
+.filetree-sidebar summary {
+  color: #9370DB !important;
+  font-weight: 600;
+}
+
+/* ============================================
+   RIGHT SIDEBAR
+   ============================================ */
+.right-sidebar,
+.sidebar-right {
+  background: #0f1318 !important;
+  border-left: 1px solid rgba(147, 112, 219, 0.2) !important;
+}
+
+.right-sidebar h3,
+.right-sidebar .panel-title {
+  color: #C084C8 !important;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.right-sidebar a       { color: #9eb3d4 !important; }
+.right-sidebar a:hover { color: #5DD4E8 !important; }
+
+/* ============================================
+   TAGS
+   ============================================ */
+.tag,
+a[href^="#"] {
+  background: rgba(147, 112, 219, 0.18) !important;
+  color: #C084C8 !important;
+  border: 1px solid rgba(192, 132, 200, 0.4) !important;
+  border-radius: 999px !important;
+  padding: 2px 10px !important;
+  font-size: 0.78rem !important;
+  text-decoration: none !important;
+  transition: background 0.2s;
+}
+.tag:hover,
+a[href^="#"]:hover {
+  background: rgba(93, 212, 232, 0.18) !important;
+  color: #5DD4E8 !important;
+  border-color: rgba(93, 212, 232, 0.5) !important;
+}
+
+/* ============================================
+   SEARCH BOX
+   ============================================ */
+.search-bar input,
+#search-input {
+  background: #161b24 !important;
+  border: 1px solid rgba(147, 112, 219, 0.4) !important;
+  color: #e2d9f3 !important;
+  border-radius: 999px !important;
+}
+.search-bar input:focus,
+#search-input:focus {
+  border-color: #5DD4E8 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(93, 212, 232, 0.15) !important;
+}
+
+/* ============================================
+   SITE TITLE
+   ============================================ */
+.site-name,
+.site-title {
+  background: linear-gradient(90deg, #5DD4E8, #9370DB, #C084C8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800 !important;
 }
