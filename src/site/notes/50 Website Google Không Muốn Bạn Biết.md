@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/50-website-google-khong-muon-ban-biet/","title":"50 Website Google \"Không Muốn\" Bạn Biết","tags":["tech/tool","learning"],"dg-note-properties":{"title":"50 Website Google \"Không Muốn\" Bạn Biết","date":"2026-06-11","created":"2026-06-11 14:48","tags":["tech/tool","learning"],"cssclass":"mermaid-card","url":null}}
+{"dg-publish":true,"permalink":"/50-website-google-khong-muon-ban-biet/","title":"50 Website Google \"Không Muốn\" Bạn Biết","tags":["tech/tool","learning"],"dg-note-properties":{"title":"50 Website Google \"Không Muốn\" Bạn Biết","date":"2026-06-11","created":"2026-06-11 14:48","tags":["tech/tool","learning"],"cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/50-website-google-khong-muon-ban-biet/"}}
 ---
 
-
+Xem thêm tại [[1000 😫 Distillations/Published/Digital garden Github Vercel/Home for Digital Garden\|Home for Digital Garden]]
 
 Nguồn [bài gốc từ AI For Developers trên Substack](https://substack.com/@technologiee/note/c-259011994?r=2lrg7p):
 
