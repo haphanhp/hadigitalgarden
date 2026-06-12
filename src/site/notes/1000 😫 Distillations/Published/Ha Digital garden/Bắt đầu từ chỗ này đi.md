@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/","title":"Untitled","tags":["digitalgarden","output/writing"],"dg-note-properties":{"title":"Untitled","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digitalgarden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/"}}
+{"dg-publish":true,"permalink":"/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/","title":"Bắt đầu từ chỗ này đi","tags":["digitalgarden","output/writing"],"dg-note-properties":{"title":"Bắt đầu từ chỗ này đi","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digitalgarden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/"}}
 ---
 
 
@@ -97,3 +97,4 @@ Chào mừng bạn đến khu vườn.
 
 _Bắt đầu trồng từ năm 2023 — đang tiếp tục lớn._
 
+[[1000 😫 Distillations/Published/Ha Digital garden/Home for Digital Garden\|Home for Digital Garden]]
