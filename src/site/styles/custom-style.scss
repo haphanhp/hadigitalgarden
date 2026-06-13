@@ -138,41 +138,74 @@ aside a       { color: #9eb3d4 !important; }
 aside a:hover { color: #5DD4E8 !important; }
 
 /* ============================================
-   GRAPH VIEW — To hơn + Dark starfield
+   GRAPH VIEW — Dark starfield + To hơn
    ============================================ */
-.graph-view-placeholder,
-.graph-placeholder,
-aside .graph-view-placeholder {
+#graph-component {
+  background: #0d1117 !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(147, 112, 219, 0.3) !important;
+  overflow: hidden;
+}
+
+.graph-title-container {
+  background: #0d1117 !important;
+  color: #C084C8 !important;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.graph-title {
+  color: #C084C8 !important;
+}
+
+#graph-controls span {
+  color: #9370DB !important;
+  cursor: pointer;
+}
+
+#graph-controls span:hover {
+  color: #5DD4E8 !important;
+}
+
+#link-graph {
   width: 100% !important;
   height: 400px !important;
-  min-height: 400px !important;
+  background: #0d1117 !important;
+}
+
+#link-graph canvas {
+  width: 100% !important;
+  height: 400px !important;
+  background: #0d1117 !important;
+}
+
+/* Full graph modal */
+#full-graph {
+  background: rgba(13, 17, 23, 0.95) !important;
+}
+
+#full-graph-container {
   background: #0d1117 !important;
   border-radius: 14px !important;
   border: 1px solid rgba(147, 112, 219, 0.3) !important;
 }
 
-.graph-view-placeholder canvas,
-#graph-canvas canvas {
-  width: 100% !important;
-  height: 400px !important;
-  background: #0d1117 !important;
-  border-radius: 14px !important;
+/* CSS variables cho màu node/link trong graph JS */
+:root {
+  --dg-graph-node-color: #C084C8;
+  --dg-graph-node-color-muted: #5DD4E8;
+  --dg-graph-label-color: #e2d9f3;
+  --graph-main: #C084C8;
+  --graph-muted: #3a3a5c;
 }
 
-.graph-view.color-fill           { color: #C084C8; }
-.graph-view.color-fill-highlight { color: #5DD4E8; }
-.graph-view.color-arrow          { color: rgba(93, 212, 232, 0.4); }
-.graph-view.color-line           { color: rgba(147, 112, 219, 0.35); }
-.graph-view.color-text           { color: #e2d9f3; }
-
 @media (max-width: 768px) {
-  .graph-view-placeholder,
-  .graph-placeholder {
+  #link-graph {
     height: 220px !important;
-    min-height: 220px !important;
   }
-
-  .graph-view-placeholder canvas {
+  #link-graph canvas {
     height: 220px !important;
   }
 }
