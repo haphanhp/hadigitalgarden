@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/top-10-platform-to-create-website-for-no-code-developers/","tags":["output/writing","published/digitalgarden"],"dg-note-properties":{"aliases":null,"tags":["output/writing","published/digitalgarden"],"date created":"Saturday, April 11th 2026, 9:58:37 pm","date modified":"Sunday, May 10th 2026, 8:54:04 pm"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/top-10-platform-to-create-website-for-no-code-developers/","tags":["output/writing","published/digitalgarden","resources"],"dg-note-properties":{"aliases":null,"tags":["output/writing","published/digitalgarden","resources"],"date created":"Saturday, April 11th 2026, 9:58:37 pm","date modified":"Sunday, May 10th 2026, 8:54:04 pm"}}
 ---
 
 
@@ -12,18 +12,18 @@
 
 ## Tổng quan nhanh
 
-|#|Nền tảng|Phù hợp nhất|Miễn phí?|Giá từ|
-|---|---|---|---|---|
-|1|Webflow|Designer chuyên nghiệp|✅ (có giới hạn)|$14/tháng|
-|2|Wix|Người mới bắt đầu|✅ (có quảng cáo)|$17/tháng|
-|3|Squarespace|Portfolio sáng tạo|❌ (14 ngày trial)|$16/tháng|
-|4|Bubble|Web app / SaaS / MVP|✅ (có giới hạn)|$29/tháng|
-|5|Framer|Startup & designer hiện đại|✅ (có subdomain)|$10/tháng|
-|6|Shopify|Bán hàng online|❌ (3 ngày trial)|$29/tháng|
-|7|Notion + Super|Blog, docs, wiki nhanh|✅ (Notion free)|$12/tháng|
-|8|Carrd|One-page, link in bio|✅ (giới hạn)|$19/năm|
-|9|Glide|App từ Google Sheets|✅ (giới hạn)|$49/tháng|
-|10|Editor X|Agency & web design nâng cao|✅ (có giới hạn)|$17/tháng|
+| #   | Nền tảng       | Phù hợp nhất                 | Miễn phí?          | Giá từ    | Note | Tui đã xài chưa    |
+| --- | -------------- | ---------------------------- | ------------------ | --------- | ---- | --- |
+| 1   | Webflow        | Designer chuyên nghiệp       | ✅ (có giới hạn)   | $14/tháng | Có nhóm FB đó     |   Rồi, lúc đầu vất vả chỉnh sửa  |
+| 2   | Wix            | Người mới bắt đầu            | ✅ (có quảng cáo)  | $17/tháng |  đơn giản để bắt đầu, tốt cho landing page    |  recommend    |
+| 3   | Squarespace    | Portfolio sáng tạo           | ❌ (14 ngày trial) | $16/tháng |      | không xài    |
+| 4   | Bubble         | Web app / SaaS / MVP         | ✅ (có giới hạn)   | $29/tháng |      |     |
+| 5   | Framer         | Startup & designer hiện đại  | ✅ (có subdomain)  | $10/tháng |      |     |
+| 6   | Shopify        | Bán hàng online              | ❌ (3 ngày trial)  | $29/tháng |      |  không xài, thay bằng WooCommerce   |
+| 7   | Notion + Super | Blog, docs, wiki nhanh       | ✅ (Notion free)   | $12/tháng |  Tui đã dùng để tạo kênh liên lạc    |  Có   |
+| 8   | Carrd          | One-page, link in bio        | ✅ (giới hạn)      | $19/năm   |      |     |
+| 9   | Glide          | App từ Google Sheets         | ✅ (giới hạn)      | $49/tháng |      |     |
+| 10  | Editor X       | Agency & web design nâng cao | ✅ (có giới hạn)   | $17/tháng |      |     |
 
 ---
 
