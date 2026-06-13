@@ -24,7 +24,6 @@ body {
   padding: 2rem;
 }
 
-/* Hiệu ứng giả lập ánh sáng (Radial Glow) */
 .content::before {
   content: '';
   position: absolute;
@@ -47,7 +46,6 @@ body {
   z-index: 1;
 }
 
-/* Fix chữ dễ đọc trên nền gradient */
 .content,
 .content p,
 .content li,
@@ -74,7 +72,6 @@ body {
   font-weight: 700;
 }
 
-/* Links trong content */
 .content a {
   color: #ffffff !important;
   text-decoration: underline;
@@ -87,30 +84,15 @@ body {
 
 @keyframes shimmer {
   0%, 100% { background-position: 0% 50%; }
-  50%      { background-position: 100% 50%; }
+  50%       { background-position: 100% 50%; }
 }
 
 /* ============================================
-   GRAPH VIEW (Sơ đồ tư duy / liên kết dòng)
+   SIDEBAR TRÁI
    ============================================ */
-.graph-view-container,
-#graph-canvas,
-.graph {
-  background: #0d1117 !important;
-  border-radius: 14px !important;
-  border: 1px solid rgba(147, 112, 219, 0.3) !important;
-}
-
-.graph-view.color-fill           { color: #C084C8; }
-.graph-view.color-fill-highlight { color: #5DD4E8; }
-.graph-view.color-arrow          { color: rgba(93, 212, 232, 0.4); }
-.graph-view.color-line           { color: rgba(147, 112, 219, 0.35); }
-.graph-view.color-text           { color: #e2d9f3; }
-
-/* ============================================
-   SIDEBAR (Thanh bên trái)
-   ============================================ */
-.sidebar {
+.sidebar,
+nav.sidebar,
+.sidebar-left {
   background: #0f1318 !important;
   border-right: 1px solid rgba(147, 112, 219, 0.2) !important;
 }
@@ -132,27 +114,71 @@ body {
 }
 
 /* ============================================
-   RIGHT SIDEBAR (Thanh bên phải)
+   SIDEBAR PHẢI
    ============================================ */
 .right-sidebar,
-.sidebar-right {
+.sidebar-right,
+aside {
   background: #0f1318 !important;
   border-left: 1px solid rgba(147, 112, 219, 0.2) !important;
 }
 
 .right-sidebar h3,
-.right-sidebar .panel-title {
+.right-sidebar .panel-title,
+aside h3 {
   color: #C084C8 !important;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
-.right-sidebar a       { color: #9eb3d4 !important; }
-.right-sidebar a:hover { color: #5DD4E8 !important; }
+.right-sidebar a,
+aside a       { color: #9eb3d4 !important; }
+.right-sidebar a:hover,
+aside a:hover { color: #5DD4E8 !important; }
 
 /* ============================================
-   TAGS (Thẻ nhãn)
+   GRAPH VIEW — To hơn + Dark starfield
+   ============================================ */
+.graph-view-placeholder,
+.graph-placeholder,
+aside .graph-view-placeholder {
+  width: 100% !important;
+  height: 400px !important;
+  min-height: 400px !important;
+  background: #0d1117 !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(147, 112, 219, 0.3) !important;
+}
+
+.graph-view-placeholder canvas,
+#graph-canvas canvas {
+  width: 100% !important;
+  height: 400px !important;
+  background: #0d1117 !important;
+  border-radius: 14px !important;
+}
+
+.graph-view.color-fill           { color: #C084C8; }
+.graph-view.color-fill-highlight { color: #5DD4E8; }
+.graph-view.color-arrow          { color: rgba(93, 212, 232, 0.4); }
+.graph-view.color-line           { color: rgba(147, 112, 219, 0.35); }
+.graph-view.color-text           { color: #e2d9f3; }
+
+@media (max-width: 768px) {
+  .graph-view-placeholder,
+  .graph-placeholder {
+    height: 220px !important;
+    min-height: 220px !important;
+  }
+
+  .graph-view-placeholder canvas {
+    height: 220px !important;
+  }
+}
+
+/* ============================================
+   TAGS
    ============================================ */
 .tag,
 a[href^="#"] {
@@ -174,7 +200,7 @@ a[href^="#"]:hover {
 }
 
 /* ============================================
-   SEARCH BOX (Ô tìm kiếm)
+   SEARCH BOX
    ============================================ */
 .search-bar input,
 #search-input {
@@ -193,7 +219,7 @@ a[href^="#"]:hover {
 }
 
 /* ============================================
-   SITE TITLE (Tên website dạng Gradient)
+   SITE TITLE
    ============================================ */
 .site-name,
 .site-title {
