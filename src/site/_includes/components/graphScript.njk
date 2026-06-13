@@ -41,7 +41,6 @@ function filterLocalGraphData(graphData) {
 
     currentNode.current = true;
 
-    // Depth 1: collect immediate neighbors (neighbors array contains URLs)
     const neighbourhood = new Set();
     neighbourhood.add(currentNode.url);
     if (currentNode.neighbors) {
@@ -53,7 +52,6 @@ function filterLocalGraphData(graphData) {
         return neighbourhood.has(n.url);
     });
 
-    // If current node is not home, exclude the home node unless it's a neighbor
     if (!currentNode.home && currentNode.neighbors) {
         const homeNode = nodes.find(n => n.home);
         if (homeNode && !currentNode.neighbors.includes(homeNode.url)) {
@@ -73,7 +71,6 @@ function getCssVar(variable) {
     return getComputedStyle(document.body).getPropertyValue(variable).trim();
 }
 
-// Resolve CSS color (which may contain calc/hsl) to a hex number Pixi can use
 const _colorProbe = document.createElement('div');
 _colorProbe.style.display = 'none';
 document.body.appendChild(_colorProbe);
@@ -87,14 +84,12 @@ function resolveColor(cssValue) {
     return 0x666666;
 }
 
-// Lightweight HTML entity decoder
 const _decodeEl = document.createElement('textarea');
 function htmlDecode(input) {
     _decodeEl.innerHTML = input;
     return _decodeEl.value;
 }
 
-// Pre-compute degree map for node sizing
 function buildDegreeMap(links) {
     const degrees = {};
     for (const l of links) {
@@ -106,8 +101,31 @@ function buildDegreeMap(links) {
     return degrees;
 }
 
+// Node lớn hơn gấp đôi so với gốc
 function nodeRadius(nodeId, degreeMap) {
-    return 2 + Math.sqrt(degreeMap[nodeId] || 0);
+    return 5 + Math.sqrt(degreeMap[nodeId] || 0) * 1.5;
+}
+
+function drawNode(gfx, r, nodeColor, isHovered, glowColor) {
+    gfx.clear();
+
+    if (isHovered) {
+        // Vòng glow bên ngoài
+        gfx.lineStyle(2.5, 0xffffff, 0.6);
+        gfx.drawCircle(0, 0, r + 5);
+        // Vòng sáng giữa
+        gfx.lineStyle(1.5, glowColor, 0.9);
+        gfx.drawCircle(0, 0, r + 2.5);
+    }
+
+    // Node chính
+    gfx.beginFill(nodeColor, 1);
+    gfx.drawCircle(0, 0, r);
+    gfx.endFill();
+
+    // Viền trắng mờ luôn có
+    gfx.lineStyle(1, 0xffffff, 0.3);
+    gfx.drawCircle(0, 0, r);
 }
 
 function renderGraph(graphData, containerId, isFullScreen) {
@@ -122,8 +140,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
     const height = el.offsetWidth || 400;
     if (width === 0) return null;
 
-    const color = resolveColor(getCssVar('--dg-graph-node-color') || getCssVar('--graph-main') || '#666');
-    const mutedColor = resolveColor(getCssVar('--dg-graph-node-color-muted') || getCssVar('--graph-muted') || '#ccc');
+    const color = resolveColor(getCssVar('--dg-graph-node-color') || getCssVar('--graph-main') || '#C084C8');
+    const mutedColor = resolveColor(getCssVar('--dg-graph-node-color-muted') || getCssVar('--graph-muted') || '#5DD4E8');
     const textColor = resolveColor(getCssVar('--dg-graph-label-color') || getCssVar('--text-normal') || '#eee');
     const bodyFont = getComputedStyle(document.body).fontFamily || 'Sans-Serif';
 
@@ -135,18 +153,16 @@ function renderGraph(graphData, containerId, isFullScreen) {
     }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
 
-    // D3 Force Simulation — stronger repel for full graph to spread nodes
-    const chargeStrength = isFullScreen ? -300 : -100;
-    const linkDist = isFullScreen ? 80 : 40;
+    const chargeStrength = isFullScreen ? -300 : -120;
+    const linkDist = isFullScreen ? 80 : 50;
     const radius = Math.min(width, height) / 3;
     const simulation = forceSimulation(nodes)
         .force('charge', forceManyBody().strength(chargeStrength))
         .force('center', forceCenter(width / 2, height / 2).strength(0.5))
         .force('link', forceLink(links).id(d => d.id).distance(linkDist))
-        .force('collide', forceCollide(d => nodeRadius(d.id, degreeMap) + 1).iterations(3))
+        .force('collide', forceCollide(d => nodeRadius(d.id, degreeMap) + 2).iterations(3))
         .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05));
 
-    // Pixi v7 Application (synchronous constructor)
     const app = new Application({
         width,
         height,
@@ -182,7 +198,12 @@ function renderGraph(graphData, containerId, isFullScreen) {
         hoveredNeighbours.clear();
 
         if (newId === null) {
-            for (const n of nodeRenderData) n.active = false;
+            for (const n of nodeRenderData) {
+                n.active = false;
+                // Vẽ lại node không hover
+                const nodeColor = n.simulationData.current ? color : mutedColor;
+                drawNode(n.gfx, n.radius, nodeColor, false, color);
+            }
             for (const l of linkRenderData) l.active = false;
         } else {
             for (const l of linkRenderData) {
@@ -198,6 +219,9 @@ function renderGraph(graphData, containerId, isFullScreen) {
             }
             for (const n of nodeRenderData) {
                 n.active = hoveredNeighbours.has(n.simulationData.id);
+                const nodeColor = n.simulationData.current ? color : mutedColor;
+                const isHovered = n.simulationData.id === newId;
+                drawNode(n.gfx, n.radius, nodeColor, isHovered, color);
             }
         }
     }
@@ -206,42 +230,41 @@ function renderGraph(graphData, containerId, isFullScreen) {
     for (const n of nodes) {
         const r = nodeRadius(n.id, degreeMap);
 
+        // Label to hơn, luôn hiện
         const label = new Text(n.text, {
-            fontSize: 16,
+            fontSize: 22,
             fill: textColor,
             fontFamily: bodyFont,
+            fontWeight: 'bold',
+            dropShadow: true,
+            dropShadowColor: '#000000',
+            dropShadowBlur: 4,
+            dropShadowDistance: 1,
         });
         label.resolution = 2;
         label.anchor.set(0.5, 1);
         label.scale.set(1 / 3);
-        label.alpha = 0;
+        label.alpha = 0.85; // Luôn hiện thay vì ẩn
 
         const gfx = new Graphics();
         gfx.interactive = true;
         gfx.cursor = 'pointer';
-        gfx.hitArea = new Circle(0, 0, r + 2);
+        gfx.hitArea = new Circle(0, 0, r + 4);
         gfx._nodeId = n.id;
 
-        // Draw node circle — current node gets main color, others get muted
         const nodeColor = n.current ? color : mutedColor;
-        gfx.beginFill(nodeColor);
-        gfx.drawCircle(0, 0, r);
-        gfx.endFill();
-
-        if (n.current) {
-            gfx.lineStyle(0.5, color);
-            gfx.drawCircle(0, 0, r + 1.5);
-        }
+        drawNode(gfx, r, nodeColor, false, color);
 
         let oldLabelAlpha = 0;
         gfx.on('pointerover', () => {
             updateHoverInfo(gfx._nodeId);
             oldLabelAlpha = label.alpha;
+            label.alpha = 1;
             if (!dragging) updateVisuals();
         });
         gfx.on('pointerleave', () => {
             updateHoverInfo(null);
-            label.alpha = oldLabelAlpha;
+            label.alpha = 0.85;
             if (!dragging) updateVisuals();
         });
 
@@ -272,10 +295,10 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     function updateVisuals() {
         for (const n of nodeRenderData) {
-            n.targetAlpha = hoveredNodeId !== null ? (n.active ? 1 : 0.1) : n.baseAlpha;
+            n.targetAlpha = hoveredNodeId !== null ? (n.active ? 1 : 0.2) : n.baseAlpha;
         }
         for (const l of linkRenderData) {
-            l.targetAlpha = hoveredNodeId !== null ? (l.active ? 0.8 : 0.05) : l.baseAlpha;
+            l.targetAlpha = hoveredNodeId !== null ? (l.active ? 0.9 : 0.05) : l.baseAlpha;
         }
     }
 
@@ -339,7 +362,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
             stage.scale.set(transform.k, transform.k);
             stage.position.set(transform.x, transform.y);
 
-            const scaleOpacity = Math.max((transform.k - 1) / 3.75, 0);
+            // Label luôn hiện ở mức 0.85, sáng hơn khi zoom
+            const scaleOpacity = Math.min(0.85 + (transform.k - 1) / 4, 1);
             for (const n of nodeRenderData) {
                 if (n.simulationData.id !== hoveredNodeId) {
                     n.label.alpha = scaleOpacity;
@@ -359,7 +383,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
             const { x, y } = n.simulationData;
             if (x == null || y == null) continue;
             n.gfx.position.set(x, y);
-            n.label.position.set(x, y - n.radius - 2);
+            n.label.position.set(x, y - n.radius - 4);
 
             n.currentAlpha = lerp(n.currentAlpha, n.targetAlpha, smoothing);
             n.gfx.alpha = n.currentAlpha;
@@ -369,7 +393,6 @@ function renderGraph(graphData, containerId, isFullScreen) {
             }
         }
 
-        // Draw all links in a single Graphics pass
         linkGfx.clear();
         for (const l of linkRenderData) {
             const src = l.simulationData.source;
@@ -378,7 +401,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
             l.currentAlpha = lerp(l.currentAlpha, l.targetAlpha, smoothing);
 
-            linkGfx.lineStyle(1, l.active ? color : mutedColor, l.currentAlpha);
+            linkGfx.lineStyle(1.5, l.active ? color : mutedColor, l.currentAlpha);
             linkGfx.moveTo(src.x, src.y);
             linkGfx.lineTo(tgt.x, tgt.y);
         }
@@ -389,7 +412,6 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     requestAnimationFrame(animate);
 
-    // Zoom to fit after simulation settles
     if (isFullScreen || graphData.nodes.length > 4) {
         setTimeout(() => {
             let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
@@ -476,10 +498,8 @@ function closeFullGraph() {
     }
 }
 
-// Expose to Alpine
 window.__graph = { openFullGraph, closeFullGraph, openExpandedLocal, rerenderLocal: renderLocal };
 
-// Re-render when the style editor changes CSS variables
 document.addEventListener('forestry:css-changed', function() {
     if (graphDataCache) renderLocal();
 });
