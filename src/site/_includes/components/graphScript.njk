@@ -119,7 +119,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
     while (el.firstChild) el.removeChild(el.firstChild);
 
     const width = el.offsetWidth;
-    const height = el.offsetHeight || 400;
+    const height = el.offsetWidth || 400;
     if (width === 0) return null;
 
     const color = resolveColor(getCssVar('--dg-graph-node-color') || getCssVar('--graph-main') || '#666');
