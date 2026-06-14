@@ -21,5 +21,6 @@
 # Giới thiệu tổng quan
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu từ chỗ này đi\|Bắt đầu từ chỗ này đi]]
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Home for Digital Garden\|Home for Digital Garden]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Một người ADHD nhìn có vẻ vô cùng bình thường nhưng đây là một số điều tôi có\|Một người ADHD nhìn có vẻ vô cùng bình thường nhưng đây là một số điều tôi có]]
 
 
