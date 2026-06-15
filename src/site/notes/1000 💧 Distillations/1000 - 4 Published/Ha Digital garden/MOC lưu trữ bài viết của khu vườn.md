@@ -25,12 +25,11 @@
 
 # Chính trị
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Tuyên bố miễn trừ trách nhiệm chung\|Tuyên bố miễn trừ trách nhiệm chung]]
-[[700 Vaults/710 Research/713 Politic History Vietnam/Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt\|Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT\|NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT]]
-[[700 Vaults/710 Research/713 Politic History Vietnam/Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp\|Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp\|Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp]]
 
 # Chính trị Việt Nam
+[[700 Vaults/710 Research/713 Politic History Vietnam/Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt\|Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ\|Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Từ mô hình Singapore Việt Nam có thể áp dụng gì\|Từ mô hình Singapore Việt Nam có thể áp dụng gì]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi\|Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi]]
