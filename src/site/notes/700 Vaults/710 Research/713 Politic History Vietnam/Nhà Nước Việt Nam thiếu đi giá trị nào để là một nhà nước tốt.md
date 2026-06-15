@@ -1,0 +1,21 @@
+---
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nha-nuoc-viet-nam-thieu-di-gia-tri-nao-de-la-mot-nha-nuoc-tot/","title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
+---
+
+
+Tiếp nối bài viết [[700 Vaults/710 Research/713 Politic History Vietnam/NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT\|NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT]]
+Bài này do Claude viết [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Tuyên bố miễn trừ trách nhiệm chung\|Tuyên bố miễn trừ trách nhiệm chung]]
+
+Đây là câu hỏi chính trị nhạy cảm và mang tính đánh giá — tôi sẽ trình bày các luồng phân tích/lập luận khác nhau mà các nhà quan sát thường đưa ra, dựa trên khung 5 trụ cột, để bạn tự đối chiếu, thay vì đưa ra một kết luận "đúng/sai" của riêng tôi.
+
+**Năng lực nhà nước (trụ cột 1)** — Hầu hết phân tích, kể cả từ các tổ chức quốc tế, đánh giá đây là điểm mạnh tương đối của Việt Nam: nhà nước có độc quyền bạo lực ổn định, bộ máy hành chính có khả năng triển khai chính sách trên toàn lãnh thổ (kể cả vùng sâu vùng xa), không có tình trạng cát cứ lãnh thổ kiểu Somalia hay Colombia. Đây thường được xem là trụ cột tương đối vững.
+
+**Thượng tôn pháp luật (trụ cột 2)** — Đây là trụ cột mà nhiều phân tích — cả trong nước và quốc tế — cho là yếu nhất. Lập luận theo hướng này: hệ thống tòa án không độc lập với Đảng và hành pháp về mặt cơ cấu (nguyên tắc Đảng lãnh đạo toàn diện áp dụng cả với tư pháp), nên luật pháp khó đóng vai trò "giới hạn thực sự" với người nắm quyền theo định nghĩa của Fukuyama. Ngược lại, người bảo vệ mô hình hiện tại có thể lập luận rằng pháp luật vẫn được thực thi nhất quán với đại đa số dân chúng trong các giao dịch dân sự, kinh tế thường nhật, và sự "thượng tôn" không nhất thiết đòi hỏi tư pháp tách biệt khỏi cấu trúc chính trị theo mô hình phương Tây.
+
+**Trách nhiệm giải trình (trụ cột 3)** — Cũng thường được xem là yếu, với lý do tương tự: cơ chế bầu cử không có cạnh tranh đa đảng, nên cơ chế giải trình theo định nghĩa của Fukuyama (kênh sửa đổi chính sách dựa trên áp lực từ đa số công chúng qua bầu cử cạnh tranh) không tồn tại ở cấp cao nhất. Tuy nhiên, một số nhà nghiên cứu (ví dụ các phân tích về "responsiveness" của hệ thống Đảng-Nhà nước VN) chỉ ra rằng vẫn có các kênh phản hồi khác — tiếp xúc cử tri, báo chí phản ánh, xử lý cán bộ sai phạm qua chiến dịch chống tham nhũng — hoạt động như cơ chế giải trình thay thế, dù không chính thức hóa qua bầu cử cạnh tranh.
+
+**Đãi ngộ nhân tài (trụ cột 4)** — Đánh giá hỗn hợp. Có các chương trình thu hút nhân tài, cải cách lương công vụ, nhưng mức lương công chức thấp so với thị trường tư nhân (khác biệt rõ với mô hình Singapore được nêu trong bài) và yếu tố quan hệ/lý lịch chính trị trong bổ nhiệm vẫn được nhiều phân tích coi là vấn đề đáng kể, dù không phải là tuyệt đối.
+
+**Thích ứng linh hoạt (trụ cột 5)** — Đánh giá khá tích cực ở nhiều thời điểm: phản ứng với COVID-19 giai đoạn đầu 2020, các đợt cải cách kinh tế (Đổi Mới 1986) thường được trích dẫn là ví dụ về khả năng thử nghiệm chính sách và điều chỉnh khi mô hình cũ không còn hiệu quả.
+
+**Tóm lại**, theo khung này, hai trụ cột thường được các phân tích (đặc biệt từ góc nhìn theo chuẩn Fukuyama/phương Tây) xem là điểm yếu cấu trúc rõ nhất là **thượng tôn pháp luật** và **trách nhiệm giải trình** — vì cả hai gắn chặt với câu hỏi về tính độc lập của tư pháp và cạnh tranh chính trị, là những điểm mà mô hình một-Đảng về bản chất khó đáp ứng theo định nghĩa nguyên gốc của Fukuyama. Đây là vùng có nhiều tranh luận nhất, và cách đánh giá phụ thuộc lớn vào việc người đánh giá có chấp nhận định nghĩa "giải trình" và "pháp quyền" theo mô hình đa nguyên phương Tây hay theo các tiêu chí khác (hiệu quả thực thi, ổn định, kết quả phát triển).

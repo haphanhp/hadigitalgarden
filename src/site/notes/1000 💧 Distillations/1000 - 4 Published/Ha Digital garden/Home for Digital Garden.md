@@ -15,9 +15,14 @@ Chào mừng đến [digital garden của Hà.](https://hadigitalgarden.vercel.a
   
   # Tags
 
-#tech/automation #tech/osint #tech/ai
+#tech/automation #tech/osint #tech/ai #tech/tool
 #make-money/affiliate
 #make-money/gig
 #make-money/freelance
 #make-money/guide
 #learning #resources #vietnam/movie #moc
+#about-me #adhd
+#Vietnampolitic 
+ #digitalgarden #politic #Vietnampolitic #resources
+
+
