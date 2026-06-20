@@ -132,6 +132,9 @@ async function getGraph(data) {
       backLinks: new Set(),
       noteIcon: v.data.noteIcon || process.env.NOTE_ICON_DEFAULT,
       hide: v.data.hideInGraph || false,
+      tags: Array.isArray(v.data.tags)
+        ? v.data.tags.filter(t => t !== 'gardenEntry' && !t.startsWith('dg-'))
+        : [],
     };
     stemURLs[fpath] = v.url;
     if (
