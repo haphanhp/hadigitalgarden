@@ -413,11 +413,15 @@ function urlColorKey(url) {
     return parts[0] || 'home';
 }
 
-// Màu ưu tiên: tag đầu tiên → URL path → fallback
-// Khi linkUtils.js đã inject tags thì dùng tag, không thì dùng URL path
+// Màu theo tag: dùng phần cha nếu có '/' để group sub-tags cùng màu
+// tech/automation, tech/ai, tech/tool → đều ra màu "tech"
+// make-money/affiliate, make-money/gig → đều ra màu "make-money"
+// learning, adhd, moc → dùng nguyên tag
 function nodeHue(node) {
     if (node.tags && node.tags.length > 0) {
-        return hashStringToHue(node.tags[0]);
+        const tag = node.tags[0].toLowerCase();
+        const key = tag.includes('/') ? tag.split('/')[0] : tag;
+        return hashStringToHue(key);
     }
     return hashStringToHue(urlColorKey(node.url || node.id || ''));
 }
