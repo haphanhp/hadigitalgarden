@@ -413,15 +413,24 @@ function urlColorKey(url) {
     return parts[0] || 'home';
 }
 
-// Màu theo tag: dùng phần cha nếu có '/' để group sub-tags cùng màu
-// tech/automation, tech/ai, tech/tool → đều ra màu "tech"
-// make-money/affiliate, make-money/gig → đều ra màu "make-money"
-// learning, adhd, moc → dùng nguyên tag
+// Màu theo tag: bỏ qua 'note' và 'published/*' vì quá chung
+// Ưu tiên tag có '/' để group sub-tags cùng màu
+// tech/automation, tech/ai → "tech" | make-money/gig → "make-money"
+const SKIP_TAGS = new Set(['note', 'notes', 'null', 'evergreen', 'seedling', 'budding']);
+
 function nodeHue(node) {
     if (node.tags && node.tags.length > 0) {
-        const tag = node.tags[0].toLowerCase();
-        const key = tag.includes('/') ? tag.split('/')[0] : tag;
-        return hashStringToHue(key);
+        // Lọc bỏ tag không có ý nghĩa màu
+        const usable = node.tags.filter(t =>
+            t && t !== 'null' &&
+            !SKIP_TAGS.has(t.toLowerCase()) &&
+            !t.toLowerCase().startsWith('published')
+        );
+        if (usable.length > 0) {
+            const tag = usable[0].toLowerCase();
+            const key = tag.includes('/') ? tag.split('/')[0] : tag;
+            return hashStringToHue(key);
+        }
     }
     return hashStringToHue(urlColorKey(node.url || node.id || ''));
 }
