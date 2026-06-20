@@ -481,7 +481,14 @@ function render3DGraph(graphData, containerId) {
         .showNavInfo(false)
 
         // ── Nodes ──
-        .nodeLabel('name')
+        .nodeLabel(node => {
+            const tagStr = node.tags && node.tags.length > 0
+                ? `<div style="margin-top:4px;opacity:0.75;font-size:11px">${node.tags.map(t => '#'+t).join(' ')}</div>`
+                : '';
+            return `<div style="background:rgba(0,0,0,0.75);padding:6px 10px;border-radius:6px;border:1px solid ${node.hex};font-size:13px;color:#fff;max-width:200px">
+                <b>${node.name}</b>${tagStr}
+            </div>`;
+        })
         .nodeVal('val')
         .nodeResolution(16)
         .nodeOpacity(1)                      // opacity quản lý qua color alpha
@@ -551,7 +558,21 @@ function render3DGraph(graphData, containerId) {
         })
 
         .onNodeClick(node => { if (node.url) window.location = node.url; })
-        .onNodeHover(node => { el.style.cursor = node ? 'pointer' : 'default'; });
+        .onNodeHover(node => {
+            el.style.cursor = node ? 'pointer' : 'default';
+            // Highlight node được hover — làm sáng lên
+            Graph.nodeColor(n => {
+                if (!node) return n.color;
+                if (n.id === node.id) return n.hex; // full brightness
+                // neighbour nodes
+                const isNeighbour = graphData.links.some(l => {
+                    const s = typeof l.source === 'object' ? l.source.id : l.source;
+                    const t = typeof l.target === 'object' ? l.target.id : l.target;
+                    return (s === node.id && t === n.id) || (t === node.id && s === n.id);
+                });
+                return isNeighbour ? hexAlpha(n.hex, 0.9) : hexAlpha(n.hex, 0.15);
+            });
+        });
 
     // Thêm ambient light nhẹ để sphere không bị tối hoàn toàn
     if (THREE) {
