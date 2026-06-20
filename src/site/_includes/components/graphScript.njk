@@ -1,3 +1,5 @@
+<script src="https://unpkg.com/3d-force-graph@1/dist/3d-force-graph.min.js"></script>
+
 <script type="module">
 import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial } from 'd3-force';
 import { select } from 'd3-selection';
@@ -101,29 +103,21 @@ function buildDegreeMap(links) {
     return degrees;
 }
 
-// Node lớn hơn gấp đôi so với gốc
 function nodeRadius(nodeId, degreeMap) {
     return 5 + Math.sqrt(degreeMap[nodeId] || 0) * 1.5;
 }
 
 function drawNode(gfx, r, nodeColor, isHovered, glowColor) {
     gfx.clear();
-
     if (isHovered) {
-        // Vòng glow bên ngoài
         gfx.lineStyle(2.5, 0xffffff, 0.6);
         gfx.drawCircle(0, 0, r + 5);
-        // Vòng sáng giữa
         gfx.lineStyle(1.5, glowColor, 0.9);
         gfx.drawCircle(0, 0, r + 2.5);
     }
-
-    // Node chính
     gfx.beginFill(nodeColor, 1);
     gfx.drawCircle(0, 0, r);
     gfx.endFill();
-
-    // Viền trắng mờ luôn có
     gfx.lineStyle(1, 0xffffff, 0.3);
     gfx.drawCircle(0, 0, r);
 }
@@ -147,10 +141,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     const degreeMap = buildDegreeMap(graphData.links);
 
-    const nodes = graphData.nodes.map(n => ({
-        ...n,
-        text: htmlDecode(n.title),
-    }));
+    const nodes = graphData.nodes.map(n => ({ ...n, text: htmlDecode(n.title) }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
 
     const chargeStrength = isFullScreen ? -300 : -120;
@@ -164,11 +155,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
         .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05));
 
     const app = new Application({
-        width,
-        height,
-        antialias: true,
-        autoStart: false,
-        autoDensity: true,
+        width, height,
+        antialias: true, autoStart: false, autoDensity: true,
         backgroundAlpha: 0,
         resolution: window.devicePixelRatio,
     });
@@ -200,7 +188,6 @@ function renderGraph(graphData, containerId, isFullScreen) {
         if (newId === null) {
             for (const n of nodeRenderData) {
                 n.active = false;
-                // Vẽ lại node không hover
                 const nodeColor = n.simulationData.current ? color : mutedColor;
                 drawNode(n.gfx, n.radius, nodeColor, false, color);
             }
@@ -226,25 +213,16 @@ function renderGraph(graphData, containerId, isFullScreen) {
         }
     }
 
-    // Create node graphics
     for (const n of nodes) {
         const r = nodeRadius(n.id, degreeMap);
-
-        // Label to hơn, luôn hiện
         const label = new Text(n.text, {
-            fontSize: 22,
-            fill: textColor,
-            fontFamily: bodyFont,
-            fontWeight: 'bold',
-            dropShadow: true,
-            dropShadowColor: '#000000',
-            dropShadowBlur: 4,
-            dropShadowDistance: 1,
+            fontSize: 22, fill: textColor, fontFamily: bodyFont, fontWeight: 'bold',
+            dropShadow: true, dropShadowColor: '#000000', dropShadowBlur: 4, dropShadowDistance: 1,
         });
         label.resolution = 2;
         label.anchor.set(0.5, 1);
         label.scale.set(1 / 3);
-        label.alpha = 0.85; // Luôn hiện thay vì ẩn
+        label.alpha = 0.85;
 
         const gfx = new Graphics();
         gfx.interactive = true;
@@ -255,10 +233,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
         const nodeColor = n.current ? color : mutedColor;
         drawNode(gfx, r, nodeColor, false, color);
 
-        let oldLabelAlpha = 0;
         gfx.on('pointerover', () => {
             updateHoverInfo(gfx._nodeId);
-            oldLabelAlpha = label.alpha;
             label.alpha = 1;
             if (!dragging) updateVisuals();
         });
@@ -270,27 +246,11 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
         nodesContainer.addChild(gfx);
         labelsContainer.addChild(label);
-
-        nodeRenderData.push({
-            simulationData: n,
-            gfx,
-            label,
-            radius: r,
-            active: false,
-            baseAlpha: 1,
-            targetAlpha: 1,
-            currentAlpha: 1,
-        });
+        nodeRenderData.push({ simulationData: n, gfx, label, radius: r, active: false, baseAlpha: 1, targetAlpha: 1, currentAlpha: 1 });
     }
 
     for (const l of links) {
-        linkRenderData.push({
-            simulationData: l,
-            active: false,
-            baseAlpha: 0.4,
-            targetAlpha: 0.4,
-            currentAlpha: 0.4,
-        });
+        linkRenderData.push({ simulationData: l, active: false, baseAlpha: 0.4, targetAlpha: 0.4, currentAlpha: 0.4 });
     }
 
     function updateVisuals() {
@@ -302,11 +262,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
         }
     }
 
-    function lerp(a, b, t) {
-        return a + (b - a) * t;
-    }
+    function lerp(a, b, t) { return a + (b - a) * t; }
 
-    // D3 Drag
     select(app.view).call(
         d3Drag()
             .container(() => app.view)
@@ -314,17 +271,12 @@ function renderGraph(graphData, containerId, isFullScreen) {
                 if (!hoveredNodeId) return null;
                 const node = nodes.find(n => n.id === hoveredNodeId);
                 if (!node) return null;
-                return {
-                    x: node.x * currentTransform.k + currentTransform.x,
-                    y: node.y * currentTransform.k + currentTransform.y,
-                    node,
-                };
+                return { x: node.x * currentTransform.k + currentTransform.x, y: node.y * currentTransform.k + currentTransform.y, node };
             })
             .on('start', function (event) {
                 if (!event.active) simulation.alphaTarget(1).restart();
                 const node = event.subject.node;
-                node.fx = node.x;
-                node.fy = node.y;
+                node.fx = node.x; node.fy = node.y;
                 dragStartTime = Date.now();
                 dragStartPos = { x: event.x, y: event.y };
                 dragging = true;
@@ -337,23 +289,16 @@ function renderGraph(graphData, containerId, isFullScreen) {
             .on('end', function (event) {
                 if (!event.active) simulation.alphaTarget(0);
                 const node = event.subject.node;
-                node.fx = null;
-                node.fy = null;
+                node.fx = null; node.fy = null;
                 dragging = false;
-
                 const dt = Date.now() - dragStartTime;
                 const dx = event.x - dragStartPos.x;
                 const dy = event.y - dragStartPos.y;
                 const dist = Math.sqrt(dx * dx + dy * dy);
-                if (dt < 500 && dist < 5) {
-                    if (node.url) {
-                        window.location = node.url;
-                    }
-                }
+                if (dt < 500 && dist < 5 && node.url) window.location = node.url;
             })
     );
 
-    // D3 Zoom
     const zoomBehavior = d3Zoom()
         .extent([[0, 0], [width, height]])
         .scaleExtent([0.25, 4])
@@ -361,55 +306,40 @@ function renderGraph(graphData, containerId, isFullScreen) {
             currentTransform = transform;
             stage.scale.set(transform.k, transform.k);
             stage.position.set(transform.x, transform.y);
-
-            // Label luôn hiện ở mức 0.85, sáng hơn khi zoom
             const scaleOpacity = Math.min(0.85 + (transform.k - 1) / 4, 1);
             for (const n of nodeRenderData) {
-                if (n.simulationData.id !== hoveredNodeId) {
-                    n.label.alpha = scaleOpacity;
-                }
+                if (n.simulationData.id !== hoveredNodeId) n.label.alpha = scaleOpacity;
             }
         });
     select(app.view).call(zoomBehavior);
 
-    // Animation loop
     let stopAnimation = false;
     const smoothing = 0.15;
 
     function animate() {
         if (stopAnimation) return;
-
         for (const n of nodeRenderData) {
             const { x, y } = n.simulationData;
             if (x == null || y == null) continue;
             n.gfx.position.set(x, y);
             n.label.position.set(x, y - n.radius - 4);
-
             n.currentAlpha = lerp(n.currentAlpha, n.targetAlpha, smoothing);
             n.gfx.alpha = n.currentAlpha;
-
-            if (n.simulationData.id === hoveredNodeId) {
-                n.label.alpha = 1;
-            }
+            if (n.simulationData.id === hoveredNodeId) n.label.alpha = 1;
         }
-
         linkGfx.clear();
         for (const l of linkRenderData) {
             const src = l.simulationData.source;
             const tgt = l.simulationData.target;
             if (src.x == null || tgt.x == null) continue;
-
             l.currentAlpha = lerp(l.currentAlpha, l.targetAlpha, smoothing);
-
             linkGfx.lineStyle(1.5, l.active ? color : mutedColor, l.currentAlpha);
             linkGfx.moveTo(src.x, src.y);
             linkGfx.lineTo(tgt.x, tgt.y);
         }
-
         app.render();
         requestAnimationFrame(animate);
     }
-
     requestAnimationFrame(animate);
 
     if (isFullScreen || graphData.nodes.length > 4) {
@@ -417,24 +347,17 @@ function renderGraph(graphData, containerId, isFullScreen) {
             let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
             for (const n of nodes) {
                 if (n.x == null || n.y == null) continue;
-                minX = Math.min(minX, n.x);
-                maxX = Math.max(maxX, n.x);
-                minY = Math.min(minY, n.y);
-                maxY = Math.max(maxY, n.y);
+                minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x);
+                minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y);
             }
             if (minX === Infinity) return;
-
             const padding = 50;
             const gw = (maxX - minX) + padding * 2;
             const gh = (maxY - minY) + padding * 2;
             const k = Math.min(width / gw, height / gh, 2);
             const cx = (minX + maxX) / 2;
             const cy = (minY + maxY) / 2;
-
-            const transform = zoomIdentity
-                .translate(width / 2 - cx * k, height / 2 - cy * k)
-                .scale(k);
-
+            const transform = zoomIdentity.translate(width / 2 - cx * k, height / 2 - cy * k).scale(k);
             select(app.view).call(zoomBehavior.transform, transform);
         }, 500);
     }
@@ -447,62 +370,260 @@ function renderGraph(graphData, containerId, isFullScreen) {
     };
 }
 
-// --- Initialize ---
-let graphDataCache = null;
+// ─── Tag → Colour palette (HSL — đẹp trên nền tối) ──────────────────────────
+// Mỗi tag Obsidian được hash thành 1 hue riêng biệt trên vòng màu
+function hashTagToHue(tag) {
+    let h = 0;
+    for (let i = 0; i < tag.length; i++) h = (Math.imul(31, h) + tag.charCodeAt(i)) | 0;
+    // Trải đều trên vòng màu nhưng bỏ vùng vàng-xanh lá (khó nhìn trên nền tối)
+    // Dùng golden-angle spacing để các màu cách nhau đều
+    const raw = ((h >>> 0) * 137.508) % 360;
+    return Math.round(raw);
+}
+
+// Chuyển hex → {r,g,b}
+function hexToRgb(hex) {
+    const n = parseInt(hex.replace('#',''), 16);
+    return { r: (n>>16)&255, g: (n>>8)&255, b: n&255 };
+}
+
+// HSL → hex
+function hslToHex(h, s, l) {
+    s /= 100; l /= 100;
+    const a = s * Math.min(l, 1 - l);
+    const f = n => {
+        const k = (n + h / 30) % 12;
+        const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+        return Math.round(255 * color).toString(16).padStart(2, '0');
+    };
+    return `#${f(0)}${f(8)}${f(4)}`;
+}
+
+// hex + alpha → rgba string
+function hexAlpha(hex, alpha) {
+    const { r, g, b } = hexToRgb(hex);
+    return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// ─── Tính toán màu node theo tag + degree ────────────────────────────────────
+// Logic "dải sao":
+//   • Hue   = từ tag đầu tiên của note (hash → màu)
+//   • S     = 80–100% (luôn rực — nền tối cần bão hoà cao)
+//   • L     = 35% (leaf) → 75% (hub) — node càng nhiều kết nối càng sáng
+//   • alpha = 0.25 (leaf) → 1.0 (hub) — node ngoài rìa mờ như sao xa
+function nodeStarColor(tags, degree, maxDegree) {
+    const tag = (tags && tags.length > 0) ? tags[0] : '__default__';
+    const hue = hashTagToHue(tag);
+
+    // Normalize degree 0→1
+    const t = maxDegree > 0 ? Math.sqrt(degree / maxDegree) : 0; // sqrt để phân biệt rõ hơn ở tầng thấp
+
+    const sat   = 85;                          // bão hoà cao, nhìn rực trên nền tối
+    const light = Math.round(32 + t * 45);     // 32% (mờ) → 77% (sáng)
+    const alpha = 0.18 + t * 0.82;             // 0.18 (mờ như sao xa) → 1.0 (hub sáng)
+
+    return { hex: hslToHex(hue, sat, light), alpha, hue, t };
+}
+
+// ─── 3D Graph — Starfield Edition ────────────────────────────────────────────
+function render3DGraph(graphData, containerId) {
+    if (!graphData || !graphData.nodes || graphData.nodes.length === 0) return null;
+    const el = document.getElementById(containerId);
+    if (!el) return null;
+    while (el.firstChild) el.removeChild(el.firstChild);
+
+    const degreeMap = buildDegreeMap(graphData.links);
+    const maxDegree = Math.max(...Object.values(degreeMap), 1);
+
+    // Build node list với màu tag + brightness theo degree
+    const nodes = graphData.nodes.map(n => {
+        const deg    = degreeMap[n.id] || 0;
+        const tags   = n.tags || [];
+        const { hex, alpha, t } = nodeStarColor(tags, deg, maxDegree);
+
+        return {
+            id:    n.id,
+            name:  n.title || n.id,
+            url:   n.url,
+            tags,
+            hex,                            // full-brightness hex (dùng cho glow/particles)
+            color: hexAlpha(hex, alpha),    // màu thực render (mờ/sáng theo degree)
+            val:   Math.max(0.5, deg * 0.8 + 1),  // size theo degree
+            brightness: t,                  // 0→1, dùng cho link opacity
+        };
+    });
+
+    const nodeMap = Object.fromEntries(nodes.map(n => [n.id, n]));
+    const links   = graphData.links.map(l => ({ source: l.source, target: l.target }));
+
+    // ── THREE.js custom node: sphere + sprite glow ──────────────────────────
+    // (ForceGraph3D expose THREE globally)
+    const THREE = window.THREE;
+
+    const Graph = ForceGraph3D()(el)
+        .width(el.clientWidth)
+        .height(el.clientHeight)
+        .graphData({ nodes, links })
+        .backgroundColor('#0a0a0f')          // nền vũ trụ tối
+        .showNavInfo(false)
+
+        // ── Nodes ──
+        .nodeLabel('name')
+        .nodeVal('val')
+        .nodeResolution(16)
+        .nodeOpacity(1)                      // opacity quản lý qua color alpha
+        .nodeColor('color')
+
+        // Glow sprite cho hub nodes (brightness > 0.5)
+        .nodeThreeObject(node => {
+            if (!THREE || node.brightness < 0.3) return null; // leaf: dùng default sphere
+
+            const group = new THREE.Group();
+
+            // Sphere chính
+            const r    = Math.cbrt(node.val) * 4;
+            const geo  = new THREE.SphereGeometry(r, 16, 16);
+            const mat  = new THREE.MeshLambertMaterial({
+                color: new THREE.Color(node.hex),
+                transparent: true,
+                opacity: node.brightness,
+            });
+            group.add(new THREE.Mesh(geo, mat));
+
+            // Glow halo (sprite) — chỉ cho hub thật sự
+            if (node.brightness > 0.6) {
+                const spriteMat = new THREE.SpriteMaterial({
+                    color: new THREE.Color(node.hex),
+                    transparent: true,
+                    opacity: node.brightness * 0.35,
+                    blending: THREE.AdditiveBlending,
+                    depthWrite: false,
+                });
+                const sprite = new THREE.Sprite(spriteMat);
+                const glowSize = r * (3 + node.brightness * 5);
+                sprite.scale.set(glowSize, glowSize, 1);
+                group.add(sprite);
+            }
+
+            return group;
+        })
+        .nodeThreeObjectExtend(false)
+
+        // ── Links ──
+        .linkColor(link => {
+            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
+            const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
+            if (!src || !tgt) return 'rgba(100,100,120,0.1)';
+            // Màu link = blend hue source + brightness của 2 đầu
+            const avgBrightness = (src.brightness + tgt.brightness) / 2;
+            return hexAlpha(src.hex, Math.max(0.04, avgBrightness * 0.3));
+        })
+        .linkWidth(link => {
+            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
+            return src && src.brightness > 0.5 ? 0.6 : 0.2;
+        })
+
+        // Particles chỉ chạy trên link giữa các hub
+        .linkDirectionalParticles(link => {
+            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
+            const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
+            if (!src || !tgt) return 0;
+            return (src.brightness + tgt.brightness) > 1.0 ? 2 : 0;
+        })
+        .linkDirectionalParticleSpeed(0.003)
+        .linkDirectionalParticleWidth(1.2)
+        .linkDirectionalParticleColor(link => {
+            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
+            return src ? src.hex : '#ffffff';
+        })
+
+        .onNodeClick(node => { if (node.url) window.location = node.url; })
+        .onNodeHover(node => { el.style.cursor = node ? 'pointer' : 'default'; });
+
+    // Thêm ambient light nhẹ để sphere không bị tối hoàn toàn
+    if (THREE) {
+        const scene = Graph.scene();
+        scene.add(new THREE.AmbientLight(0x333355, 1.2));
+        const dirLight = new THREE.DirectionalLight(0xffffff, 0.8);
+        dirLight.position.set(1, 1, 1);
+        scene.add(dirLight);
+    }
+
+    const onResize = () => { Graph.width(el.clientWidth).height(el.clientHeight); };
+    window.addEventListener('resize', onResize);
+
+    return function cleanup() {
+        window.removeEventListener('resize', onResize);
+        if (Graph._destructor) Graph._destructor();
+        while (el.firstChild) el.removeChild(el.firstChild);
+    };
+}
+
+// ─── State ───────────────────────────────────────────────────────────────────
+let graphDataCache    = null;
 let fullGraphDataCache = null;
-let localGraphCleanup = null;
+let localGraphCleanup  = null;
 let globalGraphCleanup = null;
+let currentModalData   = null;
+let currentMode        = '2d';
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
-    graphDataCache = graphData;
+    graphDataCache     = graphData;
     fullGraphDataCache = fullGraphData;
     renderLocal();
 }
 
 function renderLocal() {
-    if (localGraphCleanup) {
-        localGraphCleanup();
-        localGraphCleanup = null;
-    }
+    if (localGraphCleanup) { localGraphCleanup(); localGraphCleanup = null; }
     const data = filterLocalGraphData(graphDataCache);
-    const cleanup = renderGraph(data, 'link-graph', false);
-    localGraphCleanup = cleanup;
+    localGraphCleanup = renderGraph(data, 'link-graph', false);
+}
+
+// ─── Mode toggle ─────────────────────────────────────────────────────────────
+function setMode(mode) {
+    currentMode = mode;
+
+    const btn2d = document.getElementById('graph-mode-2d');
+    const btn3d = document.getElementById('graph-mode-3d');
+    if (btn2d && btn3d) {
+        const active   = 'background:var(--dg-graph-node-color,#C084C8);color:#fff;';
+        const inactive = 'background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.75);';
+        btn2d.style.cssText = btn2d.style.cssText.replace(/background[^;]+;color[^;]+;/, mode === '2d' ? active : inactive);
+        btn3d.style.cssText = btn3d.style.cssText.replace(/background[^;]+;color[^;]+;/, mode === '3d' ? active : inactive);
+    }
+
+    if (globalGraphCleanup) { globalGraphCleanup(); globalGraphCleanup = null; }
+
+    if (mode === '3d') {
+        globalGraphCleanup = render3DGraph(currentModalData, 'full-graph-container');
+    } else {
+        globalGraphCleanup = renderGraph(currentModalData, 'full-graph-container', true);
+        lucide.createIcons({ attrs: { class: ['svg-icon'] } });
+    }
 }
 
 function openModal(data) {
-    if (globalGraphCleanup) {
-        globalGraphCleanup();
-        globalGraphCleanup = null;
-    }
+    currentModalData = data;
+    if (globalGraphCleanup) { globalGraphCleanup(); globalGraphCleanup = null; }
     document.getElementById('full-graph').style.display = '';
     setTimeout(() => {
-        globalGraphCleanup = renderGraph(data, 'full-graph-container', true);
+        setMode(currentMode);
         lucide.createIcons({ attrs: { class: ['svg-icon'] } });
     }, 50);
 }
 
-function openFullGraph() {
-    openModal(fullGraphDataCache);
-}
-
-function openExpandedLocal() {
-    openModal(filterLocalGraphData(graphDataCache));
-}
+function openFullGraph()    { openModal(fullGraphDataCache); }
+function openExpandedLocal(){ openModal(filterLocalGraphData(graphDataCache)); }
 
 function closeFullGraph() {
     document.getElementById('full-graph').style.display = 'none';
-    if (globalGraphCleanup) {
-        globalGraphCleanup();
-        globalGraphCleanup = null;
-    }
+    if (globalGraphCleanup) { globalGraphCleanup(); globalGraphCleanup = null; }
 }
 
-window.__graph = { openFullGraph, closeFullGraph, openExpandedLocal, rerenderLocal: renderLocal };
+window.__graph = { openFullGraph, closeFullGraph, openExpandedLocal, rerenderLocal: renderLocal, setMode };
 
-document.addEventListener('forestry:css-changed', function() {
-    if (graphDataCache) renderLocal();
-});
+document.addEventListener('forestry:css-changed', () => { if (graphDataCache) renderLocal(); });
 
 init();
 </script>
@@ -518,8 +639,26 @@ init();
         </div>
     </div>
     <div id="link-graph"></div>
+
     <div x-show="showFullGraph" id="full-graph" class="show" style="display: none;" x-on:click.self="window.__graph.closeFullGraph(); showFullGraph = false;">
+
+        <!-- Nút đóng -->
         <span id="full-graph-close" x-on:click="window.__graph.closeFullGraph(); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span>
+
+        <!-- Toggle 2D / 3D -->
+        <div style="position:absolute;top:1rem;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:6px;background:rgba(0,0,0,0.35);padding:4px;border-radius:10px;backdrop-filter:blur(8px);">
+            <button id="graph-mode-2d"
+                onclick="window.__graph.setMode('2d')"
+                style="padding:5px 18px;border-radius:7px;border:none;cursor:pointer;font-size:13px;font-weight:600;transition:all .2s;background:var(--dg-graph-node-color,#C084C8);color:#fff;">
+                2D
+            </button>
+            <button id="graph-mode-3d"
+                onclick="window.__graph.setMode('3d')"
+                style="padding:5px 18px;border-radius:7px;border:none;cursor:pointer;font-size:13px;font-weight:600;transition:all .2s;background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.75);">
+                3D
+            </button>
+        </div>
+
         <div id="full-graph-container"></div>
     </div>
 </div>
