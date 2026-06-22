@@ -18,7 +18,7 @@
 
 IDE AI-native #1. Tab completion, chat trong editor, agent tự sửa bug.
 
-[[Windsurf\|Windsurf]]
+[[800 tool công cụ/Windsurf\|Windsurf]]
 
 IDE từ Codeium. Cascade agent mạnh, ít tốn token hơn Cursor.
 
@@ -38,7 +38,7 @@ Prompt → UI component (React/Tailwind). Xuất code thẳng vào dự án.
 
 Full-stack app từ prompt, chạy ngay trên browser. Prototype cực nhanh.
 
-[[GitHub Copilot\|GitHub Copilot]]
+[[800 tool công cụ/GitHub Copilot\|GitHub Copilot]]
 
 Inline suggestion trong VS Code. Tích hợp GitHub workflow, plan miễn phí.
 
@@ -56,11 +56,11 @@ AI generate Tailwind rất tốt. . Class-based, không cần đặt tên CSS.
 
 ## ✧ Nên biết — Power-up workflow
 
-[[Claude Code\|Claude Code]]
+[[800 tool công cụ/Claude Code\|Claude Code]]
 
 CLI agent của Anthropic. Codebase-aware, chạy terminal, mạnh cho refactor lớn.
 
-[[Lovable.dev\|Lovable.dev]]
+[[800 tool công cụ/Lovable.dev\|Lovable.dev]]
 
 Prompt → full app có UI đẹp. Tốt cho non-dev muốn build SaaS nhanh.
 
@@ -68,30 +68,30 @@ Prompt → full app có UI đẹp. Tốt cho non-dev muốn build SaaS nhanh.
 
 Cloud IDE + AI agent. Deploy, database, hosting tất cả trong 1 nơi.
 
-[[Perplexity AI\|Perplexity AI]]
+[[800 tool công cụ/Perplexity AI\|Perplexity AI]]
 
 Research nhanh: docs mới nhất, package, lỗi lạ — không bị cutoff.
 
-[[Firebase\|Firebase]]
+[[800 tool công cụ/Firebase\|Firebase]]
 
 Google BaaS. Realtime DB, Auth, Hosting. AI biết Firebase rất rõ.
 
-[[shadcn/ui\|shadcn/ui]]
+[[800 tool công cụ/shadcn UI\|shadcn UI]]
 
 Component library copy-paste. AI + shadcn = UI chuyên nghiệp cực nhanh.
 
-[[Cline (VS Code ext)\|Cline (VS Code ext)]]
+[[800 tool công cụ/Cline (VS Code ext)\|Cline (VS Code ext)]]
 
 Agent mạnh trong VS Code, dùng được mọi LLM (Claude, GPT, Gemini).
 
-[[Notion AI / Linear\|Notion AI / Linear]]
+[[800 tool công cụ/Notion AI or Linear\|Notion AI or Linear]]
 
 AI-assisted PRD, task breakdown. Viết spec xong dán thẳng vào Cursor.
 
-[[Gemini CLI\|Gemini CLI]]
+[[800 tool công cụ/Gemini CLI\|Gemini CLI]]
 
 CLI agent của Google, context window lớn (1M token). Miễn phí tier rộng.
 
-[[MCP Servers\|MCP Servers]]
+[[800 tool công cụ/MCP Servers\|MCP Servers]]
 
 Gắn tool ngoài (DB, GitHub, Figma…) vào AI agent. Chuẩn mở của Anthropic.
