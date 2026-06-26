@@ -79,7 +79,7 @@ Canva — công cụ thiết kế mà nhiều người đã quen — cũng cho p
 
 **Ưu điểm:** Giao diện đẹp, nhiều template, không cần biết thiết kế. **Nhược điểm:** Tính năng web còn hạn chế so với các nền tảng chuyên biệt, không có CMS blog.
 
-> **[Ví dụ của tôi]** _`
+> **[Ví dụ của tôi]** _`https://touching-you.my.canva.site/all-in-one-va-course
 
 ---
 
