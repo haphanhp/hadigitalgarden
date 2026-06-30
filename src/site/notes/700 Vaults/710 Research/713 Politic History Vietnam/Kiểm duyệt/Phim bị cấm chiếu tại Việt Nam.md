@@ -46,6 +46,9 @@ link xem:
 
 **Rambo: First Blood Part II** (đạo diễn: **George P. Cosmatos**, 1985) và các phần sau Nội dung lính Mỹ quay lại Việt Nam giải cứu tù binh, mang màu sắc chống Việt Nam thời Chiến tranh Lạnh. Thuộc nhóm phim Mỹ về chiến tranh Việt Nam bị xét kiểm duyệt nghiêm ngặt nhất.
 
+ **Platoon**(đạo diễn: [Oliver Stone](https://vi.wikipedia.org/wiki/Oliver_Stone)1986)
+**Platoon** là hành trình vỡ mộng của tân binh Chris Taylor khi chứng kiến sự khốc liệt và phi nghĩa của chiến tranh Việt Nam vào năm 1967. Bên cạnh việc sinh tồn trước Việt Cộng, anh bị giằng xé dữ dội giữa hai phe trong nội bộ trung đội: một bên nhân đạo do trung sĩ Elias dẫn đầu và một bên tàn bạo, say máu dưới quyền thượng sĩ Barnes. Sau khi chứng kiến Barnes giết hại dân thường và phản bội đồng đội, Chris đã nhân danh công lý kết liễu hắn trong một trận chiến đẫm máu rồi rời khỏi Việt Nam với tâm hồn hoàn toàn tổn thương.
+
 **Boat people**  (đạo diễn: **Hứa An Hoa**, 1982) tuy không có văn bản chính thức cấm nhưng khỏi nói cũng biết nó nói về Thuyền nhân một chủ đề cấm kị mà truyền thông không bao giờ dám nhắc đến.
 
 [**Câu chuyện của Ngô Việt - The Story of Woo Viet**  _胡越的故事 (1981_)](https://www.imdb.com/title/tt0082534/) (đạo diễn: **Hứa An Hoa**, 1981) 
