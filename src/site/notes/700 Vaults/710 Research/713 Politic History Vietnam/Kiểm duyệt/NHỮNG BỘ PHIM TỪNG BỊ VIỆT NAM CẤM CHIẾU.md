@@ -2,8 +2,8 @@
 {"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/kiem-duyet/nhung-bo-phim-tung-bi-viet-nam-cam-chieu/","title":"Phim bị cấm chiếu tại Việt Nam","tags":["vietnam/kiểm-duyệt","vietnam/điện-ảnh","vietnam/tự-do-ngôn-luận","vietnam/đường-lưỡi-bò","tư-liệu/nguồn-gốc"],"dg-note-properties":{"title":"Phim bị cấm chiếu tại Việt Nam","aliases":["phim cấm Việt Nam","kiểm duyệt phim VN","banned films Vietnam"],"tags":["vietnam/kiểm-duyệt","vietnam/điện-ảnh","vietnam/tự-do-ngôn-luận","vietnam/đường-lưỡi-bò","tư-liệu/nguồn-gốc"],"topic":"kiểm duyệt Việt Nam","category":"phim","status":"đang-bổ-sung","related":["[[Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]]","[[Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn Việt Nam]]","[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Toàn cảnh kiểm duyệt Việt Nam\|Toàn cảnh kiểm duyệt Việt Nam]]"],"sources":["Reuters","Wikipedia","Freedom House","RSF"],"created":"2026-06-27","account":"bdsreal Claude bhvnasia Claude","name":"Sách và phim bị kiểm duyệt ở Việt Nam","browser_profile":"Arc — Cluster F","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/kiem-duyet/nhung-bo-phim-tung-bi-viet-nam-cam-chieu/"}}
 ---
 
-- [ ] thiếu đối chiếu nguồn gemini grok
-- [ ] thiếu the Sympathizer
+
+
 
 
 # Phim bị cấm chiếu, thu hồi hoặc không qua được kiểm duyệt tại Việt Nam
