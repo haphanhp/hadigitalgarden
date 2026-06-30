@@ -39,8 +39,9 @@
 
 [**The Story of Woo Viet**  _胡越的故事 (1981_)](https://www.imdb.com/title/tt0082534/) (đạo diễn: **Hứa An Hoa**, 1981) 
 Ngô Việt một người Việt Nam tị nạn rời khỏi đất nước sau cuộc chiến tranh để đi đến Hong Kong. 
-
-**Ái nhân đồng chí** (đạo diễn: **Hoàng Thái Lai**, 1989) Lưu Đức Hòa qua Việt Nam quay phim bị cấm chiếu vĩnh viễn
+[link xem](https://www.youtube.com/watch?v=O4yscYvlmSA)
+**Ái nhân đồng chí** (đạo diễn: **Hoàng Thái Lai**, 1989) Còn có tên là Yêu tiếng hát Việt Nam, Lưu Đức Hòa qua Việt Nam quay phim bị cấm chiếu vĩnh viễn,  nội dung phim là hành trình của một phóng viên ảnh trẻ tới tác nghiệp tại Việt Nam cùng với nữ phiên dịch viên bản địa.
+[link xem](https://www.youtube.com/watch?v=JT5ZbSDQyMU)
 
 ---
 
