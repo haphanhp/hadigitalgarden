@@ -28,12 +28,7 @@
     
 - Chính phủ chưa bao giờ ra lệnh cấm bằng văn bản công khai — đây là kiểu cấm "âm thầm" điển hình: không tuyên bố, chỉ đơn giản là không tồn tại trên các nền tảng và bị xóa khỏi diễn ngôn công khai.
     
-- Nguồn: [Wikipedia — The Sympathizer (miniseries)](https://en.wikipedia.org/wiki/The_Sympathizer_\(miniseries\))
-    
-- Nguồn: [Korea Herald — Phỏng vấn Viet Thanh Nguyen (2023)](https://www.koreaherald.com/view.php?ud=20230722000066)
-    
-- Nguồn: [Variety — The Sympathizer cast on Vietnam War heritage (2024)](https://variety.com/2024/tv/news/the-sympathizer-cast-vietnam-war-family-heritage-1235968841/)
-    
+
 
 **We Were Soldiers / Chúng tôi từng là lính** (đạo diễn: **Randall Wallace**, 2002) Bị cấm và gây tai tiếng lớn liên quan diễn viên gốc Việt Đơn Dương, người đóng vai phụ trong phim. Phía Việt Nam cho rằng phim "không phản ánh đúng sự thật lịch sử cuộc chiến tranh chính nghĩa của nhân dân Việt Nam, làm sai lệch hình ảnh người chiến sĩ." Sở Văn hóa – Thông tin TP.HCM yêu cầu Đơn Dương làm tường trình; sau đó ông phải sang Mỹ định cư.
 
@@ -49,7 +44,7 @@
 
 **Xích Lô** (đạo diễn: **Trần Anh Hùng**, 1995) Bị cấm chiếu tại Việt Nam ngay năm 1995, dù vừa đoạt **Giải Sư Tử Vàng** tại Liên hoan phim Venice. Lý do: khắc họa đời sống lao động nghèo và băng đảng tại TP.HCM theo góc nhìn bị cho là tiêu cực.
 
-- Nguồn: [Wikipedia — Cyclo (film)](https://en.wikipedia.org/wiki/Cyclo_\(film\))
+
 
 **Bẫy cấp 3** (đạo diễn: **Lê Văn Kiệt**, 2012) Bị cấm vì "bạo lực và mô tả rất thô thiển khát khao chuyện giường chiếu của tuổi teen".
 
@@ -67,8 +62,6 @@
 
 **Đất rừng phương Nam** (đạo diễn: **Nguyễn Quang Dũng**, 2023) Đây là trường hợp **kiểm duyệt sau phát hành "êm" hiếm có** — phim đã được hội đồng thẩm định duyệt 100% trước khi ra rạp (29/9/2023), nhưng sau làn sóng phản ứng dữ dội từ dư luận trong nước vì bị cho là "xuyên tạc lịch sử" (dùng tên các hội nhóm Trung Quốc _Thiên Địa hội_, _Nghĩa Hòa đoàn_ để chỉ các tổ chức yêu nước Nam Kỳ), Cục Điện ảnh buộc đoàn phim phải **thẩm định lại** (14/10/2023) và đổi lời thoại: "Thiên Địa hội" → "Chính Nghĩa hội", "Nghĩa Hòa đoàn" → "Nam Hòa đoàn", trước khi được phép tiếp tục chiếu. Bộ Văn hóa – Thể thao – Du lịch sau đó bác bỏ tin đồn lan truyền trên mạng xã hội rằng phim bị dừng chiếu hoàn toàn, khẳng định chỉ là chỉnh sửa lời thoại.
 
-- Nguồn: [Báo Pháp Luật VN — Cục Điện ảnh lên tiếng (2023)](https://baophapluat.vn/cuc-dien-anh-len-tieng-ve-bo-phim-dat-rung-phuong-nam-post492412.html)
-- Nguồn: [Dân Trí — Bộ Văn hóa phủ nhận dừng chiếu (2023)](https://dantri.com.vn/van-hoa/bo-van-hoa-phu-nhan-thong-tin-phim-dat-rung-phuong-nam-bi-dung-chieu-20231018182353985.htm)
 
 ---
 
@@ -84,7 +77,7 @@ Nhóm lý do đặc thù liên quan chủ quyền Biển Đông — bất kỳ p
 
 **Barbie** (đạo diễn: **Greta Gerwig**, 2023) Bị cấm chiếu ở Việt Nam vì xuất hiện hình ảnh bản đồ được cho là thể hiện đường lưỡi bò. Đây là một trong những trường hợp gây chú ý quốc tế lớn nhất vì phim là bom tấn toàn cầu.
 
-- Nguồn: [Reuters — Vietnam bans Barbie movie over South China Sea map (2023)](https://www.reuters.com/world/asia-pacific/vietnam-bans-barbie-film-over-south-china-sea-map-2023-07-03/)
+
 
 **Hướng gió mà đi / Flight to You** (đạo diễn: **Vương Vĩ**, phim Netflix Trung Quốc, 2023) Phim truyền hình Trung Quốc bị gỡ khỏi Netflix Việt Nam vì lý do tương tự.
 
@@ -154,19 +147,28 @@ Theo [RSF (Reporters Without Borders)](https://rsf.org/en/index), Việt Nam x�
 
 ## Tài liệu tham khảo
 
-|Nguồn|Link|Ghi chú|
-|---|---|---|
-|Wikipedia — Danh sách phim bị cấm phát hành tại VN|https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_phim_b%E1%BB%8B_c%E1%BA%A5m_ph%C3%A1t_h%C3%A0nh_t%E1%BA%A1i_Vi%E1%BB%87t_Nam|Nguồn tổng hợp chính, có chú thích|
-|Wikipedia — The Sympathizer (miniseries)|https://en.wikipedia.org/wiki/The_Sympathizer_(miniseries)||
-|Korea Herald — Phỏng vấn Viet Thanh Nguyen|https://www.koreaherald.com/view.php?ud=20230722000066|2023|
-|Variety — The Sympathizer cast (2024)|https://variety.com/2024/tv/news/the-sympathizer-cast-vietnam-war-family-heritage-1235968841/||
-|Reuters — Vietnam bans Barbie (2023)|https://www.reuters.com/world/asia-pacific/vietnam-bans-barbie-film-over-south-china-sea-map-2023-07-03/|Nguồn quốc tế|
-|Wikipedia — Cyclo (1995)|https://en.wikipedia.org/wiki/Cyclo_(film)||
-|Báo Pháp Luật VN — Đất rừng phương Nam|https://baophapluat.vn/cuc-dien-anh-len-tieng-ve-bo-phim-dat-rung-phuong-nam-post492412.html|2023|
-|Dân Trí — Đất rừng phương Nam phủ nhận dừng chiếu|https://dantri.com.vn/van-hoa/bo-van-hoa-phu-nhan-thong-tin-phim-dat-rung-phuong-nam-bi-dung-chieu-20231018182353985.htm|2023|
-|Freedom House — Freedom on the Net 2024|https://freedomhouse.org/country/vietnam/freedom-net/2024|Bối cảnh kiểm duyệt|
-|RSF Press Freedom Index|https://rsf.org/en/index|VN 174/180 (2024)|
+| Nguồn                                                                                                                                                                           | Link                                                                                                                      | Ghi chú                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Wikipedia — Danh sách phim bị cấm phát hành tại VN                                                                                                                              | https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_phim_b%E1%BB%8B_c%E1%BA%A5m_ph%C3%A1t_h%C3%A0nh_t%E1%BA%A1i_Vi%E1%BB%87t_Nam | Nguồn tổng hợp chính, có chú thích |
+| Wikipedia — The Sympathizer (miniseries)                                                                                                                                        | https://en.wikipedia.org/wiki/The_Sympathizer_(miniseries)                                                                |                                    |
+| Korea Herald — Phỏng vấn Viet Thanh Nguyen                                                                                                                                      | https://www.koreaherald.com/view.php?ud=20230722000066                                                                    | 2023                               |
+| Variety — The Sympathizer cast (2024)                                                                                                                                           | https://variety.com/2024/tv/news/the-sympathizer-cast-vietnam-war-family-heritage-1235968841/                             |                                    |
+| Reuters — Vietnam bans Barbie (2023)                                                                                                                                            | https://www.reuters.com/world/asia-pacific/vietnam-bans-barbie-film-over-south-china-sea-map-2023-07-03/                  | Nguồn quốc tế                      |
+| Wikipedia — Cyclo (1995)                                                                                                                                                        | https://en.wikipedia.org/wiki/Cyclo_(film)                                                                                |                                    |
+| Báo Pháp Luật VN — Đất rừng phương Nam                                                                                                                                          | https://baophapluat.vn/cuc-dien-anh-len-tieng-ve-bo-phim-dat-rung-phuong-nam-post492412.html                              | 2023                               |
+| Dân Trí — Đất rừng phương Nam phủ nhận dừng chiếu                                                                                                                               | https://dantri.com.vn/van-hoa/bo-van-hoa-phu-nhan-thong-tin-phim-dat-rung-phuong-nam-bi-dung-chieu-20231018182353985.htm  | 2023                               |
+| Freedom House — Freedom on the Net 2024                                                                                                                                         | https://freedomhouse.org/country/vietnam/freedom-net/2024                                                                 | Bối cảnh kiểm duyệt                |
+| RSF Press Freedom Index                                                                                                                                                         | https://rsf.org/en/index                                                                                                  | VN 174/180 (2024)                  |
+| [Wikipedia — The Sympathizer (miniseries)](https://en.wikipedia.org/wiki/The_Sympathizer_\(miniseries\))                                                                        |                                                                                                                           |                                    |
+| [Korea Herald — Phỏng vấn Viet Thanh Nguyen (2023)](https://www.koreaherald.com/view.php?ud=20230722000066)                                                                     |                                                                                                                           |                                    |
+| [Variety — The Sympathizer cast on Vietnam War heritage (2024)](https://variety.com/2024/tv/news/the-sympathizer-cast-vietnam-war-family-heritage-1235968841/)                  |                                                                                                                           |                                    |
+| [Wikipedia — Cyclo (film)](https://en.wikipedia.org/wiki/Cyclo_\(film\))                                                                                                        |                                                                                                                           |                                    |
+| [Reuters — Vietnam bans Barbie movie over South China Sea map (2023)](https://www.reuters.com/world/asia-pacific/vietnam-bans-barbie-film-over-south-china-sea-map-2023-07-03/) |                                                                                                                           |                                    |
+| [Báo Pháp Luật VN — Cục Điện ảnh lên tiếng (2023)](https://baophapluat.vn/cuc-dien-anh-len-tieng-ve-bo-phim-dat-rung-phuong-nam-post492412.html)                                |                                                                                                                           |                                    |
+| [Dân Trí — Bộ Văn hóa phủ nhận dừng chiếu (2023)](https://dantri.com.vn/van-hoa/bo-van-hoa-phu-nhan-thong-tin-phim-dat-rung-phuong-nam-bi-dung-chieu-20231018182353985.htm)                                                                                                                                                                                |                                                                                                                           |                                    |
 
+
+    
 
 
 ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260627223818584.png)
