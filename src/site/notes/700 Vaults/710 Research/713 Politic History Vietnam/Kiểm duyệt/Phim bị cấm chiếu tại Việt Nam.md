@@ -28,6 +28,17 @@
     
 - Chính phủ chưa bao giờ ra lệnh cấm bằng văn bản công khai — đây là kiểu cấm "âm thầm" điển hình: không tuyên bố, chỉ đơn giản là không tồn tại trên các nền tảng và bị xóa khỏi diễn ngôn công khai.
     
+link xem: 
+- **Tập 1:** [Xem trên Google Drive](https://drive.google.com/file/d/1rhPYekkmc-QOpK8D-fFH1SnzfV6kqyWy/view)
+- **Tập 2:** [Xem trên Google Drive](https://drive.google.com/file/d/1D5PFGL13eruXrUjcTt4UkSEDMRqfVlFc/view)
+- **Tập 3:** [Xem trên Google Drive](https://drive.google.com/file/d/1jpCVGWaVJYOTBsvg0cyURyUkHxS_STaR/view)
+- **Tập 4:** [Xem trên Google Drive](https://drive.google.com/file/d/1XWtfwFzk0TLPGkhcdhr4mSsOohtPLgCR/view)
+- **Tập 5:** [Xem trên Google Drive](https://drive.google.com/file/d/1B9sbKeEDOgJ7eiDs3t_jWUIWv5AOLjfB/view)
+- **Tập 6:** [Xem trên Google Drive](https://drive.google.com/file/d/1LuxsO7y0ai0mVq7NoLOW_g9oAuGl3Xil/view)
+- **Tập 7:** [Xem trên Google Drive](https://drive.google.com/file/d/1xeWnwOS99TmD4jUEZvVJZYuvQd1tuIYJ/view)
+
+- **Audio Tiếng Việt Sách nói Sympathizer:** [Nghe Sách Nói - Kẻ Nằm Vùng](https://nghesachnoi.com/book/ke-nam-vung-p3520.html)
+- **Bản dịch Tiếng Việt Sympathizer:** [Tải bản dịch PDF](https://baovecovang2012.wordpress.com/wp-content/uploads/2020/01/ke-nam-vung-nguyen-thanh-viet-le-tung-chau-dich-chu-thich.pdf)
 
 **We Were Soldiers / Chúng tôi từng là lính** (đạo diễn: **Randall Wallace**, 2002) Bị cấm và gây tai tiếng lớn liên quan diễn viên gốc Việt Đơn Dương, người đóng vai phụ trong phim. Phía Việt Nam cho rằng phim "không phản ánh đúng sự thật lịch sử cuộc chiến tranh chính nghĩa của nhân dân Việt Nam, làm sai lệch hình ảnh người chiến sĩ." Sở Văn hóa – Thông tin TP.HCM yêu cầu Đơn Dương làm tường trình; sau đó ông phải sang Mỹ định cư.
 
