@@ -5,9 +5,9 @@
 
 # Giới thiệu
 
-Chào mừng đến [digital garden của Hà.](https://hadigitalgarden.vercel.app/)
-Ở đây [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/MOC lưu trữ bài viết của khu vườn\|MOC lưu trữ bài viết của khu vườn]]
-- idea cá nhân 
+Chào mừng đến [digital garden của tôi.](https://hadigitalgarden.vercel.app/) Nơi tôi xuất bản sự tò mò của mình về những rất nhiều thứ.
+Ở đây bản đồ của khu vườn [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/MOC lưu trữ bài viết của khu vườn\|MOC lưu trữ bài viết của khu vườn]]
+- ý tưởng, suy nghĩ cá nhân 
 - các mối quan tâm
 - những câu hỏi chưa được giải đáp 
 - các vấn đề cần được giải quyết
