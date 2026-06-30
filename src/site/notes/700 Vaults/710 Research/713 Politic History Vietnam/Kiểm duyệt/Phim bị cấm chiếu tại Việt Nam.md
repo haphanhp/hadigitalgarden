@@ -29,12 +29,18 @@
 - Chính phủ chưa bao giờ ra lệnh cấm bằng văn bản công khai — đây là kiểu cấm "âm thầm" điển hình: không tuyên bố, chỉ đơn giản là không tồn tại trên các nền tảng và bị xóa khỏi diễn ngôn công khai.
     
 
-
 **We Were Soldiers / Chúng tôi từng là lính** (đạo diễn: **Randall Wallace**, 2002) Bị cấm và gây tai tiếng lớn liên quan diễn viên gốc Việt Đơn Dương, người đóng vai phụ trong phim. Phía Việt Nam cho rằng phim "không phản ánh đúng sự thật lịch sử cuộc chiến tranh chính nghĩa của nhân dân Việt Nam, làm sai lệch hình ảnh người chiến sĩ." Sở Văn hóa – Thông tin TP.HCM yêu cầu Đơn Dương làm tường trình; sau đó ông phải sang Mỹ định cư.
 
 **Green Dragon / Rồng xanh** (đạo diễn: **Timothy Linh Bui**, 2001) Cùng liên quan vụ Đơn Dương (vai chính). Bị cho là "xuyên tạc sự thật về Việt Nam", có nhiều cảnh bị xem là bôi bác hình ảnh đất nước.
 
 **Rambo: First Blood Part II** (đạo diễn: **George P. Cosmatos**, 1985) và các phần sau Nội dung lính Mỹ quay lại Việt Nam giải cứu tù binh, mang màu sắc chống Việt Nam thời Chiến tranh Lạnh. Thuộc nhóm phim Mỹ về chiến tranh Việt Nam bị xét kiểm duyệt nghiêm ngặt nhất.
+
+**Boat people**  (đạo diễn: **Hứa An Hoa**, 1982) tuy không có văn bản chính thức cấm nhưng khỏi nói cũng biết nó nói về Thuyền nhân một chủ đề cấm kị mà truyền thông không bao giờ dám nhắc đến.
+
+[**The Story of Woo Viet**  _胡越的故事 (1981_)](https://www.imdb.com/title/tt0082534/) (đạo diễn: **Hứa An Hoa**, 1981) 
+Ngô Việt một người Việt Nam tị nạn rời khỏi đất nước sau cuộc chiến tranh để đi đến Hong Kong. 
+
+**Ái nhân đồng chí** (đạo diễn: **Hoàng Thái Lai**, 1989) Lưu Đức Hòa qua Việt Nam quay phim bị cấm chiếu vĩnh viễn
 
 ---
 
@@ -45,12 +51,11 @@
 **Xích Lô** (đạo diễn: **Trần Anh Hùng**, 1995) Bị cấm chiếu tại Việt Nam ngay năm 1995, dù vừa đoạt **Giải Sư Tử Vàng** tại Liên hoan phim Venice. Lý do: khắc họa đời sống lao động nghèo và băng đảng tại TP.HCM theo góc nhìn bị cho là tiêu cực.
 
 
+**Bẫy cấp 3** (đạo diễn: **Lê Văn Kiệt**, 2012) Bị cấm vì "mô tả rất thô thiển khát khao chuyện giường chiếu của tuổi teen".
 
-**Bẫy cấp 3** (đạo diễn: **Lê Văn Kiệt**, 2012) Bị cấm vì "bạo lực và mô tả rất thô thiển khát khao chuyện giường chiếu của tuổi teen".
+**Bụi đời Chợ Lớn** (đạo diễn: **Charlie Nguyễn**, 2013) Ngày **6/6/2013**, Cục Điện ảnh chính thức cấm phổ biến vĩnh viễn dưới bất kỳ hình thức nào. Lý do: *cổ súy bạo lực*, "không phản ánh đúng hiện thực xã hội."
 
-**Bụi đời Chợ Lớn** (đạo diễn: **Charlie Nguyễn**, 2013) Ngày **6/6/2013**, Cục Điện ảnh chính thức cấm phổ biến vĩnh viễn dưới bất kỳ hình thức nào. Lý do: quá bạo lực, "không phản ánh đúng hiện thực xã hội."
-
-**Ròm** (đạo diễn: **Trần Dũng Thanh Huy**) Không vượt qua kiểm duyệt vì bị cho là mang góc nhìn tiêu cực về xã hội. Đoàn phim bị phạt **40 triệu đồng** vì tự ý dự thi tại Liên hoan phim Busan khi chưa có giấy phép phổ biến trong nước.
+**Ròm** (đạo diễn: **Trần Dũng Thanh Huy**) Không vượt qua kiểm duyệt vì bị cho là mang góc nhìn tiêu cực về xã hội. Đoàn phim bị phạt **40 triệu đồng** vì tự ý dự thi tại Liên hoan phim Busan khi chưa có giấy phép phổ biến trong nước. Phần nhân vật treo cổ tự vẫn, những người nghèo bị đẩy đến đường cùng là do có sự xuất hiện của một công ty bất động sản, phần này *nghe đồn* đã bị cắt khỏi bản công chiếu. Hèn chi tui coi mà cũng không hiểu lắm, đến khi nghe có sự xuất hiện của công ty này cùng một đám giang hồ đuổi người nghèo ra khỏi nơi định cư của họ thì mới hiểu ra. 
 
 **Vợ ba** (đạo diễn: **Nguyễn Phương Anh** — Ash Mayfair, 2019) Gây tranh cãi vì để diễn viên 13 tuổi đóng cảnh nóng. Nhà sản xuất tự rút khỏi rạp sau 4 ngày chiếu và bị phạt **50 triệu đồng** vì chiếu bản khác bản đã được cơ quan kiểm duyệt duyệt.
 
@@ -58,7 +63,7 @@
 
 **Vị / Taste** (đạo diễn: **Lê Bảo**, 2021) Cục trưởng Cục Điện ảnh ký quyết định cấm phổ biến vì "không phù hợp với văn hóa Việt Nam" (hơn 30 phút cảnh khỏa thân của cầu thủ Nigeria với bốn phụ nữ lớn tuổi trong sinh hoạt hàng ngày). Nhà sản xuất buộc phải từ bỏ quyền tác giả để chuyển sang nhà sản xuất Singapore, giúp phim thoát khỏi bị xóa sổ hoàn toàn.
 
-**Viet and Nam / Nam và Việt** (đạo diễn: **Trương Minh Quý**, 2024) Tham dự hạng mục **Un Certain Regard** tại Cannes 2024, bị cấm chiếu tại Việt Nam. Cùng đạo diễn với _Trong lòng đất_ (2023) — phim trước đó của ông cũng **không được cấp phép** (Cục Điện ảnh từ chối cấp phép ngày 9/5/2024, theo Tuổi Trẻ). Thuộc thế hệ phim Việt trẻ thường bị kiểm duyệt vì cảnh tính dục, bạo lực, và những câu hỏi gián tiếp về lịch sử chiến tranh.
+**Viet and Nam / Nam và Việt** (đạo diễn: **Trương Minh Quý**, 2024) Tham dự hạng mục **Un Certain Regard** tại Cannes 2024, bị cấm chiếu tại Việt Nam. Cùng đạo diễn với _Trong lòng đất_ (2023) — phim trước đó của ông cũng **không được cấp phép** (Cục Điện ảnh từ chối cấp phép ngày 9/5/2024, theo Tuổi Trẻ). Thuộc thế hệ phim Việt trẻ thường bị kiểm duyệt vì cảnh tính dục, và những câu hỏi gián tiếp về lịch sử chiến tranh. Tên của nhân vật được cho là nhắm đến Việt Nam. 
 
 **Đất rừng phương Nam** (đạo diễn: **Nguyễn Quang Dũng**, 2023) Đây là trường hợp **kiểm duyệt sau phát hành "êm" hiếm có** — phim đã được hội đồng thẩm định duyệt 100% trước khi ra rạp (29/9/2023), nhưng sau làn sóng phản ứng dữ dội từ dư luận trong nước vì bị cho là "xuyên tạc lịch sử" (dùng tên các hội nhóm Trung Quốc _Thiên Địa hội_, _Nghĩa Hòa đoàn_ để chỉ các tổ chức yêu nước Nam Kỳ), Cục Điện ảnh buộc đoàn phim phải **thẩm định lại** (14/10/2023) và đổi lời thoại: "Thiên Địa hội" → "Chính Nghĩa hội", "Nghĩa Hòa đoàn" → "Nam Hòa đoàn", trước khi được phép tiếp tục chiếu. Bộ Văn hóa – Thể thao – Du lịch sau đó bác bỏ tin đồn lan truyền trên mạng xã hội rằng phim bị dừng chiếu hoàn toàn, khẳng định chỉ là chỉnh sửa lời thoại.
 
@@ -77,7 +82,7 @@ Nhóm lý do đặc thù liên quan chủ quyền Biển Đông — bất kỳ p
 
 **Barbie** (đạo diễn: **Greta Gerwig**, 2023) Bị cấm chiếu ở Việt Nam vì xuất hiện hình ảnh bản đồ được cho là thể hiện đường lưỡi bò. Đây là một trong những trường hợp gây chú ý quốc tế lớn nhất vì phim là bom tấn toàn cầu.
 
-
+**John Wick: Chapter 4** (đạo diễn: **Chad Stahelski**, 2023) Bị đồn cấm chiếu tại Việt Nam thời điểm phát hành; báo chí trong nước đặt câu hỏi nghi vấn ("'John Wick 4' bị cấm chiếu ở Việt Nam?") — *Bị đồn* cấm chiếu tại Việt Nam vì có Chung Tử Đơn, ủng hộ đường lưỡi bò. Phim này bị TQ cấm chiếu vì Keanu ủng hộ tây tạng độc lập
 
 **Hướng gió mà đi / Flight to You** (đạo diễn: **Vương Vĩ**, phim Netflix Trung Quốc, 2023) Phim truyền hình Trung Quốc bị gỡ khỏi Netflix Việt Nam vì lý do tương tự.
 
@@ -85,13 +90,13 @@ Nhóm lý do đặc thù liên quan chủ quyền Biển Đông — bất kỳ p
 
 ---
 
-## Nhóm 4 — Phim Hollywood/quốc tế bị cấm vì bạo lực hoặc lý do khác
+## Nhóm 4 — Phim Hollywood/quốc tế bị cấm vì lý do khác
 
 **The Hunger Games** (đạo diễn: **Gary Ross**, 2012) Trở thành bom tấn Hollywood hiếm hoi bị cấm chiếu tại Việt Nam — được cho là do nội dung về nổi dậy chống chính quyền độc tài.
 
-**The Roundup** (đạo diễn: **Lee Sang-yong**, phim Hàn Quốc, 2022) Bị cấm vì bị đánh giá quá bạo lực.
+**The Roundup** (đạo diễn: **Lee Sang-yong**, phim Hàn Quốc, 2022) Bị cấm vì nói *Việt Nam bất lực trước tội phạm HQ.*
 
-**John Wick: Chapter 4** (đạo diễn: **Chad Stahelski**, 2023) Bị đồn cấm chiếu tại Việt Nam thời điểm phát hành; báo chí trong nước đặt câu hỏi nghi vấn ("'John Wick 4' bị cấm chiếu ở Việt Nam?") — liên quan đến mức độ bạo lực cực đoan trong loạt phim này, tương tự lý do với _The Roundup_.
+
 
 ---
 
