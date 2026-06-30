@@ -22,7 +22,7 @@ IDE AI-native #1. Tab completion, chat trong editor, agent tự sửa bug.
 
 IDE từ Codeium. Cascade agent mạnh, ít tốn token hơn Cursor.
 
-[[Claude\|Claude]] (Anthropic)
+[[900 Templates/AI template\|AI template]] (Anthropic)
 
 LLM mạnh nhất cho code dài, kiến trúc, reasoning. Dùng qua API hoặc claude.ai.
 
@@ -30,7 +30,7 @@ LLM mạnh nhất cho code dài, kiến trúc, reasoning. Dùng qua API hoặc c
 
 Brainstorm, debug nhanh, giải thích concept. Tích hợp sẵn nhiều nơi.
 
-[[v0 by Vercel\|v0 by Vercel]]
+[[800 tool công cụ/v0 by Vercel\|v0 by Vercel]]
 
 Prompt → UI component (React/Tailwind). Xuất code thẳng vào dự án.
 

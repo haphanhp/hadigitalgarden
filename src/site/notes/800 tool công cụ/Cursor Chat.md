@@ -21,7 +21,7 @@ Cursor Chat giải quyết đúng vấn đề này.
 
 **Hệ thống `@` — cách kéo context vào chat**Bấm vào từng node để tìm hiểu sâu hơn.
 ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260620122926902.png)
-![[Cách kéo context vào chat.canvas\|Cách kéo context vào chat.canvas]]
+![[800 tool công cụ/Cách kéo context vào chat.canvas\|Cách kéo context vào chat.canvas]]
 
 ---
 

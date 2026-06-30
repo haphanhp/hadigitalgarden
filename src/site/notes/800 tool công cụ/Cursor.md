@@ -5,7 +5,7 @@
 
 Cursor là IDE được xây dựng lại từ đầu để AI là trung tâm, không phải plugin thêm vào. Dưới đây là breakdown đầy đủ.Bấm vào từng block để tìm hiểu sâu hơn. Dưới đây là giải thích chi tiết từng tính năng:
 ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260620120608645.png)
-![[Cursor cấu trúc.canvas\|Cursor cấu trúc.canvas]]
+![[800 tool công cụ/Cursor cấu trúc.canvas\|Cursor cấu trúc.canvas]]
 
 
 ---

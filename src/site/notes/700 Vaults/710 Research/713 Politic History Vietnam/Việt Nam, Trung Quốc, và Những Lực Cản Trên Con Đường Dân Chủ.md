@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/viet-nam-trung-quoc-va-nhung-luc-can-tren-con-duong-dan-chu/","title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","tags":["Vietnampolitic","claude"],"dg-note-properties":{"title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude"],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/viet-nam-trung-quoc-va-nhung-luc-can-tren-con-duong-dan-chu/","title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","tags":["Vietnampolitic","claude","seedling/video-content",null],"dg-note-properties":{"title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","seedling/video-content",null],"status":"done"}}
 ---
 
 
