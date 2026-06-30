@@ -43,6 +43,12 @@
 - Nguồn: [Vietnam Studies Group — Dương Thu Hương / Banned Books](https://sites.google.com/uw.edu/vietnamstudiesgroup/discussion-networking/vsg-discussion-list-archives/vsg-discussion-2002/d%C6%B0%C6%A1ng-thu-h%C6%B0%C6%A1ng-banned-books)
 - Tác phẩm tiêu biểu bị cấm: _Những thiên đường mù_, _Bên kia bờ ảo vọng_, _Tiểu thuyết vô đề_
 
+**Tướng về hưu (Nguyễn Huy Thiệp)**  ra mắt trên báo Văn Nghệ năm 1987, gây chấn động văn đàn thời bấy giờ. Ban đầu, NXB Trẻ dự kiến in và phát hành thành sách nhưng phải hủy vì nhiều ý kiến phê phán Nguyễn Huy Thiệp viết về những vấn đề tiêu cực của xã hội — tức truyện từng suýt bị "cấm in sách" dù đã đăng báo. Cuối năm 1987, nhà thơ Nguyễn Duy đề nghị NXB Trẻ phát hành sách, được Báo Văn Nghệ chịu chi phí nên cuối cùng vẫn ra được, dù bản in đầu rất thô sơ (giấy thủ công)
+
+**Cái đêm hôm ấy... đêm gì? — Phùng Gia Lộc**: đăng trên báo Văn Nghệ ngày 23 tháng 1 năm 1988, kể chuyện thật xảy ra đêm 26 tháng 11 năm 1983 tại Thọ Xuân, Thanh Hóa. khiến tác giả phải lánh nạn vì bị địa phương (Thanh Hóa) trả đũa — nhưng bài viết **vẫn được đăng công khai trên báo trung ương** và không bị thu hồi.
+
+Tướng về hưu (Nguyễn Huy Thiệp) và Cái đêm hôm ấy đêm gì (Phùng Gia Lộc) — đây là hai tác phẩm rất nổi tiếng thời Đổi Mới, có thật và gây tranh cãi lớn, hai tác phẩm này nên được xếp vào nhóm "tác phẩm gây tranh cãi dữ dội, tác giả bị địa phương trù dập" chứ không thuộc đúng nghĩa "sách bị kiểm duyệt/thu hồi" như các mục khác. Chúng được xem là biểu tượng của thời kỳ "cởi trói" văn nghệ dưới sự bảo trợ trực tiếp của Tổng Bí thư Nguyễn Văn Linh và Tổng biên tập Nguyên Ngọc.
+
 ### Thập niên 2000s
 
 **Đường về nô lệ** — F.A. Hayek, NXB Tri Thức (2009) In năm 2009 và bị cấm tái bản từ đó. Năm 2018, khi GS Chu Hảo — nguyên Thứ trưởng, Giám đốc NXB Tri Thức — bị Ủy ban Kiểm tra Trung ương kỷ luật Đảng (25/10/2018), cuốn sách này được nêu là một trong những "sai phạm nghiêm trọng", vì Hayek lập luận rằng chủ nghĩa xã hội kế hoạch hóa tập trung tất yếu dẫn đến chế độ nô lệ. Cùng bị nêu tên: _Karl Marx_ (Peter Singer), _Tranh luận để đồng thuận_, _Ông Sáu Dân trong lòng dân_.
@@ -66,6 +72,9 @@ An ninh thường xuyên tịch thu, truy lùng người phát hành và ngườ
 - Nguồn: [RFA — NXB Tự Do bị truy bức (2020)](https://www.rfa.org/vietnamese/in_depth/liberated-publisher-being-crackdowned-01062020123626.html)
 
 **Những mảnh đời sau song sắt** — Phạm Thanh Nghiên In ngoài hệ thống nhà nước, bị ngăn chặn phát hành tương tự các sách NXB Tự Do.
+### Thập niên 2020s
+**Chuyện với Thanh – Lời kể mới về ánh sáng (Nguyễn Thành Nam, NXB Hội Nhà văn)** —  (tháng 6/2026). ngày 15/6/2026 NXB Hội Nhà văn bị xử phạt vì cuốn sách có nội dung sai sự thật ở mức độ rất nghiêm trọng — cụ thể thông tin, nhận định không chính xác về một số nhân vật, sự kiện lịch sử, và ngôn ngữ thể hiện không phù hợp khi viết về Chủ tịch Hồ Chí Minh và một số lãnh đạo tiền bối của Đảng. NXB bị phạt 100 triệu đồng, đình chỉ hoạt động 2 tháng, phải tiêu hủy toàn bộ sách đã in (9.700 bản, thu hồi được 2.553 bản) và nộp lại hơn 423 triệu đồng lợi nhuận bất hợp pháp.
+
 
 ---
 
