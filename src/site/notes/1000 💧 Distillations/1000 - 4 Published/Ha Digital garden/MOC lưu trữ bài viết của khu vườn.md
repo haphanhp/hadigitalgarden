@@ -42,6 +42,7 @@ https://projects.haphan.digital/
 [[700 Vaults/710 Research/713 Politic History Vietnam/NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT\|NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp\|Bốn Chiến Lược Cấu Trúc Để Đối Phó Với Quy Luật Suất Sinh Lợi Giảm Dần Của Sự Phức Tạp]]
 
+
 ## Chính trị Việt Nam
 [[700 Vaults/710 Research/713 Politic History Vietnam/Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt\|Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ\|Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ]]
@@ -55,7 +56,7 @@ https://projects.haphan.digital/
 [[700 Vaults/750 movie/phim heo/Phân tích dữ liệu Pornhub theo quốc gia\|Phân tích dữ liệu Pornhub theo quốc gia]]
 [[700 Vaults/750 movie/phim heo/Porn as cultural mirror\|Porn as cultural mirror]]
 [[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Nhân chủng học tình dục - Tại sao phim người lớn là tấm gương soi văn hóa quốc gia\|Nhân chủng học tình dục - Tại sao phim người lớn là tấm gương soi văn hóa quốc gia]]
-
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước\|Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước]]
 
 
 ## Phát triển 
@@ -70,7 +71,7 @@ https://projects.haphan.digital/
 
 ## Kiểm duyệt 
 [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Toàn cảnh kiểm duyệt Việt Nam\|Toàn cảnh kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
- [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
+[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
 [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Phim bị cấm chiếu tại Việt Nam\|Phim bị cấm chiếu tại Việt Nam]] (Tư liệu kiểm duyệt)
 [[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure\|Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure]] (An ninh mạng)
 [[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026\|Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026]] (An ninh mạng)
@@ -78,7 +79,7 @@ https://projects.haphan.digital/
 `#vietnam/movie`, `#vietnam/điện-ảnh`, `#vietnam/kiểm-duyệt`, `#vietnam/sách`, `#vietnam/đường-lưỡi-bò`, `#bản-sắc-Việt`, `#book`, `#movietowatch`, `#movie`.
 `shadcn UI`, `Firebase`, `Perplexity AI`, `Lovable.dev`, `GitHub Copilot`, `Notion AI or Linear`, `Windsurf`, `Cursor Compose Agent`, `Tab completion`, `Inline edit Cursor`, `Cursor Chat`, `Tailwind CSS`.
 `#sociology`, `#gender-studies`, `#sexual-script-theory`, `#psychological-anthropology`, `#east-asia`, `#danmei`, `#boylove`, `#18+`, `#phimheo`.
-`#vietnam`, `#viet-nam`, `#politic`, `#quan-su-vien-thong`, `#StopVNtrolls`, `#dlv47`, `#propaganda`, `#vietnam/chính-trị`, `#vietnam/lịch-sử`, `#vietnam/internet`, `#vietnam/mạng-xã-hội`, `#vietnam/pháp-lý`, `#vietnam/tự-do-báo-chí`, `#vietnam/tự-do-ngôn-luận`.
+`#vietnam`, `#viet-nam`, `#politic`, `#quan-su-vien-thong`, `#StopVNtrolls`, `#dlv47`, `#propaganda`, `#vietnam/chính-trị`, `#vietnam/lịch-sử`, `#vietnam/internet`, `#vietnam/mạng-xã-hội`, `#vietnam/pháp-lý`, `#vietnam/tự-do-báo-chí`, `#vietnam/tự-do-ngôn-luận`. `#xahoi` `#ti-le-sinh`
 `#digitalgarden`, `#moc`, `#about-me`, `#adhd`, `#evergreen`, `#output/writing`, `#seedling/video-content`, `#cauhoi`, `#tintuc`.
 `#learning`, `#resources`, `#make-money/affiliate`, `#make-money/freelance`, `#make-money/gig`, `#make-money/guide`, `#website`.
 
