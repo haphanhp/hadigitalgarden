@@ -4,7 +4,6 @@
 
 
 
-
 ## 🗺️ Bản Đồ Lịch Sử Việt Nam (MOC)
 
 Dưới đây là sơ đồ chi tiết về các thời kỳ lịch sử Việt Nam (Click để mở xem toàn màn hình trong tab mới):
@@ -12,7 +11,8 @@ Dưới đây là sơ đồ chi tiết về các thời kỳ lịch sử Việt 
 ### 📌 Tổng Quan
 * 📜 <a href="/eras/vietnam_history_timeline.html" target="_blank">Toàn Cảnh Tiến Trình Lịch Sử Việt Nam (Timeline Tổng Quan)</a>
 
-### 👑 Thời Kỳ Phong Kiến
+### 👑 Thời Kỳ Cổ Đại & Phong Kiến
+* 🌾 <a href="/eras/era-hong-bang.html" target="_blank">Thời Kỳ Hồng Bàng (Bình Minh Lịch Sử)</a>
 * 🛡️ <a href="/eras/era-ngo-dinh-le.html" target="_blank">Thời Kỳ Nhà Ngô - Đinh - Tiền Lê</a>
 * 🌸 <a href="/eras/era-ly-dynasty.html" target="_blank">Thời Kỳ Nhà Lý</a>
 * ⚔️ <a href="/eras/era-ming-occupation.html" target="_blank">Thời Kỳ Kháng Chiến Chống Quân Minh</a>
