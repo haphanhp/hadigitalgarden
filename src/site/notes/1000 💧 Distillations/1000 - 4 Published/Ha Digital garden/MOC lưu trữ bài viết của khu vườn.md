@@ -22,10 +22,15 @@ https://projects.haphan.digital/
 
 ## Lịch sử
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Timeline Vietnam history\|Timeline Vietnam history]] English version
+[Timeline lịch sử Việt Nam bản tiếng Việt](https://vn-politics-notes.vercel.app/lich-su-viet-nam-timeline%20Ti%E1%BA%BFng%20Vi%E1%BB%87t.html)
 
 ## Các bài viết về Vingroup và Vinfast từ reddit
 [Sự thật về Vingroup bị kiểm duyệt tại Việt Nam ](https://vn-politics-notes.vercel.app/vingroup-uncensored.html)
 [Nợ của Vingroup](https://vn-politics-notes.vercel.app/Vingroup-Debt.html)
+[Vingroup và các Công ty vỏ bọc — Chiến lược Pump & Dump](https://vn-politics-notes.vercel.app/vingroup-cong-ty-vo-boc-pump-dump.html)
+[Mạng nhện chằng chịt bên trong cấu trúc sở hữu Vingroup](https://vn-politics-notes.vercel.app/vingroup-mang-nhen-chang-chit-vig.html)
+[Nợ của Vingroup — Quả bom hẹn giờ của nền kinh tế](https://vn-politics-notes.vercel.app/vingroup-no-qua-bom-hen-gio.html)
+[Vingroup Debt — A Ticking Time Bomb](https://vn-politics-notes.vercel.app/Vingroup-Debt.html) bài song ngữ Anh Việt
 
 ## Giới thiệu tổng quan
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này đi\|Bắt đầu gieo hạt cho khu vườn từ chỗ này đi]]
@@ -61,7 +66,6 @@ https://projects.haphan.digital/
 [[800 tool công cụ/các tool phải biết và nên biết cho vibe coding\|các tool phải biết và nên biết cho vibe coding]]
 [[800 tool công cụ/Cursor\|Cursor]]
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Hướng Dẫn Tạo Website Không Cần Code Cho Người Mới Bắt Đầu\|Hướng Dẫn Tạo Website Không Cần Code Cho Người Mới Bắt Đầu]]
-
 
 
 ## Kiểm duyệt 
