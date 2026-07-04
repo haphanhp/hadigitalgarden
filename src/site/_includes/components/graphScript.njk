@@ -538,26 +538,21 @@ function render3DGraph(graphData, containerId) {
         })
         .nodeThreeObjectExtend(false)
 
-        // ── Links ──
+// ── Links ──
         .linkColor(link => {
             const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
             const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
-            if (!src || !tgt) return 'rgba(100,100,120,0.1)';
+            if (!src || !tgt) return 'rgba(100,100,120,0.15)';
             // Màu link = blend hue source + brightness của 2 đầu
             const avgBrightness = (src.brightness + tgt.brightness) / 2;
-            return hexAlpha(src.hex, Math.max(0.04, avgBrightness * 0.3));
+            return hexAlpha(src.hex, Math.max(0.12, avgBrightness * 0.5));
         })
+        .linkOpacity(1)
         .linkWidth(link => {
             const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
-            return src && src.brightness > 0.5 ? 0.6 : 0.2;
-        })
-
-        // Particles chỉ chạy trên link giữa các hub
-        .linkDirectionalParticles(link => {
-            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
             const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
-            if (!src || !tgt) return 0;
-            return (src.brightness + tgt.brightness) > 1.0 ? 2 : 0;
+            const maxB = Math.max(src?.brightness || 0, tgt?.brightness || 0);
+            return maxB > 0.5 ? 0.8 : 0.35;
         })
         .linkDirectionalParticleSpeed(0.003)
         .linkDirectionalParticleWidth(1.2)
