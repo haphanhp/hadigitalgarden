@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nguon-luc-nha-nuoc-den-tu-dau/","title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","tags":["xahoi","tax"],"dg-note-properties":{"title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","date":"2026-07-04","created":"2026-07-04 15:24","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Brave","created_by":"AI Assistant","tags":["xahoi","tax"],"status":"draft"}}
 ---
 
-## Bài viết phiên bản ngắn gọn hơn 
+***Bài viết phiên bản ngắn gọn hơn*** 
+## 1. NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
                     
 ```
-  NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
+  
                                      │
          ┌───────────────────────────┼───────────────────────────┐
          ▼                           ▼                           ▼
@@ -78,7 +79,7 @@ graph TD
 
 ```
 
-## Bối cảnh Việt Nam: Đối chiếu và Thiếu sót chiến lược
+## 2. Bối cảnh Việt Nam: Đối chiếu và Thiếu sót chiến lược
 
 Khi đặt Việt Nam vào hệ quy chiếu với các quốc gia thành công, hệ thống hiện hành bộc lộ những khoảng trống lớn về mặt điều tiết và tái phân phối, khi một cổ 3 tròng, chịu cả 3 loại thuế, thuế bds trả qua giá nhà cho thuê, thuế tiêu thụ thể hiện qua mua hàng hóa, và thuế do độc quyền nguồn cung điện nước. 
 
@@ -108,6 +109,9 @@ Khi đặt Việt Nam vào hệ quy chiếu với các quốc gia thành công, 
 3. **Xóa bỏ thực trạng "Giá hai giá":** Đồng bộ hóa triệt để dữ liệu giao dịch quốc gia và áp dụng thanh toán không tiền mặt trong giao dịch địa ốc, buộc giá khai báo trên hợp đồng phải trùng khớp 100% với giá trị thị trường thực tế để chống thất thu thuế. Việc này ở VN vẫn còn ở mức hình thức, chưa thực sự đủ răn đe. 
     
 4. **Thành lập Quỹ tích lũy tài sản quốc gia (Mô hình Na Uy):** Tách biệt một phần nguồn thu từ các tập đoàn độc quyền tài nguyên (như PVN) ra khỏi ngân sách chi thường xuyên, đưa vào quỹ đầu tư chiến lược dài hạn nhằm tái cấp vốn cho hạ tầng an sinh, giáo dục và y tế công cộng. ở VN nguồn lực cho giáo dục và y tế rất hạn chế, chủ yếu nguồn lực đổ cho công an. 
+
+---
+***Bài viết chi tiết***
 
 # NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
 
