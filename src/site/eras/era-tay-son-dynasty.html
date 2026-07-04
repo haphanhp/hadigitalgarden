@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Tây Sơn Dynasty — Vietnam's Peasant Revolution, 1771 to 1802</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Tây Sơn Dynasty</h1>
+  <p>Vietnam's peasant revolution, 1771 to 1802</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    Of all the upheavals in Vietnamese history, few are as dramatic — or as short-lived — as the Tây Sơn period. In barely three decades, three brothers from a small village in central Vietnam rose from local insurgents to rulers of the entire country, toppled two centuries-old ruling houses and a nominal imperial dynasty, repelled two foreign invasions in the space of four years, and then collapsed almost as quickly as they had risen, leaving the throne to the very family they had nearly annihilated. Many historians regard the Tây Sơn brothers as forerunners of modern Vietnamese nationalism — the first movement to genuinely reunify a country that had been divided for two centuries, even if their unified state did not survive them. This article traces that arc in detail: the social crisis that produced the uprising, the brothers' staggeringly rapid conquests, the climactic battle against a Qing invasion force, the reforms of Vietnam's most celebrated military leader, and the swift unraveling that followed his early death.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">Before 1771</span>
+    <h2>A Country Already Divided — and Already Decaying</h2>
+    <p>
+      To understand why the Tây Sơn uprising succeeded so quickly, it helps to understand just how fragile the existing order already was. By the mid-18th century, Vietnam had been split for roughly two centuries between two rival families ruling in the name of a powerless Lê emperor: the Trịnh lords controlling the north (Đàng Ngoài) from their base near Hanoi, and the Nguyễn lords controlling the south (Đàng Trong) from Huế. Neither family held the imperial title outright — both governed as "lords" (chúa) while a Lê emperor sat on the throne in Hanoi with essentially no real power, an arrangement that had become a fixture of Vietnamese politics since the 16th century.
+    </p>
+    <p>
+      By the late 1760s, the southern Nguyễn regime was in visible decline. In 1765, the ruling lord Nguyễn Phúc Khoát died, and power fell to a regent, Trương Phúc Loan, whose rule was widely regarded as corrupt and was associated with heavy taxation and endemic local abuses. At almost the same time, the Nguyễn lords suffered a setback abroad: in 1769, the new king of Siam, Taksin, launched a campaign to reassert control over Cambodia and succeeded in forcing the Nguyễn to abandon some of their recent territorial gains in the far south, including the Hà Tiên principality. A regime that looked weak abroad and corrupt at home, layered on top of heavy taxes falling on an already-strained peasantry, created exactly the conditions in which a local uprising could escalate quickly — which is precisely what happened in the village of Tây Sơn.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1771</span>
+    <h2>Three Brothers from Tây Sơn</h2>
+    <p>
+      In the spring of 1771, three brothers — Nguyễn Nhạc, Nguyễn Huệ, and Nguyễn Lữ — launched an uprising from the village of Tây Sơn in Bình Định province, central Vietnam, against the Nguyễn lord Nguyễn Phúc Thuần. Despite sharing the surname Nguyễn with the ruling family they were rebelling against, the brothers were unrelated to the Nguyễn lords; according to multiple sources, their family had originally belonged to the Hồ clan — the same clan as Hồ Quý Ly, the early 15th-century usurper covered in the earlier "Ming Occupation" period of Vietnamese history — and had adopted the Nguyễn surname at some point before the rebellion.
+    </p>
+    <p>
+      Accounts of the brothers' early lives vary somewhat in detail, but several sources agree on a few key points. Nguyễn Huệ, the youngest and — by near-universal agreement among historians — the most militarily capable of the three, was reportedly born around 1753, with some sources giving his childhood name as Hồ Thơm before he adopted the name Nguyễn Huệ. According to Vietnamese historical accounts, the brothers' family had originally come from Nghệ An province in the north and relocated south generations earlier amid the Trịnh-Nguyễn conflicts — meaning the family that would eventually reunite all of Vietnam had itself been displaced by the very north-south division it would later end.
+    </p>
+    <p>
+      The brothers framed their uprising in terms that resonated broadly: rather than positioning themselves simply as rebels against the established order, they styled themselves as champions of the common people and, in their early proclamations, presented their movement as an effort to overthrow the corrupt regent Trương Phúc Loan and restore legitimate rule — initially invoking the name of a Nguyễn prince, and at times even framing their cause in terms of reviving the long-powerless Lê dynasty in the north. This framing helped the rebellion draw support that cut across the usual lines of regional loyalty.
+    </p>
+    <div class="callout">
+      <strong>A genuinely broad coalition:</strong> Britannica describes the revolt as having "a broad social base, drawing from peasant and merchant classes, and [seeking] political and social reforms" — a description that distinguishes the Tây Sơn uprising from many earlier peasant revolts in Vietnamese history, which tended to remain localized and short-lived. The combination of a charismatic, militarily talented leadership (especially Nguyễn Huệ) with genuine popular grievances against taxation and corruption appears to be a major part of why this particular uprising, unlike its predecessors, was able to escalate into a movement capable of conquering the entire country.
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1771 – 1786</span>
+    <h2>From Local Revolt to National Conquest</h2>
+    <p>
+      The speed of the Tây Sơn brothers' early expansion is, by the standards of pre-modern warfare, remarkable. According to multiple sources, the brothers controlled the whole of central Vietnam within less than a decade of beginning their revolt, and by 1778 were dominant across central and southern Vietnam. In 1783, Tây Sơn forces captured Saigon from the Nguyễn lords and took control of the rest of the south, killing the reigning Nguyễn prince and most of his family in the process — a massacre from which only one significant Nguyễn heir, the young Nguyễn Ánh (the future Emperor Gia Long), escaped.
+    </p>
+    <p>
+      With the south secured, the brothers divided their conquests among themselves in a rough triumvirate: Nguyễn Nhạc, the eldest, was crowned king of central Vietnam, while Nguyễn Lữ became king of the south. This division of authority among the brothers — while it reflected their joint leadership of the movement — would later become a source of friction, particularly as Nguyễn Huệ's military successes increasingly outpaced those of his older brother.
+    </p>
+    <h3>The Battle of Rạch Gầm–Xoài Mút (1785)</h3>
+    <p>
+      The escaped Nguyễn prince, Nguyễn Ánh, did not give up his family's cause. Fleeing into exile in Siam, he persuaded the Siamese king to send a substantial invasion force — commonly cited at around 50,000 troops — into the Mekong Delta in 1784–1785 to help restore Nguyễn rule in the south. Nguyễn Huệ took personal command of the Tây Sơn response, and in early 1785 inflicted a decisive defeat on the Siamese force at Rạch Gầm–Xoài Mút, a stretch of the Mekong River. The scale of the victory effectively eliminated Siamese intervention in southern Vietnam for years afterward and cemented Nguyễn Huệ's reputation as the Tây Sơn movement's preeminent military commander — a reputation that would soon eclipse that of his elder brother Nguyễn Nhạc.
+    </p>
+    <h3>The Conquest of the North (1786)</h3>
+    <p>
+      With the south secured and Siamese intervention repelled, the Tây Sơn turned north. In 1786, Nguyễn Huệ led an attack that destroyed the power of the Trịnh lords, who had ruled northern Vietnam in the name of the Lê emperors for two centuries. According to Britannica, the brothers "finally overcame their opponents in northern Vietnam in 1786–87" — completing, in roughly fifteen years, a conquest that reunified a country that had been divided since the early 17th century. For a brief period, the Tây Sơn even maintained the fiction of restoring the Lê emperor to a more meaningful role in the north, but this arrangement did not last; the nominal Lê emperor, Lê Chiêu Thống, would soon flee and seek foreign intervention of his own — setting up the dynasty's defining military confrontation.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1771</strong> Nguyễn Nhạc, Nguyễn Huệ, and Nguyễn Lữ launch their uprising from Tây Sơn village, Bình Định province.</li>
+      <li><strong>by 1778</strong> The brothers are dominant across central and southern Vietnam; Nguyễn Nhạc is crowned king of central Vietnam.</li>
+      <li><strong>1783</strong> Tây Sơn forces capture Saigon and the south; most of the Nguyễn lords' family is killed, except Nguyễn Ánh.</li>
+      <li><strong>1785</strong> Nguyễn Huệ defeats a roughly 50,000-strong Siamese invasion force at Rạch Gầm–Xoài Mút.</li>
+      <li><strong>1786–87</strong> The Tây Sơn overthrow the Trịnh lords and gain control of northern Vietnam, reunifying the country for the first time in two centuries.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">December 1788 – January 1789</span>
+    <h2>The Qing Invasion: Vietnam's "First Tet Offensive"</h2>
+    <p>
+      The deposed Lê emperor, Lê Chiêu Thống, fled to China and appealed to the Qing court for military intervention to restore him to the throne. The Qing Qianlong Emperor agreed, and in late 1788 dispatched a large invasion force into northern Vietnam under the command of Sun Shiyi — figures commonly cited in Vietnamese historical sources put the size of this force at around 290,000 troops, though as with many premodern troop figures, the precise number is difficult to verify independently and may reflect contemporary Vietnamese accounts rather than an independently audited Qing source. By the end of 1788, Qing forces had occupied Thăng Long (Hanoi) and controlled large areas of northern Vietnam.
+    </p>
+    <p>
+      Nguyễn Huệ's response was immediate and, by the standards of the campaign that followed, audacious. On December 22, 1788 (the 25th day of the 11th lunar month), upon receiving news of the Qing occupation of Hanoi, Nguyễn Huệ held a coronation ceremony at Phú Xuân (Huế), taking the imperial title Quang Trung — formally and explicitly ending any pretense of continued Lê dynasty legitimacy — and immediately ordered his army north.
+    </p>
+    <h3>The March North and the Battle of Ngọc Hồi–Đống Đa</h3>
+    <p>
+      What followed has been compared by some English-language military historians to a "Tet Offensive" nearly two centuries before the more famous 1968 campaign — a rapid, multi-pronged assault launched during the Lunar New Year holiday period, when defenders were least prepared. Quang Trung marched his forces — reportedly growing from an initial core of around 20,000 to roughly 100,000 troops as volunteers joined along the way, reinforced by elephants and artillery — from Phú Xuân through Nghệ An (a province with a strong recruiting tradition) and on toward Thăng Long.
+    </p>
+    <p>
+      Quang Trung divided his forces into five columns. The main force, under his personal command, drove directly toward Thăng Long via the fortified position at Ngọc Hồi, the principal Chinese defensive position south of the capital. Other columns moved to cut Qing communications and strike at remaining Lê loyalist forces in outlying provinces — a coordinated, multi-axis offensive that historians describe as unusually sophisticated for the period.
+    </p>
+    <p>
+      According to accounts of the battle, the decisive assault came at dawn on the fifth day of the Lunar New Year — January 30, 1789 — when Tây Sơn forces reached the fortified position at Ngọc Hồi, on the southern outskirts of Hanoi near Đống Đa. Elite Tây Sơn troops reportedly assaulted the fortifications in groups protected by wet straw-covered wooden shields to blunt defensive fire, while Quang Trung directed the battle from atop an elephant. The Qing position collapsed; large numbers of Qing soldiers, including senior officers, were killed, and the surviving Chinese forces retreated north across the border in disarray.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">Dec 22, 1788</span><span class="label">Nguyễn Huệ proclaims himself Emperor Quang Trung</span></div>
+      <div class="stat-card"><span class="num">~100,000</span><span class="label">Reported size of the Tây Sơn army by the time it reached the north</span></div>
+      <div class="stat-card"><span class="num">~290,000</span><span class="label">Reported size of the Qing invasion force (Vietnamese sources)</span></div>
+      <div class="stat-card"><span class="num">Jan 30, 1789</span><span class="label">Decisive Tây Sơn victory at Ngọc Hồi–Đống Đa</span></div>
+    </div>
+    <div class="callout">
+      <strong>On the numbers:</strong> Figures for troop strength on both sides — the ~290,000 Qing invasion force and the roughly 100,000-strong Tây Sơn army — are widely repeated in Vietnamese historical accounts and popular histories, but should be treated as traditional figures rather than independently verified counts; premodern East and Southeast Asian armies are frequently described in round, large numbers that may include support personnel, camp followers, or simply reflect rhetorical convention rather than precise musters. What is not disputed is the outcome: a Qing invasion force was decisively defeated and driven from Vietnam within roughly six weeks of the order to march, an outcome that — according to some accounts — discouraged further Qing military intervention in Vietnam for the remainder of the Qing dynasty's existence.
+    </div>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1789 – 1792</span>
+    <h2>Quang Trung's Reign: Reform at Speed</h2>
+    <p>
+      Quang Trung's reign, though it lasted barely three and a half years, was remarkably active on the domestic front. Vietnamese commemorative sources describe him as having implemented "numerous reform policies, consolidating the government, developing the economy, focusing on education, valuing talent, and pursuing skillful diplomatic relations with the Qing dynasty to maintain lasting peace" in the years immediately following his victory at Ngọc Hồi–Đống Đa.
+    </p>
+    <h3>Domestic Policy</h3>
+    <p>
+      Among the specific measures attributed to Quang Trung's government between 1789 and 1792 are decrees on agricultural promotion — aimed at restoring production after years of civil war — and decrees establishing new educational institutions. Some accounts also describe efforts at currency reform and broader administrative reorganization, consistent with a ruler attempting to rebuild state capacity in a country that had been at war, in one form or another, for nearly two decades.
+    </p>
+    <h3>A New Capital and Diplomacy with the Qing</h3>
+    <p>
+      Strategically, Quang Trung is described as having selected a site in the Yên Trường–Vĩnh Yên area (in present-day Nghệ An province) to build a new capital city, Phượng Hoàng Trung Đô ("Phoenix Capital of the Center") — a project commemorative sources frame as reflecting "his aspiration to build a prosperous nation," and one that, by relocating the center of gravity of the state toward the north-central region, may also have reflected the practical reality that the north — recently the site of the war with the Qing — required closer attention from the new emperor.
+    </p>
+    <p>
+      Despite having just inflicted a catastrophic defeat on a Qing invasion force, Quang Trung also pursued normalized diplomatic relations with the Qing court — a pragmatic move that several sources frame as part of a broader pattern in Vietnamese history of combining military resistance to Chinese incursions with subsequent diplomatic accommodation, a pattern with precedents going back centuries (for example, following the Trần dynasty's repulsion of Mongol invasions). The fact that a ruler who had just destroyed a Qing army of (reportedly) nearly 300,000 troops could, within a few years, establish working diplomatic relations with the same court is sometimes cited as evidence of Quang Trung's political pragmatism alongside his military reputation.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">September 1792</span>
+    <h2>The Sudden Death of Quang Trung</h2>
+    <p>
+      On September 15 (or 16, depending on the source), 1792, Quang Trung died suddenly — sources describe his death as unexpected, occurring while his program of reforms was still very much in progress. He was, by most accounts, still in his late 30s.
+    </p>
+    <p>
+      The suddenness of his death is widely treated by historians as a pivotal turning point — arguably the single most consequential event in the Tây Sơn dynasty's short history after the victory over the Qing. Wikipedia's summary is blunt on this point: Nguyễn Huệ's death "marked the beginning of the downfall of the Tây Sơn dynasty," as "his successors were unable to implement the plans he had made for ruling Vietnam, leaving the empire weak and vulnerable."
+    </p>
+    <div class="callout">
+      <strong>A counterfactual historians return to:</strong> Because Quang Trung's reforms were so actively in progress at the time of his death — and because his successors so visibly failed to sustain the dynasty — his early death is one of the more frequently cited "what if" moments in Vietnamese history. Whether a longer-lived Quang Trung could have consolidated the Tây Sơn state into a durable dynasty is, of course, unanswerable, but the speed and completeness of the collapse that followed his death lends the question more weight than purely speculative "what ifs" usually carry.
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1792 – 1802</span>
+    <h2>Collapse: From Three Kingdoms to None</h2>
+    <p>
+      The decade following Quang Trung's death saw the rapid unraveling of everything the Tây Sơn brothers had built. His successor — his son, reigning under the name Nguyễn Quang Toản — inherited a throne but not his father's authority. According to Wikipedia, "many who served under Quang Trung were executed, while others became discouraged and left the regime, considerably weakening the Tây Sơn" in the years after his death — though sources do not always specify in detail who ordered these executions or why, and this period of internal Tây Sơn politics is less thoroughly documented in English-language sources than the dynasty's military campaigns.
+    </p>
+    <p>
+      Meanwhile, Nguyễn Ánh — the Nguyễn prince who had escaped the 1783 massacre and spent years in exile — had spent the intervening period rebuilding a military force in the south, with substantial assistance from French missionaries and mercenaries recruited through Bishop Pigneau de Béhaine, as detailed in the companion article on the <a href="era-nguyen-dynasty.html">Nguyễn dynasty</a>. With the Tây Sơn weakened by internal divisions and compounded, according to some accounts, by famine and natural disasters that struck the war-torn country in these years, Nguyễn Ánh's forces advanced steadily.
+    </p>
+    <h3>The Final Campaigns</h3>
+    <p>
+      The endgame unfolded over roughly two years. In 1800, Nguyễn Ánh's forces occupied the Quy Nhơn citadel — historically significant as territory close to the Tây Sơn brothers' home region. In 1801, his forces took Phú Xuân (Huế), forcing the young Tây Sơn emperor Nguyễn Quang Toản to flee north to Thăng Long. In 1802, Nguyễn Ánh's forces besieged Thăng Long itself; the 20-year-old Quang Toản attempted to escape but was captured and executed, bringing the Tây Sơn dynasty to an end after roughly 24 years as a unified state (or three decades counting from the initial 1771 uprising).
+    </p>
+    <p>
+      The manner in which the Tây Sơn leadership was treated after their defeat is recorded with notable specificity in some sources: Wikipedia records that the defeated Tây Sơn general Bùi Thị Xuân — a woman who had served as a military commander, a relatively unusual role that is itself sometimes highlighted in accounts of the period — was executed by being trampled by an elephant, a punishment that, whatever its precise historical accuracy, has become a frequently repeated detail in popular accounts of the dynasty's brutal end.
+    </p>
+    <p>
+      With Thăng Long captured and the Tây Sơn leadership eliminated, Nguyễn Ánh proclaimed himself Emperor Gia Long in 1802, founding the Nguyễn dynasty — Vietnam's last imperial house, covered in detail in the companion article linked above. For the first time in two centuries, Vietnam was united under a single ruler, with Huế as the new capital — an outcome the Tây Sơn brothers had themselves achieved fifteen years earlier, only to lose it to the family they had once nearly destroyed.
+    </p>
+    <ul class="events modern">
+      <li><strong>September 1792</strong> Quang Trung dies suddenly; his son Nguyễn Quang Toản succeeds him.</li>
+      <li><strong>1792–1800</strong> Internal divisions, executions of Quang Trung's former officials, and (according to some accounts) famine weaken the Tây Sơn state.</li>
+      <li><strong>1800</strong> Nguyễn Ánh's forces occupy the Quy Nhơn citadel.</li>
+      <li><strong>1801</strong> Nguyễn Ánh's forces capture Phú Xuân (Huế); Quang Toản flees to Thăng Long.</li>
+      <li><strong>1802</strong> Thăng Long falls; Quang Toản is captured and executed, ending the Tây Sơn dynasty. Nguyễn Ánh proclaims himself Emperor Gia Long.</li>
+    </ul>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">In Perspective</span>
+    <h2>A Revolution That Won the War but Lost the Peace</h2>
+    <p>
+      The Tây Sơn dynasty's place in Vietnamese historical memory is, in some respects, paradoxical. Politically, the dynasty failed completely — it was annihilated within a decade of its greatest leader's death, and the family that destroyed it went on to rule for the next 143 years. Yet the Tây Sơn brothers, and Nguyễn Huệ/Quang Trung in particular, are remembered today as among the most celebrated figures in Vietnamese history, commemorated annually at temples and in official ceremonies — including, as one source notes, an annual ceremony on the fifth day of the Lunar New Year at a temple dedicated to Quang Trung, marking the anniversary of the Ngọc Hồi–Đống Đa victory.
+    </p>
+    <p>
+      Several threads help explain this apparent paradox. First, the Tây Sơn achieved something no one had managed in two centuries: the genuine reunification of a divided country, even if the unified state did not outlive its architect. Second, the victory over the Qing invasion at Ngọc Hồi–Đống Đa stands as one of the most celebrated military victories in Vietnamese history — a decisive repulsion of a Chinese invasion force that resonates with a long Vietnamese historical narrative of resistance to northern domination, a theme running from the Trưng Sisters and Bạch Đằng through the Trần dynasty's victories over the Mongols. Third, Britannica's framing of the brothers as precursors to 20th-century Vietnamese nationalism reflects a retrospective reading in which the Tây Sơn's combination of popular mobilization, anti-corruption rhetoric, and national reunification reads as an early version of themes that would recur in Vietnamese politics more than a century later.
+    </p>
+    <p>
+      At the same time, it is worth noting — as Britannica itself does — that the rebellion "threatened to sweep away the entire Confucian establishment of Vietnam, and perhaps would have done so if its leader had not attempted to accomplish too much too quickly." This is a notably double-edged assessment: it credits the Tây Sơn with genuinely radical potential while simultaneously suggesting that the pace of change — or perhaps simply the brevity of Quang Trung's life relative to the scale of his ambitions — was itself a factor in the dynasty's failure to consolidate. Whether a Tây Sơn Vietnam, had it survived, would have developed along a meaningfully different trajectory than the conservative Nguyễn dynasty that replaced it remains one of the more tantalizing counterfactuals in Vietnamese history — and one that, by its nature, cannot be resolved.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Origins, conquest &amp; reunification</span>
+  <span><span class="swatch sw-colonial"></span>The Qing war &amp; Quang Trung's reign</span>
+  <span><span class="swatch sw-modern"></span>Collapse &amp; legacy</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Tay-Son-brothers" target="_blank">"Tây Sơn Brothers"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Tay-Son-rebellion" target="_blank">"Tây Sơn Rebellion"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Tay_Son_Dynasty" target="_blank">"Tây Sơn Dynasty"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/T%C3%A2y_S%C6%A1n_wars" target="_blank">"Tây Sơn Wars"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Vietnamese_Civil_War_of_1789%E2%80%931802" target="_blank">"Vietnamese Civil War of 1789–1802"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Quang_Trung" target="_blank">"Quang Trung"</a></li>
+    <li>HistoryNet, <a href="https://www.historynet.com/the-first-tet-offensive-of-1789.htm" target="_blank">"The First Tet Offensive of 1789"</a></li>
+    <li>War History (warhistory.org), <a href="https://warhistory.org/@msw/article/battle-of-hanoi" target="_blank">"Battle of Hanoi"</a></li>
+    <li>Kiddle, <a href="https://kids.kiddle.co/Battle_of_Ng%E1%BB%8Dc_H%E1%BB%93i-%C4%90%E1%BB%91ng_%C4%90a" target="_blank">"Battle of Ngọc Hồi-Đống Đa"</a></li>
+    <li>Country Studies (countrystudies.us), <a href="https://countrystudies.us/vietnam/13.htm" target="_blank">"The Tây Sơn Rebellion"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3336.html" target="_blank">"Division of Vietnam, Tây Sơn Rebellion and the Nguyễn Dynasty"</a></li>
+    <li>Vietnam Law Magazine, <a href="https://vietnamlawmagazine.vn/the-state-and-law-under-the-tay-son-dynasty-1776-1802-4509.html" target="_blank">"The State and Law Under the Tây Sơn Dynasty (1776–1802)"</a></li>
+    <li>Vietnam.vn, <a href="https://www.vietnam.vn/en/nghe-an-long-trong-ky-niem-237-nam-chien-thang-ngoc-hoi-dong-da" target="_blank">"Nghệ An Commemorates the 237th Anniversary of the Victory of Ngọc Hồi – Đống Đa"</a></li>
+  </ol>
+  <p class="note">
+    Note: Several figures in this article — most notably the reported size of the Qing invasion force (~290,000) and the Tây Sơn army (~100,000) — derive from Vietnamese historical and commemorative sources and are widely repeated in popular accounts, but are difficult to verify against independent Qing-dynasty records and should be treated as traditional figures rather than precise modern troop counts. Details of the internal Tây Sơn collapse after 1792 (including the scope of post-Quang Trung executions) are less thoroughly documented in English-language sources than the dynasty's military campaigns, and this article reflects the relatively limited detail available. The dynasty's broader historical legacy — as both a failed state and a celebrated national symbol — reflects genuinely differing emphases across Vietnamese and international sources, which this article has tried to present rather than resolve.
+  </p>
+</div>
+
+</body>
+</html>

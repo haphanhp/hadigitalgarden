@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Ming Occupation and the Lam Sơn Uprising — Vietnam, 1407 to 1428</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Ming Occupation and the Lam Sơn Uprising</h1>
+  <p>Vietnam, 1407 to 1428</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    Twenty years is a short span in the sweep of Vietnamese history — shorter than the Tây Sơn period, far shorter than the centuries-long Lê or Nguyễn dynasties. Yet the Ming occupation of 1407–1427 looms disproportionately large, for at least two reasons. First, it produced one of the most celebrated resistance movements and founding documents in Vietnamese history — the Lam Sơn uprising and Nguyễn Trãi's "Great Proclamation." Second, according to at least one scholarly account, the political and cultural dynamics set in motion during these two decades continue to shape Sino-Vietnamese relations to this day. This article covers how a usurper's radical reforms opened the door to Chinese reconquest, what life was like under direct Ming rule, how a wealthy landowner from Thanh Hóa turned a string of early defeats into a nine-year campaign that expelled the occupiers, and why the document written to celebrate that victory remains a touchstone of Vietnamese national identity.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1400 – 1407</span>
+    <h2>How the Door Was Opened: Hồ Quý Ly's Usurpation</h2>
+    <p>
+      The Ming occupation did not come out of nowhere — it followed directly from a domestic political crisis. In 1400, Hồ Quý Ly, a powerful court official, displaced the Trần dynasty (which had ruled Đại Việt since the 13th century, including through the Mongol invasions covered in an earlier period of this timeline) and founded his own short-lived Hồ dynasty. According to scholarly analysis, Hồ Quý Ly's reign was marked by genuinely radical reforms — though these were "fueled by regional rivalries" and provoked significant alarm and discontent among scholars and court officials (mandarins), many of whom felt the usurpation itself was illegitimate regardless of the merits of any individual reform.
+    </p>
+    <p>
+      This domestic discontent created an opening that the neighboring Ming dynasty, then near the height of its power under the Yongle Emperor, was prepared to exploit. Surviving members of the deposed Trần dynasty petitioned the Ming court for intervention to restore Trần rule — and the Ming court, "taking advantage of" the crisis (as one source puts it), invaded. By July 1407, Ming forces had brought all of Đại Việt's territory under their control. Hồ Quý Ly, his son, and their administration were captured, and the country was renamed Jiaozhi (交趾) — reviving a name used for the region under earlier periods of Chinese rule going back to the Han dynasty — and incorporated directly into the Ming empire as a province, ending any pretense of Vietnamese self-rule.
+    </p>
+    <div class="callout">
+      <strong>A loaded restoration:</strong> The Ming invasion was nominally launched to restore the Trần dynasty that Hồ Quý Ly had deposed — but having won the war, the Ming did not restore the Trần. Instead, they annexed the country outright as a province, a pattern that several sources note recurs in the historiography of Chinese interventions in Vietnam: the stated justification for intervention (restoring a deposed legitimate ruler) and the actual outcome (direct annexation) diverged sharply, a divergence that — as this article's later sections discuss — shaped how the resulting occupation, and resistance to it, were perceived.
+    </div>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1407 – 1417</span>
+    <h2>Twenty Years of Direct Rule — and the Resistance That Never Stopped</h2>
+    <p>
+      Ming rule over Jiaozhi was direct and, by the standards of earlier periods of Chinese domination in Vietnam, intrusive — though accounts differ on exactly how intrusive. One source describes Ming policy in fairly mild terms, noting that "the Ming dynasty only wanted the Vietnamese to wear long hair and to stop teeth-blackening so they could have white hair and long hair like Chinese" — framing Ming demands as primarily about cultural assimilation in matters of personal appearance. Other accounts emphasize that, regardless of the specific cultural demands, the underlying reality was one of "total domination by the Chinese invaders" and a colonial-style administration that extracted resources and labor from the local population.
+    </p>
+    <p>
+      What is not in dispute is that resistance began almost immediately and never fully stopped for the entire two-decade occupation. According to one count, a total of 31 separate revolts occurred between 1415 and 1424 alone — before Lê Lợi's uprising even began — against an occupying Ming garrison force in Jiaozhi reported at "at least 87,000 regulars," scattered across 39 citadels and towns in northern Vietnam.
+    </p>
+    <h3>The Later Trần Rebellions (1407–1413)</h3>
+    <p>
+      The earliest and most significant of these pre-Lam-Sơn revolts were the "Later Trần" rebellions. As early as late 1407, a descendant of the Trần royal house proclaimed himself king under the name Giản Định, establishing headquarters in Nghệ An province; by late 1408, his forces had marched on the Ming-held capital, attracting what one source describes as "enthusiastic crowds of supporters" along the way, and won a victory over Ming forces at Bô Cô in Nam Định province. This early momentum, however, collapsed due to internal dissension — Giản Định reportedly had two of his own capable lieutenants, Đặng Tất and Nguyễn Cảnh Chân, murdered, and their sons and followers subsequently rallied around a different Trần prince, Trần Quý Khoáng, who led continued resistance from roughly 1409 to 1414. Both phases of Later Trần resistance ultimately failed — but, as Justapedia notes, the rebellion "provided inspiration for future Vietnamese movements," setting a template that the Lam Sơn uprising would follow a few years later.
+    </p>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1416 – 1418</span>
+    <h2>Eighteen Men at Lũng Nhai: The Origins of the Lam Sơn Uprising</h2>
+    <p>
+      The man who would finally end the Ming occupation, Lê Lợi, was — in Britannica's description — "a wealthy upper-class landowner" from Lam Sơn in Thanh Hóa province who, despite his own elevated social position, was said to have been "greatly affected by the social conditions of the common people, who suffered while the Chinese and the aristocracy thrived at their expense." Britannica frames his motivation in explicitly class-conscious terms: Lê Lợi "despised the Vietnamese aristocrats who collaborated with the Chinese governors."
+    </p>
+    <p>
+      The scholarly account by historian James A. Anderson adds a layer of personal history that several popular sources omit: Lê Lợi had not always been an active rebel. During the period of the Later Trần uprisings (c. 1409–1414), he had actually held a position — "general of the imperial insignia," nominally commanding the Trần pretender's imperial bodyguard — within the resistance movement, but after that movement's collapse, he surrendered to the Ming and served a period of imprisonment before being reinstated by the Ming administration to a minor official position as a local "tutor" near Mount Khả Lam in Lạng Sơn. In other words, the future founder of the Lê dynasty had, for a time, made his peace with Ming rule before reigniting resistance — a detail that complicates any simple narrative of unbroken patriotic resistance, though it is also consistent with the pattern (visible elsewhere in Vietnamese history, including in the Tây Sơn period) of leaders moving between accommodation and resistance as circumstances shifted.
+    </p>
+    <p>
+      The formal beginning of organized planning is often dated to February 7, 1416, when a group of eighteen men — including both Lê Lợi and Nguyễn Trãi — swore an oath at Lũng Nhai to band together and expel Ming forces. Two years later, during the Tết (Lunar New Year) festival of 1418, Lê Lợi formally raised the revolt flag, proclaiming himself "Bình Định Vương" — "Prince of Pacification" — and launching what would become a nine-year war.
+    </p>
+    <p>
+      Notably, the early uprising followed the same template as the earlier Later Trần rebellions: rather than immediately claiming the throne for himself, Lê Lợi initially campaigned on the basis of restoring the Trần dynasty, with a Trần relative installed as the figurehead of the revolt. According to one account, it was only "within a few years" that this Trần pretender was set aside and Lê Lợi became the uprising's unquestioned leader in his own right — a pattern of initial deference to established dynastic legitimacy followed by its eventual discarding that, as readers of the companion article on the <a href="era-later-le-dynasty.html">Later Lê dynasty</a> will recognize, would recur in a strikingly similar form some 370 years later during the Tây Sơn uprising against the Trịnh and the nominal Lê emperors.
+    </p>
+    <ul class="events modern">
+      <li><strong>1409–1414</strong> Lê Lợi serves in the Later Trần resistance movement before surrendering to and being reinstated by the Ming.</li>
+      <li><strong>February 7, 1416</strong> Lê Lợi, Nguyễn Trãi, and sixteen others swear the Lũng Nhai oath to resist Ming rule.</li>
+      <li><strong>Tết 1418</strong> Lê Lợi raises the revolt flag at Lam Sơn, proclaiming himself "Bình Định Vương" and initially campaigning to restore the Trần dynasty.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1418 – 1426</span>
+    <h2>Nine Years of War: From Mountain Refuge to National Campaign</h2>
+    <p>
+      The early years of the Lam Sơn uprising were difficult, and several sources note that the rebellion initially operated from a relatively narrow base in the mountainous terrain around Thanh Hóa, supported especially by prominent local families — most notably, according to one source, families bearing the names Trịnh and Nguyễn, the same family names (though not necessarily the same lineages) that would dominate Vietnamese politics for centuries afterward through the Trịnh lords, the Nguyễn lords, and ultimately the Nguyễn dynasty.
+    </p>
+    <h3>The Turning Point: Nguyễn Chích's Strategy</h3>
+    <p>
+      A genuine strategic turning point came in 1424, with a plan attributed to the general Nguyễn Chích: rather than continuing to operate primarily from the mountains of Thanh Hóa, the Lam Sơn forces would advance to liberate Nghệ An province — the same north-central province that, centuries later, would also prove a critical recruiting ground for Nguyễn Huệ's march against the Qing — and use it as a base for further operations. This strategy succeeded: after numerous engagements with Ming forces, the Lam Sơn rebels gained control of most of the territory from Thanh Hóa to Thuận Hóa in central Vietnam, progressively tightening the siege on Ming-held cities that had not yet surrendered.
+    </p>
+    <p>
+      By 1426, with a strengthened army, Lê Lợi began moving his forces north toward the Ming administrative heartland around Thăng Long, employing what is described as a strategy of "avoiding the strong and attacking the weak" combined with high mobility — gradually forcing Ming garrisons to consolidate into a smaller number of defensible citadels rather than maintaining control of the countryside.
+    </p>
+    <h3>The Battle of Tốt Động–Chúc Động (October 1426)</h3>
+    <p>
+      The campaign's decisive military moment came in October 1426 at Tốt Động–Chúc Động, where Lam Sơn forces inflicted a major defeat on a large Ming relief army — reported in some sources at around 100,000 men — sent to break the siege of Ming positions in the north. This defeat was severe enough that, according to multiple sources, it directly influenced the political calculus in the Ming capital: the newly enthroned Xuande Emperor, weighing the cost of continued war against a colony that had now resisted for nearly two decades, chose to withdraw rather than commit to "one more effort" that some of his advisors were urging.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">31</span><span class="label">Revolts against Ming rule, 1415–1424, before Lê Lợi's uprising</span></div>
+      <div class="stat-card"><span class="num">~87,000</span><span class="label">Reported Ming garrison strength in Jiaozhi</span></div>
+      <div class="stat-card"><span class="num">1424</span><span class="label">Nguyễn Chích's Nghệ An strategy turns the tide</span></div>
+      <div class="stat-card"><span class="num">~100,000</span><span class="label">Reported size of the Ming relief force defeated at Tốt Động–Chúc Động (Oct. 1426)</span></div>
+    </div>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1427 – 1428</span>
+    <h2>Withdrawal, Restoration, and the Great Proclamation</h2>
+    <p>
+      Following the defeat at Tốt Động–Chúc Động, Ming forces — under the command of Wang Tong — were progressively forced back into a shrinking number of strongholds. By 1427, Ming forces withdrew from Đại Việt entirely, ending two decades of direct Chinese rule. One detail that several sources include, illustrating how the war's outcome reverberated within the Ming court itself: Wang Tong was reportedly criticized by Ming officials for his conduct of the war and demoted to commoner status, with his land confiscated — though he later regained his rank and property after participating in the 1449 defense of Beijing, a reminder that the Ming withdrawal from Vietnam was, from the Chinese side, treated as a genuine military and political failure with consequences for the officials involved.
+    </p>
+    <p>
+      In 1428, Lê Lợi was enthroned as king of a restored, independent Đại Việt — taking the reign name Lê Thái Tổ and founding the Later Lê dynasty, covered in detail in its own companion article. One of his first acts as king was to commission Nguyễn Trãi to compose the Bình Ngô Đại Cáo — the "Great Proclamation on the Pacification of the Ming" (sometimes translated as the "Great Proclamation upon the Pacification of the Wu") — a document that announced Vietnam's restored independence in terms that have echoed through Vietnamese history ever since. Its opening lines, as quoted in English-language sources, assert that "our people long ago established Vietnam as an independent nation with its own civilization" — a framing of Vietnamese identity as ancient and culturally distinct from China, rather than as a frontier region of the Chinese world, that later Vietnamese leaders would return to at moments of national crisis. Most famously, Hồ Chí Minh's 1945 Declaration of Independence — covered in the companion article on the <a href="era-french-colonial.html">French colonial period</a> — has been compared by historians to the Bình Ngô Đại Cáo as a similarly foundational proclamation of national sovereignty following the expulsion of a foreign occupying power.
+    </p>
+    <h3>A Coda: The Legend of the Golden Turtle</h3>
+    <p>
+      One further detail, more legendary than historical but deeply embedded in Vietnamese cultural memory, belongs to this period: according to a story recorded by Justapedia and widely repeated in Vietnamese folklore, shortly after his enthronement in 1428 Lê Lợi was boating on Hoàn Kiếm Lake in Thăng Long (Hanoi) when a golden turtle surfaced and requested the return of a magic sword — a sword that, in the legend, the "Dragon King" had lent to Lê Lợi to defeat the Ming. This legend is the origin of the lake's name, Hoàn Kiếm ("Returned Sword"), and the lake remains one of Hanoi's most recognizable landmarks today — a small but enduring example of how the memory of the Ming occupation and its end has been woven into the physical and cultural landscape of modern Vietnam.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1427</strong> Ming forces, under Wang Tong, withdraw from Đại Việt entirely.</li>
+      <li><strong>1428</strong> Lê Lợi is enthroned as Lê Thái Tổ, founding the Later Lê dynasty.</li>
+      <li><strong>1428</strong> Nguyễn Trãi composes the Bình Ngô Đại Cáo ("Great Proclamation"), announcing Vietnam's restored independence.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">Aftermath and Legacy</span>
+    <h2>What Happened Next — and Why This Still Matters</h2>
+    <p>
+      The Ming occupation's immediate aftermath was not entirely triumphant for everyone involved in the resistance. The companion article on the Later Lê dynasty covers, in more detail, the court politics of the new regime — but it is worth noting here that Nguyễn Trãi, the author of the Great Proclamation and one of the eighteen oath-takers at Lũng Nhai in 1416, did not end his life peacefully: according to historian Keith Taylor's analysis, Nguyễn Trãi was ultimately "isolated and eliminated" from the new court, accused of regicide, and executed in 1442 — a downfall that Taylor attributes partly to Nguyễn Trãi's alienation from both the Đông Kinh (Hanoi-area) elite, whose interests he had turned away from to serve the Thanh Hóa-Nghệ An faction that had led the uprising, and that same Thanh Hóa-Nghệ An faction itself, who reportedly disliked his "self-righteous preachments about good government" and his efforts to bring Đông Kinh figures into the new administration.
+    </p>
+    <p>
+      Beyond the immediate aftermath, scholarly analysis suggests the Ming occupation's significance extends well beyond its own two decades. According to the abstract of historian James A. Anderson's chapter on the subject, the dynamics set in motion by Hồ Quý Ly's reforms, the Ming military response, and the eventual Vietnamese victory "continue to have an influence on the modern-day relationship between the People's Republic of China and the Socialist Republic of Vietnam" — a claim that, whatever its precise mechanisms, reflects a broader pattern visible across this entire timeline: episodes of Chinese intervention in Vietnam (the original millennium of Bắc Thuộc, the Mongol invasions repelled by the Trần, the Ming occupation, the Qing invasion defeated by Quang Trung) function in Vietnamese historical memory not as isolated incidents but as a connected series of episodes that collectively shape how modern Vietnam understands its relationship with its northern neighbor.
+    </p>
+    <div class="callout">
+      <strong>A pattern across centuries:</strong> Readers following this timeline in sequence will notice a recurring structure: a period of Vietnamese division or internal crisis creates an opening for Chinese intervention (real or invited), the intervention initially succeeds, a resistance movement emerges from an unexpected regional base, and the resistance's eventual victory becomes a foundational text or symbol for the dynasty that follows. The Ming occupation and the Lam Sơn uprising are, in a sense, the clearest and most fully documented instance of this pattern — which is part of why the Bình Ngô Đại Cáo continues to be cited, nearly six centuries later, as a touchstone for Vietnamese national sovereignty.
+    </div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Origins of the crisis &amp; founding of the new dynasty</span>
+  <span><span class="swatch sw-colonial"></span>Occupation, resistance &amp; the war itself</span>
+  <span><span class="swatch sw-modern"></span>Leadership, strategy &amp; legacy</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Le-Loi" target="_blank">"Lê Lợi"</a></li>
+    <li>James A. Anderson, <a href="https://libres.uncg.edu/ir/uncg/f/J_Anderson_Ming_2020.pdf" target="_blank">"The Ming Invasion of Vietnam, 1407–1427"</a> (UNCG)</li>
+    <li>James A. Anderson, <a href="https://www.academia.edu/143507762/The_Ming_Invasion_of_Vietnam_1407_1427" target="_blank">"The Ming Invasion of Vietnam, 1407–1427"</a> (Academia.edu)</li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Lam_S%C6%A1n_uprising" target="_blank">"Lam Sơn Uprising"</a></li>
+    <li>Justapedia, <a href="https://justapedia.org/wiki/Lam_S%C6%A1n_uprising" target="_blank">"Lam Sơn Uprising"</a></li>
+    <li>Boot Camp & Military Fitness Institute, <a href="https://bootcampmilitaryfitnessinstitute.com/2020/11/07/what-was-the-lam-son-uprising-1418-1427/" target="_blank">"What Was the Lam Sơn Uprising (1418–1427)?"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3335.html" target="_blank">"Return of the Chinese and the Lê Dynasty (1428–1778)"</a></li>
+  </ol>
+  <p class="note">
+    Note: Troop figures in this article — the ~87,000-strong Ming garrison, the 31 revolts of 1415–1424, and the ~100,000-strong Ming relief army defeated in 1426 — derive from the sources cited and should be treated with the same caution as premodern troop figures elsewhere in this timeline series. The characterization of Ming policy as primarily concerned with personal appearance (hairstyles and teeth-blackening) versus a broader "total domination" framing reflects a genuine difference in emphasis between sources; this article presents both without resolving which framing better captures the lived experience of the occupation, which likely varied by region and social class in ways not fully captured by either summary. Nguyễn Trãi's downfall and execution in 1442, and its causes, are based on the analysis of historian Keith Taylor as cited in Anderson's chapter; readers interested in the court politics of the early Lê dynasty in greater depth may wish to consult dedicated sources on that period.
+  </p>
+</div>
+
+</body>
+</html>

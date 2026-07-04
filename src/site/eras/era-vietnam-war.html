@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divided Vietnam and the Vietnam War — 1954 to 1975</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>Divided Vietnam and the Vietnam War</h1>
+  <p>1954 to 1975</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    The 1954 Geneva Accords ended the First Indochina War but left Vietnam split into two rival states, each backed by opposing sides of the Cold War. What followed was two decades of escalating conflict — first a guerrilla insurgency in the South, then a full-scale war involving half a million American troops, and finally a negotiated American withdrawal followed by the North's final military victory in 1975. Few conflicts of the 20th century remain as contested in their interpretation, and this article tries to lay out the documented sequence of events alongside the major points of historical dispute.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1954</span>
+    <h2>Geneva, Partition, and the "Temporary" Line</h2>
+    <p>
+      Following the French defeat at Điện Biên Phủ in May 1954, the Geneva Conference produced a set of agreements — known collectively as the Geneva Accords — signed on July 21, 1954. The accords established a cease-fire line at the 17th parallel, dividing Vietnam into a northern zone under Việt Minh (Hồ Chí Minh's) control and a southern zone under the State of Vietnam, headed nominally by former emperor Bảo Đại. Both sides were given 300 days to withdraw their forces to their respective sides of the line.
+    </p>
+    <p>
+      Crucially, the Geneva documents explicitly stated that the partition line "should not in any way be interpreted as constituting a political or territorial boundary" — the division was meant to be temporary, pending nationwide elections scheduled for 1956 that would reunify the country under a single government.
+    </p>
+    <p>
+      Those elections never took place. The State of Vietnam in the South had not signed the Geneva Accords and did not consider itself bound by them. Ngô Đình Diệm, who became Prime Minister of the State of Vietnam in 1954 and pushed Bảo Đại aside the following year, refused to participate in the 1956 elections, arguing that free elections were impossible in the communist-controlled North and that the South was under no obligation to hold them. The United States supported this position, having also not signed the Geneva Accords.
+    </p>
+    <p>
+      The partition was accompanied by a large population movement: roughly one million people, many of them Catholics and others wary of communist rule, moved from North to South in an operation that came to be known as "Operation Passage to Freedom," assisted by French and American naval and air transport.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>May 7, 1954</strong> Fall of the French garrison at Điện Biên Phủ.</li>
+      <li><strong>July 21, 1954</strong> Geneva Accords signed, establishing the 17th parallel cease-fire line and a 1956 deadline for reunification elections.</li>
+      <li><strong>1954–1955</strong> "Operation Passage to Freedom" relocates roughly one million people from North to South Vietnam.</li>
+      <li><strong>1955</strong> Ngô Đình Diệm proclaims the Republic of Vietnam, refuses to hold the 1956 reunification elections.</li>
+    </ul>
+    <div class="callout">
+      <strong>Point of dispute:</strong> Whether the South's refusal to hold the 1956 elections was a justified response to the impossibility of free elections under a communist regime in the North, or a unilateral abrogation of an international agreement that locked in the division of the country, remains one of the most contested questions in the historiography of the war's origins. Both framings appear regularly in mainstream accounts.
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1955 – 1963</span>
+    <h2>The Diệm Years and the Rise of the Insurgency</h2>
+    <p>
+      Ngô Đình Diệm consolidated power in the South through the mid-1950s, suppressing rival political and religious factions and securing growing American support as a bulwark against communism in Southeast Asia. However, his government's land policies, favoritism toward the Catholic minority in a majority-Buddhist country, and increasingly authoritarian rule generated mounting opposition.
+    </p>
+    <p>
+      Beginning around 1959, North Vietnam's ruling Lao Động (Workers') Party formally linked the consolidation of socialism in the North with the goal of reunifying the country, and began actively supporting an armed insurgency in the South. The guerrilla fighters — many of them veterans of the earlier Việt Minh — became known to their opponents as the "Viet Cong" (a contraction of "Việt Nam Cộng Sản," or Vietnamese Communist). By the early 1960s, this insurgency had grown into a serious security challenge for the Diệm government across large parts of rural South Vietnam.
+    </p>
+    <p>
+      Diệm's government collapsed in November 1963, when he was overthrown and killed in a military coup that had at least tacit American acquiescence. The coup ushered in a period of political instability in Saigon, with a succession of short-lived military governments over the following years — instability that occurred just weeks before U.S. President John F. Kennedy was himself assassinated.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">August 1964</span>
+    <h2>The Gulf of Tonkin Incident and U.S. Escalation</h2>
+    <p>
+      On August 2, 1964, the U.S. destroyer USS Maddox, conducting a signals-intelligence patrol in the Gulf of Tonkin, was approached and fired upon by North Vietnamese torpedo boats; the Maddox returned fire, damaging the boats and killing several North Vietnamese sailors, with no American casualties. Two days later, on August 4, the Maddox and a second destroyer, the USS Turner Joy, reported a second attack based on radar contacts and intercepted communications.
+    </p>
+    <p>
+      The second incident has been the subject of long-running historical controversy, with subsequent research — including the U.S. Navy's own later historical reviews — raising significant doubt about whether an attack actually occurred on August 4, or whether the reported radar and sonar contacts were the result of weather conditions and equipment errors.
+    </p>
+    <p>
+      Regardless of what happened on the water, the political consequences were immediate and far-reaching. On August 5, Congress passed the Gulf of Tonkin Resolution, authorizing President Lyndon B. Johnson to use military force in Southeast Asia without a formal declaration of war. This resolution became the legal basis for the massive escalation of American involvement that followed over the next year, including sustained bombing campaigns against North Vietnam and the deployment of U.S. ground combat troops.
+    </p>
+    <ul class="events colonial">
+      <li><strong>August 2, 1964</strong> USS Maddox engages North Vietnamese torpedo boats in the Gulf of Tonkin.</li>
+      <li><strong>August 4, 1964</strong> A second, disputed incident is reported by U.S. destroyers.</li>
+      <li><strong>August 5, 1964</strong> Congress passes the Gulf of Tonkin Resolution.</li>
+      <li><strong>1965</strong> U.S. begins sustained bombing of North Vietnam (Operation Rolling Thunder) and deploys ground combat troops to South Vietnam.</li>
+    </ul>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1965 – 1967</span>
+    <h2>Americanization of the War</h2>
+    <p>
+      From 1965 onward, the conflict shifted decisively from a primarily South Vietnamese counterinsurgency to a war in which American forces took the leading combat role. U.S. troop levels rose rapidly, supported by South Korean, Australian, Thai, Filipino, and New Zealand contingents, while South Vietnam's own armed forces (the ARVN) were expanded substantially. By 1968, U.S. troop strength alone exceeded half a million.
+    </p>
+    <p>
+      The American strategy combined large-scale bombing campaigns against the North and the Hồ Chí Minh Trail (the supply network running through Laos and Cambodia) with "search and destroy" ground operations aimed at attriting North Vietnamese and Viet Cong forces in the South. By early 1968, U.S. military leadership expressed considerable optimism that this strategy was steadily degrading the enemy's capacity to fight.
+    </p>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">January – March 1968</span>
+    <h2>The Tet Offensive: A Military Defeat, A Political Turning Point</h2>
+    <p>
+      On January 31, 1968 — the first day of the Lunar New Year (Tết) — North Vietnamese and Viet Cong forces launched a massive, coordinated surprise offensive against cities and military installations across South Vietnam, including Saigon itself and the former imperial capital of Huế. The scale and coordination of the attacks stunned American and South Vietnamese commanders, who had been told the enemy was being steadily weakened.
+    </p>
+    <p>
+      Militarily, the offensive was a severe defeat for North Vietnam and the Viet Cong. Communist forces seized numerous towns and cities in the initial days but were unable to hold most of them for more than a few days under the weight of American and ARVN counterattacks; the Viet Cong's underground infrastructure in the South was particularly badly damaged, with estimates of at least 40,000 to 60,000 communist fighters killed during the main offensive. American and South Vietnamese losses, while far smaller in absolute numbers, were also significant — roughly 1,000 U.S. and 2,000 ARVN personnel killed in the initial weeks, according to figures commonly cited in historical accounts, with total Tet-period casualties on all sides considerably higher when later phases of the offensive through 1968 are included.
+    </p>
+    <p>
+      Politically and in terms of public perception, however, Tet was a turning point against the American war effort. Images of fighting reaching the U.S. embassy compound in Saigon and the destruction of Huế contradicted the optimistic assessments American officials had been giving, and contributed to a sharp decline in U.S. public support for the war. In the aftermath, President Johnson announced he would not seek re-election, and the U.S. began a gradual shift toward "Vietnamization" — transferring more of the combat burden to South Vietnamese forces.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">Jan 31, 1968</span><span class="label">Tet Offensive begins</span></div>
+      <div class="stat-card"><span class="num">40,000–60,000+</span><span class="label">Estimated communist forces killed during the offensive</span></div>
+      <div class="stat-card"><span class="num">~1,000 / ~2,000</span><span class="label">U.S. / ARVN personnel killed, initial weeks (commonly cited estimate)</span></div>
+    </div>
+    <div class="callout">
+      <strong>Note on casualty figures:</strong> Vietnam War casualty statistics — for Tet and for the war as a whole — vary across sources depending on time period covered, which forces are counted, and whether figures originate from U.S. military estimates, South Vietnamese records, or North Vietnamese/Viet Cong records, which often diverge substantially from U.S. estimates. The figures here reflect commonly cited ranges from mainstream historical sources rather than a single definitive count.
+    </div>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1969 – 1973</span>
+    <h2>Vietnamization, Secret Negotiations, and the Paris Peace Accords</h2>
+    <p>
+      Under President Nixon, the U.S. pursued a dual-track approach: gradually withdrawing American ground troops while expanding South Vietnamese forces ("Vietnamization"), even as the war's ground and air operations extended into neighboring Cambodia and Laos in an effort to disrupt North Vietnamese supply lines and sanctuaries — moves that proved highly controversial both internationally and within the United States.
+    </p>
+    <p>
+      Simultaneously, secret negotiations between U.S. National Security Adviser Henry Kissinger and North Vietnamese representative Lê Đức Thọ had been underway since 1969. A near-agreement in October 1972 was delayed by objections from South Vietnamese President Nguyễn Văn Thiệu, who feared the terms would leave his government dangerously exposed. After a final, intense round of American bombing of North Vietnam in December 1972 (the "Christmas Bombing"), the Paris Peace Accords were signed on January 27, 1973.
+    </p>
+    <p>
+      The accords provided for a cease-fire, the withdrawal of remaining U.S. forces (completed by March 29, 1973), the return of American prisoners of war, and a framework — never implemented — for eventual political reconciliation between North and South Vietnam. Both the Joint Military Commission and an International Commission of Control and Supervision (with representatives from Poland, Hungary, Canada, and Indonesia) were established to oversee compliance, but violations of the cease-fire by both sides began almost immediately.
+    </p>
+    <ul class="events colonial">
+      <li><strong>1969</strong> Secret Paris talks begin between Kissinger and Lê Đức Thọ; U.S. ground operations expand into Cambodia.</li>
+      <li><strong>October 1972</strong> A draft agreement is nearly finalized but delayed by South Vietnamese objections.</li>
+      <li><strong>December 1972</strong> U.S. conducts intensive bombing of North Vietnam ("Christmas Bombing") to pressure both Hanoi and Saigon toward agreement.</li>
+      <li><strong>January 27, 1973</strong> Paris Peace Accords signed; cease-fire takes effect.</li>
+      <li><strong>March 29, 1973</strong> Last U.S. combat troops withdraw from Vietnam.</li>
+    </ul>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1973 – 1975</span>
+    <h2>The Final Offensive and the Fall of Saigon</h2>
+    <p>
+      After the U.S. withdrawal, fighting between North and South Vietnamese forces continued despite the cease-fire terms. With American combat troops gone — and U.S. domestic politics increasingly consumed by the Watergate scandal, which limited Congress's appetite for renewed intervention — North Vietnam began preparing for a final offensive.
+    </p>
+    <p>
+      That offensive, launched in early 1975, advanced far more quickly than even North Vietnamese planners had anticipated. South Vietnamese defenses collapsed in the Central Highlands and along the coast through March and April 1975. On April 30, 1975, North Vietnamese forces entered Saigon, and the government of South Vietnam surrendered, ending the war.
+    </p>
+    <p>
+      The scale and speed of the collapse, and the chaotic American evacuation of Saigon in its final days — including the now-iconic images of helicopters being pushed off the decks of U.S. Navy ships to make room for evacuees — became defining images of the war's end, and of the broader question of what the United States' commitments to its allies had ultimately been worth.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1973–1974</strong> Cease-fire violations continue; U.S. military and economic aid to South Vietnam declines sharply.</li>
+      <li><strong>March 1975</strong> North Vietnam's final offensive (the "Spring Offensive" / "Hồ Chí Minh Campaign") advances rapidly through the Central Highlands and central coast.</li>
+      <li><strong>April 30, 1975</strong> Fall of Saigon; South Vietnam surrenders unconditionally, ending the Vietnam War.</li>
+    </ul>
+    <div class="callout">
+      <strong>For further reading:</strong> The years immediately following 1975 — including formal reunification, the treatment of former South Vietnamese officials and soldiers, and the mass departure of refugees — are covered in the companion article on <a href="era-doi-moi.html">Reunification and the Đổi Mới Era</a>.
+    </div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Political division &amp; military turning points</span>
+  <span><span class="swatch sw-modern"></span>Domestic politics &amp; public perception</span>
+  <span><span class="swatch sw-colonial"></span>Diplomacy &amp; negotiated settlement</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/event/Geneva-Accords" target="_blank">"Geneva Accords"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Ho-Chi-Minh/The-Geneva-Accords-and-the-Second-Indochina-War" target="_blank">"Ho Chi Minh — The Geneva Accords and the Second Indochina War"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/event/Gulf-of-Tonkin-incident" target="_blank">"Gulf of Tonkin Incident"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Paris-Peace-Accords" target="_blank">"Paris Peace Accords"</a></li>
+    <li>HISTORY, <a href="https://www.history.com/articles/vietnam-war-history" target="_blank">"Vietnam War: Dates, Causes &amp; Facts"</a></li>
+    <li>Vassar College, The Wars for Vietnam, <a href="https://www.vassar.edu/the-wars-for-vietnam/vietnam-war-overview" target="_blank">"The Vietnam War: An Overview"</a></li>
+    <li>Lumen Learning, <a href="https://courses.lumenlearning.com/suny-worldhistory/chapter/35-5-3-the-geneva-agreements/" target="_blank">"The Geneva Agreements"</a></li>
+    <li>EBSCO Research Starters, <a href="https://www.ebsco.com/research-starters/history/paris-peace-accords" target="_blank">"Paris Peace Accords"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident" target="_blank">"Gulf of Tonkin Incident"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/1968_in_the_Vietnam_War" target="_blank">"1968 in the Vietnam War"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Paris_Peace_Accords" target="_blank">"Paris Peace Accords"</a></li>
+    <li>Defense POW/MIA Accounting Agency, <a href="https://dpaa-mil.sites.crmforce.mil/dpaaFamWebInTetOffensive" target="_blank">"The Tet Offensive"</a></li>
+  </ol>
+  <p class="note">
+    Note: Casualty figures for the Tet Offensive and the Vietnam War overall vary significantly between U.S. military estimates, South Vietnamese (ARVN) records, and North Vietnamese/Viet Cong records, which are often incompatible. This article cites ranges commonly found in mainstream secondary sources rather than asserting a single authoritative count. Likewise, the circumstances of the August 4, 1964 Gulf of Tonkin incident remain disputed in the historical record, and this article reflects that the second incident's occurrence has been seriously questioned by later research, including by the U.S. Navy's own historians.
+  </p>
+</div>
+
+</body>
+</html>

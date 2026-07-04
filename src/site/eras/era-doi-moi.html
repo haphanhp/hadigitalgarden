@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reunification and the Đổi Mới Era — Vietnam, 1976 to Present</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>Reunification and the Đổi Mới Era</h1>
+  <p>Vietnam, 1976 to the present</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    The fall of Saigon on April 30, 1975, ended the war, but it did not immediately produce the unified, stable country that both sides had fought for. The first decade after reunification was marked by economic collapse, political repression in the south, a mass exodus of refugees, and two new wars on Vietnam's borders. Only after a near-total economic breakdown in the mid-1980s did the Communist Party reverse course with the Đổi Mới ("Renovation") reforms — a pivot that, over the following four decades, transformed Vietnam from one of the poorest countries on earth into one of Asia's fastest-growing economies.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1975 – 1976</span>
+    <h2>From Military Victory to Formal Unification</h2>
+    <p>
+      Between the fall of Saigon in April 1975 and the official unification of the country in mid-1976, the south was governed not directly by Hanoi but by the Provisional Revolutionary Government (PRG), the political arm that had represented the National Liberation Front during the war. This interim period allowed the new authorities to begin consolidating control before formal political union.
+    </p>
+    <p>
+      On July 2, 1976, the country was formally proclaimed the Socialist Republic of Vietnam, with its capital in Hanoi. Saigon was renamed Ho Chi Minh City in honor of the late revolutionary leader, who had died in 1969. The PRG's separate authority in the south was dissolved, and the country began to be administered as a single socialist state under the Communist Party of Vietnam.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>April 30, 1975</strong> Fall of Saigon; North Vietnamese forces enter the city and the Republic of Vietnam ceases to exist.</li>
+      <li><strong>1975–1976</strong> South administered by the Provisional Revolutionary Government pending formal unification.</li>
+      <li><strong>July 2, 1976</strong> The Socialist Republic of Vietnam is officially proclaimed; Saigon is renamed Ho Chi Minh City.</li>
+    </ul>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1976 – 1985</span>
+    <h2>The Hard Years: Reeducation, Resettlement, and Economic Collapse</h2>
+    <p>
+      The new government moved quickly to dismantle what remained of the southern economic and social order. Former officers and officials of the Republic of Vietnam, along with many writers, religious figures, and others viewed as politically suspect, were sent to "reeducation camps" (trại cải tạo) for indoctrination and labor. Estimates of how many people passed through these camps vary, with figures commonly cited in the range of one million or more southern residents; some detainees were held into the 1980s.
+    </p>
+    <p>
+      At the same time, the government launched a program of "new economic zones," relocating large numbers of urban residents — particularly from Ho Chi Minh City — to undeveloped rural areas to reduce urban population pressure and expand agricultural production. Conditions in many of these zones were harsh, and the program became one of the most resented policies of the early postwar period.
+    </p>
+    <p>
+      The Second Five-Year Plan (1976–1980), adopted at the Fourth Party Congress in December 1976, set ambitious targets for collectivizing agriculture and industry across the south by the end of the decade. In practice, the plan badly overestimated what a war-shattered economy could absorb, and combined with the loss of southern commercial expertise and capital flight, output stagnated while shortages and inflation worsened through the early 1980s.
+    </p>
+    <h3>The Boat People and the Refugee Crisis</h3>
+    <p>
+      Political repression, economic hardship, and renewed conflict on Vietnam's borders drove a large-scale exodus by sea and overland through the late 1970s and 1980s, a movement that became known internationally as the "boat people" crisis. Many refugees were ethnic Chinese (Hoa), whose position became especially precarious amid rising tension with China after 1978. The United Nations refugee agency has estimated that a substantial share of those who fled — on the order of 200,000 to 250,000 people — died at sea during the crisis.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">1M+</span><span class="label">Southerners estimated to have passed through reeducation camps</span></div>
+      <div class="stat-card"><span class="num">1–3M</span><span class="label">Vietnamese who fled the country, mostly from the south</span></div>
+      <div class="stat-card"><span class="num">~200–250K</span><span class="label">Estimated deaths at sea among "boat people," per UNHCR</span></div>
+    </div>
+    <div class="callout">
+      <strong>Note on sourcing:</strong> Figures for reeducation camp populations, deaths, and refugee numbers from this period vary significantly between Vietnamese government accounts, refugee community organizations, and international researchers, and remain a subject of ongoing historical debate. The figures above represent commonly cited estimates from secondary sources rather than settled official statistics.
+    </div>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1978 – 1989</span>
+    <h2>Two New Wars: Cambodia and China</h2>
+    <p>
+      Just as Vietnam was struggling to absorb the south, it found itself drawn into conflict on two fronts. Border clashes with the Khmer Rouge regime in Cambodia escalated through 1977 and 1978, as Khmer Rouge forces repeatedly attacked Vietnamese border villages. In late 1978, Vietnam invaded Cambodia and, by early 1979, had driven the Khmer Rouge from power, installing a new Cambodian government aligned with Hanoi. Vietnamese forces remained in Cambodia until 1989.
+    </p>
+    <p>
+      China, which had backed the Khmer Rouge and viewed Vietnam's growing alignment with the Soviet Union with alarm, responded to the Cambodian invasion by launching a brief but bloody border war against Vietnam in early 1979, known as the Sino-Vietnamese War. Although Chinese forces withdrew after about a month, tensions along the border persisted for years afterward.
+    </p>
+    <p>
+      The cost of these conflicts was severe. Maintaining an occupying force in Cambodia and a heavy military presence along the Chinese border consumed resources the Vietnamese economy could not spare, while the invasion of Cambodia triggered a Western and Chinese-aligned trade embargo that further isolated Vietnam internationally — compounding the economic difficulties already caused by the failures of central planning at home.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1977–1978</strong> Escalating border clashes between Vietnam and Khmer Rouge Cambodia.</li>
+      <li><strong>Late 1978 – early 1979</strong> Vietnam invades Cambodia and topples the Khmer Rouge regime.</li>
+      <li><strong>February–March 1979</strong> China launches the Sino-Vietnamese border war in response to Vietnam's intervention in Cambodia.</li>
+      <li><strong>1979–1989</strong> Vietnamese troops remain in Cambodia, prolonging international isolation and economic strain.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1986</span>
+    <h2>The Turning Point: Đổi Mới Is Launched</h2>
+    <p>
+      By the mid-1980s, Vietnam's centrally planned economy — modeled closely on the Soviet system — was widely regarded, even within the Party, as a failure. Production was stagnant, distribution was chaotic, inflation had become severe, and the country was burdened with rising foreign debt. Some experimentation with market mechanisms had already begun quietly in the early 1980s, but a decisive shift required a change in political leadership.
+    </p>
+    <p>
+      That change came in 1986. The death of veteran Party General Secretary Lê Duẩn in July 1986 opened the way for new leadership, and at the Sixth National Party Congress in December 1986, the reform-minded Nguyễn Văn Linh was elected General Secretary. The Congress formally adopted Đổi Mới — literally "renovation" or "to make a change" — as the new policy direction, marking one of the most significant turning points in Vietnam's modern history.
+    </p>
+    <h3>What Đổi Mới Changed</h3>
+    <ul class="events colonial">
+      <li><strong>Price controls</strong> on goods were progressively removed, allowing markets rather than state planners to set most prices.</li>
+      <li><strong>Private enterprise</strong> was legalized and encouraged, ending the near-total state monopoly over production and trade.</li>
+      <li><strong>Land use rights</strong> for households and individuals were formally recognized, effectively decollectivizing agriculture.</li>
+      <li><strong>Foreign investment</strong> was actively courted through new legal frameworks, opening the door to the export-oriented manufacturing that would later define the economy.</li>
+      <li><strong>State enterprises</strong> were restructured rather than abolished outright — Vietnam pursued a gradual, mixed-economy transition rather than rapid privatization.</li>
+    </ul>
+    <p>
+      Some historians have described the shift as an unusually abrupt move from a Soviet-style command economy toward market mechanisms, occurring at almost the same moment the Soviet Union itself was beginning perestroika. One often-cited comparison is to China's reforms under Deng Xiaoping less than a decade earlier, which Vietnamese officials are reported to have looked to directly for inspiration.
+    </p>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1986 – 2000s</span>
+    <h2>From Crisis to "Asian Tiger": The Reform Decades</h2>
+    <p>
+      The early years of Đổi Mới (roughly 1986–1990) produced average GDP growth of around 4.4 percent annually — modest by later standards, but a dramatic reversal from the stagnation and near-collapse of the early 1980s. As reforms deepened through the 1990s, growth accelerated sharply, and Vietnam began to be discussed in the same breath as the East Asian "tiger economies."
+    </p>
+    <p>
+      Diplomatic isolation eased in step with economic opening. The withdrawal of Vietnamese troops from Cambodia by 1989 removed a major obstacle to normalized relations with the West. The United States lifted its trade embargo in 1994, and full diplomatic relations between Vietnam and the United States were established in 1995 — the same year Vietnam joined the Association of Southeast Asian Nations (ASEAN), cementing its return to the regional and international fold after decades of war and isolation.
+    </p>
+    <h3>Integration with the Global Economy</h3>
+    <p>
+      Vietnam's economic opening accelerated through industrial and economic zones designed to attract export manufacturing. The first such zone was established in Ho Chi Minh City in 1991; by the late 2010s, hundreds of industrial and economic zones had been established nationwide. Vietnam's accession to the World Trade Organization in 2007 marked a further milestone, locking in its integration into global trade rules and accelerating foreign direct investment inflows.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">~4.4%</span><span class="label">Average annual GDP growth, 1986–1990</span></div>
+      <div class="stat-card"><span class="num">1995</span><span class="label">Normalized relations with the U.S.; joined ASEAN</span></div>
+      <div class="stat-card"><span class="num">2007</span><span class="label">Vietnam joins the World Trade Organization</span></div>
+      <div class="stat-card"><span class="num">343+</span><span class="label">Industrial &amp; economic zones established by 2019</span></div>
+    </div>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">2010s – Present</span>
+    <h2>A Manufacturing Hub Amid Continuity at Home</h2>
+    <p>
+      In the 2010s and 2020s, Vietnam emerged as one of the principal beneficiaries of shifting global supply chains, particularly as manufacturers sought alternatives to China amid rising costs and, later, U.S.–China trade tensions. Foreign direct investment inflows reached tens of billions of dollars annually in the years before the COVID-19 pandemic — for example, around $28.5 billion in 2020 — though the pandemic period brought temporary declines as lockdowns disrupted both inbound investment and domestic activity.
+    </p>
+    <p>
+      Economically, Vietnam today bears little resemblance to the isolated, centrally planned state of the early 1980s. Politically, however, the transition has been one of economic liberalization without a parallel political opening: the Communist Party of Vietnam has retained its position as the sole governing party throughout the Đổi Mới period, even as the economy it oversees has become deeply integrated into global capitalism. This combination — sometimes summarized as a "socialist-oriented market economy" — remains the defining, and for many observers paradoxical, feature of contemporary Vietnam.
+    </p>
+    <div class="callout">
+      <strong>For further reading:</strong> This article focuses on the broad economic and political arc of 1976–present. Topics such as the structure of the modern Vietnamese state, ongoing land and property disputes stemming from the post-1975 collectivization period, and the social and cultural integration of north and south remain active areas of historical and journalistic inquiry, and may be covered in future articles.
+    </div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Political consolidation &amp; conflict</span>
+  <span><span class="swatch sw-modern"></span>Social &amp; humanitarian impact</span>
+  <span><span class="swatch sw-colonial"></span>Economic reform &amp; international integration</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/place/Vietnam/The-two-Vietnams-1954-65" target="_blank">"Vietnam — The Two Vietnams, 1954–65" (covers post-1975 Đổi Mới origins)</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Doi_Moi" target="_blank">"Đổi Mới"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/New_Economic_Zones_program" target="_blank">"New Economic Zones Program (Vietnam)"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Vietnamese_boat_people" target="_blank">"Vietnamese Boat People"</a></li>
+    <li>World Bank, <a href="https://documents1.worldbank.org/curated/en/939241468127820747/pdf/669250WP00PUBL00Luoc0su0TA-pdf0i007.pdf" target="_blank">"Doi Moi Reforms" (historical overview of World Bank engagement with Vietnam)</a></li>
+    <li>School History, <a href="https://schoolhistory.co.uk/modern/unification-of-vietnam/" target="_blank">"Unification of Vietnam"</a></li>
+    <li>The Vietnamese Magazine, <a href="https://www.thevietnamese.org/2022/04/reunification-without-reconciliation-a-glimpse-into-the-social-conflicts-and-integration-process-in-postwar-vietnam/amp/" target="_blank">"Reunification Without Reconciliation"</a></li>
+    <li>Vietnamese Heritage Museum, <a href="https://vietnamesemuseum.org/our-roots/our-history/" target="_blank">"Our History"</a></li>
+    <li>E-International Relations, <a href="https://www.e-ir.info/2012/09/21/to-what-extent-was-the-1979-sino-vietnamese-border-war-about-the-situation-in-cambodia/" target="_blank">"To What Extent was the 1979 Sino-Vietnamese Border War about Cambodia?"</a></li>
+  </ol>
+  <p class="note">
+    Note: Figures relating to reeducation camps, new economic zones, and refugee deaths during the late 1970s and 1980s are drawn from secondary sources and refugee community accounts rather than official Vietnamese statistics, and estimates vary considerably between sources. Where Vietnamese state accounts and independent/refugee-community accounts diverge most sharply — particularly regarding the scale and conditions of reeducation camps and new economic zones — this article presents the range of commonly cited figures rather than endorsing a single number.
+  </p>
+</div>
+
+</body>
+</html>

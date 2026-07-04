@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Nguyễn Dynasty — Vietnam's Last Imperial House, 1802 to 1945</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Nguyễn Dynasty</h1>
+  <p>Vietnam's last imperial house, 1802 to 1945</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    The Nguyễn dynasty holds a unique place in Vietnamese history: it was the first dynasty to rule a Vietnam stretching from the Chinese border to the Gulf of Thailand in something resembling its modern borders, and the last dynasty before French colonization. Its 143-year span divides cleanly into two very different eras — roughly six decades of independent rule (1802–1858/1884), followed by six decades as a retained monarchy under French control (1884–1945), covered in more detail in the companion article on the <a href="era-french-colonial.html">French colonial period</a>. This article focuses on the dynasty's founding and its independent decades, when the choices made by Gia Long, Minh Mạng, Thiệu Trị, and Tự Đức shaped the Vietnam that France would eventually conquer.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1771 – 1802</span>
+    <h2>From Fugitive Prince to Emperor: The Rise of Gia Long</h2>
+    <p>
+      The Nguyễn dynasty's founder, Nguyễn Ánh, was a survivor of the southern Nguyễn lords' family, most of whom were killed during the Tây Sơn uprising of the 1770s and 1780s. As a young prince, he escaped the destruction of his family and spent more than two decades fighting to reclaim his family's territory in the south, at times fleeing into exile.
+    </p>
+    <p>
+      A pivotal — and historically significant — element of his comeback was foreign assistance. The French Catholic bishop Pigneau de Béhaine helped organize a force of French mercenaries and Western soldiers of fortune to support Nguyễn Ánh's campaigns, providing access to advanced European weaponry and military techniques that gave his forces a technological edge over the Tây Sơn. With this support, Nguyễn Ánh won decisive victories at Huế and Hà Nội in 1802, defeating the last Tây Sơn ruler.
+    </p>
+    <p>
+      On June 1, 1802, Nguyễn Ánh proclaimed himself emperor, taking the reign name Gia Long — a name combining syllables from Gia Định (Saigon) and Thăng Long (Hanoi), symbolizing the unification of south and north under a single ruler for the first time in this configuration. He renamed the country Việt Nam, establishing a name that endures to this day, and made Huế his capital.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1770s–1780s</strong> Nguyễn Ánh survives the destruction of his family during the Tây Sơn uprising and begins a multi-decade campaign to reclaim power.</li>
+      <li><strong>1780s–1790s</strong> Bishop Pigneau de Béhaine organizes French and Western mercenary support for Nguyễn Ánh's forces.</li>
+      <li><strong>1802</strong> Nguyễn Ánh defeats the last Tây Sơn ruler, proclaims himself Emperor Gia Long, renames the country Việt Nam, and establishes Huế as the capital.</li>
+    </ul>
+    <div class="callout">
+      <strong>An early irony:</strong> The dynasty that would later resist and ultimately fall to French colonization was itself founded with decisive French military assistance. Gia Long's reign, however, would set a very different tone — one of growing suspicion toward Western missionaries and traders, a policy that hardened under his successors and that France would later cite as a pretext for invasion.
+    </div>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1802 – 1820</span>
+    <h2>Gia Long's Reign: Consolidation and Conservatism</h2>
+    <p>
+      Gia Long's nearly two-decade reign was devoted primarily to consolidating the newly unified territory. His government repaired the old Mandarin Road running the length of the country, established an efficient postal service, built public granaries to guard against famine, and undertook significant monetary and legal reforms — including a reformulation of the old Lê dynasty legal code into what became known as the Gia Long Code (Hoàng Việt luật lệ), modeled in part on the legal system of Qing China. During his reign, Cambodia was also secured as a vassal state.
+    </p>
+    <p>
+      Despite these administrative achievements, Britannica and other sources describe Gia Long as a fundamentally cautious and conservative ruler, whose policies — particularly a wariness toward Western missionary activity — set the tone for his successors. One consequential decision came at the end of his reign: breaking with the normal succession order, Gia Long named his youngest son (later Emperor Minh Mạng) as heir rather than the son of his deceased eldest son. This departure from tradition contributed to court intrigues over succession that would recur later in the dynasty's history.
+    </p>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1820 – 1841</span>
+    <h2>Minh Mạng: Reform, Expansion, and the Turn Against Christianity</h2>
+    <p>
+      Minh Mạng, who succeeded his father in 1820, is generally regarded as the dynasty's most consequential ruler after Gia Long. His reign was marked by extensive administrative reform — reorganizing the empire's provincial structure along more centralized, Chinese-style lines — and by territorial expansion, particularly a series of campaigns aimed at extending Vietnamese influence over Cambodia, which (according to multiple sources) placed a heavy strain on the treasury.
+    </p>
+    <p>
+      It was also under Minh Mạng that policy toward Christianity hardened significantly. Unlike some neighboring rulers who sought alliances with European powers, Minh Mạng rejected offers of alliance from France and Britain and launched campaigns against Catholic missionaries and Vietnamese converts, whom the court increasingly viewed as a vector for foreign influence and a threat to the social and religious order built around Confucian orthodoxy. This persecution of Christians — continued and intensified under his successors Thiệu Trị and Tự Đức — became one of the principal pretexts France cited for its 1858 invasion.
+    </p>
+    <h3>Cultural and Architectural Legacy</h3>
+    <p>
+      The early Nguyễn period, particularly the reigns of Gia Long and Minh Mạng, also saw major cultural and architectural achievements, most visibly in the construction of the Imperial City (Hoàng thành) at Huế — a fortified complex whose layout and construction (largely completed between 1803 and 1832) was, according to contemporary European visitors, comparable to major European colonial fortifications in Asia. The dynasty's tombs and palaces at Huế remain among Vietnam's most significant architectural heritage sites.
+    </p>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1841 – 1858</span>
+    <h2>Thiệu Trị and the Failure of Reform</h2>
+    <p>
+      Minh Mạng's successor, Thiệu Trị, is described in several sources as having attempted to modernize the country to some degree, but his efforts ran into stringent opposition from conservative Confucian factions within the court. The persecution of Christians, inherited from Minh Mạng's reign, continued and in some respects intensified — a policy that would pass largely unchanged to his successor, Tự Đức, under whom the conflict with France would finally erupt into open war.
+    </p>
+    <p>
+      By the 1850s, a small but significant group of Vietnamese intellectuals — most notably Nguyễn Trường Tộ — had begun to argue that the country's stagnation required engagement with Western learning in industry, trade, and military technology. These reform proposals were consistently rejected by the conservative Nguyễn court, a pattern of missed opportunity that some historians point to as a key reason Vietnam entered its confrontation with France from a position of relative technological and military weakness.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1858 – 1884</span>
+    <h2>Tự Đức and the Loss of Independence</h2>
+    <p>
+      Tự Đức's reign (1847–1883) coincided with the dynasty's most consequential crisis: the French invasion. Facing internal revolts in various parts of the country and a French fleet that attacked Đà Nẵng in 1858, Tự Đức was forced in 1862 to cede the three eastern provinces of southern Vietnam to France — the beginning of what would become the colony of Cochinchina. By 1867, France controlled all of Cochinchina.
+    </p>
+    <p>
+      The final loss of independence came after Tự Đức's death. Following France's victory in the Sino-French War (1884–1885), treaties imposed on the Nguyễn court converted Annam (central Vietnam) and Tonkin (northern Vietnam) into French protectorates, formally ending the dynasty's independent rule — though, as detailed in the companion article on the <a href="era-french-colonial.html">French colonial period</a>, the Nguyễn emperors continued to occupy the throne at Huế in a much-reduced capacity for another six decades, until Bảo Đại's abdication in 1945.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">1802</span><span class="label">Gia Long founds the dynasty; renames the country Việt Nam</span></div>
+      <div class="stat-card"><span class="num">1820–1841</span><span class="label">Minh Mạng's reign — reform, expansion, and rupture with the West</span></div>
+      <div class="stat-card"><span class="num">1858</span><span class="label">French invasion begins at Đà Nẵng</span></div>
+      <div class="stat-card"><span class="num">1884–1885</span><span class="label">Annam and Tonkin become French protectorates, ending independent Nguyễn rule</span></div>
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">In Perspective</span>
+    <h2>How the Nguyễn Are Remembered</h2>
+    <p>
+      Assessments of the Nguyễn dynasty's independent period vary considerably depending on the lens applied. From an administrative and cultural standpoint, the dynasty achieved a genuine unification of Vietnamese territory roughly corresponding to its modern borders for the first time, produced significant legal and architectural legacies, and maintained independence for over half a century in the face of growing European pressure across the region.
+    </p>
+    <p>
+      From the standpoint of Vietnam's subsequent confrontation with colonialism, however, the dynasty — particularly from Minh Mạng onward — is often characterized as having pursued an increasingly inward-looking, conservative policy at precisely the moment when neighboring states (most notably Japan, somewhat later) were beginning to engage selectively with Western technology and institutions. The repeated rejection of reform proposals in the 1850s, combined with the persecution of Christian missionaries that provided France's pretext for invasion, are frequently cited — though not without debate over how much weight to give them relative to the sheer disparity in military technology between Vietnam and the European powers of the period — as factors that left Vietnam poorly positioned to resist French conquest.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Founding &amp; unification</span>
+  <span><span class="swatch sw-colonial"></span>Administration, reform &amp; the path to conflict</span>
+  <span><span class="swatch sw-modern"></span>Cultural legacy &amp; historical assessment</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Nguyen-dynasty" target="_blank">"Nguyễn Dynasty"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Gia-Long" target="_blank">"Gia Long"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_dynasty" target="_blank">"Nguyễn Dynasty"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Gia_Long" target="_blank">"Gia Long"</a></li>
+    <li>Study.com, <a href="https://study.com/academy/lesson/nguyen-dynasty-history-emperors.html" target="_blank">"Nguyễn Dynasty of Vietnam: History, Emperors & Significance"</a></li>
+    <li>Searching in History, <a href="https://searchinginhistory.blogspot.com/2015/02/the-nguyen-dynasty-last-ruling-family.html" target="_blank">"The Nguyễn Dynasty — The Last Ruling Family of Vietnam"</a></li>
+    <li>Culture Pham Travel, <a href="https://culturephamtravel.com/nguyen-dynasty/" target="_blank">"The Nguyễn Dynasty, Huế, Vietnam"</a></li>
+    <li>Asia Mystika, <a href="https://asiamystika.com/blog/nguyen-dynasty" target="_blank">"Era of the Last Emperors: The Nguyễn Dynasty"</a></li>
+    <li>GlobalSecurity.org, <a href="https://www.globalsecurity.org/military/world/vietnam/vietnam-nguyen.htm" target="_blank">"Vietnam — Nguyễn Dynasty — Emperors of Annam"</a></li>
+  </ol>
+  <p class="note">
+    Note: This article focuses on the Nguyễn dynasty's founding and independent period (1802–1884). The dynasty's later decades as a retained monarchy under French rule (1884–1945) — including the political status of the Huế court during this period, a point on which sources differ in framing — are covered in the companion article on the French colonial period. Assessments of the dynasty's conservative policies and their role in Vietnam's loss of independence vary between sources; this article presents the commonly cited factors without endorsing a single causal narrative, given that the disparity in military technology between Vietnam and 19th-century European powers is also widely cited as a structural factor independent of any particular Nguyễn policy choice.
+  </p>
+</div>
+
+</body>
+</html>

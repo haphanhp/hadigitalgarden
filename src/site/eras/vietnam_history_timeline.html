@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timeline of Vietnamese History</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.6;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.4rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .container{
+    max-width:1000px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+    position:relative;
+  }
+  .timeline{
+    position:relative;
+    padding-left:44px;
+    border-left:3px solid var(--accent2);
+  }
+  .era{
+    margin-bottom:48px;
+    position:relative;
+    border-radius:18px;
+    padding:20px 24px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 12s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .era::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .era > *{
+    position:relative;
+    z-index:1;
+  }
+  .era::before{
+    content:'';
+    position:absolute;
+    left:-53px;
+    top:26px;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background:var(--accent2);
+    border:3px solid var(--bg);
+    box-shadow:0 0 0 3px var(--accent2);
+    z-index:2;
+  }
+  .era-header{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:baseline;
+    gap:12px;
+    margin-bottom:6px;
+  }
+  .flag{
+    font-size:1.5rem;
+    line-height:1;
+    margin-right:2px;
+  }
+  .era-date{
+    font-weight:bold;
+    color:#ffffff;
+    font-size:1.05rem;
+    white-space:nowrap;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .era-title{
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  a.era-title{
+    text-decoration:none;
+    color: var(--link);
+    border-bottom:1px dashed var(--link);
+    transition:color 0.15s, border-color 0.15s;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+  }
+  a.era-title:hover{
+    color:#ffffff;
+    border-bottom-style:solid;
+    border-bottom-color:#ffffff;
+  }
+  a.era-title::after{
+    content:" →";
+    font-size:0.85em;
+    opacity:0.7;
+  }
+  .era-desc{
+    color:#f4f1ff;
+    font-size:0.98rem;
+    margin:6px 0 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .events{
+    margin-top:12px;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .era.dynasty .events li{border-left-color:#FFD166;}
+  .era.colonial .events li{border-left-color:#7CFFCB;}
+  .era.modern .events li{border-left-color:#FF8FB1;}
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-default{background:rgba(255,255,255,0.3);}
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:1000px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    .timeline{padding-left:32px;}
+    .era::before{left:-41px;width:12px;height:12px;}
+    header h1{font-size:1.8rem;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Timeline</div>
+<header>
+  <h1>Timeline of Vietnamese History</h1>
+  <p>From legendary origins to the modern era</p>
+</header>
+
+<div class="container">
+  <div class="timeline">
+
+    <div class="era">
+      <div class="era-header">
+        <span class="flag">🐉</span>
+        <span class="era-date">2879–258 BCE</span>
+        <a class="era-title" href="era-hong-bang.html">Hồng Bàng Period (Legendary Era)</a>
+      </div>
+      <p class="era-desc">Semi-legendary founding period of Vietnamese civilization, attributed to the Hùng Kings and the Văn Lang kingdom.</p>
+      <ul class="events">
+        <li><strong>c. 2879 BCE</strong> Traditional founding date of Văn Lang, Vietnam's first kingdom, by the Hùng Kings.</li>
+        <li><strong>c. 7th century BCE</strong> Đông Sơn culture flourishes, known for bronze drums and early metallurgy.</li>
+        <li><strong>258 BCE</strong> An Dương Vương conquers Văn Lang, founding the Âu Lạc kingdom.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">🏯</span>
+        <span class="era-date">207 BCE – 938 CE</span>
+        <a class="era-title" href="era-bac-thuoc.html">Chinese Domination (Bắc Thuộc)</a>
+      </div>
+      <p class="era-desc">Over a millennium of intermittent Chinese rule, punctuated by major rebellions that shaped Vietnamese national identity.</p>
+      <ul class="events">
+        <li><strong>207 BCE</strong> Triệu Đà establishes Nam Việt, later annexed by the Han Dynasty in 111 BCE.</li>
+        <li><strong>40 CE</strong> Trưng Sisters (Hai Bà Trưng) lead a rebellion against Han rule, briefly establishing independence.</li>
+        <li><strong>248 CE</strong> Lady Triệu (Bà Triệu) leads another major uprising against Chinese forces.</li>
+        <li><strong>544–602</strong> Lý Bí founds the short-lived Vạn Xuân kingdom (Early Lý Dynasty).</li>
+        <li><strong>938</strong> Ngô Quyền defeats Southern Han forces at the Battle of Bạch Đằng River, ending Chinese domination.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">👑</span>
+        <span class="era-date">939 – 1009</span>
+        <a class="era-title" href="era-ngo-dinh-le.html">Early Independence: Ngô, Đinh, and Early Lê Dynasties</a>
+      </div>
+      <p class="era-desc">Establishment of independent Vietnamese statehood after centuries of foreign rule.</p>
+      <ul class="events">
+        <li><strong>939</strong> Ngô Quyền proclaims himself king, founding the Ngô Dynasty.</li>
+        <li><strong>968</strong> Đinh Bộ Lĩnh unifies the country, founds Đại Việt Cồ Việt and the Đinh Dynasty.</li>
+        <li><strong>980</strong> Lê Hoàn founds the Early Lê Dynasty, repelling a Song Chinese invasion.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">📜</span>
+        <span class="era-date">1009 – 1225</span>
+        <a class="era-title" href="era-ly-dynasty.html">Lý Dynasty</a>
+      </div>
+      <p class="era-desc">A golden age of cultural and political consolidation, considered the first long-lasting stable dynasty.</p>
+      <ul class="events">
+        <li><strong>1010</strong> Lý Thái Tổ moves the capital to Thăng Long (modern Hanoi).</li>
+        <li><strong>1054</strong> The kingdom is renamed Đại Việt.</li>
+        <li><strong>1070</strong> Founding of the Temple of Literature (Văn Miếu), Vietnam's first national university.</li>
+        <li><strong>1075–1077</strong> Lý Thường Kiệt repels a Song Chinese invasion in a notable preemptive campaign.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">⚔️</span>
+        <span class="era-date">1225 – 1400</span>
+        <a class="era-title" href="era-tran-dynasty.html">Trần Dynasty</a>
+      </div>
+      <p class="era-desc">Famous for repelling three Mongol invasions and developing a distinct Vietnamese cultural identity.</p>
+      <ul class="events">
+        <li><strong>1258, 1285, 1288</strong> Trần forces, led by Trần Hưng Đạo, defeat three Mongol invasions, including the decisive Battle of Bạch Đằng (1288).</li>
+        <li><strong>1306</strong> Princess Huyền Trân's marriage leads to the cession of Châu Ô and Châu Lý (Huế region) to Đại Việt.</li>
+        <li><strong>1400</strong> Hồ Quý Ly usurps the throne, founding the short-lived Hồ Dynasty.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">🗡️</span>
+        <span class="era-date">1407 – 1427</span>
+        <a class="era-title" href="era-ming-occupation.html">Ming Occupation and the Lam Sơn Uprising</a>
+      </div>
+      <p class="era-desc">A brief but harsh period of Chinese Ming rule, ended by a decade-long guerrilla resistance.</p>
+      <ul class="events">
+        <li><strong>1407</strong> Ming China conquers Đại Việt following the fall of the Hồ Dynasty.</li>
+        <li><strong>1418</strong> Lê Lợi launches the Lam Sơn uprising from Thanh Hóa province.</li>
+        <li><strong>1427</strong> Ming forces are decisively defeated; Nguyễn Trãi drafts the "Great Proclamation" (Bình Ngô đại cáo).</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">📚</span>
+        <span class="era-date">1428 – 1789</span>
+        <a class="era-title" href="era-later-le-dynasty.html">Later Lê Dynasty and Civil Wars</a>
+      </div>
+      <p class="era-desc">A long dynasty marked by a cultural golden age under Lê Thánh Tông, followed by centuries of de facto division between rival lords.</p>
+      <ul class="events">
+        <li><strong>1428</strong> Lê Lợi founds the Later Lê Dynasty as Emperor Lê Thái Tổ.</li>
+        <li><strong>1460–1497</strong> Reign of Lê Thánh Tông; major legal, administrative, and territorial expansion (including the Hồng Đức legal code).</li>
+        <li><strong>1471</strong> Conquest of the Champa capital Vijaya, accelerating southward expansion (Nam tiến).</li>
+        <li><strong>1533–1789</strong> Lê emperors become largely symbolic; real power split between the Trịnh lords (north) and Nguyễn lords (south), separated roughly by the Gianh River.</li>
+        <li><strong>1620s–1770s</strong> Continued Nam tiến brings the Mekong Delta under Vietnamese control.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">🌾</span>
+        <span class="era-date">1771 – 1802</span>
+        <a class="era-title" href="era-tay-son-dynasty.html">Tây Sơn Dynasty</a>
+      </div>
+      <p class="era-desc">A peasant-led rebellion that briefly reunified the country and repelled foreign invasions.</p>
+      <ul class="events">
+        <li><strong>1771</strong> The Tây Sơn brothers (Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ) launch their uprising.</li>
+        <li><strong>1785</strong> Nguyễn Huệ defeats a Siamese invasion at the Battle of Rạch Gầm–Xoài Mút.</li>
+        <li><strong>1789</strong> Nguyễn Huệ (as Emperor Quang Trung) defeats a Qing Chinese invasion at the Battle of Ngọc Hồi–Đống Đa.</li>
+        <li><strong>1792</strong> Death of Quang Trung; the dynasty weakens rapidly afterward.</li>
+      </ul>
+    </div>
+
+    <div class="era dynasty">
+      <div class="era-header">
+        <span class="flag">🏛️</span>
+        <span class="era-date">1802 – 1945</span>
+        <a class="era-title" href="era-nguyen-dynasty.html">Nguyễn Dynasty</a>
+      </div>
+      <p class="era-desc">The last imperial dynasty, which unified the country under one ruler for the first time in centuries before falling under French control.</p>
+      <ul class="events">
+        <li><strong>1802</strong> Nguyễn Ánh defeats the Tây Sơn, becomes Emperor Gia Long, names the country "Việt Nam," establishes Huế as the capital.</li>
+        <li><strong>1858</strong> France attacks Đà Nẵng, beginning its military intervention in Vietnam.</li>
+        <li><strong>1862</strong> Treaty of Saigon cedes parts of southern Vietnam (Cochinchina) to France.</li>
+        <li><strong>1883–1884</strong> Treaties of Huế establish French protectorates over Annam and Tonkin.</li>
+      </ul>
+    </div>
+
+    <div class="era colonial">
+      <div class="era-header">
+        <span class="flag">🇫🇷</span>
+        <span class="era-date">1887 – 1954</span>
+        <a class="era-title" href="era-french-colonial.html">French Colonial Period (Indochina)</a>
+      </div>
+      <p class="era-desc">Vietnam administered as part of French Indochina, with the Nguyễn emperors retained as figureheads. A period of growing nationalist and communist resistance movements.</p>
+      <ul class="events">
+        <li><strong>1887</strong> French Indochina is formally established, uniting Vietnam, Cambodia, and (later) Laos.</li>
+        <li><strong>1930</strong> Hồ Chí Minh founds the Indochinese Communist Party.</li>
+        <li><strong>1940–1945</strong> Japan occupies Vietnam during World War II while nominal French Vichy administration continues.</li>
+        <li><strong>1945</strong> Famine kills an estimated one to two million people in northern Vietnam.</li>
+        <li><strong>August 1945</strong> The August Revolution; Bảo Đại abdicates, ending the Nguyễn Dynasty.</li>
+        <li><strong>September 2, 1945</strong> Hồ Chí Minh declares independence, founding the Democratic Republic of Vietnam in Hanoi — its flag a yellow star on a red field.</li>
+        <li><strong>1946–1954</strong> First Indochina War between France and the Việt Minh.</li>
+        <li><strong>1954</strong> Battle of Điện Biên Phủ ends in decisive Việt Minh victory; Geneva Accords temporarily divide Vietnam at the 17th parallel.</li>
+      </ul>
+    </div>
+
+    <div class="era modern">
+      <div class="era-header">
+        <span class="flag">🇻🇳</span>
+        <span class="era-date">1954 – 1975</span>
+        <a class="era-title" href="era-vietnam-war.html">Divided Vietnam and the Vietnam War</a>
+      </div>
+      <p class="era-desc">Vietnam split into a communist North (red flag with a yellow star) and an anti-communist South, the Republic of Vietnam (yellow flag with three red stripes), leading to a prolonged and devastating war that drew in major international powers.</p>
+      <ul class="events">
+        <li><strong>1955</strong> Ngô Đình Diệm proclaims the Republic of Vietnam (South Vietnam) in Saigon, flying the yellow flag with three red stripes.</li>
+        <li><strong>1960</strong> Formation of the National Liberation Front (Việt Cộng) in the South.</li>
+        <li><strong>1964</strong> Gulf of Tonkin incident leads to escalation of direct U.S. military involvement.</li>
+        <li><strong>1968</strong> Tet Offensive marks a major turning point in the war and U.S. public opinion.</li>
+        <li><strong>1973</strong> Paris Peace Accords lead to withdrawal of U.S. combat troops.</li>
+        <li><strong>April 30, 1975</strong> Fall of Saigon; North Vietnamese forces capture the city, ending the war.</li>
+      </ul>
+    </div>
+
+    <div class="era modern">
+      <div class="era-header">
+        <span class="flag">🇻🇳</span>
+        <span class="era-date">1976 – Present</span>
+        <a class="era-title" href="era-doi-moi.html">Reunification and Đổi Mới Era</a>
+      </div>
+      <p class="era-desc">A unified socialist republic, flying the red flag with a yellow star, that undergoes major economic reform and reintegration into the global economy.</p>
+      <ul class="events">
+        <li><strong>1976</strong> Official reunification; the country is renamed the Socialist Republic of Vietnam, with Saigon renamed Ho Chi Minh City.</li>
+        <li><strong>1978–1989</strong> Vietnam's military involvement in Cambodia leads to international isolation and a brief border war with China (1979).</li>
+        <li><strong>1986</strong> Đổi Mới ("Renovation") economic reforms launched, shifting toward a market-oriented economy.</li>
+        <li><strong>1995</strong> Normalization of diplomatic relations with the United States; Vietnam joins ASEAN.</li>
+        <li><strong>2007</strong> Vietnam joins the World Trade Organization (WTO).</li>
+        <li><strong>2010s–2020s</strong> Continued rapid economic growth, deepening international integration, and ongoing political and social change.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-default"></span>Early history / legendary era</span>
+  <span><span class="swatch sw-dynasty"></span>Imperial dynasties &amp; wars of resistance</span>
+  <span><span class="swatch sw-colonial"></span>Colonial period</span>
+  <span><span class="swatch sw-modern"></span>Modern era</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/history-of-Vietnam" target="_blank">"History of Vietnam"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Tay-Son-brothers" target="_blank">"Tây Sơn Brothers"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/place/Vietnam/The-two-Vietnams-1954-65" target="_blank">"The Two Vietnams, 1954–65"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/event/Vietnam-War/French-rule-ended-Vietnam-divided" target="_blank">"Vietnam War: French Rule Ended, Vietnam Divided"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/event/Fall-of-Saigon" target="_blank">"Fall of Saigon (1975)"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/list/vietnam-war-timeline" target="_blank">"Vietnam War Timeline"</a></li>
+    <li>Asia for Educators, Columbia University, <a href="https://afe.easia.columbia.edu/timelines/vietnam_timeline.htm" target="_blank">"Timelines: Vietnam"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/T%C3%A2y_S%C6%A1n_dynasty" target="_blank">"Tây Sơn Dynasty"</a></li>
+  </ol>
+  <p class="note">Note: Dates for the earliest legendary periods (Hồng Bàng, Hùng Kings) reflect traditional Vietnamese historiography and are not independently verifiable archaeological facts. Where Vietnamese, French, and other international sources differ in framing (e.g. start/end dates of the Vietnam War), this timeline follows the dates most commonly cited in mainstream reference works.</p>
+</div>
+
+</body>
+</html>

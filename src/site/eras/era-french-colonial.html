@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The French Colonial Period — Vietnam, 1858 to 1945</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The French Colonial Period</h1>
+  <p>Vietnam, 1858 to 1945</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    France's involvement in Vietnam began with a naval attack in 1858 and ended, nearly nine decades later, with a famine that helped trigger the revolution that brought Hồ Chí Minh to power. In between, France constructed one of its largest colonial possessions — French Indochina — built on a patchwork of direct colonial rule, "protectorates," and a Vietnamese imperial court reduced to a ceremonial shell. This article traces how that system was built, how it functioned, and how its final years under wartime occupation set the stage for the end of French rule.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1858 – 1883</span>
+    <h2>The Conquest: From Đà Nẵng to the Treaties of Huế</h2>
+    <p>
+      French military intervention in Vietnam began in 1858, when a fleet under Admiral Charles Rigault de Genouilly attacked the port of Tourane (Đà Nẵng), partly in response to the Nguyễn court's persecution of Catholic missionaries. Unable to advance far inland, French forces redirected toward Saigon, taking the city in February 1859. The campaign was slow and costly, but by 1862 Emperor Tự Đức — facing rebellions elsewhere in his territory — was forced to cede the three eastern provinces of southern Vietnam to France. These provinces became the colony the French called Cochinchina; within five years, France had extended its control over the rest of Cochinchina as well.
+    </p>
+    <p>
+      France's conquest of the rest of the country proceeded in stages over the following two decades. Following its victory over Qing China in the Sino-French War (1884–1885), France imposed treaties on the Nguyễn court in 1883–1884 that converted central Vietnam (which the French called Annam) and northern Vietnam (Tonkin) into protectorates, formally ending Vietnam's centuries-old tributary relationship with China in the process.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1858</strong> French naval attack on Tourane (Đà Nẵng).</li>
+      <li><strong>1859</strong> French forces take Saigon.</li>
+      <li><strong>1862</strong> Treaty of Saigon cedes eastern Cochinchina to France.</li>
+      <li><strong>1867</strong> France completes its takeover of Cochinchina.</li>
+      <li><strong>1883–1884</strong> Treaties of Huế establish French protectorates over Annam and Tonkin.</li>
+      <li><strong>1884–1885</strong> Sino-French War ends China's tributary relationship with Vietnam.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1887</span>
+    <h2>One Country, Three Statuses: The Indochinese Union</h2>
+    <p>
+      On October 17, 1887, France formally established the Indochinese Union (later commonly called French Indochina), combining the colony of Cochinchina with the protectorates of Annam, Tonkin, and Cambodia under a single Governor-General appointed from Paris and answering to the French Ministry of Colonies. Laos was added to the union in 1893 after the Franco-Siamese War, and the small Chinese leasehold of Guangzhouwan (Quảng Châu Loan) was added in 1900.
+    </p>
+    <p>
+      What made this arrangement distinctive — and administratively unusual — was that "Vietnam" as a single entity did not formally exist under French rule. Cochinchina in the south was a colony proper, directly administered by French officials down to the provincial level, with no role for the Nguyễn court. Annam (center) and Tonkin (north), by contrast, were technically protectorates: the Nguyễn dynasty was retained at its capital in Huế, with an emperor, a court, and nominal administrative structures, but real authority rested with French "Résidents" (Resident-Superiors) who supervised every level of government. Vietnamese officials in these regions continued to hold titles and carry out ceremonial functions, but were effectively paid employees of the French administration.
+    </p>
+    <div class="callout">
+      <strong>A note on the Nguyễn court's role:</strong> Sources describe the Nguyễn emperors after 1884 in different ways depending on framing — as a retained "feudal regime" maintained as a façade ("bù nhìn" or puppet, in some Vietnamese accounts), or more neutrally as a protected monarchy with reduced sovereignty. What is not disputed is that, regardless of terminology, the court in Huế held no independent foreign policy, no independent military, and no ability to overrule French Résidents on matters of substance after 1884–1885.
+    </div>
+    <ul class="events colonial">
+      <li><strong>October 17, 1887</strong> Indochinese Union formally established, combining Cochinchina, Annam, Tonkin, and Cambodia.</li>
+      <li><strong>1893</strong> Laos added to the union following the Franco-Siamese War.</li>
+      <li><strong>1900</strong> The Chinese leasehold of Guangzhouwan added to French Indochina.</li>
+      <li><strong>1887–1945</strong> The Nguyễn dynasty continues at Huế with nominal authority over Annam and Tonkin; Cochinchina remains under direct colonial administration.</li>
+    </ul>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1887 – 1930s</span>
+    <h2>The Colonial Economy: Extraction and Infrastructure</h2>
+    <p>
+      French colonial policy in Indochina combined large infrastructure investment with an economic model oriented heavily toward extraction for the benefit of the metropole and a relatively small class of French and Vietnamese landowners and businessmen. Rice cultivation — particularly in the Mekong Delta, which the French developed intensively through canal-building and land concessions — became a major export commodity, alongside rubber plantations (notably in the southeast) and coal mining in the north.
+    </p>
+    <p>
+      The benefits of this growth were distributed highly unevenly. Land concentration accelerated in the south as French and allied Vietnamese landowners acquired large estates, often at the expense of smallholders, while taxation policies — including state monopolies on salt, alcohol, and opium — were a persistent source of resentment and a recurring theme in nationalist critiques of colonial rule, most famously in Hồ Chí Minh's later Declaration of Independence, which singled out the economic "monopolies" and taxation as central grievances.
+    </p>
+    <h3>Resistance Movements</h3>
+    <p>
+      French rule faced organized resistance from its earliest years. The Cần Vương ("Save the King") movement of the late 1880s sought to install the exiled Emperor Hàm Nghi as a rallying point against French control, though it was eventually suppressed. Through the early 20th century, a range of nationalist and reformist movements emerged — some advocating gradual modernization and eventual self-rule, others organizing for armed resistance — culminating in the rise of explicitly communist organizations from the late 1920s onward, including the founding of the Indochinese Communist Party in 1930 under Hồ Chí Minh's leadership.
+    </p>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1940 – 1945</span>
+    <h2>War Comes to Indochina: Japanese Occupation and Vichy Rule</h2>
+    <p>
+      The fall of France to Germany in 1940 placed French Indochina under the nominal authority of the collaborationist Vichy government, even as Japan — by then at war in China and expanding across Southeast Asia — moved to bring Indochina under its strategic control. Following the Franco-Thai War of 1940–41 (in which Vichy French forces lost territory to Thailand), Japan established military bases throughout Indochina while, for several years, allowing the French colonial administration to continue running day-to-day civil affairs under Japanese oversight — an unusual arrangement that left French colonial officials nominally in charge of a territory effectively occupied by Japan.
+    </p>
+    <p>
+      This arrangement collapsed on March 9, 1945, when Japan staged a coup against the French administration, interning French officials and military personnel and installing a nominally independent "Empire of Vietnam" under Emperor Bảo Đại — though real power remained with the Japanese military, and this arrangement lasted only months before Japan's surrender in August 1945.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1944 – 1945</span>
+    <h2>The Famine of 1944–45</h2>
+    <p>
+      In the final years of the war, northern Vietnam experienced a catastrophic famine, with estimates of deaths ranging from roughly 400,000 to as high as two million people — a range reflecting the considerable uncertainty in wartime demographic data, with two million being the figure Hồ Chí Minh himself cited in the Declaration of Independence.
+    </p>
+    <p>
+      The causes of the famine were multiple and remain a subject of historical debate over how to apportion responsibility. Crop failures in 1943–1945 were worsened by severe flooding in 1944 and by the breakdown of dike maintenance. At the same time, both Japanese occupation authorities and the Vichy French administration requisitioned rice and other foodstuffs for the war effort, forced farmers in some areas to switch from rice to industrial crops such as jute, and disrupted the transport of rice from the surplus-producing south to the deficit north — partly due to Allied bombing of shipping and rail lines, and partly due to requisition policies.
+    </p>
+    <p>
+      Historians differ on how to weigh these factors: some emphasize Japanese requisition policies and crop-switching mandates as the primary driver, others point to longer-term structural features of the colonial rice economy that had left northern Vietnam dependent on southern rice transfers that wartime conditions disrupted, and still others stress the role of the Vichy French administration in implementing Japanese-directed policies. What is broadly agreed is that the famine was not a "natural" disaster in any simple sense, but the product of a wartime economic and administrative system — French and Japanese — that failed catastrophically under pressure.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">Oct 1944 – May 1945</span><span class="label">Period of the famine in northern Vietnam</span></div>
+      <div class="stat-card"><span class="num">400K – 2M</span><span class="label">Estimated deaths (range across sources)</span></div>
+      <div class="stat-card"><span class="num">2,000,000</span><span class="label">Figure cited by Hồ Chí Minh in the 1945 Declaration of Independence</span></div>
+    </div>
+    <div class="callout">
+      <strong>Legacy:</strong> The famine became a central justification cited in the Declaration of Independence proclaimed on September 2, 1945, which framed the disaster as evidence of the "crimes" of what it called the "colonial-fascist regime." Whatever the precise apportionment of blame between French and Japanese authorities, the famine is widely credited by historians with accelerating popular support for the Việt Minh in the months leading up to the August Revolution, as Việt Minh cadres organized seizures of rice stores and positioned themselves as defenders of starving communities against both occupying powers.
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">August – September 1945</span>
+    <h2>The End of French Rule (For Now)</h2>
+    <p>
+      Japan's surrender in mid-August 1945 left a power vacuum in Indochina. The Việt Minh, having spent the war years organizing resistance to both French and Japanese authority and capitalizing on the famine crisis, moved quickly to seize power in what became known as the August Revolution. On August 25, 1945, Emperor Bảo Đại abdicated, formally ending the Nguyễn dynasty's nominal rule. On September 2, 1945, Hồ Chí Minh proclaimed the independence of the Democratic Republic of Vietnam in Hanoi's Ba Đình Square, drawing explicitly on the language of the American Declaration of Independence and the French Declaration of the Rights of Man — while cataloguing, point by point, the grievances of eight decades of French colonial rule.
+    </p>
+    <p>
+      This proclamation did not end French involvement in Vietnam, however. France moved to reassert control over Cochinchina within weeks, beginning the sequence of events that would lead to the First Indochina War (1946–1954) and, ultimately, to the Geneva Accords and the partition of the country covered in the companion article on the <a href="era-vietnam-war.html">Vietnam War era</a>.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Conquest, administration &amp; political structure</span>
+  <span><span class="swatch sw-colonial"></span>Economy &amp; institutions</span>
+  <span><span class="swatch sw-modern"></span>Wartime crisis &amp; the end of colonial rule</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Nguyen-dynasty" target="_blank">"Nguyễn Dynasty"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/history-of-Vietnam/State-and-society-in-precolonial-Vietnam" target="_blank">"History of Vietnam — State and Society in Precolonial Vietnam"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/French_Indochina" target="_blank">"French Indochina"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_governors-general_of_French_Indochina" target="_blank">"List of Governors-General of French Indochina"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Vietnamese_famine_of_1945" target="_blank">"Vietnamese Famine of 1945"</a></li>
+    <li>Study.com, <a href="https://study.com/learn/lesson/indochina-who-colonized-vietnam.html" target="_blank">"French Indochina: Colonization & Independence"</a></li>
+    <li>Medium (Dwayne Wong), <a href="https://dwomowale.medium.com/french-colonialism-in-indochina-8132db30a05c" target="_blank">"French Colonialism in Indochina"</a></li>
+    <li>Vietnam Law Magazine, <a href="https://vietnamlawmagazine.vn/the-state-structure-in-french-ruled-vietnam-1858-1945-4404.html" target="_blank">"The State Structure in French-Ruled Vietnam (1858–1945)"</a></li>
+    <li>Asia-Pacific Journal: Japan Focus, <a href="https://apjjf.org/2011/9/5/geoffrey-gunn/3483/article" target="_blank">"The Great Vietnamese Famine of 1944–45 Revisited"</a></li>
+    <li>Alpha History, <a href="https://alphahistory.com/vietnamwar/ho-chi-minh-declaration-independence-1945/" target="_blank">"Ho Chi Minh's Declaration of Independence (1945)"</a></li>
+  </ol>
+  <p class="note">
+    Note: Two points in this article involve significant disagreement between sources. First, the political status of the Nguyễn court after 1884 is described differently across sources — as a retained but powerless "puppet" regime in some Vietnamese-language accounts (vietnamlawmagazine.vn), versus a more neutrally framed "protected monarchy" in Britannica — though both agree on the underlying facts of where real authority lay. Second, estimates of deaths in the 1944–45 famine range from roughly 400,000 to 2 million depending on the source, and historians continue to debate the relative responsibility of French Vichy authorities versus Japanese occupation policies versus longer-term structural factors in the colonial rice economy. This article presents the range of figures and interpretations rather than endorsing a single account.
+  </p>
+</div>
+
+</body>
+</html>

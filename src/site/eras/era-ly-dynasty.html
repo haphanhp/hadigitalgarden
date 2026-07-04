@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lý Dynasty — Vietnam's First Great Stable State, 1009 to 1225</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{ color:#fff; border-bottom-color:#fff; }
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px; right:-40px;
+    width:260px; height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none; z-index:0;
+  }
+  .section > *{ position:relative; z-index:1; }
+  .section h2{
+    font-size:1.5rem; margin:0 0 4px; color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold; color:var(--accent2); font-size:0.95rem;
+    letter-spacing:1px; text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff; font-size:0.98rem; margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem; margin:20px 0 8px; color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events{ margin:14px 0 0; padding-left:0; list-style:none; }
+  .events li{
+    position:relative; padding:8px 14px 8px 16px; margin-bottom:6px;
+    background: rgba(15,20,38,0.35); backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0; font-size:0.92rem; color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{ color:var(--accent2); margin-right:6px; text-shadow: 0 1px 6px rgba(0,0,0,0.3); }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+  .callout{
+    margin:18px 0; padding:14px 18px;
+    background: rgba(15,20,38,0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0; font-size:0.92rem; color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{ color:var(--accent2); }
+  .stat-grid{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:12px; margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15,20,38,0.4); border-radius:10px;
+    padding:12px 16px; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem; font-weight:bold; color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3); display:block;
+  }
+  .stat-card .label{ font-size:0.8rem; color:var(--muted); margin-top:4px; }
+  .legend{
+    display:flex; justify-content:center; gap:24px; flex-wrap:wrap;
+    padding:20px; border-top:1px solid var(--line); font-size:0.85rem; color:var(--muted);
+  }
+  .legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .swatch{ width:14px;height:14px;border-radius:3px;display:inline-block; }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+  .sources{
+    max-width:880px; margin:0 auto; padding:24px 20px 60px;
+    border-top:1px solid var(--line); font-size:0.85rem; color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem; text-transform:uppercase; letter-spacing:2px;
+    color:var(--accent2); margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{ padding-left:20px; margin:0; }
+  .sources li{ margin-bottom:6px; }
+  .sources a{ color:var(--link); text-decoration:none; word-break:break-all; }
+  .sources a:hover{ color:#ffffff; text-decoration:underline; }
+  .sources .note{ margin-top:14px; font-style:italic; }
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Lý Dynasty</h1>
+  <p>Vietnam's first great stable state, 1009 to 1225</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    Britannica calls the Lý dynasty "the first stable Vietnamese dynasty" — and given everything that had come before, the word "stable" carries real weight. In the 70-odd years between Ngô Quyền's death in 944 and Lý Thái Tổ's accession in 1009, Đại Việt had cycled through three dynastic houses, countless military coups, and near-reconquest by the Chinese. The man who ended this cycle was a former temple orphan who had risen through the palace guard. What he and his successors built across the following 216 years became the template for nearly every Vietnamese state that came after: a capital on the site of present-day Hanoi; a centralized bureaucracy chosen by examination; a legal code rooted in but not identical to Chinese models; a landscape of dikes and canals that turned the Red River Delta into one of Asia's most productive rice regions; a national university that still stands today; and a cultural identity that balanced deep Chinese intellectual influence with a distinctly Vietnamese insistence on political independence from it. This article covers that entire arc — the founding vision, the institutional achievements, the wars against Song China and Champa, the remarkable generalship of Lý Thường Kiệt, the dynasty's Buddhist life in stone and silk, and the slow unraveling that handed the throne to an eight-year-old girl and then to the Trần.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1009 – 1010</span>
+    <h2>The Founding: A Temple Orphan and the "Rising Dragon"</h2>
+    <p>
+      Lý Công Uẩn — who took the reign name Lý Thái Tổ upon his accession in 1009 — was an unlikely dynastic founder. Born of unknown parentage, he had grown up in a Buddhist monastery under the tutelage of a monk and risen through ability to become commander of the palace guard under the Early Lê dynasty. The last Early Lê emperor had been "detested by the Vietnamese people" for his cruelty; Lý Thái Tổ came to power with the support of palace officials who set aside the dead emperor's young son in his favor — making his accession less a violent coup than a broadly endorsed change of direction. One of his first acts reflected this: he decreed a general amnesty for prisoners and ordered the destruction of all instruments of torture, a pointed repudiation of the regime he replaced.
+    </p>
+    <p>
+      One year later, in 1010, came the decision that would shape Vietnam's geography to the present day. Lý Thái Tổ wrote a formal edict — the Thiên Đô Chiếu ("Edict on the Transfer of the Capital") — explaining his decision to move the capital from Hoa Lư, the defensible but cramped valley stronghold that had served the Đinh and Early Lê dynasties, to a site on the Red River Delta which he renamed Thăng Long: "Rising Dragon." Legend records that as his fleet approached the new capital, a golden dragon was seen rising from the water — an omen of imperial legitimacy that the name preserved.
+    </p>
+    <div class="callout">
+      <strong>Eight centuries as capital:</strong> Thăng Long remained the main capital of Vietnam from 1010 until 1802 — nearly eight centuries — when the Nguyễn dynasty moved the capital south to Huế. It was renamed Hanoi ("Between Two Rivers") by the Nguyễn in 1831, and is Vietnam's capital to this day. The UNESCO-designated Imperial Citadel of Thăng Long, begun during the Lý period and expanded by the Trần, Lê, and Nguyễn dynasties, occupies the site today. Lý Thái Tổ's choice of location, made in 1010, is arguably the single most consequential administrative decision in Vietnamese history.
+    </div>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1009 – 1127</span>
+    <h2>Building the State: Law, Bureaucracy, and the Red River</h2>
+    <p>
+      The Lý dynasty's most durable achievements were institutional, and most were accomplished in its first century. The most transformative was administrative: local lords — the regional strongmen who had governed their own territories semi-independently and whose rivalries had made the preceding decades so unstable — were replaced by a nine-tiered hierarchy of civil servants and state officials appointed from the center. In 1076, this was deepened further when a civil service institute was established based on the Chinese examination model, training the officials who would staff the growing bureaucracy. Britannica explicitly frames this as the replacement of "divisive local lords" with centrally trained administrators — a change that, by concentrating authority in Thăng Long, enabled the rest of the dynasty's achievements.
+    </p>
+    <h3>The First Legal Code</h3>
+    <p>
+      In 1042, Emperor Lý Thái Tông ordered his mandarins to compile a new penal code — the Hình Thư — which one source describes as having been "welcomed by all" when it was made known to the population. The code was notably specific: it forbade the sale of persons aged 18 or younger as slaves; protected draught animals essential to rice cultivation; prescribed penalties for piracy and mandarin extortion; and established rehabilitation procedures for criminals. Penalties for the "ten capital crimes" — including rebellion — were severe, but the overall framework was notably concerned with the legibility and fairness of the law rather than simply its enforcement. This code predated the more celebrated Hồng Đức Code of the Lê dynasty by more than four centuries and is recognized by Vietnamese legal historians as the country's first systematic written legal framework.
+    </p>
+    <h3>Dikes, Canals, and the Red River Delta</h3>
+    <p>
+      The Lý administration invested heavily in hydraulic infrastructure — constructing and maintaining dikes, canals, and drainage systems across the Red River Delta that, according to Britannica, "prevented summer flooding and winter drought and made the region one of the most fertile rice-growing areas in the world." The annals record specific projects in granular detail: the Dầu Nai canal (1029), the Lãnh Kinh canal (1089), the Cổ Xá dike (1108). Mandarins were held personally responsible for dike maintenance in their districts, an accountability structure that made hydraulic management a core function of local governance.
+    </p>
+    <p>
+      The importance of agriculture was expressed not just in infrastructure but in annual ritual. Each year at the start of the growing season, the emperor himself performed a symbolic act of ploughing. When a mandarin suggested in 1038 that Emperor Lý Thái Tông was demeaning himself by doing so, the emperor reportedly replied: "If I myself do not do some ploughing as an offering to the god, how can I set an example for the entire people?" — a recorded exchange that several Vietnamese sources preserve as emblematic of the Lý governing philosophy: heaven and state, ceremony and agriculture, inseparably linked.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">1010</span><span class="label">Thăng Long (Hanoi) established as capital</span></div>
+      <div class="stat-card"><span class="num">1042</span><span class="label">First Vietnamese penal code (Hình Thư) promulgated</span></div>
+      <div class="stat-card"><span class="num">9</span><span class="label">Tiers in the new centralized bureaucratic hierarchy</span></div>
+      <div class="stat-card"><span class="num">1054</span><span class="label">Country renamed Đại Việt by Lý Thánh Tông</span></div>
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1070 – 1076</span>
+    <h2>The Temple of Literature and Vietnam's First University</h2>
+    <p>
+      In 1070, Emperor Lý Thánh Tông ordered the construction of the Văn Miếu — the Temple of Literature — in Thăng Long, dedicated to Confucius and his disciples, intended as a center of moral education and administrative training for the sons of high-ranking families. Six years later, in 1076, the complex was expanded into the Quốc Tử Giám — the Imperial Academy, Vietnam's first national university — which trained the civil servants who would staff the growing Lý and later Trần administrations. The Văn Miếu–Quốc Tử Giám complex remains standing in Hanoi today and was designated a UNESCO World Heritage Site in 2010 — more than 950 years after its founding.
+    </p>
+    <p>
+      The founding of the Temple of Literature sits at a fascinating cultural intersection. The Lý dynasty was simultaneously Buddhist in its religious practice and Confucian in its administrative logic — two different intellectual traditions, operating in different domains and not necessarily in tension. Buddhism shaped personal devotion, court spiritual life, and architectural patronage; Confucianism shaped the examination system, legal codes, and hierarchical governance. That the same dynasty built the One-Pillar Pagoda (a Buddhist monument, 1049) and the Temple of Literature (a Confucian institution, 1070) within two decades of each other reflects a pragmatic eclecticism that would remain characteristic of Vietnamese elite culture through the Trần and into the Lê dynasties.
+    </p>
+    <div class="callout">
+      <strong>The One-Pillar Pagoda (Chùa Một Cột):</strong> Built in 1049 by Emperor Lý Thái Tông, the One-Pillar Pagoda is one of Vietnam's most recognizable monuments — a small wooden structure set atop a single stone pillar rising from a lotus pond, its form designed to represent a lotus flower emerging from the water, a Buddhist symbol of purity and enlightenment arising from the mundane world. The structure has been rebuilt multiple times; the current version is a reconstruction made necessary by French forces, who destroyed the original during their final withdrawal from Hanoi in 1954. Despite the reconstruction, the pagoda endures as an emblem of the Lý period's Buddhist architectural legacy and of Hanoi's ancient identity.
+    </div>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1075 – 1077</span>
+    <h2>Lý Thường Kiệt, the Song War, and Vietnam's "First Declaration of Independence"</h2>
+    <p>
+      The Lý dynasty's most celebrated military achievement — and the one that most clearly established Đại Việt as a genuinely independent state rather than a Chinese tributary — was the war against the Song dynasty in 1075–1077, conducted under the generalship of Lý Thường Kiệt.
+    </p>
+    <p>
+      The conflict arose from diplomatic tension: the Song dynasty, reorganizing its relationships with southern neighbors under the reformist minister Wang Anshi, was perceived in Thăng Long as preparing for a military campaign against Đại Việt. Rather than wait to absorb the blow, Lý Thường Kiệt mounted a pre-emptive strike — in late 1075, Lý forces crossed into Song territory and destroyed several border prefectures before withdrawing to Vietnamese defensive positions. When the Song counteroffensive came in 1076, Lý Thường Kiệt held it at the Như Nguyệt River (the modern Cầu River in present-day Bắc Ninh province, roughly 40 kilometers north of Thăng Long). Song forces were unable to cross in strength; disease and supply problems mounted; and a negotiated withdrawal was eventually reached. The Song returned to China without having reached the Vietnamese capital.
+    </p>
+    <h3>The "Nam Quốc Sơn Hà" — Vietnam's First National Poem</h3>
+    <p>
+      Lý Thường Kiệt is associated, by long and strong tradition, with one of the most famous texts in Vietnamese literature: the "Nam Quốc Sơn Hà" ("Mountains and Rivers of the Southern Kingdom") — four lines asserting that the "southern emperor" rules the "southern land" as a matter of heavenly mandate, equal to and separate from the Chinese emperor's domain, and warning invaders of their inevitable defeat. According to the tradition preserved in Vietnamese sources, the poem was proclaimed from a shrine on the Như Nguyệt riverbank during the night before battle — some accounts frame it as having been delivered as if spoken by a divine voice, as a psychological tactic to hearten Vietnamese troops and unsettle Song forces on the opposite bank.
+    </p>
+    <p>
+      Whether Lý Thường Kiệt composed the poem or only arranged for its proclamation remains debated, and modern historians approach the complete story with caution, since the earliest written records postdate the battle significantly. What is undisputed is its place in Vietnamese national consciousness: the poem is often called "Vietnam's first declaration of independence," predating Nguyễn Trãi's Bình Ngô Đại Cáo by nearly four centuries, and its opening assertion of separate southern sovereignty has been cited at moments of national crisis ever since — most famously echoed by Hồ Chí Minh in 1945.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>Late 1075</strong> Lý Thường Kiệt launches a pre-emptive attack into Song China, destroying several border prefectures.</li>
+      <li><strong>1076–1077</strong> Song counteroffensive halted at the Như Nguyệt River; Song forces withdraw without reaching Thăng Long.</li>
+      <li><strong>1069</strong> Emperor Lý Thánh Tông captures the Champa king Rudravarman III; Đại Việt gains the provinces of Quảng Bình and Quảng Trị.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1100s – 1200s</span>
+    <h2>Buddhism in Stone, Silk, and Water</h2>
+    <p>
+      For most of its 216-year span, Buddhism was the dominant cultural and religious force of Lý Vietnam — expressed most visibly in an extraordinary flowering of temple and pagoda construction, much of it directly commissioned or funded by the imperial family. The Diên Hựu Pagoda (the One-Pillar Pagoda, 1049), the Bảo Thiên Pagoda (1050), the Quan Thánh Temple (1102), and the Keo Pagoda in Thái Bình province are among the best-documented. In 1018, Emperor Lý Thái Tổ sent a mission to China specifically to gather texts of the Buddhist Tam Tạng (Tripitaka), the foundational canon of Buddhist teaching. By 1068, the emperor was personally overseeing the creation of a new Vietnamese Buddhist sect, the Thảo Đường — a notable level of personal involvement in doctrinal development.
+    </p>
+    <p>
+      Monks and nuns occupied a genuinely privileged position in Lý society: exempt from both taxation and military service, actively patronized by the court, and — according to a stone carving from 1209 that one source cites as direct evidence — recipients of substantial imperial land grants for religious purposes and spiritual festivals. The Buddhist monastic system was not a marginal institution; it was structurally embedded in the Lý state in a way that no subsequent Vietnamese dynasty quite replicated.
+    </p>
+    <p>
+      One story preserved from this period captures the intersection of religion, politics, and human drama that characterizes the Lý court at its most vivid. Queen Ỷ Lan, regent during the minority of Emperor Lý Nhân Tông (r. 1072–1127), is recorded as having ordered the arrest and death of a rival — reportedly the Empress Dowager Thượng Dương and 76 of her ladies-in-waiting — in a court power struggle. According to Vietnamese historical accounts, Ỷ Lan spent the remainder of her life building 100 pagodas across the country as an act of religious redemption. Whether as cause, consequence, or coincidence, the Lý court's architectural legacy was partly built on the accumulated acts of Buddhist penance.
+    </p>
+    <p>
+      The dynasty also presided over early developments in Vietnamese traditional arts. The Lý-era ceramic tradition is recognized by art historians as a genuine achievement, combining Chinese technical methods with distinctly Vietnamese decorative choices. Silk weaving flourished. Water puppetry — the uniquely Vietnamese performance tradition conducted on pools, in which puppeteers standing chest-deep in water manipulate figures on the surface — is traditionally associated with this period, though its precise origins remain debated by scholars.
+    </p>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1175 – 1225</span>
+    <h2>Decline and the Transfer to the Trần</h2>
+    <p>
+      The Lý dynasty's final fifty years were marked by progressive weakening of central authority. Emperor Lý Cao Tông, who reigned from 1175, was an ineffective ruler by most accounts; he was actually deposed around 1207–1208 in a court crisis before being briefly restored, a pattern of instability entirely absent from the dynasty's stronger years. His successor Lý Huệ Tông abdicated after a troubled reign, leaving the throne to his daughter.
+    </p>
+    <p>
+      That daughter was Lý Chiêu Hoàng, who at the age of seven or eight became Đại Việt's only female emperor to date in the pre-modern period. In 1225 — still a child — she was induced or pressured to abdicate in favor of her young husband, Trần Cảnh, ending the Lý dynasty and beginning the Trần, covered in the companion article on the <a href="era-tran-dynasty.html">Trần dynasty</a>. The French-language Wikipedia account records that she was "forced to abdicate" — a framing that differs from some more neutral English-language accounts, and that cannot be fully resolved given the limited primary documentation of an event involving a child ruler and a court reshuffle orchestrated by adults around her. What can be said is that the transition, however managed, was accomplished without open military conflict or foreign intervention — unlike so many dynastic transitions in this timeline — which may itself reflect the degree to which the Lý had, by its end, simply run out of governing energy from within.
+    </p>
+    <ul class="events modern">
+      <li><strong>1175–1208</strong> Reign of Lý Cao Tông — widely described as ineffective; deposed briefly around 1207/1208 before restoration.</li>
+      <li><strong>1210–1224</strong> Lý Huệ Tông reigns, then abdicates.</li>
+      <li><strong>1224–1225</strong> Lý Chiêu Hoàng, aged seven or eight, becomes Vietnam's only female emperor before abdicating to her husband Trần Cảnh — ending the Lý dynasty after 216 years.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">In Perspective</span>
+    <h2>The Template Dynasty</h2>
+    <p>
+      Britannica calls the Lý "the first stable Vietnamese dynasty" that "helped establish many of the characteristics of the modern Vietnamese state." That framing may actually understate the case. What the Lý established was the template against which every subsequent Vietnamese dynasty — the Trần, the Lê, the Nguyễn — would be measured and which most would consciously continue: a capital at Thăng Long, a nine-grade bureaucracy chosen by examination, a national legal code, a hydraulic infrastructure in the Red River Delta, a national university. When Britannica says of the Later Lê dynasty that it "gave Đại Việt a highly sophisticated legal code; promoted art, literature, and education; advanced agriculture," it is largely describing the completion and refinement of a project the Lý began two and a half centuries earlier.
+    </p>
+    <p>
+      There is also something worth noting about the specific character of the Lý achievement as a statement of political identity. One source describes the attitude of Lê Hoàn — the Early Lê emperor who repelled a Song invasion just before the Lý took over — toward China in a way that applies equally to the Lý themselves: he "understood exactly what he wanted from China — access to its culture and civilization without coming under its political control or jeopardizing Vietnamese freedom in any way." The Lý dynasty took this posture and institutionalized it over two centuries: adopting Chinese script, Chinese bureaucratic models, Chinese legal frameworks, and much of the Chinese artistic and religious tradition, while simultaneously fighting, where necessary, to remain politically independent of the civilization it drew so extensively upon.
+    </p>
+    <p>
+      The Như Nguyệt campaign and the "Nam Quốc Sơn Hà" are the most dramatic expressions of this posture, but it runs through the dynasty's entire history — in the examination system that trained Vietnamese administrators in Chinese classical literature while serving a Vietnamese state; in the Temple of Literature dedicated to Confucius standing a short distance from Buddhist pagodas dedicated to Vietnamese spirits; in the hydraulic engineering that drew on Chinese technical knowledge to make the Red River Delta productive in ways that supported Vietnamese, not Chinese, sovereignty. The Lý dynasty did not resolve the tension between cultural debt and political independence — that tension is still present in Vietnam's relationship with China today. But it was the first Vietnamese dynasty stable enough to live with that tension productively, for long enough to make it a feature of Vietnamese civilization rather than just a recurring crisis.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Founding, capital &amp; the dynasty's end</span>
+  <span><span class="swatch sw-colonial"></span>Law, bureaucracy, infrastructure &amp; university</span>
+  <span><span class="swatch sw-modern"></span>Military achievement, religion &amp; legacy</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Later-Ly-dynasty" target="_blank">"Later Lý Dynasty"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Ly-Thai-To" target="_blank">"Lý Thái Tổ"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/place/Hanoi" target="_blank">"Hanoi — History"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/history-of-Vietnam" target="_blank">"History of Vietnam"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/L%C3%BD_dynasty" target="_blank">"Lý Dynasty"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3333.html" target="_blank">"Lý Dynasty (1010–1225)"</a></li>
+    <li>New Vision Tour, <a href="https://www.newvisiontour.com/travelguide/Vietnam-History/Ly-Dynasty-1010-1225.html" target="_blank">"Lý Dynasty (1010–1225)"</a></li>
+    <li>The Brain Chamber, <a href="https://thebrainchamber.com/ancient-civilizations/ly-dynasty/" target="_blank">"Lý Dynasty"</a></li>
+    <li>Kiddle, <a href="https://kids.kiddle.co/L%C3%BD_dynasty" target="_blank">"Lý Dynasty Facts for Kids"</a></li>
+    <li>Learn Tiếng Việt, <a href="https://learntiengviet.wordpress.com/courses/history-of-vietnam-2/594-2/" target="_blank">"Lý Dynasty: The Age of Knowledge"</a></li>
+  </ol>
+  <p class="note">
+    Note: The attribution of "Nam Quốc Sơn Hà" to Lý Thường Kiệt is a strong tradition in Vietnamese sources but is treated cautiously by some modern historians, as the earliest written records of the poem significantly postdate the battle; this article presents it as tradition while noting the uncertainty. The account of Lý Chiêu Hoàng's abdication draws partly on the French-language Wikipedia entry, which describes her as having been "forced" to abdicate — a framing that differs from more neutral English-language accounts; both are noted here rather than resolved, given limited primary documentation. Troop and campaign figures for the 1075–1077 Song war follow the general scholarly consensus without a single authoritative count for either side's forces.
+  </p>
+</div>
+
+</body>
+</html>

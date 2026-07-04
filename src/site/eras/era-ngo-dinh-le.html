@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Early Independence: The Ngô, Đinh, and Early Lê Dynasties — Vietnam, 938 to 1009</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{ margin:0; font-family:'Georgia','Times New Roman',serif; background:#242f4d; color:var(--text); line-height:1.7; }
+  @keyframes shimmer { 0%,100%{background-position:0% 50%} 50%{background-position:100% 50%} }
+  .tag{ text-align:center; padding-top:36px; letter-spacing:3px; font-size:.75rem; color:var(--accent2); font-weight:bold; text-transform:uppercase; }
+  header{ text-align:center; padding:8px 20px 28px; border-bottom:1px solid var(--line); }
+  header h1{ font-size:2.3rem; margin:0 0 8px; letter-spacing:1px; color:#fff; font-weight:800; text-shadow:0 1px 10px rgba(0,0,0,.45),0 0 1px rgba(255,255,255,.6); }
+  header p{ color:var(--muted); margin:0; font-size:1rem; font-style:italic; }
+  .back-link{ display:block; text-align:center; padding:14px 0 0; font-size:.85rem; }
+  .back-link a{ color:var(--link); text-decoration:none; border-bottom:1px dashed var(--link); }
+  .back-link a:hover{ color:#fff; border-bottom-color:#fff; }
+  .container{ max-width:880px; margin:0 auto; padding:40px 20px 60px; }
+  .lede{ font-size:1.08rem; color:#f4f1ff; margin-bottom:36px; text-shadow:0 1px 6px rgba(0,0,0,.25); }
+  .section{ margin-bottom:40px; position:relative; border-radius:18px; padding:24px 28px; overflow:hidden; background:var(--panel-grad); background-size:220% 220%; animation:shimmer 14s ease infinite; box-shadow:0 6px 24px rgba(0,0,0,.25); }
+  .section::after{ content:''; position:absolute; top:-60px; right:-40px; width:260px; height:200px; background:radial-gradient(ellipse at center,rgba(255,255,255,.45) 0%,rgba(255,255,255,.15) 45%,transparent 70%); pointer-events:none; z-index:0; }
+  .section>*{ position:relative; z-index:1; }
+  .section h2{ font-size:1.5rem; margin:0 0 4px; color:#fff; text-shadow:0 1px 8px rgba(0,0,0,.4),0 0 1px rgba(255,255,255,.5); }
+  .section .date-range{ font-weight:bold; color:var(--accent2); font-size:.95rem; letter-spacing:1px; text-transform:uppercase; text-shadow:0 1px 6px rgba(0,0,0,.35); }
+  .section p{ color:#fff; font-size:.98rem; margin:14px 0; text-shadow:0 1px 6px rgba(0,0,0,.25); }
+  .section h3{ font-size:1.1rem; margin:20px 0 8px; color:#fff; text-shadow:0 1px 6px rgba(0,0,0,.3); }
+  .events{ margin:14px 0 0; padding-left:0; list-style:none; }
+  .events li{ position:relative; padding:8px 14px 8px 16px; margin-bottom:6px; background:rgba(15,20,38,.35); backdrop-filter:blur(2px); border-left:3px solid rgba(255,255,255,.35); border-radius:0 4px 4px 0; font-size:.92rem; color:#fff; box-shadow:0 1px 4px rgba(0,0,0,.15); }
+  .events li strong{ color:var(--accent2); margin-right:6px; text-shadow:0 1px 6px rgba(0,0,0,.3); }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+  .callout{ margin:18px 0; padding:14px 18px; background:rgba(15,20,38,.4); border-left:4px solid var(--accent2); border-radius:0 8px 8px 0; font-size:.92rem; color:#fff; box-shadow:0 1px 4px rgba(0,0,0,.15); }
+  .callout strong{ color:var(--accent2); }
+  .stat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin:16px 0; }
+  .stat-card{ background:rgba(15,20,38,.4); border-radius:10px; padding:12px 16px; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,.15); }
+  .stat-card .num{ font-size:1.5rem; font-weight:bold; color:var(--accent2); text-shadow:0 1px 6px rgba(0,0,0,.3); display:block; }
+  .stat-card .label{ font-size:.8rem; color:var(--muted); margin-top:4px; }
+  .legend{ display:flex; justify-content:center; gap:24px; flex-wrap:wrap; padding:20px; border-top:1px solid var(--line); font-size:.85rem; color:var(--muted); }
+  .legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .swatch{ width:14px; height:14px; border-radius:3px; display:inline-block; }
+  .sw-dynasty{background:#FFD166;} .sw-colonial{background:#7CFFCB;} .sw-modern{background:#FF8FB1;}
+  .sources{ max-width:880px; margin:0 auto; padding:24px 20px 60px; border-top:1px solid var(--line); font-size:.85rem; color:var(--muted); }
+  .sources h2{ font-size:1rem; text-transform:uppercase; letter-spacing:2px; color:var(--accent2); margin-bottom:12px; text-shadow:0 1px 6px rgba(0,0,0,.3); }
+  .sources ol{ padding-left:20px; margin:0; }
+  .sources li{ margin-bottom:6px; }
+  .sources a{ color:var(--link); text-decoration:none; word-break:break-all; }
+  .sources a:hover{ color:#fff; text-decoration:underline; }
+  .sources .note{ margin-top:14px; font-style:italic; }
+  @media(max-width:600px){ .container{padding:24px 12px 40px;} header h1{font-size:1.7rem;} .section{padding:18px 18px;} }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>Early Independence</h1>
+  <p>The Ngô, Đinh, and Early Lê Dynasties — 938 to 1009</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    The seventy years between Ngô Quyền's victory on the Bạch Đằng River in 938 and the founding of the Lý dynasty in 1009 are among the most turbulent in Vietnamese history — and also among the most consequential. In this compressed span, Vietnam ended a millennium of Chinese domination, survived a catastrophic power vacuum, was reunified by a warlord who proclaimed himself the first emperor of an independent Vietnamese state, then nearly collapsed again before a military commander saved it by repelling a Chinese invasion. These three short-lived houses — the Ngô, the Đinh, and the Early Lê — are usually raced through in Western histories of Vietnam. But they deserve more attention: they established the basic political vocabulary of independent Vietnamese statehood, set precedents every later dynasty would inherit, and produced at Bạch Đằng one of the most tactically brilliant engagements in pre-modern Southeast Asian history.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">Before 938</span>
+    <h2>A Millennium of Chinese Rule — and the Window That Opened</h2>
+    <p>
+      Since 111 BCE, when the Han dynasty conquered Nam Việt and incorporated it as the commandery of Jiaozhou, northern Vietnam had been, for most practical purposes, a province of successive Chinese empires — with short interruptions (the Trưng Sisters, 40-43 CE; Lady Triệu, 248 CE; Lý Bí's Vạn Xuân kingdom, 544-602), each eventually suppressed. For roughly a thousand years, local Vietnamese elites operated within a Chinese administrative framework: taxed under Chinese systems, educated in Chinese classical literature, governed by Chinese-appointed officials.
+    </p>
+    <p>
+      What made 938 different was timing. The Tang dynasty — which had administered Vietnam since 618 — had collapsed in 907 amid internal rebellions. The fragmented "Five Dynasties and Ten Kingdoms" period that followed in China meant no single power was strong enough to mount the kind of determined reconquest that had suppressed earlier Vietnamese uprisings. The Southern Han, the local Chinese successor state that controlled the Vietnamese region, was a second-tier power at a moment of maximum Chinese fragmentation.
+    </p>
+    <p>
+      Into this window stepped Ngô Quyền — not a spontaneous rebel, but a commander who had consolidated local power through his father-in-law, Dương Đình Nghệ, who had already expelled Chinese-backed authority from the region in 931 before being assassinated by a rival, Kiều Công Tiễn, in 937. That rival then made the fatal decision to invite Southern Han military intervention to legitimize his position — giving Ngô Quyền both a personal motive for revenge and a foreign enemy to defeat.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">938</span>
+    <h2>The Battle of Bạch Đằng: The Trap in the Tidal River</h2>
+    <p>
+      The Southern Han response came by water — a fleet commanded by Prince Liu Hongcao (Lưu Hoằng Thao), son of the Southern Han emperor, advancing via the Bạch Đằng River, the most northerly and direct route from the coast into the Red River Delta. This was a predictable choice of route. Ngô Quyền exploited it brilliantly.
+    </p>
+    <p>
+      Before the fleet arrived, his forces drove sharpened wooden stakes — some accounts specify iron-tipped — into the riverbed of the Bạch Đằng at positions that would be submerged at high tide but exposed as the tide ebbed. As the Southern Han fleet entered the river at high tide, a Vietnamese flotilla of light, shallow-draft boats appeared and feigned an attack before retreating upriver, drawing the heavier Chinese warships in pursuit. The tide began to ebb. The Chinese ships, too heavy to maneuver quickly in the narrowing river, became impaled on the rising stakes. Immobilized and taking on water, they were hit with fire arrows from the Vietnamese boats that closed in. Prince Liu Hongcao drowned, together with more than half the assault troops. Emperor Liu Yan abandoned his plans to conquer Vietnam.
+    </p>
+    <div class="callout">
+      <strong>Chinese sources confirm the core events:</strong> The Grokipedia analysis of the battle notes that Chinese dynastic records — the Jiu Wudaishi (Old History of the Five Dynasties), compiled around 945 CE — do record the defeat, attributing failure to "tidal ambushes" without specifying the stakes. Vietnamese accounts may exhibit nationalist bias in elaborating Ngô Quyền's role, but the core events — the massive Southern Han casualties, Liu Hongcao's death, the Vietnamese victory — are corroborated across multiple source traditions, making Bạch Đằng one of the better-evidenced events in early Vietnamese history.
+    </div>
+    <div class="callout">
+      <strong>A tactic that echoed across centuries:</strong> The Bạch Đằng stake trap is one of the most recurring episodes in this entire timeline series. Trần Hưng Đạo used the same tactic, at the same river, in 1288 to destroy the Mongol fleet — a deliberate, explicitly acknowledged reuse of Ngô Quyền's strategy 350 years later. The conscious replication of a specific tactic at a specific location across three and a half centuries is historically unusual, and several sources treat it as evidence of a genuine continuity in Vietnamese military thinking: a strategic repertoire consciously passed down.
+    </div>
+    <ul class="events colonial">
+      <li><strong>931</strong> Dương Đình Nghệ expels Chinese-backed authority; Ngô Quyền serves as his commander.</li>
+      <li><strong>937</strong> Dương Đình Nghệ is assassinated by Kiều Công Tiễn, who invites Southern Han intervention.</li>
+      <li><strong>938</strong> Ngô Quyền destroys the Southern Han fleet at Bạch Đằng, killing Prince Liu Hongcao and more than half the invasion force.</li>
+      <li><strong>939</strong> Ngô Quyền proclaims himself king, establishes his capital at Cổ Loa, and sets up a court — founding the Ngô dynasty and inaugurating Vietnamese independence.</li>
+    </ul>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">939 – 967</span>
+    <h2>The Ngô Dynasty and the Twelve Warlords</h2>
+    <p>
+      Ngô Quyền's reign was brief. He chose Cổ Loa — an ancient fortified site that had served as the capital of Âu Lạc in the 3rd century BCE — as his capital, a symbolically rich choice (claiming deep indigenous history, not Chinese history) but also a practically defensible one. He defined official ranks and began building a court. But he died in 944, just five years after his victory, leaving a power vacuum that the barely-formed state could not fill.
+    </p>
+    <p>
+      What followed was the Loạn Thập Nhị Sứ Quân — the Rebellion of the Twelve Warlords. Ngô Quyền's brother-in-law seized the throne briefly, was overthrown by Ngô Quyền's own sons, but they proved unable to hold the realm. Central authority dissolved. Twelve regional warlords seized their own territories and began fighting each other. For roughly twenty-four years — approximately 944 to 968 — the territory that would become Đại Việt was not a state in any meaningful sense: it was a collection of warring fiefdoms.
+    </p>
+    <p>
+      This period matters precisely because of how it ended — not through the restoration of Ngô rule, but through the emergence of an entirely new leader who defeated all twelve warlords one by one. His name was Đinh Bộ Lĩnh.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">939</span><span class="label">Ngô Quyền proclaims independence at Cổ Loa</span></div>
+      <div class="stat-card"><span class="num">944</span><span class="label">Ngô Quyền dies; power vacuum begins</span></div>
+      <div class="stat-card"><span class="num">12</span><span class="label">Warlords who divided Vietnam after Ngô rule collapsed</span></div>
+      <div class="stat-card"><span class="num">~24 years</span><span class="label">Duration of the Twelve Warlords chaos (c.944–968)</span></div>
+    </div>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">968 – 980</span>
+    <h2>Đinh Bộ Lĩnh: The First Vietnamese Emperor</h2>
+    <p>
+      Đinh Bộ Lĩnh (born 923) rose from the naturally fortified valley of Hoa Lư in present-day Ninh Bình province — a strategic position in the karst limestone hills of the southern Red River Delta periphery — and proceeded to defeat each of the twelve warlords, unifying the country by 967 or 968. He then took a significant step beyond what Ngô Quyền had claimed: he proclaimed himself Emperor (not merely king), took the title Đinh Tiên Hoàng, named the country Đại Cồ Việt ("Great Viet Empire"), and kept his capital at Hoa Lư.
+    </p>
+    <p>
+      Đinh Bộ Lĩnh began the hard work of building a state. He reorganized the army, creating according to one source a 100,000-man peasant militia called the Ten Circuit Army, organized in a nested decimal structure — circuits, armies, brigades, companies, and ten-man squads. He defined ranks for court officials, convened a council of eminent Buddhist monks to define ranks for the clergy (integrating Buddhism into the institutional fabric of the new state), and sent a tributary mission to the newly established Song dynasty in China — winning diplomatic recognition, though only as "King of Giao Chỉ Prefecture," a formulation that treated Vietnam as nominally subordinate. The diplomatic logic was pragmatic: accept the tributary label to forestall invasion while maintaining actual independence. It would remain a feature of Vietnamese statecraft for centuries.
+    </p>
+    <div class="callout">
+      <strong>Who deserves credit as "the first truly independent ruler"?</strong> EBSCO notes that Vietnamese historians have debated this question across the centuries. Ngô Quyền won the battle that ended Chinese domination; but his reign lasted only five years, and the anarchy that ended his dynasty was severe. Đinh Bộ Lĩnh reunified the country, claimed the imperial title, named the state, and established the diplomatic and institutional templates that followed. Most modern Vietnamese historiography gives Đinh Bộ Lĩnh the title of the first emperor, while recognizing Ngô Quyền as the man who made independence possible. Both framings appear regularly in the sources, and this article presents both without resolving the question definitively.
+    </div>
+    <p>
+      Đinh Bộ Lĩnh's reign ended violently. He and his eldest son Đinh Liễn were assassinated in 979 by a court eunuch, Đỗ Thích. His surviving son, Đinh Toàn, was six years old. The Song dynasty, seeing an opportunity, sent armies. Champa pressed from the south. Vietnam faced simultaneous threats from two directions with a child on the throne.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>968</strong> Đinh Bộ Lĩnh proclaims himself Emperor, names the country Đại Cồ Việt, establishes the capital at Hoa Lư.</li>
+      <li><strong>970–975</strong> Diplomatic recognition from the Song dynasty, accepted on the Song's terms ("King of Giao Chỉ Prefecture").</li>
+      <li><strong>979</strong> Đinh Bộ Lĩnh and his eldest son are assassinated; six-year-old Đinh Toàn becomes emperor.</li>
+      <li><strong>979–980</strong> Song forces mobilize to invade; Champa attacks from the south simultaneously.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">980 – 1009</span>
+    <h2>Lê Hoàn: The Commander Who Saved the State</h2>
+    <p>
+      With a six-year-old on the throne and two enemies converging, Queen Mother Dương Vân Nga — widow of Đinh Bộ Lĩnh and mother of the child emperor — handed the symbolic "Long Cổn" robe (emblem of the throne) to the commander-in-chief of the armies, Lê Hoàn, investing him with imperial authority. Sources frame this as a decision made "for the benefit of the nation," though it obviously also reflected the military reality that only the commander-in-chief could actually defend the country. Lê Hoàn became Emperor Lê Đại Hành, founding the Early Lê dynasty.
+    </p>
+    <p>
+      His first act was decisive: he defeated the Song invasion in 981, on both land and water. The significance was not only military but diplomatic — it demonstrated that the Vietnamese state, even in the middle of a succession crisis, could mount an effective defense against one of the great powers of the era, and it discouraged the Song from attempting another major campaign for decades. He then turned south against Champa, campaigning successfully and consolidating the southern frontier.
+    </p>
+    <h3>Twenty-Five Years of Stability</h3>
+    <p>
+      Lê Hoàn ruled from 980 to 1005 — 25 years that gave the young state a generation of stability it badly needed. He maintained the capital at Hoa Lư, promoted agriculture and handicraft production, and continued the Đinh policy of integrating Buddhism into state institutions. The same four eminent Buddhist monks who had served as Đinh court advisers — Khuông Việt, Pháp Thuận, Ma Ni, and Đặng Huyền Quang — remained influential at the Lê court. Song dynasty envoys came twice, in 985 and 990, pressing Vietnam to maintain peace with Champa; Lê Hoàn managed these diplomatic exchanges while maintaining effective independence.
+    </p>
+    <h3>The Dynasty That Ended Badly</h3>
+    <p>
+      The Early Lê lasted only three reigns. After Lê Hoàn's death in 1005, his son Lê Trung Tông reigned for three days before being assassinated by his younger brother Lê Long Đĩnh, who seized the throne. Lê Long Đĩnh — known posthumously as Ngọa Triều, "the Bedridden Emperor," reportedly because illness or excessive indulgence left him unable to sit upright at court — acquired a reputation in Vietnamese historical memory for cruelty, sadistic punishments, and licentiousness. He died at age 24 in 1009. The court, unwilling to see another chaotic succession, supported instead the commander of the royal troops: Lý Công Uẩn, who would found the Lý dynasty and move the capital to Thăng Long.
+    </p>
+    <ul class="events colonial">
+      <li><strong>980</strong> Queen Mother Dương Vân Nga hands the throne to military commander Lê Hoàn; he becomes Emperor Lê Đại Hành.</li>
+      <li><strong>981</strong> Lê Hoàn defeats the Song invasion on land and water, repelling the threat to the new state.</li>
+      <li><strong>980s</strong> Campaigns against Champa consolidate the southern frontier.</li>
+      <li><strong>1005</strong> Lê Hoàn dies; succeeded by Lê Trung Tông, assassinated after three days.</li>
+      <li><strong>1005–1009</strong> Lê Long Đĩnh ("the Bedridden Emperor") reigns; widely remembered for cruelty and excess.</li>
+      <li><strong>1009</strong> Lê Long Đĩnh dies; court installs Lý Công Uẩn as emperor, founding the Lý dynasty.</li>
+    </ul>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">In Perspective</span>
+    <h2>Seventy Years That Built the Foundation</h2>
+    <p>
+      It is easy, looking back from the Lý dynasty's 216-year stability, to see the Ngô, Đinh, and Early Lê as mere prologue — three short-lived, fragile regimes keeping the seat warm. That view misses what was actually established in these seventy years.
+    </p>
+    <p>
+      Ngô Quyền established the basic political fact of Vietnamese independence and demonstrated at Bạch Đằng the kind of terrain-based, tidal, intelligence-driven ambush warfare that would become one of Vietnam's recurring military signatures — consciously reused at the same location against the Mongols 350 years later.
+    </p>
+    <p>
+      Đinh Bộ Lĩnh built what Ngô Quyền had not had time to construct: an imperial title, a named state, a diplomatic relationship with China that preserved independence while forestalling invasion, a Buddhist-inflected institutional structure for court and clergy, and a military organization large enough to defend the territory. He also established, by the circumstances of his assassination, an implicit question that would recur throughout Vietnamese history: how should power transfer when the legitimate heir is too young to rule and the country faces immediate military threat? The answer his court found in 979-980 — invest the commander with imperial authority — was itself a precedent.
+    </p>
+    <p>
+      Lê Hoàn answered that question decisively in 981, and his 25-year reign gave the country a generation of stability. The Early Lê's failure to produce a stable succession after him — ending in the grotesque reign of Lê Long Đĩnh — provided exactly the contrast the Lý court cited in installing Lý Công Uẩn, and exactly the political lesson the Lý dynasty drew upon in building a more institutionalized, examination-based, legally grounded state: one that did not depend entirely on the personal qualities of a single military commander to survive transitions of power.
+    </p>
+    <p>
+      In this sense, the Ngô, Đinh, and Early Lê are not just prologue to the Lý. They are the problem the Lý dynasty was built to solve.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Ngô dynasty &amp; founding of independence</span>
+  <span><span class="swatch sw-colonial"></span>Battle of Bạch Đằng &amp; Đinh unification</span>
+  <span><span class="swatch sw-modern"></span>Early Lê dynasty &amp; the path to the Lý</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>EBSCO Research Starters, <a href="https://www.ebsco.com/research-starters/history/reign-ngo-quyen" target="_blank">"Reign of Ngô Quyền"</a></li>
+    <li>Grokipedia, <a href="https://grokipedia.com/page/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)" target="_blank">"Battle of Bạch Đằng (938)"</a></li>
+    <li>Grokipedia, <a href="https://grokipedia.com/page/List_of_Vietnamese_dynasties" target="_blank">"List of Vietnamese Dynasties"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3333.html" target="_blank">"Lý Dynasty (1010–1225) and the Early Years of Vietnamese Rule"</a></li>
+    <li>Viet Vision Travel, <a href="https://www.vietvisiontravel.com/post/from-the-10th-to-15th-centuries-the-dinh-le-ly-tran-dynasty/" target="_blank">"From the 10th to 15th Centuries: The Đinh, Lê, Lý, Trần Dynasty"</a></li>
+    <li>Vietnam Impressive, <a href="https://vietnamimpressive.com/vietnam.html" target="_blank">"History of Vietnam from Early Independence to Present"</a></li>
+    <li>Vocal Media, <a href="https://vocal.media/history/brief-history-of-vietnam" target="_blank">"A Brief History of Vietnam"</a></li>
+    <li>Country Data (Library of Congress), <a href="http://www.country-data.com/cgi-bin/query/r-14606.html" target="_blank">"Vietnam — Chronology of Important Events"</a></li>
+    <li>Baidu Encyclopedia (English), <a href="https://baike.baidu.com/en/item/History%20of%20Vietnam/1540944" target="_blank">"History of Vietnam"</a></li>
+  </ol>
+  <p class="note">
+    Note: This period (938–1009) is less thoroughly documented in English-language scholarly sources than later dynasties. Key details — the precise structure of Đinh Bộ Lĩnh's Ten Circuit Army, the exact circumstances of Queen Mother Dương Vân Nga's decision to transfer the throne to Lê Hoàn, and aspects of the Twelve Warlords period — rely substantially on Vietnamese historiographical tradition rather than independently corroborated contemporary records. The Battle of Bạch Đằng is better-evidenced than most events of the period, with cross-referencing possible between Vietnamese and Chinese dynastic sources. The historiographical debate over whether Ngô Quyền or Đinh Bộ Lĩnh deserves more credit as "the first truly independent ruler" is presented here as an open question rather than a settled one, following the EBSCO Research Starter's framing.
+  </p>
+</div>
+
+</body>
+</html>

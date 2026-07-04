@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Later Lê Dynasty — Vietnam's Longest-Ruling House, 1428 to 1789</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Later Lê Dynasty</h1>
+  <p>Vietnam's longest-ruling house, 1428 to 1789</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    No dynasty in Vietnamese history lasted longer than the Lê — 361 years on the books, from Lê Lợi's victory over Ming China in 1428 to the Tây Sơn's final dismantling of the Trịnh and Nguyễn lords in 1789. But that single number conceals one of the strangest political trajectories of any ruling house anywhere: a dynasty that spent its first seventy years building one of the most sophisticated states in Southeast Asian history, then spent the following two and a half centuries as a figurehead — sometimes two figureheads at once — while the real fighting happened between families that claimed to serve it. By the time the Lê name finally disappeared from the throne, it had been reduced to a label invoked by rebels, restored by warlords, and finally discarded by the very peasant army that had marched north under the slogan of "restoring" it. This article follows that whole arc: the golden age under Lê Thánh Tông, the slow unraveling after his death, the rise of the Mạc usurpers, the two-century standoff between the Trịnh and Nguyễn families, the arrival of European missionaries and merchants, and the dynasty's quiet disappearance amid the Tây Sơn wars.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1418 – 1428</span>
+    <h2>From Guerrilla Leader to Founding Emperor</h2>
+    <p>
+      The Lê dynasty's origins lie in resistance to foreign occupation — specifically, the Ming Chinese occupation of Đại Việt that followed the collapse of the short-lived Hồ dynasty in 1407, as covered in the earlier "Ming Occupation" period of Vietnamese history. Lê Lợi, an aristocratic landowner from Thanh Hóa province, launched the Lam Sơn uprising in 1418 with the support of the Confucian statesman, poet, and military strategist Nguyễn Trãi, whose writings — particularly the "Great Proclamation upon the Pacification of the Wu" (Bình Ngô đại cáo) — remain landmarks of Vietnamese literature.
+    </p>
+    <p>
+      The campaign against Ming forces culminated in the Battle of Tốt Động–Chúc Động in October 1426, a major defeat for a large Ming relief army reportedly numbering around 100,000 men. Facing the costs of an unwinnable colonial war, the new Ming ruler — the Xuande Emperor — opted to end the conflict despite pressure from some of his advisors for one more campaign, and Ming forces withdrew from Đại Việt by 1428.
+    </p>
+    <p>
+      With the Chinese gone, Lê Lợi ascended the throne in 1428 under the reign name Lê Thái Tổ, choosing Đông Đô (Thăng Long, present-day Hanoi) as his capital and renaming the country Đại Việt. This began what Vietnamese historiography calls the "Initial Lê" period (Lê Sơ), running from 1428 until the Mạc usurpation of 1527.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1418</strong> Lê Lợi launches the Lam Sơn uprising against Ming occupation, supported by Nguyễn Trãi.</li>
+      <li><strong>October 1426</strong> Lê forces defeat a roughly 100,000-strong Ming relief army at Tốt Động–Chúc Động.</li>
+      <li><strong>1428</strong> Ming forces withdraw; Lê Lợi is enthroned as Lê Thái Tổ, founding the Later Lê dynasty with its capital at Đông Đô (Thăng Long).</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1460 – 1497</span>
+    <h2>Lê Thánh Tông: The Dynasty's Golden Age</h2>
+    <p>
+      If the Lê dynasty is remembered for one ruler above all others, it is Lê Thánh Tông, whom Britannica calls simply "the greatest ruler of the Later Lê dynasty." His path to the throne was not smooth — the early years of his reign, after ascending in 1460, were marked by a struggle for power before he was able to build a genuine governmental base. Once he had done so, however, the scale of his reforms was extraordinary by the standards of the period.
+    </p>
+    <h3>Administrative Revolution</h3>
+    <p>
+      Lê Thánh Tông reorganized Đại Việt into 13 circuits (đạo), modeled on the Chinese provincial system, each subdivided into prefectures (phủ), districts (huyện), and departments (châu) — all governed by centrally appointed officials. Crucially, these officials were selected through a triennial Confucian civil service examination, a meritocratic (in principle) system that marked a decisive shift toward Chinese-style bureaucratic governance. He also ordered a census of population and landholdings to be conducted every six years, instituted a land tax revised on a triennial basis based on crop type and arable area, and commissioned the writing of a national history.
+    </p>
+    <h3>The Hồng Đức Code</h3>
+    <p>
+      Perhaps Lê Thánh Tông's most enduring legacy was legal: the promulgation of what became known as the Hồng Đức Code (Luật Hồng Đức), an amendment and renaming (in 1483) of an earlier penal code that Vietnamese legal historians describe as "the major and most important code in the feudal period" — not just for the early Lê period but for the entire three-century span of the dynasty's existence. While based substantially on Chinese legal models, the code contained distinctly Vietnamese features, most notably in its treatment of women: it recognized a higher social position for women than was typical under Chinese law of the same period, did not require parental consent for marriage, and granted daughters inheritance rights equal to those of sons — provisions that several sources highlight as genuinely distinctive departures from the Confucian legal norms the code otherwise drew upon.
+    </p>
+    <h3>The Conquest of Champa</h3>
+    <p>
+      Militarily, Lê Thánh Tông continued the centuries-long Vietnamese "southward advance" (Nam tiến) at the expense of the Indianized kingdom of Champa, which occupied much of what is now central and southern Vietnam. He established a series of military colonies progressively further south, and in 1471 permanently subjugated Champa — according to Britannica, this victory "ended the attacks on Vietnam by the Cham people" and reduced Champa to a narrow remnant territory along the southern edge of the Indochinese peninsula. This conquest represented one of the most significant territorial expansions in Vietnamese history up to that point, and set the stage for the further southward expansion that would continue under later regimes.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">13</span><span class="label">Provinces/circuits created in Lê Thánh Tông's administrative reform</span></div>
+      <div class="stat-card"><span class="num">1483</span><span class="label">Hồng Đức Code formally promulgated</span></div>
+      <div class="stat-card"><span class="num">1471</span><span class="label">Champa permanently subjugated</span></div>
+      <div class="stat-card"><span class="num">1460–1497</span><span class="label">Length of Lê Thánh Tông's reign</span></div>
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1497 – 1527</span>
+    <h2>Thirty Years of Decline</h2>
+    <p>
+      The contrast between Lê Thánh Tông's reign and what followed could hardly be starker. Sources describe the dynasty after his death in 1497 as having "degenerated" over the following three decades, passing through ten rulers between 1497 and 1527 without producing anyone capable of maintaining the administrative machinery Lê Thánh Tông had built. By the early 1500s, the Lê court was no longer able to maintain control even over the northern heartland of the country, let alone the newly conquered territories to the south.
+    </p>
+    <p>
+      The weakening of central authority created exactly the kind of vacuum that ambitious aristocratic families are drawn to fill, and several of Đại Việt's most powerful noble houses — most consequentially the Mạc, Nguyễn, and Trịnh families — began maneuvering for position. In 1527, this maneuvering produced the dynasty's first real rupture: Mạc Đăng Dung, a scholar-official who had effectively controlled the Lê court for roughly a decade already, formally seized the throne, overthrowing the Lê emperor Lê Cung Hoàng and establishing his own Mạc dynasty.
+    </p>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1527 – 1545</span>
+    <h2>The Mạc Interregnum and the Lê Restoration</h2>
+    <p>
+      The Mạc usurpation did not go unchallenged. Other aristocratic families — notably the Nguyễn and Trịnh — rushed to the defense of the Lê cause, framing their opposition to the Mạc as loyalty to the legitimate dynasty even as they positioned themselves to become its real power-holders. In 1533, a Lê emperor was restored to the throne with the military backing of the Nguyễn family (a different Nguyễn family from both the later Tây Sơn and the Nguyễn lords of the south, though the overlapping surnames across Vietnamese history are a frequent source of confusion for readers).
+    </p>
+    <p>
+      What followed, however, was not a genuine restoration of Lê Thánh Tông-style centralized rule. As Britannica puts it with some understatement, "the Lê rulers were thereafter only" — nominal figures, with actual power exercised by whichever military family controlled the court. Initially this was the Nguyễn family; but in 1545, following the assassination of the Nguyễn patriarch Nguyễn Kim, his son-in-law Trịnh Kiểm replaced him as the dominant military figure at court, beginning what would become Trịnh dominance of the restored Lê regime — and setting up the family rivalry that would define Vietnamese politics for the next two and a half centuries.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1545 – 1620s</span>
+    <h2>Two Families, One Throne: The Trịnh–Nguyễn Split</h2>
+    <p>
+      The Trịnh family's dominance at the restored Lê court did not go unchallenged either. Members of the Nguyễn family — descendants of the same Nguyễn Kim whose assassination had brought Trịnh Kiểm to power — gradually relocated their base of operations to the southern frontier regions of Đại Việt, beyond the immediate reach of Trịnh military power, and began building an effectively autonomous power base there.
+    </p>
+    <p>
+      What emerged from this split was a genuinely unusual political arrangement that would persist for roughly two centuries. In the north (Đàng Ngoài), the Trịnh family ruled as "lords" (chúa) in the name of the Lê emperor, who continued to occupy the throne at Thăng Long with full ceremonial honors but essentially no independent authority — a Wikipedia summary of the Trịnh lords' status describes them as holding "lordship and de jure fief within [the] Lê dynasty," a careful formulation that captures the legal fiction under which they operated. In the south (Đàng Trong), the Nguyễn family governed their own territory, nominally also as subjects of the Lê emperor but in practice as an independent state in all but name — their status evolved over time from formal subordination to the Trịnh (1558–1627), through periods of de jure lordship within the Lê dynasty, to what Wikipedia describes as a "de facto independent state" by the time of the Tây Sơn wars.
+    </p>
+    <div class="callout">
+      <strong>One throne, two governments:</strong> For roughly two centuries, Đại Việt presented the unusual spectacle of a single, continuously occupied imperial throne — the Lê emperors at Thăng Long — coexisting with two separate governing apparatuses that fought each other (the Trịnh–Nguyễn wars of the 17th century) while both, in form, claimed to serve the same emperor. Some historians frame this less as a "divided Vietnam" in the modern sense and more as a feudal arrangement in which the nominal sovereign had become almost entirely decorative — a description that, as later sections of this article note, became almost literally true by the dynasty's final years.
+    </div>
+    <ul class="events colonial">
+      <li><strong>1533</strong> A Lê emperor is restored with Nguyễn family military backing, ending the Mạc usurpation in the Lê heartland (though a Mạc rump state persisted in the north for some time).</li>
+      <li><strong>1545</strong> Trịnh Kiểm becomes the dominant military figure at the restored Lê court following Nguyễn Kim's assassination.</li>
+      <li><strong>Late 1500s–early 1600s</strong> The Nguyễn family relocates its power base to the southern frontier, gradually becoming autonomous.</li>
+      <li><strong>1558–1627</strong> Nguyễn lords formally subordinate to the Trịnh, before a series of wars establishes de facto separation.</li>
+    </ul>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">1620s – 1770s</span>
+    <h2>Missionaries, Merchants, and the Nam Tiến</h2>
+    <p>
+      The two-century Trịnh–Nguyễn standoff coincided with — and was shaped by — Đại Việt's first sustained contact with European missionaries and traders. Following the end of the Lê–Mạc War and the restoration of peace in 1593, increasing numbers of missionaries from Spain, Portugal, France, Italy, and Poland arrived in Vietnam to spread Christianity. The best-known of these early missionaries was Alexandre de Rhodes, a French Jesuit dispatched to Hanoi in 1627, who learned Vietnamese quickly and began preaching in the language — reportedly baptizing more than 6,000 converts. His early reception at the Trịnh court was favorable, but according to Wikipedia, his evident success likely contributed to his expulsion in 1630, an early example of the pattern of missionary activity followed by court suspicion and expulsion that would recur — with far more severe consequences — under the Nguyễn dynasty two centuries later.
+    </p>
+    <p>
+      Alexandre de Rhodes is also significant for a reason with consequences far beyond religion: he is among the figures credited with developing and popularizing chữ Quốc ngữ, the Latin-alphabet-based writing system that would eventually replace the Chinese-character-based chữ Nôm and become the standard script for written Vietnamese — the same alphabet in which this article, and the Vietnamese language generally, is written today.
+    </p>
+    <p>
+      Throughout this period, the Lê dynasty's longer-term territorial legacy continued to unfold even as its political authority remained nominal. The Nam Tiến ("southward advance") that Lê Thánh Tông had accelerated against Champa continued under the Nguyễn lords' administration of the south, extending Vietnamese settlement and control through the Mekong Delta region and, according to Wikipedia, even involving expeditions reaching toward what is now Laos and Myanmar — bringing Đại Việt's effective territorial extent close to Vietnam's modern borders by the time of the Tây Sơn uprising, even though the Lê emperors themselves had no meaningful role in directing this expansion.
+    </p>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1770s – 1789</span>
+    <h2>The End: A Dynasty Restored, Then Discarded</h2>
+    <p>
+      The Lê dynasty's final years are, in some respects, the strangest of its entire 361-year span — and they are covered in much greater detail in the companion article on the <a href="era-tay-son-dynasty.html">Tây Sơn dynasty</a>. The brief summary here: by the 1770s, the Trịnh regime in the north faced its own internal crisis, including a major insurrection in the Tonkin highlands fostered by groups from southern China, which forced the Trịnh "vice-regent" from power and left the reigning Lê emperor (Lê Hiển Tông's eventual successors) as what one source bluntly calls "a puppet monarch."
+    </p>
+    <p>
+      The Tây Sơn brothers, having destroyed the Nguyễn lords' power in the south, then turned north. In 1786, Nguyễn Huệ's forces cleared Trịnh forces from Phú Xuân and went on to annihilate Trịnh authority entirely — the last Trịnh lord, Trịnh Khải (Trịnh Cai), reportedly committed suicide following his defeat. For a brief moment, this looked like exactly what the Tây Sơn had originally claimed to want: the destruction of the Trịnh "usurpers" and the restoration of genuine Lê authority. Indeed, Wikipedia notes the genuine irony that the Tây Sơn uprising defeated both the Trịnh and the Nguyễn "in order to restore power to the Lê dynasty" — at least nominally.
+    </p>
+    <p>
+      That restoration did not last. The reigning Lê emperor, Lê Chiêu Thống, fled to Qing China and — in a decision that, as one source notes, has led him to be "viewed as a traitor by the Vietnamese people" ever since — petitioned the Qing Qianlong Emperor for military assistance to regain his throne. The resulting Qing invasion of 1788–89, and its catastrophic defeat at the hands of Nguyễn Huệ (by then crowned Emperor Quang Trung) at Ngọc Hồi–Đống Đa, is the central event of the companion Tây Sơn article. For the Lê dynasty itself, the consequence was final: with its last emperor discredited as having invited a foreign invasion, and with Nguyễn Huệ having in any case already proclaimed his own imperial title before the battle was even fought, the Lê dynasty's 361-year run came to a quiet, almost anticlimactic end in 1789 — not abolished in a dramatic act of usurpation, as the Mạc had done in 1527, but simply allowed to lapse as irrelevant once its last occupant had discredited himself beyond recovery.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1770s</strong> Internal crisis weakens Trịnh authority in the north; the reigning Lê emperor is reduced to a near-powerless figure.</li>
+      <li><strong>1786</strong> Tây Sơn forces under Nguyễn Huệ destroy Trịnh power; the last Trịnh lord dies by suicide.</li>
+      <li><strong>1786–88</strong> A brief, nominal restoration of genuine Lê authority under Lê Chiêu Thống.</li>
+      <li><strong>1788</strong> Lê Chiêu Thống flees to Qing China and requests military intervention to restore him.</li>
+      <li><strong>1789</strong> The resulting Qing invasion is destroyed at Ngọc Hồi–Đống Đa; the Lê dynasty's 361-year existence ends.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">In Perspective</span>
+    <h2>The Longest Dynasty, the Shortest Real Reign</h2>
+    <p>
+      There is a useful irony in how the Lê dynasty's 361 years are typically discussed: an overwhelming proportion of what historians actually say about "the Lê dynasty" concerns roughly its first seventy years — the reigns of Lê Thái Tổ and especially Lê Thánh Tông — while the remaining 290-plus years are discussed primarily in terms of the families who ruled in the Lê emperors' names (the Mạc, then the Trịnh and Nguyễn) rather than the emperors themselves. This is not a quirk of any single source; it reflects a genuine asymmetry in how much independent agency the Lê emperors actually exercised across their dynasty's history.
+    </p>
+    <p>
+      Why, then, does the Lê name persist as the label for this entire 361-year period, rather than the period being divided — as, in a sense, this article itself has implicitly divided it — into an early Lê golden age followed by a long Trịnh–Nguyễn era under a nominal Lê umbrella? Part of the answer lies in the legal and ideological framework of premodern Vietnamese (and broader East Asian) politics: legitimacy flowed from dynastic continuity and Confucian cosmological order, and a family that ruled "in the name of" the legitimate dynasty — however nominal that dynasty's actual power — was making a very different political claim than a family that simply seized the throne outright, as the Mạc briefly did. The Trịnh and Nguyễn lords' choice to preserve the Lê emperors as figureheads, rather than simply deposing them, was itself a meaningful political act — one that the Tây Sơn brothers initially felt compelled to perform as well, before ultimately discarding the pretense once their own legitimacy (cemented by the victory over the Qing) no longer required it.
+    </p>
+    <p>
+      Read this way, the Later Lê dynasty's history is really two stories wearing one name: the story of a genuinely transformative state-building project under Lê Thánh Tông, whose administrative and legal innovations (particularly the Hồng Đức Code's provisions on women's legal status) left a lasting imprint on Vietnamese institutions; and the story of a symbol — increasingly hollow, but never quite hollow enough to simply discard — that successive military families found more useful to preserve than to destroy, until one finally did not.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Founding, golden age &amp; the dynasty's end</span>
+  <span><span class="swatch sw-colonial"></span>Political fragmentation &amp; the Trịnh–Nguyễn split</span>
+  <span><span class="swatch sw-modern"></span>Decline, missionaries &amp; long-term legacy</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Le-Thanh-Tong" target="_blank">"Lê Thánh Tông"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Later-Le-dynasty" target="_blank">"Later Lê Dynasty"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Later_Le_Dynasty" target="_blank">"Lê Dynasty"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Tr%E1%BB%8Bnh_lords" target="_blank">"Trịnh Lords"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_lords" target="_blank">"Nguyễn Lords"</a></li>
+    <li>Vietnam Law Magazine, <a href="https://vietnamlawmagazine.vn/the-state-and-law-in-the-early-period-of-the-posterior-le-dynasty-1428-1527-4555.html" target="_blank">"The State and Law in the Early Period of the Posterior Lê Dynasty (1428–1527)"</a></li>
+    <li>GlobalSecurity.org, <a href="https://www.globalsecurity.org/military/world/vietnam/dai-viet-le.htm" target="_blank">"Đại Việt — Lê Dynasty (1428–1788)"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3335.html" target="_blank">"Return of the Chinese and the Lê Dynasty (1428–1778)"</a></li>
+    <li>TOTA World, <a href="https://www.tota.world/article/863/" target="_blank">"Vietnamese History: Trần Dynasty to the Arrival of the Europeans"</a></li>
+    <li>Epic World History, <a href="http://epicworldhistory.blogspot.com/2012/06/le-dynasty-of-vietnam.html" target="_blank">"Lê Dynasty of Vietnam"</a></li>
+  </ol>
+  <p class="note">
+    Note: This article emphasizes the political structure of the Lê dynasty — particularly the gap between nominal and actual authority after 1527 — because that structure is the central, most-discussed feature of the dynasty's history in the available sources. Some details of the Mạc dynasty's own multi-decade survival as a rump state in the northern highlands after the 1533 Lê restoration are only briefly covered here; readers interested in the Mạc period specifically may find it covered in more depth in dedicated sources. The final years of the dynasty (1786–1789) are covered in greater detail, including troop figures and battle accounts, in the companion article on the Tây Sơn dynasty.
+  </p>
+</div>
+
+</body>
+</html>
