@@ -48,7 +48,7 @@ https://projects.haphan.digital/
 [[700 Vaults/710 Research/713 Politic History Vietnam/Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ\|Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Từ mô hình Singapore Việt Nam có thể áp dụng gì\|Từ mô hình Singapore Việt Nam có thể áp dụng gì]]
 [[700 Vaults/710 Research/713 Politic History Vietnam/Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi\|Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi]]
-
+[[700 Vaults/710 Research/713 Politic History Vietnam/NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU\|NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU]]
 
 ## Xã hội 
 [[700 Vaults/750 movie/phim heo/Lý do phụ nữ TQ thích đam mỹ còn ở châu Âu thì lại không\|Lý do phụ nữ TQ thích đam mỹ còn ở châu Âu thì lại không]]
@@ -81,6 +81,6 @@ https://projects.haphan.digital/
 `#sociology`, `#gender-studies`, `#sexual-script-theory`, `#psychological-anthropology`, `#east-asia`, `#danmei`, `#boylove`, `#18+`, `#phimheo`.
 `#vietnam`, `#viet-nam`, `#politic`, `#quan-su-vien-thong`, `#StopVNtrolls`, `#dlv47`, `#propaganda`, `#vietnam/chính-trị`, `#vietnam/lịch-sử`, `#vietnam/internet`, `#vietnam/mạng-xã-hội`, `#vietnam/pháp-lý`, `#vietnam/tự-do-báo-chí`, `#vietnam/tự-do-ngôn-luận`. `#xahoi` `#ti-le-sinh`
 `#digitalgarden`, `#moc`, `#about-me`, `#adhd`, `#evergreen`, `#output/writing`, `#seedling/video-content`, `#cauhoi`, `#tintuc`.
-`#learning`, `#resources`, `#make-money/affiliate`, `#make-money/freelance`, `#make-money/gig`, `#make-money/guide`, `#website`.
+`#learning`, `#resources`, `#make-money/affiliate`, `#make-money/freelance`, `#make-money/gig`, `#make-money/guide`, `#website`. `#tax` `#xahoi`
 
 
