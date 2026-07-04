@@ -4,24 +4,27 @@
 
 
 
-## 🗺️ Bản Đồ Lịch Sử Việt Nam (MOC)
+## 🗺️ Vietnam History Map of Content (MOC)
 
-Dưới đây là sơ đồ chi tiết về các thời kỳ lịch sử Việt Nam (Click để mở xem toàn màn hình trong tab mới):
+Below is the detailed timeline of Vietnamese historical eras (Click to open full screen in a new tab):
 
-### 📌 Tổng Quan
-* 📜 <a href="/eras/vietnam_history_timeline.html" target="_blank">Toàn Cảnh Tiến Trình Lịch Sử Việt Nam (Timeline Tổng Quan)</a>
+### 📌 Overview
+* 📜 <a href="/eras/vietnam_history_timeline.html" target="_blank">The Grand Timeline of Vietnam History (Overview)</a>
 
-### 👑 Thời Kỳ Cổ Đại & Phong Kiến
-* 🌾 <a href="/eras/era-hong-bang.html" target="_blank">Thời Kỳ Hồng Bàng (Bình Minh Lịch Sử)</a>
-* 🛡️ <a href="/eras/era-ngo-dinh-le.html" target="_blank">Thời Kỳ Nhà Ngô - Đinh - Tiền Lê</a>
-* 🌸 <a href="/eras/era-ly-dynasty.html" target="_blank">Thời Kỳ Nhà Lý</a>
-* ⚔️ <a href="/eras/era-ming-occupation.html" target="_blank">Thời Kỳ Kháng Chiến Chống Quân Minh</a>
-* 🏛️ <a href="/eras/era-later-le-dynasty.html" target="_blank">Thời Kỳ Nhà Lê Sơ / Hậu Lê</a>
-* 🎯 <a href="/eras/era-tay-son-dynasty.html" target="_blank">Thời Kỳ Nhà Tây Sơn</a>
+### 👑 Ancient & Imperial Eras
+* 🌾 <a href="/eras/era-hong-bang.html" target="_blank">The Hồng Bàng Period (2879–258 BCE)</a>
+* ⛓️ <a href="/eras/era-bac-thuoc.html" target="_blank">The Northern Domination / Chinese Rule (111 BCE–938 CE)</a>
+* 🛡️ <a href="/eras/era-ngo-dinh-le.html" target="_blank">Ngô, Đinh & Early Lê Dynasties (938–1009)</a>
+* 🌸 <a href="/eras/era-ly-dynasty.html" target="_blank">The Lý Dynasty (1009–1225)</a>
+* 🛶 <a href="/eras/era-tran-dynasty.html" target="_blank">The Trần Dynasty (1225–1400)</a>
+* ⚔️ <a href="/eras/era-ming-occupation.html" target="_blank">The Ming Occupation (1407–1428)</a>
+* 🏛️ <a href="/eras/era-later-le-dynasty.html" target="_blank">The Later Lê Dynasty (1428–1789)</a>
+* 🎯 <a href="/eras/era-tay-son-dynasty.html" target="_blank">The Tây Sơn Dynasty (1771–1802)</a>
+* 👑 <a href="/eras/era-nguyen-dynasty.html" target="_blank">The Nguyễn Dynasty (1802–1945)</a>
 
-### ⚔️ Thời Kỳ Cận - Hiện Đại
-* 🥖 <a href="/eras/era-french-colonial.html" target="_blank">Thời Kỳ Thuộc Địa Pháp (French Colonial)</a>
-* 🎖️ <a href="/eras/era-vietnam-war.html" target="_blank">Thời Kỳ Kháng Chiến Chống Mỹ (Vietnam War)</a>
-* 📈 <a href="/eras/era-doi-moi.html" target="_blank">Thời Kỳ Đổi Mới Hóa Quốc Gia</a>
+### ⚔️ Modern & Contemporary Eras
+* 🥖 <a href="/eras/era-french-colonial.html" target="_blank">The French Colonial Period (1887–1954)</a>
+* 🎖️ <a href="/eras/era-vietnam-war.html" target="_blank">The Vietnam War / Resistance War Against America (1954–1975)</a>
+* 📈 <a href="/eras/era-doi-moi.html" target="_blank">The Đổi Mới Era / National Economic Renovation (1976–Present)</a>
 
 
