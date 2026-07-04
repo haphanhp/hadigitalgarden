@@ -2,8 +2,75 @@
 {"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nguon-luc-nha-nuoc-den-tu-dau/","title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","tags":["xahoi","tax"],"dg-note-properties":{"title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","date":"2026-07-04","created":"2026-07-04 15:24","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Brave","created_by":"AI Assistant","tags":["xahoi","tax"],"status":"draft"}}
 ---
 
+## Bài viết phiên bản ngắn gọn hơn 
+                      NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
+                                     │
+         ┌───────────────────────────┼───────────────────────────┐
+         ▼                           ▼                           ▼
+【MÔ HÌNH BẤT ĐỘNG SẢN】      【MÔ HÌNH THU NHẬP】        【MÔ HÌNH TÀI NGUYÊN】
+ (Singapore, Hồng Kông)          (Vùng Bắc Âu)                (Các nước Vùng Vịnh)
+         │                           │                           │
+ ├── Logic: Đất immobile,    ├── Logic: Thu dòng chảy    ├── Logic: Khai thác tô 
+ │   khó lẩn tránh.          │   kinh tế (PIT, CIT, VAT) │   tài nguyên độc quyền.
+ ├── Thu thuế giao dịch rất   ├── Cơ sở thuế rộng, lũy    ├── Thuế thu nhập 0%, hạ
+ │   cao, thuế giữ đất thấp. │   tiến rất cao (>50%).    │   tầng & phúc lợi nhanh.
+ └── Hệ quả: Đầu cơ, đẩy    └── Điều kiện: Phúc lợi cao,└── Lời nguyền tài nguyên,
+     giá nhà phi mã (>20 PIR).   kiểm soát thuê tốt.         giảm giải trình chính trị.
+         │                           │                           │
+         └───────────────────────────┬───────────────────────────┘
+                                     ▼
+                        【THỰC TRẠNG TẠI VIỆT NAM】
+                       (Mô hình kết hợp bất lợi)
+                                     │
+         ┌───────────────────────────┼───────────────────────────┐
+         ▼                           ▼                           ▼
+   Về Bất Động Sản              Về Thu Nhập                 Về Tài Nguyên
+ ├── Giá nhà siêu cao        ├── Thuế lũy tiến đến 35%   ├── Nhà nước độc quyền 
+ │   (PIR toàn quốc: 23.7,   │   và VAT 10%.             │   qua SOEs (PVN, EVN...).
+ │   HCMC: 32-34).           ├── Phúc lợi xã hội chưa    ├── Lợi nhuận hòa thẳng 
+ ├── Thuế BĐS "rỗng ở giữa": │   tương xứng; người dân   │   vào chi tiêu ngân sách.
+ │   Không thuế tài sản      │   phải tự chi trả y tế,   └── Chưa có quỹ tích lũy
+ │   hàng năm, dồn nặng      │   giáo dục bổ sung.       │   dài hạn cho tương lai
+ │   vào biên giao dịch.     └── Gánh nặng kép đối với   │   như mô hình Na Uy.
+ └── Luật Đất đai 2024 áp    │   người đi thuê nhà.      │
+     lực giá đất thị trường. │                           │
+         └───────────────────────────┼───────────────────────────┘
+                                     ▼
+                        【BẤT BÌNH ĐẲNG CẤU TRÚC】
+               Implicit Wealth Transfer (Dịch chuyển của cải ngầm)
+               Từ người lao động đóng thuế & người thuê nhà 
+               👉 Sang nhóm đầu cơ, tích trữ nhiều đất đai.
 
+## Bối cảnh Việt Nam: Đối chiếu và Thiếu sót chiến lược
 
+Khi đặt Việt Nam vào hệ quy chiếu với các quốc gia thành công, hệ thống hiện hành bộc lộ những khoảng trống lớn về mặt điều tiết và tái phân phối, khi một cổ 3 tròng, chịu cả 3 loại thuế, thuế bds trả qua giá nhà cho thuê, thuế tiêu thụ thể hiện qua mua hàng hóa, và thuế do độc quyền nguồn cung điện nước. 
+
+|**Mô hình đối chiếu**|**Công cụ các nước áp dụng**|**Thực trạng tương ứng tại Việt Nam**|**Hệ quả cấu trúc**|
+|---|---|---|---|
+|**Mô hình BĐS** _(Singapore, Hong Kong)_|• Thuế giao dịch ngoại quốc cực cao (Singapore ABSD 60%) để chặn dòng vốn đầu cơ.<br><br>  <br><br>• Định giá đất đấu giá cao làm nguồn thu công ích.|• Không có thuế sở hữu tài sản hàng năm hiệu quả (Thuế đất phi nông nghiệp chỉ 0,03% - 0,15% theo bảng giá nhà nước rất thấp).<br><br>  <br><br>• Thuế chuyển nhượng cào bằng 2% doanh thu (lướt sóng hay chính chủ đều như nhau).|**Trừng phạt người giao dịch, thưởng người tích trữ.** Hệ thống khuyến khích găm giữ đất lâu dài chờ tăng giá, đẩy tỷ lệ giá nhà/thu nhập (PIR) tại TP.HCM lên ngưỡng khủng hoảng 32–34 lần.|
+|**Mô hình Thu nhập** _(Bắc Âu)_|• Thuế suất biên tối đa rất cao (52% - 56%) áp dụng rộng rãi từ tầng lớp trung lưu.<br><br>  <br><br>• Kiểm soát giá thuê chặt chẽ.|• Thuế TNCN lũy tiến áp trần 35% từ mức thu nhập trên 80 triệu đồng/tháng.<br><br>  <br><br>• VAT 10% bào mòn thu nhập thực tế.<br><br>  <br><br>• Thị trường cho thuê thả nổi.|**Gánh nặng kép lên tầng lớp trung lưu lao động.** Người dân chịu thuế suất cao nhưng phải tự chi trả cho các dịch vụ an sinh (y tế, giáo dục tư, tự mua nhà) do hệ thống phúc lợi công chưa bao phủ toàn diện.|
+|**Mô hình Tài nguyên** _(Vùng Vịnh, Na Uy)_|• Thành lập các Quỹ tài sản quốc gia (SWF) để đầu tư toàn cầu (Na Uy GPFG, UAE ADIA).<br><br>  <br><br>• Trợ cấp diện rộng hoặc trả cổ tức dài hạn cho toàn dân.|• Nhà nước độc quyền các ngành chiến lược thông qua các tập đoàn quốc doanh (EVN, PVN, Viettel chiếm 1/2 quy mô khu vực SOE).<br><br>  <br><br>• Lợi nhuận tài nguyên tài trợ trực tiếp cho chi tiêu ngân sách ngắn hạn.|**Khu vực tư nhân bị chèn ép về nguồn lực.** Dòng tiền từ tài nguyên không được phân phối lại thông qua các quỹ tích lũy dài hạn cho thế hệ mai sau, đồng thời tạo ra một sân chơi không bằng phẳng cho doanh nghiệp tư nhân tiếp cận đất đai và tín dụng.|
+
+## 🎯 3. Điểm nghẽn từ Cải cách Luật Đất đai 2024
+
+**Luật Đất đai 2024** (triển khai toàn diện từ năm 2026) loại bỏ khung giá đất định kỳ 5 năm, thay bằng **Bảng giá đất cập nhật hàng năm theo giá thị trường**. Đây là một bước tiến minh bạch, nhưng nếu không đi kèm thuế tài sản, nó sẽ tạo ra một áp lực tài chính mới:
+
+- **Tăng chi phí đầu vào hệ thống:** Toàn bộ tiền sử dụng đất, thuế chuyển nhượng, lệ phí trước bạ và chi phí đền bù giải phóng mặt bằng của doanh nghiệp đều tăng mạnh do tính theo giá thị trường thực tế.
+    
+- **Hiệu ứng chuyển dịch chi phí (Cost-shifting):** Các chủ đầu tư BĐS không tự gánh chịu phần chi phí gia tăng này. Họ sẽ cộng trực tiếp vào giá thành phẩm, khiến giá nhà ở sơ cấp tiếp tục bị đẩy lên cao, người mua nhà cuối cùng phải chịu trận.
+    
+
+## 🛠️ 4. Lộ trình Tái cấu trúc theo Đề xuất Chuyên gia
+
+Để phá vỡ vòng lặp bất lợi và chặn đứng xu hướng "dịch chuyển của cải ngầm" bất công, các chuyên gia kinh tế và đại biểu Quốc hội định hình lộ trình cải cách hệ thống thuế tập trung vào 4 mũi nhọn:
+
+1. **Thuế tài sản hàng năm lũy tiến theo số lượng BĐS:** Miễn hoặc áp thuế tối thiểu cho căn nhà thứ nhất (phục vụ nhu cầu ở thực); áp thuế suất lũy tiến rất cao đối với căn nhà thứ hai, thứ ba trở đi hoặc đất bỏ hoang để triệt tiêu động lực găm giữ đầu cơ. VN chưa có áp dụng luật này, nếu có chỉ mới ở trên lí thuyết. 
+    
+2. **Thuế lãi vốn (Capital Gains Tax) phân loại theo thời gian:** Đánh thuế nặng trên lợi nhuận nếu BĐS bị mua đi bán lại trong thời gian ngắn (dưới 1–2 năm) để phạt hành vi lướt sóng; giảm dần thuế suất nếu tài sản được nắm giữ dài hạn nhằm khuyến khích đầu tư lành mạnh. Singapore đã áp dụng luật này thành công, giảm đầu cơ, giúp người địa phương có chỗ ở. 
+    
+3. **Xóa bỏ thực trạng "Giá hai giá":** Đồng bộ hóa triệt để dữ liệu giao dịch quốc gia và áp dụng thanh toán không tiền mặt trong giao dịch địa ốc, buộc giá khai báo trên hợp đồng phải trùng khớp 100% với giá trị thị trường thực tế để chống thất thu thuế. Việc này ở VN vẫn còn ở mức hình thức, chưa thực sự đủ răn đe. 
+    
+4. **Thành lập Quỹ tích lũy tài sản quốc gia (Mô hình Na Uy):** Tách biệt một phần nguồn thu từ các tập đoàn độc quyền tài nguyên (như PVN) ra khỏi ngân sách chi thường xuyên, đưa vào quỹ đầu tư chiến lược dài hạn nhằm tái cấp vốn cho hạ tầng an sinh, giáo dục và y tế công cộng. ở VN nguồn lực cho giáo dục và y tế rất hạn chế, chủ yếu nguồn lực đổ cho công an. 
 
 # NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
 
@@ -243,13 +310,13 @@ Trong khi đó, người sở hữu nhiều BĐS có thể không giao dịch tr
 |**Người gánh nặng thuế chính**|Người mua nhà và nhà đầu tư|Người lao động có thu nhập cao|Doanh nghiệp nước ngoài, lao động nhập cư|Tất cả người lao động, người thuê nhà, người mua nhà|
 
 ### 5.2 Điều Việt Nam thiếu so với từng nhóm
-
-So với **nhóm BĐS** như Singapore: Việt Nam thiếu các công cụ kiềm chế đầu cơ hiệu quả và thiếu minh bạch thị trường. Singapore đánh thuế đầu vào cực cao để lọc bỏ giao dịch đầu cơ ngắn hạn — Việt Nam thiếu cơ chế này.
-
-So với **nhóm Bắc Âu**: Việt Nam thu thuế thu nhập đến 35% nhưng không xây dựng được hệ thống phúc lợi tương xứng. Người dân vừa đóng thuế cao vừa phải tự lo các chi phí xã hội (giáo dục tư, bảo hiểm y tế bổ sung, nhà ở).
-
-So với **nhóm tài nguyên**: Việt Nam có lợi nhuận từ dầu khí và tài nguyên qua PVN và các SOE khác nhưng không có cơ chế quỹ tích lũy quốc gia kiểu Na Uy, và cũng không miễn thuế cho dân như các nước Gulf.
-
+> 
+> So với **nhóm BĐS** như Singapore: Việt Nam thiếu các công cụ kiềm chế đầu cơ hiệu quả và thiếu minh bạch thị trường. Singapore đánh thuế đầu vào cực cao để lọc bỏ giao dịch đầu cơ ngắn hạn — Việt Nam thiếu cơ chế này.
+> 
+> So với **nhóm Bắc Âu**: Việt Nam thu thuế thu nhập đến 35% nhưng không xây dựng được hệ thống phúc lợi tương xứng. Người dân vừa đóng thuế cao vừa phải tự lo các chi phí xã hội (giáo dục tư, bảo hiểm y tế bổ sung, nhà ở).
+> 
+> So với **nhóm tài nguyên**: Việt Nam có lợi nhuận từ dầu khí và tài nguyên qua PVN và các SOE khác nhưng không có cơ chế quỹ tích lũy quốc gia kiểu Na Uy, và cũng không miễn thuế cho dân như các nước Gulf.
+> 
 ### 5.3 Hướng cải cách được các chuyên gia đề xuất
 
 Các chuyên gia và đại biểu Quốc hội Việt Nam đang thảo luận nhiều giải pháp:¹⁸
