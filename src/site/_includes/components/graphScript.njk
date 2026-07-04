@@ -593,7 +593,7 @@ function render3DGraph(graphData, containerId) {
     }
 
     // ── Tăng lực đẩy để node bung ra giống bản 2D ──
-    Graph.d3Force('charge').strength(-220).distanceMax(600);
+    Graph.d3Force('charge').strength(-500).distanceMax(600);
     Graph.d3Force('link').distance(90);
     // Không có force('center') mạnh như 2D nên chỉ cần charge đủ mạnh là node tự dạt xa tâm
     Graph.d3AlphaDecay(0.02).d3VelocityDecay(0.3); // simulation chạy lâu hơn, mượt hơn để node có thời gian bung hết
