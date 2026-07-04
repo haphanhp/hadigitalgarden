@@ -2,6 +2,11 @@ function userMarkdownSetup(md) {
 }
 
 function userEleventySetup(eleventyConfig) {
+  // Copy nguyên các file HTML lịch sử (không qua xử lý template/markdown)
+  // Đặt file .html của bạn vào: src/site/eras/
+  // Sau khi build sẽ ra: https://garden.haphan.digital/eras/ten-file.html
+  eleventyConfig.addPassthroughCopy("src/site/eras");
+
   eleventyConfig.addTransform("injectGoogleTranslate", function(content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
       return content.replace(
