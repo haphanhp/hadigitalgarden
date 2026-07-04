@@ -391,36 +391,23 @@ function hexAlpha(hex, alpha) {
 }
 
 // ─── Hue từ group hoặc URL path ──────────────────────────────────────────────
-// Dùng golden-angle hash → màu trải đều, không đụng nhau
+function urlColorKey(url) {
+    if (!url || url === '/') return 'home';
+    const parts = url.replace(/^\//, '').replace(/\/$/, '').split('/').filter(Boolean);
+    if (parts.length >= 2) return parts[1];
+    return parts[0] || 'home';
+}
+
 function hashStringToHue(str) {
     let h = 0;
     for (let i = 0; i < str.length; i++) h = (Math.imul(31, h) + str.charCodeAt(i)) | 0;
     return ((h >>> 0) * 137.508) % 360;
 }
 
-// Lấy color key từ URL — dùng segment cấp 2 (folder chính trong vault)
-// /700-vaults/750-movie/vietnam-movie/...              → "750-movie"
-// /700-vaults/710-research/713-politic-history-vietnam/... → "710-research"
-// /1000-distillations/1000-4-published/ha-digital-garden/ → "1000-4-published"
-// /                                                    → "home"
-// Logic: cấp 2 đủ ổn định — thêm folder mới trong tương lai tự ra màu mới
-// Cấp 3 quá chi tiết (nhiều màu na ná), cấp 1 quá chung (ít màu)
-function urlColorKey(url) {
-    if (!url || url === '/') return 'home';
-    const parts = url.replace(/^\//, '').replace(/\/$/, '').split('/').filter(Boolean);
-    // Segment thứ 2 nếu có, không thì segment cuối
-    if (parts.length >= 2) return parts[1];
-    return parts[0] || 'home';
-}
-
-// Màu theo tag: bỏ qua 'note' và 'published/*' vì quá chung
-// Ưu tiên tag có '/' để group sub-tags cùng màu
-// tech/automation, tech/ai → "tech" | make-money/gig → "make-money"
 const SKIP_TAGS = new Set(['note', 'notes', 'null', 'evergreen', 'seedling', 'budding']);
 
 function nodeHue(node) {
     if (node.tags && node.tags.length > 0) {
-        // Lọc bỏ tag không có ý nghĩa màu
         const usable = node.tags.filter(t =>
             t && t !== 'null' &&
             !SKIP_TAGS.has(t.toLowerCase()) &&
@@ -436,9 +423,6 @@ function nodeHue(node) {
 }
 
 // ─── Tính màu node — "dải sao" ───────────────────────────────────────────────
-//   Hue   = group/path  →  màu phân biệt từng nhóm
-//   L     = 30%(leaf) → 75%(hub)   node trung tâm sáng hơn
-//   alpha = 0.15(leaf) → 1.0(hub)  node ngoài rìa mờ như sao xa
 function nodeStarColor(node, degree, maxDegree) {
     const hue = nodeHue(node);
     const t   = maxDegree > 0 ? Math.sqrt(degree / maxDegree) : 0;
@@ -458,35 +442,32 @@ function render3DGraph(graphData, containerId) {
     const degreeMap = buildDegreeMap(graphData.links);
     const maxDegree = Math.max(...Object.values(degreeMap), 1);
 
-    // Build node list với màu tag + brightness theo degree
     const nodes = graphData.nodes.map(n => {
         const deg  = degreeMap[n.id] || 0;
-        const { hex, alpha, t } = nodeStarColor(n, deg, maxDegree); // truyền đúng object n
+        const { hex, alpha, t } = nodeStarColor(n, deg, maxDegree);
 
         return {
             id:    n.id,
             name:  n.title || n.id,
             url:   n.url,
             tags:  n.tags || [],
-            hex,                            // full-brightness hex (dùng cho glow/particles)
-            color: hexAlpha(hex, alpha),    // màu thực render (mờ/sáng theo degree)
-            val:   Math.max(0.5, deg * 0.8 + 1),  // size theo degree
-            brightness: t,                  // 0→1, dùng cho link opacity
+            hex,
+            color: hexAlpha(hex, alpha),
+            val:   Math.max(0.5, deg * 0.8 + 1),
+            brightness: t,
         };
     });
 
     const nodeMap = Object.fromEntries(nodes.map(n => [n.id, n]));
     const links   = graphData.links.map(l => ({ source: l.source, target: l.target }));
 
-    // ── THREE.js custom node: sphere + sprite glow ──────────────────────────
-    // (ForceGraph3D expose THREE globally)
     const THREE = window.THREE;
 
     const Graph = ForceGraph3D()(el)
         .width(el.clientWidth)
         .height(el.clientHeight)
         .graphData({ nodes, links })
-        .backgroundColor('#0a0a0f')          // nền vũ trụ tối
+        .backgroundColor('#0a0a0f')
         .showNavInfo(false)
 
         // ── Nodes ──
@@ -500,16 +481,14 @@ function render3DGraph(graphData, containerId) {
         })
         .nodeVal('val')
         .nodeResolution(16)
-        .nodeOpacity(1)                      // opacity quản lý qua color alpha
+        .nodeOpacity(1)
         .nodeColor('color')
 
-        // Glow sprite cho hub nodes (brightness > 0.5)
         .nodeThreeObject(node => {
-            if (!THREE || node.brightness < 0.3) return null; // leaf: dùng default sphere
+            if (!THREE || node.brightness < 0.3) return null;
 
             const group = new THREE.Group();
 
-            // Sphere chính
             const r    = Math.cbrt(node.val) * 4;
             const geo  = new THREE.SphereGeometry(r, 16, 16);
             const mat  = new THREE.MeshLambertMaterial({
@@ -519,7 +498,6 @@ function render3DGraph(graphData, containerId) {
             });
             group.add(new THREE.Mesh(geo, mat));
 
-            // Glow halo (sprite) — chỉ cho hub thật sự
             if (node.brightness > 0.6) {
                 const spriteMat = new THREE.SpriteMaterial({
                     color: new THREE.Color(node.hex),
@@ -538,12 +516,11 @@ function render3DGraph(graphData, containerId) {
         })
         .nodeThreeObjectExtend(false)
 
-// ── Links ──
+        // ── Links ──
         .linkColor(link => {
             const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
             const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
             if (!src || !tgt) return 'rgba(100,100,120,0.15)';
-            // Màu link = blend hue source + brightness của 2 đầu
             const avgBrightness = (src.brightness + tgt.brightness) / 2;
             return hexAlpha(src.hex, Math.max(0.12, avgBrightness * 0.5));
         })
@@ -553,6 +530,14 @@ function render3DGraph(graphData, containerId) {
             const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
             const maxB = Math.max(src?.brightness || 0, tgt?.brightness || 0);
             return maxB > 0.5 ? 0.8 : 0.35;
+        })
+
+        // Particles chỉ chạy trên link giữa các hub — DÒNG NÀY BỊ THIẾU, GÂY MẤT LẤP LÁNH
+        .linkDirectionalParticles(link => {
+            const src = typeof link.source === 'object' ? link.source : nodeMap[link.source];
+            const tgt = typeof link.target === 'object' ? link.target : nodeMap[link.target];
+            if (!src || !tgt) return 0;
+            return (src.brightness + tgt.brightness) > 1.0 ? 2 : 0;
         })
         .linkDirectionalParticleSpeed(0.003)
         .linkDirectionalParticleWidth(1.2)
@@ -564,11 +549,9 @@ function render3DGraph(graphData, containerId) {
         .onNodeClick(node => { if (node.url) window.location = node.url; })
         .onNodeHover(node => {
             el.style.cursor = node ? 'pointer' : 'default';
-            // Highlight node được hover — làm sáng lên
             Graph.nodeColor(n => {
                 if (!node) return n.color;
-                if (n.id === node.id) return n.hex; // full brightness
-                // neighbour nodes
+                if (n.id === node.id) return n.hex;
                 const isNeighbour = graphData.links.some(l => {
                     const s = typeof l.source === 'object' ? l.source.id : l.source;
                     const t = typeof l.target === 'object' ? l.target.id : l.target;
@@ -578,7 +561,6 @@ function render3DGraph(graphData, containerId) {
             });
         });
 
-    // Thêm ambient light nhẹ để sphere không bị tối hoàn toàn
     if (THREE) {
         const scene = Graph.scene();
         scene.add(new THREE.AmbientLight(0x333355, 1.2));
@@ -590,12 +572,10 @@ function render3DGraph(graphData, containerId) {
     // ── Tăng lực đẩy để node bung ra giống bản 2D ──
     Graph.d3Force('charge').strength(-500).distanceMax(600);
     Graph.d3Force('link').distance(90);
-    // Không có force('center') mạnh như 2D nên chỉ cần charge đủ mạnh là node tự dạt xa tâm
-    Graph.d3AlphaDecay(0.02).d3VelocityDecay(0.3); // simulation chạy lâu hơn, mượt hơn để node có thời gian bung hết
-    Graph.warmupTicks(50); // chạy trước vài chục tick "ẩn" để node đã dạt ra sẵn khi hiện lên, tránh giật cục
+    Graph.d3AlphaDecay(0.02).d3VelocityDecay(0.3);
+    Graph.warmupTicks(50);
 
     const onResize = () => { Graph.width(el.clientWidth).height(el.clientHeight); };
-   
     window.addEventListener('resize', onResize);
 
     return function cleanup() {
@@ -611,7 +591,7 @@ let fullGraphDataCache = null;
 let localGraphCleanup  = null;
 let globalGraphCleanup = null;
 let currentModalData   = null;
-let currentMode        = '3d'; // 3D mặc định
+let currentMode        = '3d';
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
