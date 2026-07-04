@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/moc-luu-tru-bai-viet-cua-khu-vuon/","title":"MOC lưu trữ bài viết của khu vườn","tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"dg-note-properties":{"title":"MOC lưu trữ bài viết của khu vườn","date":"2026-07-04","created":"2026-07-04 13:15","digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""},"tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"ai_model":"DeepSeek-V3","account":"work.email@gmail.com","browser":"Claude Code / Brave","created_by":"AI Assistant","status":"draft"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/moc-luu-tru-bai-viet-cua-khu-vuon/","title":"MOC lưu trữ bài viết của khu vườn","tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"dg-note-properties":{"title":"MOC lưu trữ bài viết của khu vườn","date":"2026-07-04","created":"2026-07-04 13:15","digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""},"tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"ai_model":null,"account":null,"browser":null,"created_by":"AI Assistant","status":"live"}}
 ---
 
 
@@ -65,16 +65,11 @@ https://projects.haphan.digital/
 
 
 ## Kiểm duyệt 
-- [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Toàn cảnh kiểm duyệt Việt Nam\|Toàn cảnh kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
-    
-- [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
-    
-
-- [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Phim bị cấm chiếu tại Việt Nam\|Phim bị cấm chiếu tại Việt Nam]] (Tư liệu kiểm duyệt)
-    
-- [[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure\|Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure]] (An ninh mạng)
-    
-- [[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026\|Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026]] (An ninh mạng)
+[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Toàn cảnh kiểm duyệt Việt Nam\|Toàn cảnh kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
+ [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]] (Tư liệu kiểm duyệt)
+[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Phim bị cấm chiếu tại Việt Nam\|Phim bị cấm chiếu tại Việt Nam]] (Tư liệu kiểm duyệt)
+[[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure\|Viettel tiếp tục lộ lọt dữ liệu khách hàng — Chiến dịch APT GriefLure]] (An ninh mạng)
+[[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026\|Các vụ lộ dữ liệu quy mô lớn ở Việt Nam 2015 → 2026]] (An ninh mạng)
 
 `#vietnam/movie`, `#vietnam/điện-ảnh`, `#vietnam/kiểm-duyệt`, `#vietnam/sách`, `#vietnam/đường-lưỡi-bò`, `#bản-sắc-Việt`, `#book`, `#movietowatch`, `#movie`.
 `shadcn UI`, `Firebase`, `Perplexity AI`, `Lovable.dev`, `GitHub Copilot`, `Notion AI or Linear`, `Windsurf`, `Cursor Compose Agent`, `Tab completion`, `Inline edit Cursor`, `Cursor Chat`, `Tailwind CSS`.
