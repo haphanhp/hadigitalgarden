@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/800-tool-cong-cu/cline-vs-code-ext/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
-
+[[800 tool công cụ/Cursor\|Cursor]]
+[[800 tool công cụ/Cusor vs Cline và Codex vs Cusor\|Cusor vs Cline và Codex vs Cusor]]
 Câu hỏi này thực ra là về một trade-off cốt lõi: **bạn muốn đổi editor hay muốn giữ VS Code?**
 
 ---

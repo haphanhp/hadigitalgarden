@@ -19,9 +19,9 @@
 
 
 ## Giới thiệu tổng quan
-[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu từ chỗ này đi\|Bắt đầu từ chỗ này đi]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này đi\|Bắt đầu gieo hạt cho khu vườn từ chỗ này đi]]
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Home for Digital Garden\|Home for Digital Garden]]
-[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Một người ADHD nhìn có vẻ vô cùng bình thường nhưng đây là một số điều tôi có\|Một người ADHD nhìn có vẻ vô cùng bình thường nhưng đây là một số điều tôi có]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Có vẻ tui là người có triệu chứng ADHD\|Có vẻ tui là người có triệu chứng ADHD]]
 
 ## Chính trị
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Tuyên bố miễn trừ trách nhiệm chung\|Tuyên bố miễn trừ trách nhiệm chung]]
