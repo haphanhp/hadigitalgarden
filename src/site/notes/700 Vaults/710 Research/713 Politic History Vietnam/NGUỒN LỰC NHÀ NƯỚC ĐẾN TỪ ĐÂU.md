@@ -44,7 +44,7 @@
                Từ người lao động đóng thuế & người thuê nhà 
                👉 Sang nhóm đầu cơ, tích trữ nhiều đất đai.
 ```
-
+Sơ đồ mermaid
 ```mermaid
 graph TD
     %% Khối tổng quan
@@ -78,7 +78,9 @@ graph TD
     style E fill:#fabc05,stroke:#333,stroke-width:1px,color:#333
 
 ```
+ 
 
+ 
 ## 2. Bối cảnh Việt Nam: Đối chiếu và Thiếu sót chiến lược
 
 Khi đặt Việt Nam vào hệ quy chiếu với các quốc gia thành công, hệ thống hiện hành bộc lộ những khoảng trống lớn về mặt điều tiết và tái phân phối, khi một cổ 3 tròng, chịu cả 3 loại thuế, thuế bds trả qua giá nhà cho thuê, thuế tiêu thụ thể hiện qua mua hàng hóa, và thuế do độc quyền nguồn cung điện nước. 
