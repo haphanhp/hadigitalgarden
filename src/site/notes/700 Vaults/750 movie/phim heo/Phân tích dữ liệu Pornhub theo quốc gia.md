@@ -131,4 +131,4 @@ Các xu hướng 2025 (Lesbian & Trans top) cho thấy thế giới đang trong 
 
 Bạn muốn mình đào sâu thêm nghiên cứu cụ thể nào (ví dụ: sách/anthropology của Carole Vance, hoặc so sánh Việt Nam), hay phân tích một category khác?
 
-[[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Porn as cultural mirror\|Porn as cultural mirror]]
+[[700 Vaults/750 movie/phim heo/Porn as cultural mirror\|Porn as cultural mirror]]

@@ -85,9 +85,9 @@ Các hãng nghiên cứu cung cấp báo cáo trả phí về quy mô thị trư
 **Tóm lại:** Câu hỏi của bạn — "phim AV như data ẩn tiết lộ quốc gia" — chính xác là hướng nghiên cứu đang nổi, giao thoa giữa **porn studies + data studies + nhân chủng học kỹ thuật số**. Bài của Saunders (2025) là điểm khởi đầu học thuật tốt nhất hiện tại. Kết hợp với PornHub Insights + phân tích của Matt Klein cho cái nhìn dữ liệu thực tế.
 
 [[700 Vaults/750 movie/phim heo/Phân tích dữ liệu Pornhub theo quốc gia\|Phân tích dữ liệu Pornhub theo quốc gia]]
-[[1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Porn as cultural mirror\|Porn as cultural mirror]]
+[[700 Vaults/750 movie/phim heo/Porn as cultural mirror\|Porn as cultural mirror]]
 [[700 Vaults/750 movie/phim heo/Porn và tính liên kết chính trị văn hóa xã hội - Liên hệ ở Trung Quốc và Việt Nam\|Porn và tính liên kết chính trị văn hóa xã hội - Liên hệ ở Trung Quốc và Việt Nam]]
-[[700 Vaults/710 Research/712 research niche ngành nghề/Tim hiểu porn industry how they make money\|Tim hiểu porn industry how they make money]]
+[[700 Vaults/750 movie/phim heo/Tim hiểu porn industry how they make money\|Tim hiểu porn industry how they make money]]
 [[700 Vaults/750 movie/phim heo/Cach_The_Gioi_Van_Hanh_Qua_Porn_Data\|Cach_The_Gioi_Van_Hanh_Qua_Porn_Data]]
 [[700 Vaults/750 movie/phim heo/Ví dụ về porn industry và các tiết lộ quan trọng - porn có liên kết gì đối với tỉ lệ sinh sản quốc gia - độ trễ của các thay đổi tùy theo tính chất\|Ví dụ về porn industry và các tiết lộ quan trọng - porn có liên kết gì đối với tỉ lệ sinh sản quốc gia - độ trễ của các thay đổi tùy theo tính chất]]
 [[700 Vaults/750 movie/phim heo/Sexual script theory thông qua nền văn hóa các lãnh thổ\|Sexual script theory thông qua nền văn hóa các lãnh thổ]]
