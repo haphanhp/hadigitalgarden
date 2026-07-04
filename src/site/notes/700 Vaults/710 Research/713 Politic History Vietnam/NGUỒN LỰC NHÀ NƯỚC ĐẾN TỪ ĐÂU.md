@@ -3,43 +3,80 @@
 ---
 
 ## Bài viết phiên bản ngắn gọn hơn 
-                      `NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?`
-                                     `│`
-         `┌───────────────────────────┼───────────────────────────┐`
-         `▼                           ▼                           ▼`
-`【MÔ HÌNH BẤT ĐỘNG SẢN】      【MÔ HÌNH THU NHẬP】        【MÔ HÌNH TÀI NGUYÊN】`
- `(Singapore, Hồng Kông)          (Vùng Bắc Âu)                (Các nước Vùng Vịnh)`
-         `│                           │                           │`
- `├── Logic: Đất immobile,    ├── Logic: Thu dòng chảy    ├── Logic: Khai thác tô` 
- `│   khó lẩn tránh.          │   kinh tế (PIT, CIT, VAT) │   tài nguyên độc quyền.`
- `├── Thu thuế giao dịch rất   ├── Cơ sở thuế rộng, lũy    ├── Thuế thu nhập 0%, hạ`
- `│   cao, thuế giữ đất thấp. │   tiến rất cao (>50%).    │   tầng & phúc lợi nhanh.`
- `└── Hệ quả: Đầu cơ, đẩy    └── Điều kiện: Phúc lợi cao,└── Lời nguyền tài nguyên,`
-     `giá nhà phi mã (>20 PIR).   kiểm soát thuê tốt.         giảm giải trình chính trị.`
-         `│                           │                           │`
-         `└───────────────────────────┬───────────────────────────┘`
-                                     `▼`
-                        `【THỰC TRẠNG TẠI VIỆT NAM】`
-                       `(Mô hình kết hợp bất lợi)`
-                                     `│`
-         `┌───────────────────────────┼───────────────────────────┐`
-         `▼                           ▼                           ▼`
-   `Về Bất Động Sản              Về Thu Nhập                 Về Tài Nguyên`
- `├── Giá nhà siêu cao        ├── Thuế lũy tiến đến 35%   ├── Nhà nước độc quyền` 
- `│   (PIR toàn quốc: 23.7,   │   và VAT 10%.             │   qua SOEs (PVN, EVN...).`
- `│   HCMC: 32-34).           ├── Phúc lợi xã hội chưa    ├── Lợi nhuận hòa thẳng` 
- `├── Thuế BĐS "rỗng ở giữa": │   tương xứng; người dân   │   vào chi tiêu ngân sách.`
- `│   Không thuế tài sản      │   phải tự chi trả y tế,   └── Chưa có quỹ tích lũy`
- `│   hàng năm, dồn nặng      │   giáo dục bổ sung.       │   dài hạn cho tương lai`
- `│   vào biên giao dịch.     └── Gánh nặng kép đối với   │   như mô hình Na Uy.`
- `└── Luật Đất đai 2024 áp    │   người đi thuê nhà.      │`
-     `lực giá đất thị trường. │                           │`
-         `└───────────────────────────┼───────────────────────────┘`
-                                     `▼`
-                        `【BẤT BÌNH ĐẲNG CẤU TRÚC】`
-               `Implicit Wealth Transfer (Dịch chuyển của cải ngầm)`
-               `Từ người lao động đóng thuế & người thuê nhà` 
-               `👉 Sang nhóm đầu cơ, tích trữ nhiều đất đai.`
+                    
+```
+  NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?
+                                     │
+         ┌───────────────────────────┼───────────────────────────┐
+         ▼                           ▼                           ▼
+【MÔ HÌNH BẤT ĐỘNG SẢN】      【MÔ HÌNH THU NHẬP】        【MÔ HÌNH TÀI NGUYÊN】
+ (Singapore, Hồng Kông)          (Vùng Bắc Âu)                (Các nước Vùng Vịnh)
+         │                           │                           │
+ ├── Logic: Đất immobile,    ├── Logic: Thu dòng chảy    ├── Logic: Khai thác tô 
+ │   khó lẩn tránh.          │   kinh tế (PIT, CIT, VAT) │   tài nguyên độc quyền.
+ ├── Thu thuế giao dịch rất   ├── Cơ sở thuế rộng, lũy    ├── Thuế thu nhập 0%, hạ
+ │   cao, thuế giữ đất thấp. │   tiến rất cao (>50%).    │   tầng & phúc lợi nhanh.
+ └── Hệ quả: Đầu cơ, đẩy    └── Điều kiện: Phúc lợi cao,└── Lời nguyền tài nguyên,
+     giá nhà phi mã (>20 PIR).   kiểm soát thuê tốt.         giảm giải trình chính trị.
+         │                           │                           │
+         └───────────────────────────┬───────────────────────────┘
+                                     ▼
+                        【THỰC TRẠNG TẠI VIỆT NAM】
+                       (Mô hình kết hợp bất lợi)
+                                     │
+         ┌───────────────────────────┼───────────────────────────┐
+         ▼                           ▼                           ▼
+   Về Bất Động Sản              Về Thu Nhập                 Về Tài Nguyên
+ ├── Giá nhà siêu cao        ├── Thuế lũy tiến đến 35%   ├── Nhà nước độc quyền 
+ │   (PIR toàn quốc: 23.7,   │   và VAT 10%.             │   qua SOEs (PVN, EVN...).
+ │   HCMC: 32-34).           ├── Phúc lợi xã hội chưa    ├── Lợi nhuận hòa thẳng 
+ ├── Thuế BĐS "rỗng ở giữa": │   tương xứng; người dân   │   vào chi tiêu ngân sách.
+ │   Không thuế tài sản      │   phải tự chi trả y tế,   └── Chưa có quỹ tích lũy
+ │   hàng năm, dồn nặng      │   giáo dục bổ sung.       │   dài hạn cho tương lai
+ │   vào biên giao dịch.     └── Gánh nặng kép đối với   │   như mô hình Na Uy.
+ └── Luật Đất đai 2024 áp    │   người đi thuê nhà.      │
+     lực giá đất thị trường. │                           │
+         └───────────────────────────┼───────────────────────────┘
+                                     ▼
+                        【BẤT BÌNH ĐẲNG CẤU TRÚC】
+               Implicit Wealth Transfer (Dịch chuyển của cải ngầm)
+               Từ người lao động đóng thuế & người thuê nhà 
+               👉 Sang nhóm đầu cơ, tích trữ nhiều đất đai.
+```
+
+```mermaid
+graph TD
+    %% Khối tổng quan
+    A["NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU?"] --> B1["MÔ HÌNH BẤT ĐỘNG SẢN<br>(Singapore, Hồng Kông)"]
+    A --> B2["MÔ HÌNH THU NHẬP<br>(Vùng Bắc Âu)"]
+    A --> B3["MÔ HÌNH TÀI NGUYÊN<br>(Các nước Vùng Vịnh)"]
+
+    %% Chi tiết mô hình
+    B1 --> C1["• Đất immobile, khó lẩn tránh<br>• Thuế giao dịch cao, giữ đất thấp<br>• Đầu cơ, giá nhà phi mã (>20 PIR)"]
+    B2 --> C2["• Thu dòng chảy (PIT, CIT, VAT)<br>• Thuế lũy tiến rất cao (>50%)<br>• Phúc lợi cao, kiểm soát thuê tốt"]
+    B3 --> C3["• Khai thác tô tài nguyên độc quyền<br>• Thuế thu nhập 0%, hạ tầng nhanh<br>• Lời nguyền tài nguyên, giảm giải trình"]
+
+    %% Phần Việt Nam
+    C1 --> VN["THỰC TRẠNG TẠI VIỆT NAM<br>(Mô hình kết hợp bất lợi)"]
+    C2 --> VN
+    C3 --> VN
+
+    %% Chi tiết Việt Nam
+    VN --> D1["Về Bất Động Sản<br>• Giá nhà siêu cao (PIR HCMC 32-34)<br>• Rỗng ở giữa: thiếu thuế tài sản hàng năm<br>• Luật Đất đai 2024 tăng áp lực giá"]
+    VN --> D2["Về Thu Nhập<br>• Thuế lũy tiến đến 35%, VAT 10%<br>• Phúc lợi chưa tương xứng<br>• Gánh nặng kép cho người thuê nhà"]
+    VN --> D3["Về Tài Nguyên<br>• Nhà nước độc quyền qua SOEs<br>• Lợi nhuận hòa thẳng vào ngân sách<br>• Chưa có quỹ tích lũy dài hạn kiểu Na Uy"]
+
+    %% Kết luận
+    D1 --> E["BẤT BÌNH ĐẲNG CẤU TRÚC<br>(Implicit Wealth Transfer - Dịch chuyển của cải ngầm)"]
+    D2 --> E
+    D3 --> E
+
+    %% Style trang trí
+    style A fill:#1a73e8,stroke:#fff,stroke-width:2px,color:#fff
+    style VN fill:#ea4335,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#fabc05,stroke:#333,stroke-width:1px,color:#333
+
+```
 
 ## Bối cảnh Việt Nam: Đối chiếu và Thiếu sót chiến lược
 
