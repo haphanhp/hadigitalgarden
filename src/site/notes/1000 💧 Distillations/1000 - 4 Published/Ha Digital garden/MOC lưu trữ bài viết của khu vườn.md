@@ -9,7 +9,7 @@
 [[700 Vaults/750 movie/Vietnam movie/Phim Việt nào mà người Việt muốn giới thiệu cho người nước ngoài để hiểu về Việt Nam\|Phim Việt nào mà người Việt muốn giới thiệu cho người nước ngoài để hiểu về Việt Nam]]
 ## Kiếm tiền 
 
-
+## Các bài viết về Vingroup và Vinfast từ reddit
 
 ## Tài nguyên
 [[1000 💧 Distillations/1000 - 4 Published/Top 10 platform to create website for no-code developers\|Top 10 platform to create website for no-code developers]]
@@ -17,6 +17,13 @@
 
 ## Học tập
 
+## Lịch sử
+
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Timeline Vietnam history\|Timeline Vietnam history]] English version
+
+## Vingroup
+[Sự thật về Vingroup bị kiểm duyệt tại Việt Nam ](https://vn-politics-notes.vercel.app/vingroup-uncensored.html)
+[Nợ của Vingroup](https://vn-politics-notes.vercel.app/Vingroup-Debt.html)
 
 ## Giới thiệu tổng quan
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này đi\|Bắt đầu gieo hạt cho khu vườn từ chỗ này đi]]
