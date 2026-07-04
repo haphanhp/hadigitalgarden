@@ -592,7 +592,15 @@ function render3DGraph(graphData, containerId) {
         scene.add(dirLight);
     }
 
+    // ── Tăng lực đẩy để node bung ra giống bản 2D ──
+    Graph.d3Force('charge').strength(-220).distanceMax(600);
+    Graph.d3Force('link').distance(90);
+    // Không có force('center') mạnh như 2D nên chỉ cần charge đủ mạnh là node tự dạt xa tâm
+    Graph.d3AlphaDecay(0.02).d3VelocityDecay(0.3); // simulation chạy lâu hơn, mượt hơn để node có thời gian bung hết
+    Graph.warmupTicks(50); // chạy trước vài chục tick "ẩn" để node đã dạt ra sẵn khi hiện lên, tránh giật cục
+
     const onResize = () => { Graph.width(el.clientWidth).height(el.clientHeight); };
+   
     window.addEventListener('resize', onResize);
 
     return function cleanup() {
