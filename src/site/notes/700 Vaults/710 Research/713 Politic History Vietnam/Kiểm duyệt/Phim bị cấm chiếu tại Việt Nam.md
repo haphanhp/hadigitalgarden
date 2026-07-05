@@ -62,6 +62,10 @@ Ngô Việt một người Việt Nam tị nạn rời khỏi đất nước sau
 
 **Chuyện tử tế** (đạo diễn: **Trần Văn Thủy**, 1985) Phim tài liệu hoàn thành năm 1985, phản ánh chân thực cuộc sống thời bao cấp. Bị cấm chiếu ngay khi đưa kiểm duyệt; đạo diễn phải "giấu" phim khỏi sự phát hiện của chính quyền. Mãi đến **1987** mới được công chiếu nhờ tín hiệu từ Tổng bí thư Nguyễn Văn Linh trong thời Đổi mới. Sau đó đoạt **Giải Bồ Câu Bạc** tại Liên hoan phim Quốc tế Leipzig 1992.
 
+> [!video] Phim Tài Liệu: Chuyện Tử Tế (Tập II)
+> [![Xem trên YouTube](https://img.youtube.com/vi/299IbhEb6xs/maxresdefault.jpg)](https://www.youtube.com/watch?v=299IbhEb6xs)
+> _Chú thích: Bộ phim tài liệu nổi tiếng của đạo diễn Trần Văn Thủy, đạt giải Bồ Câu Bạc tại Liên hoan phim Quốc tế Leipzig 1992._
+
 **Xích Lô** (đạo diễn: **Trần Anh Hùng**, 1995) Bị cấm chiếu tại Việt Nam ngay năm 1995, dù vừa đoạt **Giải Sư Tử Vàng** tại Liên hoan phim Venice. Lý do: khắc họa đời sống lao động nghèo và băng đảng tại TP.HCM theo góc nhìn bị cho là tiêu cực.
 
 
