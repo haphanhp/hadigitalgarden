@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Home for Digital Garden/","tags":["digitalgarden","published/digitalgarden","gardenEntry"],"dg-note-properties":{"aliases":null,"tags":["digitalgarden","published/digitalgarden","gardenEntry"],"date created":"Saturday, April 11th 2026, 9:58:30 pm","date modified":"Sunday, May 10th 2026, 8:54:06 pm","url":"https://hadigitalgarden.vercel.app","url2":"https://github.com/haphanhp/hadigitalgarden","AutoNoteMover":"disable"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/home-for-digital-garden/","tags":["digitalgarden","published/digitalgarden","gardenEntry"],"dg-note-properties":{"aliases":null,"tags":["digitalgarden","published/digitalgarden","gardenEntry"],"date created":"Saturday, April 11th 2026, 9:58:30 pm","date modified":"Sunday, May 10th 2026, 8:54:06 pm","url":"https://hadigitalgarden.vercel.app","url2":"https://github.com/haphanhp/hadigitalgarden","AutoNoteMover":"disable"}}
 ---
 
 
