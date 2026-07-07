@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bốn cách tái cấu trúc bản thân ở quy mô cá nhân/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","Claude","evergreen",null],"dg-note-properties":{"allias":null,"permalink":"/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","Claude","evergreen",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","Claude","evergreen",null],"dg-note-properties":{"allias":null,"permalink":"/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","Claude","evergreen",null],"status":"done"}}
 ---
 
 Một bài viết rất đáng suy ngẫm liên hệ đến bản thân, bạn là ai, bạn muốn gì, bạn muốn đi đến đâu. 
