@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bao-cao-phan-tich-ama-tao-la-dlv-hanh-nghe-4-nam/","title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"dg-note-properties":{"title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","date":"2026-07-01","created":"2026-07-01 02:32","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"app","created_by":"AI Assistant","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm/","title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"dg-note-properties":{"title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","date":"2026-07-01","created":"2026-07-01 02:32","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"app","created_by":"AI Assistant","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"status":"draft"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/dao-nguoc-ti-le-sinh-nen-go-nut-that-nao-truoc/","title":"Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước","tags":["xahoi","ti-le-sinh","published/digitalgarden",null],"dg-note-properties":{"title":"Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước","date":"2026-07-04","created":"2026-07-04 14:29","ai_model":"DeepSeek-V3","account":"work.email@gmail.com","browser":"Claude Code / Brave","created_by":"AI Assistant","tags":["xahoi","ti-le-sinh","published/digitalgarden",null],"status":"live"}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước/","title":"Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước","tags":["xahoi","ti-le-sinh","published/digitalgarden",null],"dg-note-properties":{"title":"Đảo ngược tỉ lệ sinh - nên gỡ nút thắt nào trước","date":"2026-07-04","created":"2026-07-04 14:29","ai_model":"DeepSeek-V3","account":"work.email@gmail.com","browser":"Claude Code / Brave","created_by":"AI Assistant","tags":["xahoi","ti-le-sinh","published/digitalgarden",null],"status":"live"}}
 ---
 
 

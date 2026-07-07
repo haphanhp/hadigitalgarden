@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/git-hub-copilot/","tags":["tool/vibecoding"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800 tool công cụ/GitHub Copilot/","tags":["tool/vibecoding"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 

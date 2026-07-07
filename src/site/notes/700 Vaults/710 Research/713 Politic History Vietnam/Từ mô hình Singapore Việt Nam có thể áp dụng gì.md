@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/tu-mo-hinh-singapore-viet-nam-co-the-ap-dung-gi/","title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","tags":["Vietnampolitic","claude","Singapore"],"dg-note-properties":{"title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","Singapore"],"status":"done"}}
+{"dg-publish":true,"permalink":"/700 Vaults/710 Research/713 Politic History Vietnam/Từ mô hình Singapore Việt Nam có thể áp dụng gì/","title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","tags":["Vietnampolitic","claude","Singapore"],"dg-note-properties":{"title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","Singapore"],"status":"done"}}
 ---
 
 # Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore

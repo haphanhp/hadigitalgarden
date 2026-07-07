@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/timeline-vietnam-history/","title":"Timeline Vietnam history","tags":["history","vietnam","published/digitalgarden",null],"dg-note-properties":{"title":"Timeline Vietnam history","date":"2026-07-04","created":"2026-07-04 12:45","permalink":"/","tags":["history","vietnam","published/digitalgarden",null],"published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}}}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Timeline Vietnam history/","title":"Timeline Vietnam history","tags":["history","vietnam","published/digitalgarden",null],"dg-note-properties":{"title":"Timeline Vietnam history","date":"2026-07-04","created":"2026-07-04 12:45","permalink":"/","tags":["history","vietnam","published/digitalgarden",null],"published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}}}}
 ---
 
 

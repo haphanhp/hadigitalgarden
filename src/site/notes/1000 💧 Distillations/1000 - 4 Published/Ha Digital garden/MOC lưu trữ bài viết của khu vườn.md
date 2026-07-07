@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/moc-luu-tru-bai-viet-cua-khu-vuon/","title":"MOC lưu trữ bài viết của khu vườn","tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"dg-note-properties":{"title":"MOC lưu trữ bài viết của khu vườn","date":"2026-07-04","created":"2026-07-04 13:15","digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""},"tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"ai_model":null,"account":null,"browser":null,"created_by":"AI Assistant","status":"live"}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/MOC lưu trữ bài viết của khu vườn/","title":"MOC lưu trữ bài viết của khu vườn","tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"dg-note-properties":{"title":"MOC lưu trữ bài viết của khu vườn","date":"2026-07-04","created":"2026-07-04 13:15","digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""},"tags":["moc","digitalgarden","published/digitalgarden","tech/automation","tech/osint","tech/ai","affiliate","gig","freelance","guide","learning"],"ai_model":null,"account":null,"browser":null,"created_by":"AI Assistant","status":"live"}}
 ---
 
 
@@ -33,7 +33,7 @@ https://projects.haphan.digital/
 [Vingroup Debt — A Ticking Time Bomb](https://vn-politics-notes.vercel.app/Vingroup-Debt.html) bài song ngữ Anh Việt
 
 ## Giới thiệu tổng quan
-[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này đi\|Bắt đầu gieo hạt cho khu vườn từ chỗ này đi]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này\|Bắt đầu gieo hạt cho khu vườn từ chỗ này]]
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Home for Digital Garden\|Home for Digital Garden]]
 [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Có vẻ tui là người có triệu chứng ADHD\|Có vẻ tui là người có triệu chứng ADHD]]
 

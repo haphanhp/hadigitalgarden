@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/vietnam-movie/ben-trong-vo-ken-vang-spoil/","tags":["Vietnam/movie","published/digitalgarden"],"dg-note-properties":{"tags":["Vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2023, 3:54:39 pm","date modified":"Sunday, May 10th 2023, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/"}}
+{"dg-publish":true,"permalink":"/700 Vaults/750 movie/Vietnam movie/Bên trong vỏ kén vàng (spoil)/","tags":["Vietnam/movie","published/digitalgarden"],"dg-note-properties":{"tags":["Vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2023, 3:54:39 pm","date modified":"Sunday, May 10th 2023, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/"}}
 ---
 
 

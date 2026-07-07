@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/mot-nguoi-tot-phai-la-nguoi-the-nao/","title":"Một người tốt phải là người thế nào","tags":["politic","Claude","published/digitalgarden"],"dg-note-properties":{"title":"Một người tốt phải là người thế nào","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","published/digitalgarden"],"status":"done","url":"https://hadigitalgarden.vercel.app/1000-distillations/1000-4-published/ha-digital-garden/mot-nguoi-tot-phai-la-nguoi-the-nao/","permalink":"/distill/mot-nguoi-tot-phai-la-nguoi-the-nao/"}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Một người tốt phải là người thế nào/","title":"Một người tốt phải là người thế nào","tags":["politic","Claude","published/digitalgarden"],"dg-note-properties":{"title":"Một người tốt phải là người thế nào","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","published/digitalgarden"],"status":"done","url":"https://hadigitalgarden.vercel.app/1000-distillations/1000-4-published/ha-digital-garden/mot-nguoi-tot-phai-la-nguoi-the-nao/","permalink":"/distill/mot-nguoi-tot-phai-la-nguoi-the-nao/"}}
 ---
 
 

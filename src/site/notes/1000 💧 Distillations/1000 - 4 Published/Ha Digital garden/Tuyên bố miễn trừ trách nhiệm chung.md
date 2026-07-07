@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/tuyen-bo-mien-tru-trach-nhiem-chung/","title":"Tuyên bố miễn trừ trách nhiệm chung","tags":["published/digitalgarden"],"dg-note-properties":{"title":"Tuyên bố miễn trừ trách nhiệm chung","date":"2026-06-15","created":"2026-06-15 13:19","tags":["published/digitalgarden"],"tasks":["update vào website haphan.dgital"],"Published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}}}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Tuyên bố miễn trừ trách nhiệm chung/","title":"Tuyên bố miễn trừ trách nhiệm chung","tags":["published/digitalgarden"],"dg-note-properties":{"title":"Tuyên bố miễn trừ trách nhiệm chung","date":"2026-06-15","created":"2026-06-15 13:19","tags":["published/digitalgarden"],"tasks":["update vào website haphan.dgital"],"Published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}}}}
 ---
 
 

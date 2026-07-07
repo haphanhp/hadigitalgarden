@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-1-input/inspired-content-seed-idea/nhan-chung-hoc-tinh-duc-tai-sao-phim-nguoi-lon-la-tam-guong-soi-van-hoa-quoc-gia/","title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","tags":["phimheo","seedling/video-content",null],"dg-note-properties":{"title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","date":"2026-06-27","created":"2026-06-27 20:28","tags":["phimheo","seedling/video-content",null],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 1 Input/Inspired content - Seed - Idea/Nhân chủng học tình dục - Tại sao phim người lớn là tấm gương soi văn hóa quốc gia/","title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","tags":["phimheo","seedling/video-content",null],"dg-note-properties":{"title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","date":"2026-06-27","created":"2026-06-27 20:28","tags":["phimheo","seedling/video-content",null],"status":"draft"}}
 ---
 
 

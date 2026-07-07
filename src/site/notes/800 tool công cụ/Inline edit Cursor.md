@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/inline-edit-cursor/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800 tool công cụ/Inline edit Cursor/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 

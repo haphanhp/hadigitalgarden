@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/phim-chu-de-du-lich-muon-xem/","tags":["movie","published/digitalgarden","published"],"dg-note-properties":{"tags":["movie","published/digitalgarden","published"],"aliases":null,"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Sunday, May 10th 2026, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/750-movie/phim-chu-de-du-lich-muon-xem/"}}
+{"dg-publish":true,"permalink":"/700 Vaults/750 movie/Phim chủ đề du lịch muốn xem/","tags":["movie","published/digitalgarden","published"],"dg-note-properties":{"tags":["movie","published/digitalgarden","published"],"aliases":null,"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Sunday, May 10th 2026, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/750-movie/phim-chu-de-du-lich-muon-xem/"}}
 ---
 
 

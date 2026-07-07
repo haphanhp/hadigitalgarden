@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/phim-heo/porn-as-cultural-mirror/","title":"Porn as cultural mirror","tags":["seedling/video-content","phimheo","published/digitalgarden",null],"dg-note-properties":{"title":"Porn as cultural mirror","date":"2026-06-27","created":"2026-06-27 20:31","tags":["seedling/video-content","phimheo","published/digitalgarden",null],"status":"draft","AutoNoteMover":"disable"}}
+{"dg-publish":true,"permalink":"/700 Vaults/750 movie/phim heo/Porn as cultural mirror/","title":"Porn as cultural mirror","tags":["seedling/video-content","phimheo","published/digitalgarden",null],"dg-note-properties":{"title":"Porn as cultural mirror","date":"2026-06-27","created":"2026-06-27 20:31","tags":["seedling/video-content","phimheo","published/digitalgarden",null],"status":"draft","AutoNoteMover":"disable"}}
 ---
 
 

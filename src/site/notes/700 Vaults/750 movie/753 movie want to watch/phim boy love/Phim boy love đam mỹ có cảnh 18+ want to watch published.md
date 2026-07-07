@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/753-movie-want-to-watch/phim-boy-love/phim-boy-love-dam-my-co-canh-18-want-to-watch-published/","title":"Phim boy love đam mỹ có cảnh 18+ want to watch published","tags":["movietowatch","boylove","18+"],"dg-note-properties":{"title":"Phim boy love đam mỹ có cảnh 18+ want to watch published","date":"2026-06-26","created":"2026-06-26 13:23","tags":["movietowatch","boylove","18+"],"status":"draft"}}
+{"dg-publish":true,"permalink":"/700 Vaults/750 movie/753 movie want to watch/phim boy love/Phim boy love đam mỹ có cảnh 18+ want to watch published/","title":"Phim boy love đam mỹ có cảnh 18+ want to watch published","tags":["movietowatch","boylove","18+"],"dg-note-properties":{"title":"Phim boy love đam mỹ có cảnh 18+ want to watch published","date":"2026-06-26","created":"2026-06-26 13:23","tags":["movietowatch","boylove","18+"],"status":"draft"}}
 ---
 
 Năm ngoái tui coi được bộ Nghịch Ái thấy dính quá nên đi tìm hiểu phim Boy love được mấy bộ hay lắm Cái tên khắc sâu trong tim người, I told sunset about you nên tui quyết định làm một check list để nghiêng ngó boylove Đài Hàn Nhật Thái và Trung Quốc. 

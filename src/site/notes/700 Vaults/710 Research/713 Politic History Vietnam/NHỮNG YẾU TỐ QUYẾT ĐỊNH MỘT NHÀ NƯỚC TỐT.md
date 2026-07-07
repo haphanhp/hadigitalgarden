@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nhung-yeu-to-quyet-dinh-mot-nha-nuoc-tot/","title":"NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/700 Vaults/710 Research/713 Politic History Vietnam/NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT/","title":"NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"NHỮNG YẾU TỐ QUYẾT ĐỊNH MỘT NHÀ NƯỚC TỐT","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
 ---
 
 
