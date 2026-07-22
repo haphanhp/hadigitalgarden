@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/digital-garden/","title":"digital garden","tags":["published/digitalgarden",null],"dg-note-properties":{"title":"digital garden","date":"2026-07-15","created":"2026-07-15 22:49","ai_model":"openai","account":"panxia47@gmail.com","browser":null,"created_by":"AI Assistant","tags":["published/digitalgarden",null],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/digital-garden/","title":"digital garden","tags":["published/digitalgarden"],"dg-note-properties":{"title":"digital garden","date":"2026-07-15","created":"2026-07-15 22:49","ai_model":"openai","account":"panxia47@gmail.com","browser":null,"created_by":"AI Assistant","tags":["published/digitalgarden"],"status":"draft","date created":"Wednesday, July 15th 2026, 10:43:08 pm","date modified":"Wednesday, July 15th 2026, 10:50:47 pm"}}
 ---
 
 

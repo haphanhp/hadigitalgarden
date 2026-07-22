@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700 Vaults/750 movie/Vietnam movie/Phim Việt nào mà người Việt muốn giới thiệu cho người nước ngoài để hiểu về Việt Nam/","tags":["Vietnam/movie","digitalgarden"],"dg-note-properties":{"tags":["Vietnam/movie","digitalgarden"],"aliases":null,"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Sunday, May 10th 2026, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/phim-viet-nao-ma-nguoi-viet-muon-gioi-thieu-cho-nguoi-nuoc-ngoai-de-hieu-ve-viet-nam/"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/vietnam-movie/phim-viet-nao-ma-nguoi-viet-muon-gioi-thieu-cho-nguoi-nuoc-ngoai-de-hieu-ve-viet-nam/","tags":["Vietnam/movie","digitalgarden"],"dg-note-properties":{"favorite":false,"tags":["Vietnam/movie","digitalgarden"],"aliases":[],"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:10 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/phim-viet-nao-ma-nguoi-viet-muon-gioi-thieu-cho-nguoi-nuoc-ngoai-de-hieu-ve-viet-nam/"}}
 ---
 
 

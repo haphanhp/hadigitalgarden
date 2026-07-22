@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này/","title":"Bắt đầu từ chỗ này đi","tags":["digitalgarden","output/writing"],"dg-note-properties":{"title":"Bắt đầu từ chỗ này đi","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digitalgarden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bat-dau-gieo-hat-cho-khu-vuon-tu-cho-nay/","title":"Bắt đầu từ chỗ này đi","tags":["digitalgarden","output/writing"],"dg-note-properties":{"title":"Bắt đầu từ chỗ này đi","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digitalgarden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/"}}
 ---
 
 

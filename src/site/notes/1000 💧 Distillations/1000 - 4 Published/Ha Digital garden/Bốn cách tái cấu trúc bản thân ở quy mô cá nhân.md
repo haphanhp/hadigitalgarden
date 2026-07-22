@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","Claude","evergreen",null],"dg-note-properties":{"allias":null,"permalink":"/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","Claude","evergreen",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","Claude","evergreen"],"dg-note-properties":{"allias":null,"title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","Claude","evergreen"],"status":"done","date created":"Monday, June 15th 2026, 6:30:30 pm","date modified":"Monday, July 20th 2026, 3:16:06 pm"}}
 ---
+
 
 Một bài viết rất đáng suy ngẫm liên hệ đến bản thân, bạn là ai, bạn muốn gì, bạn muốn đi đến đâu. 
 ## Bạn Biết Phải Làm Gì — Vấn Đề Là Ai Trong Bạn Không Muốn Điều Đó Xảy Ra? Lí trí hay cảm xúc cá nhân. 

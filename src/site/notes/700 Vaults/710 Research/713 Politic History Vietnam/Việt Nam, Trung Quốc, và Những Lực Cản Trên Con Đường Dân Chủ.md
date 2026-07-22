@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700 Vaults/710 Research/713 Politic History Vietnam/Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ/","title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","tags":["Vietnampolitic","claude","seedling/video-content",null],"dg-note-properties":{"title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","seedling/video-content",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/viet-nam-trung-quoc-va-nhung-luc-can-tren-con-duong-dan-chu/","title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","tags":["Vietnampolitic","claude","seedling/video-content"],"dg-note-properties":{"title":"Việt Nam, Trung Quốc, và Những Lực Cản Trên Con Đường Dân Chủ. Bài học từ Nepal và Hongkong","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","seedling/video-content"],"status":"done","date created":"Monday, June 15th 2026, 11:50:56 am","date modified":"Wednesday, July 15th 2026, 11:18:38 pm"}}
 ---
 
 
@@ -7,6 +7,7 @@
 > trả lời câu hỏi: Phân tích một chút về mối quan hệ giữa Việt Nam và Trung Quốc, tại sao Trung Quốc muốn giữ Việt Nam là một nước độc tài cộng sản. Ngoài Trung Quốc là lực cản lớn nhất và bản thân tầng lớp chóp bu nắm quyền tại Việt Nam, còn lực cản nào ngăn tiến VN khỏi con đường dân chủ. Tại sao Hongkong có kiến thức trình độ và nguồn lực độc lập nhưng họ vẫn thất bại trước sự đàn áp của Trung Quốc
 > Việt Nam học được gì từ phong trào Nepal 2025 "nepokids"
 ---
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260715230010659.png)
 
 ## Phần I: Tại Sao Trung Quốc Muốn Việt Nam Ở Lại Hệ Thống Hiện Tại
 

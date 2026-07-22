@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm/","title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"dg-note-properties":{"title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","date":"2026-07-01","created":"2026-07-01 02:32","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"app","created_by":"AI Assistant","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bao-cao-phan-tich-ama-tao-la-dlv-hanh-nghe-4-nam/","title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"dg-note-properties":{"title":"Báo cáo phân tích AMA Tao là DLV hành nghề 4 năm","date":"2026-07-01","created":"2026-07-01 02:32","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"app","created_by":"AI Assistant","tags":["reddit","propaganda","dlv47","published/digitalgarden"],"status":"draft","date created":"Wednesday, July 1st 2026, 2:21:30 am","date modified":"Monday, July 20th 2026, 3:48:13 pm"}}
 ---
 
 
@@ -7,18 +7,18 @@
 
 # Báo Cáo Phân Tích: AMA "Tao là DLV hành nghề 4 năm"
 
-**Nguồn:** r/VietNamNation — u/LoveKei  
+**Nguồn:**[r/VietNamNation — u/LoveKei](https://www.reddit.com/r/VietNamNation/comments/1fv5ybw/tao_l%C3%A0_dlv_d%C6%B0_lu%E1%BA%ADn_vi%C3%AAn_d%C6%B0_l%E1%BB%9Di_vi%C3%AAn_h%C3%A0nh_ngh%E1%BB%81/)
 **Ngày đăng:** 03/10/2024 (Unix timestamp: 1727956692)  
 **Trạng thái:** Còn online, không bị xóa  
 **Tuyên bố miễn trách:** Toàn bộ nội dung dưới đây dựa trên lời tự khai của một tài khoản ẩn danh trên Reddit. Không có bằng chứng độc lập xác minh. Người đăng tự thừa nhận: _"I have no proof, only whisper."_
 
 ---
 > mình kéo data trên reddit về phân tích vì không có thời gian đọc, Tựu chung nắm vài nét về sự tuyên truyền và điều hướng dư luận của các bên agency như thế nào. 
-> cách thức: Bạn có thể thêm đuôi `.json` vào sau URL của bài viết Reddit đó (Ví dụ: `https://www.reddit.com/r/VietTalk/comments/.../.json`). Reddit sẽ trả về cấu trúc JSON chứa toàn bộ nội dung bài viết. Lưu file json đó về thảy vào Claude phân tích, tốn hơi nhiều token. 
+> cách thức: Bạn có thể thêm đuôi `.json` vào sau URL của bài viết Reddit đó (Ví dụ: `https://www.reddit.com/r/VietNamNation/comments/1fv5ybw/tao_l%C3%A0_dlv_d%C6%B0_lu%E1%BA%ADn_vi%C3%AAn_d%C6%B0_l%E1%BB%9Di_vi%C3%AAn_h%C3%A0nh_ngh%E1%BB%81/.json`). Reddit sẽ trả về cấu trúc JSON chứa toàn bộ nội dung bài viết. Lưu file json đó về thảy vào Claude phân tích, tốn hơi nhiều token. 
 
 Một số điểm nổi bật nhất sau khi phân tích toàn bộ JSON:
 
-**Về app nội bộ bạn hỏi ban đầu:** Không được tiết lộ tên trong thread này. Thông tin gần nhất đến từ một user khác (không phải OP) mô tả IT viên nhà nước bị huy động qua một app chia nhóm/giao mission mỗi ngày để report/tấn công mục tiêu — nhưng không có tên cụ thể. (mình hỏi về cái app mà dư luận viên đều cài để nhận chỉ đạo đồng bộ khi cần lên bài về một vấn đề gì đó, chẳng hạn như vụ Hiền Hồ, An Tây Chi Dân đồ đó)
+**Về app nội bộ bạn hỏi ban đầu:** App để dành cho đội DLV nhận tin nhằm tập trung tấn công đối tượng, tạo hiệu ứng truyền thông: Không được tiết lộ tên trong thread này. Thông tin gần nhất đến từ một user khác (không phải OP) mô tả IT viên nhà nước bị huy động qua một app chia nhóm/giao mission mỗi ngày để report/tấn công mục tiêu — nhưng không có tên cụ thể. (mình hỏi về cái app mà dư luận viên đều cài để nhận chỉ đạo đồng bộ khi cần lên bài về một vấn đề gì đó, chẳng hạn như vụ Hiền Hồ, An Tây Chi Dân, Nguyễn Thành Nam đồ đó)
 
 **Nguyên văn comment đó:**
 

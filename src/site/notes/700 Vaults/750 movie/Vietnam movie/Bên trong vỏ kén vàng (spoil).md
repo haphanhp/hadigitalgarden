@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/700 Vaults/750 movie/Vietnam movie/Bên trong vỏ kén vàng (spoil)/","tags":["Vietnam/movie","published/digitalgarden"],"dg-note-properties":{"tags":["Vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2023, 3:54:39 pm","date modified":"Sunday, May 10th 2023, 8:54:07 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/vietnam-movie/ben-trong-vo-ken-vang-spoil/","tags":["Vietnam/movie","published/digitalgarden"],"dg-note-properties":{"favorite":false,"tags":["Vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:10 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/"}}
 ---
 
 
 
-[[700 Vaults/750 movie/Phim chủ đề du lịch muốn xem\|Phim chủ đề du lịch muốn xem]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Phim chủ đề du lịch muốn xem\|Phim chủ đề du lịch muốn xem]]
 [[700 Vaults/750 movie/Vietnam movie/Phim Việt nào mà người Việt muốn giới thiệu cho người nước ngoài để hiểu về Việt Nam\|Phim Việt nào mà người Việt muốn giới thiệu cho người nước ngoài để hiểu về Việt Nam]]
 
 # L 'Arbre aux Papillons d'Or

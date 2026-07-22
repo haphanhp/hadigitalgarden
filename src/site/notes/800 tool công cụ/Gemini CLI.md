@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800 tool công cụ/Gemini CLI/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/gemini-cli/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 Gemini CLI ra tháng 6/2025, được Google quảng cáo mạnh vì một điểm: **free với context window khổng lồ**. Câu hỏi thực tế là nó có đủ tốt để thay Claude Code trong workflow hàng ngày không.Data từ các benchmark thực tế 2025-2026. Đây là picture đầy đủ nhất hiện tại.

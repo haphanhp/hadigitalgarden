@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/792-03-china-movie/list-100-phim-trung-quoc-dai-loan-hongkong-hay-nhat/","title":"100 phim Trung Quốc — Đài Loan — Hồng Kông hay nhất","tags":["list","china-movie","hongkong-movie","taiwan-movie"],"dg-note-properties":{"title":"100 phim Trung Quốc — Đài Loan — Hồng Kông hay nhất","tags":["list","china-movie","hongkong-movie","taiwan-movie"],"status":"completed","date created":"2026-07-22","parent-project":"database-movie"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/792-03-china-movie/list-100-phim-trung-quoc-dai-loan-hongkong-hay-nhat/","title":"100 phim Trung Quốc — Đài Loan — Hồng Kông hay nhất","tags":["list","china-movie","hongkong-movie","taiwan-movie"],"dg-note-properties":{"title":"100 phim Trung Quốc — Đài Loan — Hồng Kông hay nhất","tags":["list","china-movie","hongkong-movie","taiwan-movie"],"status":"completed","date created":"2026-07-22","parent-project":"database-movie","allias":"list 100 phim Hoa ngữ hay"}}
 ---
 
 

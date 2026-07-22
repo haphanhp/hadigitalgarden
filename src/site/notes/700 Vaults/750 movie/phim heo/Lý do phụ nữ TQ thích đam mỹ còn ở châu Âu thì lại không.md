@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700 Vaults/750 movie/phim heo/Lý do phụ nữ TQ thích đam mỹ còn ở châu Âu thì lại không/","tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"dg-note-properties":{"tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"date":"2026-06-27","AutoNoteMover":"disable"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/phim-heo/ly-do-phu-nu-tq-thich-dam-my-con-o-chau-au-thi-lai-khong/","tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"dg-note-properties":{"favorite":false,"tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"date":"2026-06-27","AutoNoteMover":"disable","date created":"Saturday, June 27th 2026, 11:14:25 am","date modified":"Monday, July 20th 2026, 9:57:10 pm"}}
 ---
 
 

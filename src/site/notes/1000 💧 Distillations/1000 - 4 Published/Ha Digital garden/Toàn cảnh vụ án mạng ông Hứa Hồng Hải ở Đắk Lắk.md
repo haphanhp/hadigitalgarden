@@ -2,6 +2,16 @@
 {"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/toan-canh-vu-an-mang-ong-hua-hong-hai-o-dak-lak/","title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","tags":["tintuc","published/digitalgarden",null],"dg-note-properties":{"title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","date":"2026-07-08","created":"2026-07-08 10:49","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Edge","created_by":"AI Assistant","tags":["tintuc","published/digitalgarden",null],"status":"draft"}}
 ---
 
+link liên quan :
+[BẢN CHẤT 5 PHÁT SÚNG TẠI BUÔN MA THUỘT](https://www.facebook.com/share/p/1D5DkwPqwJ/)
+hình ảnh liên quan 
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115204946.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115218766.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115225939.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115233297.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115241210.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115250766.png)
+![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708115259981.png)
 
 # Phân Tích Toàn Cảnh: Vụ Ám Sát Ông Hứa Hồng Hải Tại Đắk Lắk — Từ Cựu Cán Bộ Thuế Nhận Hối Lộ Đến Doanh Nhân Nắm Giữ Mắt Xích Xuất Khẩu Sầu Riêng
 

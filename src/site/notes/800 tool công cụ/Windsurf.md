@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800 tool công cụ/Windsurf/","tags":["tool/vibecoding/cursor","windsurf"],"dg-note-properties":{"name":"So sánh Windsurf vs Cursor cho vibe coding","type":"tool","tags":["tool/vibecoding/cursor","windsurf"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/windsurf/","tags":["tool/vibecoding/cursor","windsurf"],"dg-note-properties":{"name":"So sánh Windsurf vs Cursor cho vibe coding","type":"tool","tags":["tool/vibecoding/cursor","windsurf"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 

@@ -2,14 +2,14 @@
 {"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/vu-an-chuyen-voi-thanh/","title":"Vụ Án Chuyện Với Thanh — Khi Một Cuốn Sách Về Hồ Chí Minh Dẫn Đến Chuyện Bắt Giam","tags":["tintuc","published/digitalgarden",null],"dg-note-properties":{"title":"Vụ Án Chuyện Với Thanh — Khi Một Cuốn Sách Về Hồ Chí Minh Dẫn Đến Chuyện Bắt Giam","date":"2026-07-08","created":"2026-07-08 10:49","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Edge","created_by":"AI Assistant","tags":["tintuc","published/digitalgarden",null],"status":"draft"}}
 ---
 
-
+Nhân việc [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vụ Án Chuyện Với Thanh\|Vụ Án Chuyện Với Thanh]] đang nóng nhìn lại chuyện bà Kim Hạnh một chút [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bà Vũ Kim Hạnh bay chức Tổng biên tập báo tuổi trẻ vì duyệt chuyện ông Hồ có vợ\|Bà Vũ Kim Hạnh bay chức Tổng biên tập báo tuổi trẻ vì duyệt chuyện ông Hồ có vợ]]
 ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260708112413307.png)
 
 > Tui thực sự không ưa gì FPT một công ty tư nhân nhưng được nhà nước ưu ái, được chia sẻ những nguồn lực lớn nhất trong ngành, tui nghĩ đây là sự thiếu công bằng, nhưng nó hợp lý ở VN khi lãnh đạo là nhiều hạt giống đỏ như ông Hoàng Nam Tiến mà khi ông chết mọi người tiếc thương quá đà trong khi những gì ông ấy nói và làm trong mắt tôi rất ít giá trị. 
 > So với ông Tiến tôi đánh giá **Nguyễn Thành Nam** có phần tài năng và đóng góp thực chất hơn cho sự phát triển chung của VN
 > Vì tui đã biết đến ông từ lâu nhờ forum đời đầu tnxm diễn đàn tập trung rất nhiều trí thức VN đi du học thời 2005 mà ông Nam là một trong số đó. Ông ấy cũng không đánh bóng tên tuổi quá đà như ông Tiến
 > Quan điểm của ổng là thiên đỏ nhưng vẫn có độ mở nhất định vì là người trí thức cũng là cựu du học sinh, tuy không ủng hộ quan điểm của ông nhưng tôi không cho rằng ông đáng bị bắt 
-> Spiderum cũng vậy, không phải 2-3 năm gần đây Spiderum ngả màu đỏ phát ngôn theo tuyên truyền mà đáng bị giam, đối với tôi nó cũng như nhiều kênh khác Taca Why Tuấn Tiền Tỉ Thăng Long TV tôi không bao giờ coi vì quan điểm khác biệt. Nhưng spiderum lúc mới bắt đầu ở VN cũng như Vietcetera là 2 điểm sáng, còn môi trường ở VN nếu muốn tồn tại và lớn mạnh thì đổi màu là không tránh khỏi. 
+> Spiderum cũng vậy, không phải 2-3 năm gần đây Spiderum ngả màu đỏ phát ngôn theo tuyên truyền mà đáng bị giam, đối với tôi nó cũng như nhiều kênh khác Taca Why Tuấn Tiền Tỉ Thăng Long TV tôi không bao giờ coi vì quan điểm khác biệt. Nhưng Spiderum lúc mới bắt đầu ở VN cũng như Vietcetera là 2 điểm sáng, còn môi trường ở VN nếu tổ chức muốn tồn tại và lớn mạnh thì đổi màu là  việc không tránh khỏi. 
 
 # Phân Tích Toàn Cảnh: Vụ Án "Chuyện Với Thanh" — Khi Một Cuốn Sách Về Hồ Chí Minh Dẫn Đến Bắt Giam, Phạt NXB Và Làm Rúng Động Giới Văn Chương
 

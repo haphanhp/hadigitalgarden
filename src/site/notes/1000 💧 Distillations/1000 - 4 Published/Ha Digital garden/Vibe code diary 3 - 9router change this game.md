@@ -92,4 +92,6 @@ Nhưng mình đã sai, việc render sang vercel gặp nhiều vấn đề:
 
 ### Next to do
 
-- app quản lý nơi chốn lịch trình nối API gg maps
+- [ ] app quản lý nơi chốn lịch trình nối API gg maps
+- [ ] automation n8n
+- [ ] mini CRM

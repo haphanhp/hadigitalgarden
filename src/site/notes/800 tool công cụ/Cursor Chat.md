@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800 tool công cụ/Cursor Chat/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/cursor-chat/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 

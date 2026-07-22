@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800 tool công cụ/Tab completion/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":"Tab completion","type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/tab-completion/","tags":["tool/vibecoding/cursor"],"dg-note-properties":{"name":"Tab completion","type":"tool","tags":["tool/vibecoding/cursor"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 

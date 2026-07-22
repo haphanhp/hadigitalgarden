@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700 Vaults/710 Research/713 Politic History Vietnam/Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt/","title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nha-nuoc-viet-nam-thieu-di-gia-tri-nao-de-la-mot-nha-nuoc-tot/","title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
 ---
 
 

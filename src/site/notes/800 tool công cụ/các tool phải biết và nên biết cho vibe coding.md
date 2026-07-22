@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800 tool công cụ/các tool phải biết và nên biết cho vibe coding/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/cac-tool-phai-biet-va-nen-biet-cho-vibe-coding/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
 ---
 
 
@@ -56,7 +56,7 @@ AI generate Tailwind rất tốt. . Class-based, không cần đặt tên CSS.
 
 ## ✧ Nên biết — Power-up workflow
 
-[[800 tool công cụ/Claude Code\|Claude Code]]
+[[800 tool công cụ/Claude Code\|800 tool công cụ/Claude Code]]
 
 CLI agent của Anthropic. Codebase-aware, chạy terminal, mạnh cho refactor lớn.
 
