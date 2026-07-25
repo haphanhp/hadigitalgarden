@@ -3,13 +3,11 @@
 ---
 
 
-
 ### A Brief History and Ethos of the Digital Garden
-
 
 ---
 
-Tôi lưu giữ mọi ghi chép lại vì tôi tin rằng suy nghĩ, nếu được chăm sóc đúng cách, sẽ lớn lên thành điều gì đó .
+> Tôi lưu giữ mọi ghi chép lại vì tôi tin rằng suy nghĩ, nếu được chăm sóc đúng cách, sẽ lớn lên thành điều gì đó .
 
 ---
 
@@ -21,35 +19,13 @@ Một **digital garden** thì khác. Nó không có ngày tháng quan trọng. K
 
 Một số hạt mầm sẽ không bao giờ lớn. Một số sẽ thành cây. Một số sẽ leo vào nhau, bện rễ, tạo ra điều bạn chưa bao giờ lên kế hoạch.
 
-Đó là điểm hay nhất của nó.
+Tôi thấy nó như một quyển ghi chép kĩ thuật số nơi tôi quăng vào những ghi chép cá nhân, những gì mà mình thấy hứng thú, kiến thức cần thời gian để tiêu hóa, lâu lâu lấy ra đọc lại, có thể bài sẽ publish một thời gian, sau đó thấy không phù hợp nữa thì xóa đi. 
+
+Tôi rất vui vì có một sổ ghi chép online có thể truy cập tiện lợi bằng một đường link và internet theo cách tôi muốn. 
 
 ---
 
-## Tôi không bắt đầu ở đây
-
-Năm 20 tuổi, tôi mê tiếng Anh và tự học. Không ai bảo, không trường lớp nào dạy. Chỉ là thích, tôi nghe nhạc tiếng Anh suốt ngày đến giờ chẳng còn nhớ bất kì tên bài nào trong số đó, nhưng nghe nhạc thì biết. Hồi đó tôi còn hay viết văn — những câu chữ đọc lên nghe sướt mướt, nghe xúc động, đi sưu tầm từ ngữ đẹp như người ta đi nhặt vỏ sò trên bãi biển.
-
-
-
-Năm 31, tôi bắt đầu hiểu chút ít về cuộc đời — tức là bắt đầu thực tế hơn và ngừng mơ mộng.
-
-Năm 35, tôi chỉ muốn ở nhà. Xem phim. Đọc sách. Trồng cây.
-
-Kể từ Covid đến giờ, tôi đã sống như vậy. Và tôi không thấy mình đang thua thiệt gì cả.
-
----
-
-## Hai con người trong một
-
-Năm 20 tuổi rất thích viết văn đọc lên nghe hay, nghe sướt mướt, nghe xúc động, sưu tầm những từ ngữ đẹp. Hiền lành, cả tin, mắt long lanh ai cũng yêu. 
-
-Năm 30 tuổi, là thái cực trái ngược lại hoàn toàn,  tôi lập một tài khoản ẩn danh để xả hết những gì bị kìm nén — chửi bới, mỉa mai, cay độc theo kiểu mà bình thường không ai thấy tôi làm. Và traffic của cái nick đó còn nhiều hơn mười năm viết lách trước đó cộng lại.
-
-Nó cho tôi thấy: người ta không chỉ muốn đọc cái đẹp. Người ta muốn đọc cái _thật_. Cái thật thường gai góc hơn, thô hơn, và ít được ưa nhìn hơn. Nhưng nó chạm được vào chỗ mà văn hoa không với tới.
-
-Khu vườn này là nơi tôi thử sống với cả hai. Không giả vờ hiền lành, không cần diễn xuất hung hăng. Chỉ là — viết những gì mình thích. 
-
-Người ta nói là họ rất thích đọc điều tôi viết, những bài viết ẩn danh của tôi viral sau một đêm. Tôi thích kiểu đeo mặt nạ, giữ những điều thú vị cho riêng mình, là bí mật. 
+Facebook không còn là một nơi thích hợp để viết những gì mình muốn khi mà đã là nơi mọi người nhìn vào để đánh giá con người mình, khi mà danh sách bạn bè đã có quá nhiều sự phân cấp nên mỗi lần post status có thể làm hài lòng một phần nhưng lại mích lòng phần khác. 
 
 Có thể thuật toán đã xô đẩy chúng ta lướt qua nhau ở đâu đó, có thể chúng ta đã từng giao tiếp thông qua một cái like.
 
