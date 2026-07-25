@@ -1,29 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/home-for-digital-garden/","tags":["digitalgarden","published/digitalgarden","gardenEntry"],"dg-note-properties":{"aliases":[],"tags":["digitalgarden","published/digitalgarden","gardenEntry"],"date created":"Saturday, April 11th 2026, 9:58:30 pm","date modified":"Wednesday, July 15th 2026, 10:52:49 pm","url":"https://hadigitalgarden.vercel.app","url2":"https://github.com/haphanhp/hadigitalgarden","AutoNoteMover":"disable"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/home-for-digital-garden/","tags":["digitalgarden","published/digitalgarden","gardenEntry"],"dg-note-properties":{"aliases":["Trang chủ của khu vườn"],"tags":["digitalgarden","published/digitalgarden","gardenEntry"],"date created":"Saturday, April 11th 2026, 9:58:30 pm","date modified":"Wednesday, July 15th 2026, 10:52:49 pm","url":"https://hadigitalgarden.vercel.app","url2":"https://github.com/haphanhp/hadigitalgarden","AutoNoteMover":"disable"}}
 ---
 
 
 # Giới thiệu
 
 Chào mừng đến [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/digital garden\|digital garden]] của tôi. Nơi tôi xuất bản sự tò mò của mình về rất nhiều thứ.
-Ở đây bản đồ của khu vườn [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/MOC lưu trữ bài viết của khu vườn\|MOC lưu trữ bài viết của khu vườn]]
+Ở đây bản đồ của khu vườn [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/MOC lưu trữ bài viết của khu vườn\|MOC lưu trữ bài viết của khu vườn]] và tại sao có nó [[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Bắt đầu gieo hạt cho khu vườn từ chỗ này\|Bắt đầu gieo hạt cho khu vườn từ chỗ này]]. Ở đây có: 
 - ý tưởng, sở thích, suy nghĩ cá nhân 
 - các mối quan tâm
 - những câu hỏi chưa được giải đáp 
 - các vấn đề cần được giải quyết
-- và những dự án muốn hoàn thiện. 
+- và [những dự án muốn hoàn thiện](https://projects.haphan.digital/private). 
   
   # Tags
 
 #tech/automation #tech/osint #tech/ai #tech/tool
-#make-money/affiliate
-#make-money/gig
-#make-money/freelance
-#make-money/guide
-#learning #resources #vietnam/movie #moc
+#make-money/affiliate #make-money/gig #make-money/freelance #make-money/guide
+#learning #resources 
 #about-me #adhd
-#Vietnampolitic 
- #digitalgarden #politic #Vietnampolitic #resources
+#Vietnampolitic #politic 
+ #digitalgarden  #vietnam/movie #moc
 
 
  
