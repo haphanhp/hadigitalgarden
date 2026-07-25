@@ -21,7 +21,9 @@ Một số hạt mầm sẽ không bao giờ lớn. Một số sẽ thành cây.
 
 Tôi thấy nó như một quyển ghi chép kĩ thuật số nơi tôi quăng vào những ghi chép cá nhân, những gì mà mình thấy hứng thú, kiến thức cần thời gian để tiêu hóa, lâu lâu lấy ra đọc lại, có thể bài sẽ publish một thời gian, sau đó thấy không phù hợp nữa thì xóa đi. 
 
-Tôi rất vui vì có một sổ ghi chép online có thể truy cập tiện lợi bằng một đường link và internet theo cách tôi muốn. 
+Tôi rất vui vì có một sổ ghi chép online có thể truy cập tiện lợi bằng một đường link và internet theo cách tôi muốn. Mỗi lần đọc sổ ghi chép là một lần dạo chơi trong vườn, đôi khi gặp một url có thể củng cố ý tưởng có sẵn trong vault, đôi khi có thể đánh đổ quan niệm cũ đã có. 
+
+Khu vườn ý nghĩ thay đổi mỗi ngày, tôi cũng vậy. 
 
 ---
 
