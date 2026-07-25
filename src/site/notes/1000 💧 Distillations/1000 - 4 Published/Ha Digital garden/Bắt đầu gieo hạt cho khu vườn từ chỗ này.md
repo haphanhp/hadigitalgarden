@@ -62,8 +62,9 @@ Tôi chưa biết khu vườn này sẽ lớn lên như thế nào. Tôi đợi 
 
 > Viết không cần hoàn chỉnh.  
 > Suy nghĩ không cần đi đến kết luận.  
-> Ý tưởng được phép thay đổi theo thời gian.  
-> Và người làm vườn được phép là một người đang học.
+> Ý tưởng được phép thay đổi theo thời gian.  Những điều này không phải là quan niệm vĩnh viễn, chỉ có tính thời điểm. 
+> Người làm vườn được phép là một người đang học, tự do hoàn toàn chăm sóc khu vườn của mình. 
+> Khu vườn được làm ra để phục vụ cá nhân sử dụng, không phải cho người đọc, nên họ sẽ thấy rất nhiều đường link chết vì đơn giản do tôi không public toàn bộ data của mình, những link đó chỉ có người sở hữu truy cập được. Người khác click vào đều sẽ báo `There is nothing here`.
 
 Đây không phải nơi tôi biểu diễn. Đây là nơi tôi nghĩ.
 
