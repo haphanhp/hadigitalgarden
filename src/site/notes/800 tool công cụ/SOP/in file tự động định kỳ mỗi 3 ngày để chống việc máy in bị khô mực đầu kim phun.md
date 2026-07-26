@@ -117,6 +117,7 @@ tui gửi một file word mà tui in mỗi ngày nhờ claude add dải màu và
 > ```
 
 
+
 - **Bước 1:** mở **Notepad** (chương trình soạn thảo văn bản có sẵn trên Windows), dán toàn bộ đoạn code vào đó.
 
 - **Bước 2:** Tại dòng đầu tiên của code,  sửa lại đường dẫn cho gọn (để lưu ngay vào thư mục hiện tại):
@@ -124,7 +125,9 @@ tui gửi một file word mà tui in mỗi ngày nhờ claude add dải màu và
     ```
     out = "color_check_reusable.docx"
     ```
-    
+    ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260726161159388.png) 
+- Nếu như thấy choáng vì tìm không ra thì bấm Ctrl F và gõ chứ out vào, nó sẽ dẫn đến vị trí cần để sửa đường dẫn 
+
 - **Bước 3:** Bấm **File > Save As**(chọn _Save as type_ là _All Files_ để tránh bị đuôi `.txt` ở cuối).   lưu với tên `tao-file.py` lưu đâu cũng được, tui lưu ở 
 `C:\Users\Admin\AppData\Roaming\Code\User`
 
@@ -143,7 +146,7 @@ python tao-file.py
 
 Ngay sau khi chạy xong, file Word sẽ được tự động tạo ngay bên trong thư mục `User` đó .
 ![image.png](https://raw.githubusercontent.com/tudotaichinh/image-auto/Obsidian/Obsidian20260726153340597.png)
-*lần đầu chạy lệnh chưa thành công là do chưa đổi đường dẫn, sau khi đổi xong bấm lưu file tao-file.py thì đã tạo được* 
+*lần đầu chạy lệnh chưa thành công là do chưa đổi đường dẫn ở trên, sau khi đổi xong bấm lưu file tao-file.py thì đã tạo được* 
 Tui copy file word mới tạo thành E:\DownloadsDocuments `mau_test_may_in_4_mau.docx`
 
 ## cấu hình **Task Scheduler** trên Windows 
