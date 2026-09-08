@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Trần Dynasty — Vietnam Against the Mongols, 1225 to 1400</title>
+<style>
+  :root{
+    --bg:#1E2840;
+    --panel-grad: linear-gradient(130deg, #38BCD4 0%, #5DD4E8 20%, #9370DB 65%, #C084C8 100%);
+    --accent:#5DD4E8;
+    --accent2:#FFD166;
+    --link:#7CFFCB;
+    --text:#ffffff;
+    --muted:#dfe6f5;
+    --line:rgba(255,255,255,0.25);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Georgia', 'Times New Roman', serif;
+    background:#242f4d;
+    color:var(--text);
+    line-height:1.7;
+  }
+  @keyframes shimmer {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .tag{
+    text-align:center;
+    padding-top:36px;
+    letter-spacing:3px;
+    font-size:0.75rem;
+    color:var(--accent2);
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  header{
+    text-align:center;
+    padding:8px 20px 28px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    font-size:2.3rem;
+    margin:0 0 8px;
+    letter-spacing:1px;
+    color:#ffffff;
+    font-weight:800;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 0 1px rgba(255,255,255,0.6);
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:1rem;
+    font-style:italic;
+  }
+  .back-link{
+    display:block;
+    text-align:center;
+    padding:14px 0 0;
+    font-size:0.85rem;
+  }
+  .back-link a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px dashed var(--link);
+  }
+  .back-link a:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+  }
+
+  .container{
+    max-width:880px;
+    margin:0 auto;
+    padding:40px 20px 60px;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:#f4f1ff;
+    margin-bottom:36px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+
+  .section{
+    margin-bottom:40px;
+    position:relative;
+    border-radius:18px;
+    padding:24px 28px;
+    overflow:hidden;
+    background: var(--panel-grad);
+    background-size: 220% 220%;
+    animation: shimmer 14s ease infinite;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+  }
+  .section::after{
+    content:'';
+    position:absolute;
+    top:-60px;
+    right:-40px;
+    width:260px;
+    height:200px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 45%, transparent 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .section > *{
+    position:relative;
+    z-index:1;
+  }
+  .section h2{
+    font-size:1.5rem;
+    margin:0 0 4px;
+    color:#ffffff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.4), 0 0 1px rgba(255,255,255,0.5);
+  }
+  .section .date-range{
+    font-weight:bold;
+    color:var(--accent2);
+    font-size:0.95rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  }
+  .section p{
+    color:#ffffff;
+    font-size:0.98rem;
+    margin:14px 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .section h3{
+    font-size:1.1rem;
+    margin:20px 0 8px;
+    color:#fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+
+  .events{
+    margin:14px 0 0;
+    padding-left:0;
+    list-style:none;
+  }
+  .events li{
+    position:relative;
+    padding:8px 14px 8px 16px;
+    margin-bottom:6px;
+    background: rgba(15, 20, 38, 0.35);
+    backdrop-filter: blur(2px);
+    border-left:3px solid rgba(255,255,255,0.35);
+    border-radius:0 4px 4px 0;
+    font-size:0.92rem;
+    color:#ffffff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .events li strong{
+    color:var(--accent2);
+    margin-right:6px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .events.colonial li{border-left-color:#7CFFCB;}
+  .events.modern li{border-left-color:#FF8FB1;}
+  .events.dynasty li{border-left-color:#FFD166;}
+
+  .callout{
+    margin:18px 0;
+    padding:14px 18px;
+    background: rgba(15, 20, 38, 0.4);
+    border-left:4px solid var(--accent2);
+    border-radius:0 8px 8px 0;
+    font-size:0.92rem;
+    color:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .callout strong{
+    color:var(--accent2);
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:12px;
+    margin:16px 0;
+  }
+  .stat-card{
+    background: rgba(15, 20, 38, 0.4);
+    border-radius:10px;
+    padding:12px 16px;
+    text-align:center;
+    box-shadow:0 1px 4px rgba(0,0,0,0.15);
+  }
+  .stat-card .num{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:var(--accent2);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    display:block;
+  }
+  .stat-card .label{
+    font-size:0.8rem;
+    color:var(--muted);
+    margin-top:4px;
+  }
+
+  .legend{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    padding:20px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .legend span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .swatch{
+    width:14px;height:14px;border-radius:3px;display:inline-block;
+  }
+  .sw-dynasty{background:#FFD166;}
+  .sw-colonial{background:#7CFFCB;}
+  .sw-modern{background:#FF8FB1;}
+
+  .sources{
+    max-width:880px;
+    margin:0 auto;
+    padding:24px 20px 60px;
+    border-top:1px solid var(--line);
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .sources h2{
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent2);
+    margin-bottom:12px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .sources ol{
+    padding-left:20px;
+    margin:0;
+  }
+  .sources li{
+    margin-bottom:6px;
+  }
+  .sources a{
+    color:var(--link);
+    text-decoration:none;
+    word-break:break-all;
+  }
+  .sources a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+  }
+  .sources .note{
+    margin-top:14px;
+    font-style:italic;
+  }
+
+  @media (max-width:600px){
+    .container{padding:24px 12px 40px;}
+    header h1{font-size:1.7rem;}
+    .section{padding:18px 18px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">History &middot; Vietnam &middot; Deep Dive</div>
+<header>
+  <h1>The Trần Dynasty</h1>
+  <p>Vietnam against the Mongols, 1225 to 1400</p>
+  <div class="back-link"><a href="vietnam_history_timeline.html">← Back to the full timeline</a></div>
+</header>
+
+<div class="container">
+
+  <p class="lede">
+    By the late 13th century, the Mongol Empire was the largest contiguous land empire the world had ever seen — it had crushed the Song dynasty in China, swept across Central Asia and into Europe, and reduced kingdom after kingdom to vassalage or ash. Three times, Mongol armies marched into the Red River Delta intending to add Đại Việt to that list. Three times, they failed — the last time so completely that the Mongol fleet was annihilated in a single afternoon on a tidal river. The dynasty that achieved this, the Trần, ruled for 175 years, oversaw a genuine cultural and administrative flowering, and produced in General Trần Hưng Đạo one of the most enduringly celebrated figures in all of Vietnamese history. Yet the dynasty's ending — a slow slide into the same pattern of court usurpation and Chinese intervention that would recur with the Hồ and Lê dynasties afterward — is a reminder that even Vietnam's most celebrated military triumphs did not guarantee political stability at home. This article covers both halves of that story: the war against the Mongols, and the century of decline that followed it.
+  </p>
+
+  <div class="section dynasty">
+    <span class="date-range">1225</span>
+    <h2>A Dynastic Transition by Marriage</h2>
+    <p>
+      The Trần dynasty's founding, in January 1225, was comparatively peaceful by the standards of dynastic transitions elsewhere in this timeline — at least in its immediate mechanics. The Trần succeeded the Lý dynasty (1009–1225), which by this point had been in decline for some time, through the coronation of Trần Cảnh, with the Trần clan elders Trần Thừa and Trần Thủ Độ acting as regents from 1226. Britannica frames the transition in continuity terms: "for most of their rule, the Trần kings pursued the same policies that had made the country strong under the Lý" — including continuing the Lý dynasty's southward expansion against the kingdom of Champa, which had begun the process of Vietnamese expansion down the Indochinese peninsula from the Red River heartland.
+    </p>
+    <p>
+      This continuity, however, would not last undisturbed — within little more than three decades of the dynasty's founding, Đại Việt would face a threat unlike anything the Lý had ever encountered: the Mongol Empire.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1257 – 1288</span>
+    <h2>Three Mongol Invasions</h2>
+    <p>
+      By 1225 — the very year the Trần dynasty was founded — the Mongols already controlled most of northern China and Manchuria, and their attention was beginning to turn toward southern China, Vietnam, and Champa. The first concrete consequence for Đại Việt came in 1257, when a Mongol army under Kublai Khan invaded and sacked the Trần capital at Thăng Long (the city would not be renamed Hanoi until 1831). This pattern — Mongol forces sacking an evacuated capital — would repeat twice more, in 1284 and 1287, each time finding the city emptied because, as multiple sources note, "the Vietnamese had anticipated their attacks and evacuated the city beforehand."
+    </p>
+    <h3>How the First Two Invasions Failed</h3>
+    <p>
+      The first two Mongol campaigns (1257 and 1284) were defeated by a combination of factors that several sources group together: disease among Mongol troops unaccustomed to the tropical climate, supply shortages stemming from the difficulty of provisioning a large army in hostile territory, the climate itself, and — critically — a deliberate Vietnamese strategy of harassment and scorched-earth tactics. Rather than meeting the Mongols in open battle where Mongol cavalry held a clear advantage, Trần forces under Trần Hưng Đạo withdrew, denied the invaders supplies and a fixed target, and wore the Mongol armies down through guerrilla harassment before counterattacking once Mongol forces were weakened and overextended.
+    </p>
+    <h3>The Third Invasion and the Battle of Bạch Đằng (1288)</h3>
+    <p>
+      The third Mongol invasion, launched in 1287–88, was the largest by far — sources commonly cite a force of around 300,000 men (with some accounts giving figures as high as 500,000) accompanied by a substantial fleet, intended this time to permanently subjugate the Red River Delta. Trần Hưng Đạo again employed the same fundamental approach: give ground, avoid pitched battle while the enemy was strong, and wait for the moment to strike.
+    </p>
+    <p>
+      That moment came at the mouth of the Bạch Đằng River in 1288, in what is one of the most celebrated battles in Vietnamese military history — and one with a genuinely elegant tactical conception. Trần Hưng Đạo's forces drove iron-tipped wooden stakes into the riverbed of the Bạch Đằng (in territory spanning present-day Hải Phòng, Hải Dương, and Quảng Ninh provinces) — explicitly reviving a tactic that the legendary general Ngô Quyền had used against an invading Chinese fleet in 938, more than three centuries earlier, in the battle that had originally ended the millennium of Chinese domination covered in the earliest period of this timeline. A small Vietnamese flotilla lured the much larger Mongol fleet into the river just as the tide began to ebb. As the water level dropped, the Mongol vessels became trapped or impaled on the submerged stakes; the entire Mongol fleet — reported at around 400 vessels — was sunk, captured, or set ablaze by Vietnamese fire arrows. The surviving Mongol land forces retreated toward China, harassed the entire way by Trần Hưng Đạo's troops.
+    </p>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="num">1257 / 1284 / 1287–88</span><span class="label">The three Mongol invasions of Đại Việt</span></div>
+      <div class="stat-card"><span class="num">~300,000</span><span class="label">Reported size of the third (largest) Mongol invasion force</span></div>
+      <div class="stat-card"><span class="num">~400</span><span class="label">Mongol vessels destroyed at Bạch Đằng, 1288</span></div>
+      <div class="stat-card"><span class="num">938 → 1288</span><span class="label">Span between Ngô Quyền's original Bạch Đằng tactic and its reuse</span></div>
+    </div>
+    <div class="callout">
+      <strong>"Sát Thát":</strong> One detail that several sources highlight as capturing the total, society-wide character of the resistance: the slogan "Sát Thát" ("Kill the Tatars") was reportedly tattooed onto the arms of Trần warriors, a visceral symbol of the campaign's mobilization of the entire population rather than a professional army alone. Britannica makes a similar point about the resistance's social depth, noting that under the Trần, "the princes and lords who owned large domains had their own armies made up of serfs and slaves," and that the sons of prominent families were trained in a dedicated military school — an institutional base that, combined with Trần Hưng Đạo's leadership, several sources credit as much as any single tactic for the ultimate outcome.
+    </div>
+  </div>
+
+  <div class="section modern">
+    <span class="date-range">In Focus</span>
+    <h2>Trần Hưng Đạo: "A Figure of Almost Legendary Proportions"</h2>
+    <p>
+      Britannica's biographical entry on Trần Hưng Đạo (born around 1229, died 1300) opens by calling him "a figure of almost legendary proportions in Vietnamese history, a brilliant military strategist who defeated two Mongol invasions and became a cultural hero among modern Vietnamese." His appointment as commander-in-chief of Vietnamese forces in the early 1280s, ahead of the second Mongol campaign, is described as having included "a rousing speech to his forces" calling for national unity — a detail that, alongside the "Sát Thát" tattoos, underscores how much of the Trần victory is remembered not just as a military achievement but as a moment of national mobilization.
+    </p>
+    <h3>A Military Treatise — and a 20th-Century Echo</h3>
+    <p>
+      Trần Hưng Đạo is credited with writing a handbook on military tactics for his officers — referred to in some sources as "Binh Thư Yếu Lược" — which is reportedly still studied today. More striking still is a claim made explicitly by Britannica: that Trần Hưng Đạo's "use of guerrilla warfare to harass and eventually defeat a more powerful enemy provided a model for communist guerrilla warfare in the 20th century," and that "his mobilization of the entire Vietnamese population in the cause of national resistance" similarly anticipated later 20th-century mobilization efforts.
+    </p>
+    <div class="callout">
+      <strong>A recurring thread in this timeline:</strong> This is now the second time in this series of articles that a medieval Vietnamese military campaign has been explicitly compared, by mainstream reference sources, to 20th-century events — the companion article on the Tây Sơn dynasty notes a comparison of Quang Trung's 1789 Tết campaign to a "Tet Offensive," and here Britannica draws a direct line from Trần Hưng Đạo's strategy to "communist guerrilla warfare." Whether these comparisons reflect genuine continuities in Vietnamese military thought across seven centuries, or instead reflect a retrospective tendency among English-language sources to read 20th-century categories back onto earlier history, is itself an interesting historiographical question — but the comparisons are made often enough, by sources independent of one another, that they appear to reflect a real and recurring theme in how Vietnamese military history is narrated.
+    </div>
+    <p>
+      One further anecdote, recorded by sources drawing on Vietnamese tourism and cultural materials: shortly before his death in 1300, King Trần Anh Tông is said to have visited Trần Hưng Đạo and asked him a question — though the sources consulted for this article do not preserve what that question was, only that the visit took place, a small reminder of how much of the texture of these figures' lives survives only in fragments.
+    </p>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">1300s – 1390s</span>
+    <h2>After the Mongols: A Century of Wars with Champa</h2>
+    <p>
+      With the Mongol threat eliminated, the Trần resumed the southward pressure on Champa that had characterized Vietnamese policy under the Lý as well. In 1312, the Trần monarch Trần Anh Tông invaded Champa, captured its king, and reduced the kingdom to a feudatory (vassal) state — by some accounts, the high point of Trần dominance over its southern neighbor.
+    </p>
+    <p>
+      This dominance, however, proved temporary. Champa regained its independence by 1326, and under its formidable king Chế Bồng Nga (reigned 1360–1390), launched a sustained counteroffensive against Vietnam — sources describe a series of attacks between 1360 and 1390 during which Cham forces recovered previously lost provinces and, in 1371, even sacked Thăng Long itself, a striking reversal of the dynasty's earlier triumphs over a far larger Mongol force. Only after Chế Bồng Nga's death did the Trần regain the upper hand and resume their southward advance — and even then, the dynasty's response to this prolonged pressure included relocating its own capital southward from Thăng Long to Thanh Hóa in 1398, a move Britannica describes as reflecting "the shift in their territory" — though, as the next section covers, this relocation also coincided with, and may have reflected, a deeper crisis of dynastic authority.
+    </p>
+    <ul class="events colonial">
+      <li><strong>1312</strong> Trần Anh Tông reduces Champa to a vassal state after capturing its king.</li>
+      <li><strong>1326</strong> Champa regains independence.</li>
+      <li><strong>1360–1390</strong> Under Chế Bồng Nga, Champa launches a major counteroffensive, sacking Thăng Long in 1371.</li>
+      <li><strong>1398</strong> The Trần relocate their capital from Thăng Long to Thanh Hóa.</li>
+    </ul>
+  </div>
+
+  <div class="section dynasty">
+    <span class="date-range">1370 – 1400</span>
+    <h2>The Slow Collapse — and the Door to the Ming</h2>
+    <p>
+      The Trần dynasty's final decades were marked by exactly the kind of internal instability that, elsewhere in this timeline, has so often preceded foreign intervention. In 1370, a coup overthrew the reigning Trần emperor Dương Nhật Lễ — an episode that several sources treat as an early symptom of the dynastic decay that would culminate three decades later. By the 1390s, with the capital relocated to Thanh Hóa amid ongoing pressure from Champa, real power within the Trần court increasingly rested with a powerful court official: Hồ Quý Ly.
+    </p>
+    <p>
+      On March 23, 1400, Trần Thiếu Đế formally ceded the throne to Hồ Quý Ly, ending the Trần dynasty after 175 years and beginning the short-lived Hồ dynasty (1400–1407) — the dynasty whose own usurpation, in turn, would directly trigger the Ming invasion covered in detail in the companion article on the <a href="era-ming-occupation.html">Ming occupation and Lam Sơn uprising</a>.
+    </p>
+    <h3>The Restoration That Wasn't</h3>
+    <p>
+      The aftermath of the Trần dynasty's fall illustrates, in miniature, the pattern this timeline series has now traced across several centuries: a deposed dynasty's loyalists appeal to China for restoration, China intervenes, and the restoration either fails to materialize or proves short-lived and brutal. According to one source, Trần partisans, discontented with Hồ Quý Ly's usurpation, "called in aid from the Chinese, who occupied the country" — using "reinstatement of the Trần dynasty as an excuse," the Ming "took advantage of the situation" to invade in 1406, and within a year Đại Việt was "again a province of China."
+    </p>
+    <p>
+      The fate of the last Trần claimant, recorded by one source in unusually grim detail, underscores how little the "restoration" pretext amounted to in practice: Trùng Quang Đế (a grandson of the earlier emperor Nghệ Tông), described as "the last king of the Trần family," was taken prisoner by Chinese forces; while being transported into captivity in 1409, he is recorded as having thrown himself into a river rather than continue as a prisoner. The source summarizes the result starkly: "the kingdom of Tongking was now for fourteen years subject to China" — though, as the companion Ming occupation article details, this period is more commonly dated as lasting twenty years (1407–1427) when measured from the formal Ming annexation rather than from this final Trần claimant's death.
+    </p>
+    <ul class="events dynasty">
+      <li><strong>1370</strong> A coup overthrows Emperor Dương Nhật Lễ, an early sign of dynastic instability.</li>
+      <li><strong>1398</strong> Capital relocated to Thanh Hóa amid Champa pressure and growing internal crisis.</li>
+      <li><strong>March 23, 1400</strong> Trần Thiếu Đế cedes the throne to Hồ Quý Ly, ending the Trần dynasty after 175 years.</li>
+      <li><strong>1406–1407</strong> Trần loyalists appeal to Ming China; Ming forces invade and annex Đại Việt.</li>
+      <li><strong>1409</strong> The last Trần claimant, Trùng Quang Đế, dies while being transported into Chinese captivity.</li>
+    </ul>
+  </div>
+
+  <div class="section colonial">
+    <span class="date-range">In Perspective</span>
+    <h2>Two Legacies, One Dynasty</h2>
+    <p>
+      The Trần dynasty leaves behind two legacies that sit somewhat awkwardly next to each other. On one hand, the defeat of three Mongol invasions — particularly the climactic victory at Bạch Đằng in 1288 — represents one of the genuinely epochal military achievements in pre-modern world history: a relatively small kingdom on the periphery of the largest land empire ever assembled not only survived three separate invasions but destroyed, in the third, an entire invasion fleet in a single coordinated ambush. The cultural memory of this achievement — Trần Hưng Đạo's continued veneration, the survival of his military writings, the explicit comparisons drawn by later sources between his strategy and 20th-century resistance movements — is arguably unmatched by any other figure covered so far in this timeline series, with the possible exception of Quang Trung.
+    </p>
+    <p>
+      On the other hand, the dynasty's final century is a study in how military triumph does not translate automatically into durable governance. The same Trần dynasty that destroyed a 300,000-strong Mongol army spent its final decades being pushed around by a resurgent Champa under Chế Bồng Nga, relocating its own capital under pressure, and ultimately losing the throne not to a foreign conqueror but to its own chief minister — whose usurpation then provided the pretext for exactly the kind of foreign intervention the Trần had so spectacularly resisted a century earlier. Read alongside the companion articles on the Ming occupation and the Tây Sơn dynasty, the Trần's ending completes what is by now a recognizable pattern in this timeline: dynasties in Vietnamese history have repeatedly proven more durable against external invasion than against internal succession crises — and it has often been the latter, not the former, that opened the door to the former.
+    </p>
+  </div>
+
+</div>
+
+<div class="legend">
+  <span><span class="swatch sw-dynasty"></span>Founding &amp; the dynasty's end</span>
+  <span><span class="swatch sw-colonial"></span>The Mongol wars &amp; the Champa wars</span>
+  <span><span class="swatch sw-modern"></span>Trần Hưng Đạo &amp; cultural legacy</span>
+</div>
+
+<div class="sources">
+  <h2>Sources</h2>
+  <ol>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/topic/Tran-dynasty" target="_blank">"Trần Dynasty"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/biography/Tran-Hung-Dao" target="_blank">"Trần Hưng Đạo"</a></li>
+    <li>Encyclopaedia Britannica, <a href="https://www.britannica.com/place/Vietnam/The-Tran-dynasty" target="_blank">"Vietnam — The Trần Dynasty"</a></li>
+    <li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_dynasty" target="_blank">"Trần Dynasty"</a></li>
+    <li>GlobalSecurity.org, <a href="https://www.globalsecurity.org/military/world/vietnam/dai-viet-tran.htm" target="_blank">"Đại Việt — Trần Dynasty (1225–1400)"</a></li>
+    <li>Facts and Details, <a href="https://factsanddetails.com/southeast-asia/Vietnam/sub5_9a/entry-3334.html" target="_blank">"Trần Dynasty (1225–1400)"</a></li>
+    <li>Seasia.co, <a href="https://seasia.co/2023/03/20/a-brief-history-of-the-tran-dynasty-and-the-mongols-defeat-in-vietnam" target="_blank">"A Brief History of the Trần Dynasty and the Mongols' Defeat in Việt Nam"</a></li>
+    <li>TOTA World, <a href="https://www.tota.world/article/863/" target="_blank">"Vietnamese History: Trần Dynasty to the Arrival of the Europeans"</a></li>
+    <li>Little Charm Hostel, <a href="https://littlecharmhostel.com/the-tran-dynasty-vietnam/" target="_blank">"The Trần Dynasty (1225–1400) — Vietnam's Golden Age of Resilience"</a></li>
+  </ol>
+  <p class="note">
+    Note: Figures for Mongol troop strength vary across sources — most commonly cited around 300,000 for the third invasion, with at least one source giving a figure as high as 500,000 — and, as with other premodern troop figures in this timeline series, should be treated as traditional estimates rather than precise counts. The account of the final Trần claimant Trùng Quang Đế's death in 1409, and the "fourteen years" figure for the subsequent period of Chinese rule given by one source, differs from the more commonly cited 1407–1427 (twenty-year) span for the Ming occupation discussed in the companion article; this discrepancy likely reflects different starting points for the count (Ming annexation versus the death of the last resistance claimant) rather than a substantive disagreement about the underlying events, but readers should be aware both figures appear in the sources.
+  </p>
+</div>
+
+</body>
+</html>
