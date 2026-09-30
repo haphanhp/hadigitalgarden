@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/show/dayo-wong/huynh-tu-hoa-standup-video/","dg-note-properties":{"account":"tudotaichinh","browser":"brave link","updated":"2026-09-30","url":"https://garden.haphan.digital/700-vaults/750-movie/show/dayo-wong/huynh-tu-hoa-standup-video/","aliases":"huynh-tu-hoa-standup-video"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/show/dayo-wong/huynh-tu-hoa-standup-video/","title":["Huỳnh Tử Hoa 黃子華 (Dayo Wong) stand up comedy"],"dg-note-properties":{"title":["Huỳnh Tử Hoa 黃子華 (Dayo Wong) stand up comedy"],"account":"tudotaichinh","browser":"brave link","updated":"2026-09-30","url":"https://garden.haphan.digital/700-vaults/750-movie/show/dayo-wong/huynh-tu-hoa-standup-video/","aliases":"Huỳnh Tử Hoa 黃子華 (Dayo Wong) stand up comedy"}}
 ---
 
 
