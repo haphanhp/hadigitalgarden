@@ -20,6 +20,8 @@ Dọn lỗi Vercel và chỉnh giao diện garden.haphan.digital (PR haphanhp/ha
 - **Khoảng cách cột phải**: tiêu đề mục lục, tag, "Pages mentioning this page" cách graph 24px, thụt vào 16px.
 - **Chữ nhạt**: callout (khung gập) trên trang index phim có chữ chìm vào nền gradient; nay có nền tối trong mờ, viền sáng, chữ trắng đậm.
 - **Cỡ chữ**: tăng 2 bậc, nội dung 18px lên 20px, các cỡ rem của sidebar, backlinks, mục lục, tag, bảng và callout tăng tương ứng.
+- **Ghim thanh trái**: thêm nút ghim ở góc trên thanh trái (chỉ màn hình >1400px). Mặc định ẩn, rê chuột mới hiện; bấm ghim thì thanh đứng yên, ô nội dung tự thu hẹp nhường chỗ, lựa chọn lưu trong localStorage (`dg-filetree-pinned`). Sửa `filetree.njk` và `custom-style.scss`.
+- **Chọn ngôn ngữ**: nút Google Translate luôn hiện "Choose language" (ghi đè chữ Google tự dịch theo trình duyệt bằng CSS); bỏ nhãn "🌐 Language" tĩnh phía trên để khỏi trùng (`src/helpers/userSetup.js`).
 - **Chưa làm**: điện thoại và màn hình nhỏ giữ layout gốc, sẽ tính sau.
 - **Lưu ý**: `graphScript.njk` là file template, sẽ bị ghi đè nếu cập nhật template (đã quyết định không bấm update plugin nữa).
 

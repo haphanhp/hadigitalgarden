@@ -12,7 +12,6 @@ function userEleventySetup(eleventyConfig) {
       return content.replace(
         "</body>",
         `<div style="position:fixed;bottom:20px;right:20px;z-index:99999;">
-  <div style="font-size:0.75rem;color:#888;margin-bottom:4px;text-align:right;">🌐 Language</div>
   <div id="google_translate_element" style="background:white;padding:8px 12px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.2);"></div>
 </div>
 <script>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'vi',includedLanguages:'en,fr,zh-CN',layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},'google_translate_element');}</script>
