@@ -483,3 +483,188 @@ a[href^="#"] {
   color: #1E2840;
   font-weight: 600;
 }
+
+/* ============================================
+   NÚT SÁNG/TỐI
+   Điều kiện hiển thị: nút nằm cố định góc dưới phải, cạnh nút ngôn ngữ, ở mọi kích thước màn hình.
+   ============================================ */
+.dg-theme-btn {
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  background: #1E2840;
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s, color 0.2s;
+}
+
+.dg-theme-btn:hover {
+  background: #5DD4E8;
+  color: #1E2840;
+}
+
+html[data-dg-theme="light"] .dg-theme-btn {
+  background: #ffffff;
+  color: #1b2340;
+  border: 1px solid rgba(27, 35, 64, 0.2);
+}
+
+/* ============================================
+   CHẾ ĐỘ SÁNG
+   Điều kiện hiển thị: chỉ khi khách chọn Sáng (html có data-dg-theme="light").
+   Nền sáng, mọi chữ chuyển sang màu tối. Ô graph giữ nền tối trong mờ để các nút sao còn nhìn rõ.
+   ============================================ */
+html[data-dg-theme="light"] body {
+  background-color: #eef2f9 !important;
+}
+
+/* Ô nội dung: gradient pastel + chữ tối */
+html[data-dg-theme="light"] .content {
+  background: linear-gradient(130deg, #c9eefa 0%, #def5fb 22%, #e2d8f8 65%, #f3dcf1 100%);
+  background-size: 220% 220%;
+}
+
+html[data-dg-theme="light"] .content::before {
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.25) 45%, transparent 70%);
+}
+
+html[data-dg-theme="light"] .content,
+html[data-dg-theme="light"] .content p,
+html[data-dg-theme="light"] .content li,
+html[data-dg-theme="light"] .content ul,
+html[data-dg-theme="light"] .content ol,
+html[data-dg-theme="light"] .content th,
+html[data-dg-theme="light"] .content td,
+html[data-dg-theme="light"] .content blockquote {
+  color: #1b2340 !important;
+}
+
+html[data-dg-theme="light"] .content h1,
+html[data-dg-theme="light"] .content h2,
+html[data-dg-theme="light"] .content h3,
+html[data-dg-theme="light"] .content h4 {
+  color: #0f1730 !important;
+  text-shadow: none;
+}
+
+html[data-dg-theme="light"] .content em {
+  color: #5b3fa0 !important;
+}
+
+html[data-dg-theme="light"] .content strong {
+  color: #0e6a82 !important;
+}
+
+html[data-dg-theme="light"] .content a {
+  color: #1d4ed8 !important;
+}
+
+html[data-dg-theme="light"] .content a:hover {
+  color: #7c3aed !important;
+}
+
+/* Callout */
+html[data-dg-theme="light"] .content .callout {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border: 1px solid rgba(27, 35, 64, 0.22) !important;
+  border-left: 4px solid #0e7490 !important;
+}
+
+html[data-dg-theme="light"] .content .callout-title,
+html[data-dg-theme="light"] .content .callout-title-inner,
+html[data-dg-theme="light"] .content .callout-title-inner p,
+html[data-dg-theme="light"] .content .callout-icon,
+html[data-dg-theme="light"] .content .callout-fold,
+html[data-dg-theme="light"] .content .callout .lucide,
+html[data-dg-theme="light"] .content .callout-content,
+html[data-dg-theme="light"] .content .callout-content p,
+html[data-dg-theme="light"] .content .callout-content li {
+  color: #1b2340 !important;
+  text-shadow: none;
+}
+
+/* Hai thanh bên */
+html[data-dg-theme="light"] .sidebar,
+html[data-dg-theme="light"] nav.sidebar,
+html[data-dg-theme="light"] .sidebar-left,
+html[data-dg-theme="light"] .right-sidebar,
+html[data-dg-theme="light"] .sidebar-right,
+html[data-dg-theme="light"] aside {
+  background: #eef2f9 !important;
+}
+
+html[data-dg-theme="light"] .filetree-wrapper {
+  background: #e3e9f5 !important;
+}
+
+html[data-dg-theme="light"] .sidebar a,
+html[data-dg-theme="light"] .filetree-sidebar a,
+html[data-dg-theme="light"] .right-sidebar a,
+html[data-dg-theme="light"] aside a {
+  color: #2a3a78 !important;
+}
+
+html[data-dg-theme="light"] .sidebar a:hover,
+html[data-dg-theme="light"] .filetree-sidebar a:hover,
+html[data-dg-theme="light"] .right-sidebar a:hover,
+html[data-dg-theme="light"] aside a:hover {
+  color: #0e7490 !important;
+}
+
+html[data-dg-theme="light"] .filetree-sidebar summary {
+  color: #6d3fc7 !important;
+}
+
+html[data-dg-theme="light"] .right-sidebar h3,
+html[data-dg-theme="light"] .right-sidebar .panel-title,
+html[data-dg-theme="light"] aside h3 {
+  color: #7a2f9a !important;
+}
+
+html[data-dg-theme="light"] .sidebar .toc,
+html[data-dg-theme="light"] .sidebar .toc-title,
+html[data-dg-theme="light"] .sidebar .backlinks,
+html[data-dg-theme="light"] .sidebar .backlink-title,
+html[data-dg-theme="light"] .sidebar .no-backlinks-message,
+html[data-dg-theme="light"] .filetree-sidebar,
+html[data-dg-theme="light"] .filetree-sidebar .foldername {
+  color: #1b2340 !important;
+}
+
+/* Ô graph: nền tối trong mờ trong cả hai chế độ */
+html[data-dg-theme="light"] #graph-component {
+  background: rgba(13, 17, 23, 0.6) !important;
+}
+
+/* Tag, ô tìm kiếm */
+html[data-dg-theme="light"] .tag,
+html[data-dg-theme="light"] a[href^="#"] {
+  background: rgba(109, 40, 217, 0.12) !important;
+  color: #5b21b6 !important;
+  border-color: rgba(109, 40, 217, 0.4) !important;
+}
+
+html[data-dg-theme="light"] .tag:hover,
+html[data-dg-theme="light"] a[href^="#"]:hover {
+  background: rgba(14, 116, 144, 0.14) !important;
+  color: #0e7490 !important;
+  border-color: rgba(14, 116, 144, 0.5) !important;
+}
+
+html[data-dg-theme="light"] .search-bar input,
+html[data-dg-theme="light"] #search-input {
+  background: #ffffff !important;
+  color: #1b2340 !important;
+}
+
+/* Tiêu đề trang web (chữ gradient) đậm hơn để đọc được trên nền sáng */
+html[data-dg-theme="light"] .site-name,
+html[data-dg-theme="light"] .site-title {
+  background: linear-gradient(90deg, #0e7490, #6d3fc7, #a21caf);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
