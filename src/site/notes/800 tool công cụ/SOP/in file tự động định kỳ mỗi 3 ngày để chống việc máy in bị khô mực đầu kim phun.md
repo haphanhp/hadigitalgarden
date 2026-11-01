@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/sop/in-file-tu-dong-dinh-ky-moi-3-ngay-de-chong-viec-may-in-bi-kho-muc-dau-kim-phun/","tags":["huong-dan","SOP","tech/automation",null],"dg-note-properties":{"tags":["huong-dan","SOP","tech/automation",null]}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/sop/in-file-tu-dong-dinh-ky-moi-3-ngay-de-chong-viec-may-in-bi-kho-muc-dau-kim-phun/","tags":["huong-dan","SOP","tech/automation",null],"dg-note-properties":{"tags":["huong-dan","SOP","tech/automation",null],"status":null,"priority":null,"quarter":null,"year":null,"pillars":[],"outcomes":[],"start":null,"finish":null,"garden_url":"https://garden.haphan.digital/800-tool-cong-cu/sop/in-file-tu-dong-dinh-ky-moi-3-ngay-de-chong-viec-may-in-bi-kho-muc-dau-kim-phun/","aliases":"in file tự động định kỳ mỗi 3 ngày để chống việc máy in bị khô mực đầu kim phun"}}
 ---
 
 

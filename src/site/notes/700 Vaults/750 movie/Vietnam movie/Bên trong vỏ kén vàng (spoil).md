@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/vietnam-movie/ben-trong-vo-ken-vang-spoil/","tags":["Vietnam/movie","published/digitalgarden"],"dg-note-properties":{"favorite":false,"tags":["Vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:10 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/vietnam-movie/ben-trong-vo-ken-vang-spoil/","tags":["vietnam/movie","published/digitalgarden"],"dg-note-properties":{"favorite":false,"tags":["vietnam/movie","published/digitalgarden"],"aliase":"L 'Arbre aux Papillons d'Or","date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:10 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/710-research/713-politic-history-vietnam/vietnam-movie/ben-trong-vo-ken-vang-spoil/","garden_url":"https://garden.haphan.digital/700-vaults/750-movie/vietnam-movie/ben-trong-vo-ken-vang-spoil/","aliases":"Bên trong vỏ kén vàng (spoil)"}}
 ---
 
 

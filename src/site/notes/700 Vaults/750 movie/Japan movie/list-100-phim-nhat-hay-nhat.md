@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/japan-movie/list-100-phim-nhat-hay-nhat/","tags":["tong-hop","list","japan/movie"],"dg-note-properties":{"parent-project":"database-movie","favorite":false,"date created":"Sunday, July 19th 2026, 3:44:22 am","date modified":"Tuesday, July 21st 2026, 9:02:15 pm","tags":["tong-hop","list","japan/movie"]}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/japan-movie/list-100-phim-nhat-hay-nhat/","tags":["tong-hop","list","japan/movie"],"dg-note-properties":{"parent-project":"database-movie","favorite":false,"date created":"Sunday, July 19th 2026, 3:44:22 am","date modified":"Tuesday, July 21st 2026, 9:02:15 pm","tags":["tong-hop","list","japan/movie"],"garden_url":"https://garden.haphan.digital/700-vaults/750-movie/japan-movie/list-100-phim-nhat-hay-nhat/","aliases":"list-100-phim-nhat-hay-nhat"}}
 ---
 
 
-[[700 Vaults/750 movie/Japan movie/DB 100 best Japan movie\|DB 100 best Japan movie]]
+[[700 Vaults/750 movie/Japan movie/DB 100 best Japan movie\|BD list các phim Nhật trong vault]]
 
 ### 100 phim Nhật Bản hay nhất mọi thời đại
 

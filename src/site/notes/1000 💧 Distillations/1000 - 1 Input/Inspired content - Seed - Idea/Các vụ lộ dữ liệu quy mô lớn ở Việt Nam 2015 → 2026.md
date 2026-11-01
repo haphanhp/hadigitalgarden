@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-1-input/inspired-content-seed-idea/cac-vu-lo-du-lieu-quy-mo-lon-o-viet-nam-2015-2026/","title":"Các vụ lộ dữ liệu quy mô lớn ở Việt Nam — Tổng hợp theo timeline & mức độ nghiêm trọng","tags":["lo-du-lieu","data-breach","viet-nam","an-ninh-mang","tong-hop","timeline","seedling/video-content",null],"dg-note-properties":{"title":"Các vụ lộ dữ liệu quy mô lớn ở Việt Nam — Tổng hợp theo timeline & mức độ nghiêm trọng","alias":"vu-lo-du-lieu-quy-mo-lon-vn","tags":["lo-du-lieu","data-breach","viet-nam","an-ninh-mang","tong-hop","timeline","seedling/video-content",null],"status":"archived","date_logged":"2026-06-27","related_doc":"viettel-grieflure-data-breach.md"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-1-input/inspired-content-seed-idea/cac-vu-lo-du-lieu-quy-mo-lon-o-viet-nam-2015-2026/","title":"Các vụ lộ dữ liệu quy mô lớn ở Việt Nam — Tổng hợp theo timeline & mức độ nghiêm trọng","tags":["lo-du-lieu","data-breach","an-ninh-mang/viet-nam","an-ninh-mang","tong-hop","timeline","seedling/video-content"],"dg-note-properties":{"title":"Các vụ lộ dữ liệu quy mô lớn ở Việt Nam — Tổng hợp theo timeline & mức độ nghiêm trọng","alias":"vu-lo-du-lieu-quy-mo-lon-vn","tags":["lo-du-lieu","data-breach","an-ninh-mang/viet-nam","an-ninh-mang","tong-hop","timeline","seedling/video-content"],"status":"archived","date_logged":"2026-06-27","related_doc":"viettel-grieflure-data-breach.md","garden_url":"https://garden.haphan.digital/1000-distillations/1000-1-input/inspired-content-seed-idea/cac-vu-lo-du-lieu-quy-mo-lon-o-viet-nam-2015-2026/"}}
 ---
-
 
 # Các vụ lộ dữ liệu quy mô lớn ở Việt Nam
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/tu-mo-hinh-singapore-viet-nam-co-the-ap-dung-gi/","title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","tags":["Vietnampolitic","claude","Singapore"],"dg-note-properties":{"title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude","Singapore"],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/tu-mo-hinh-singapore-viet-nam-co-the-ap-dung-gi/","title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","tags":["chinh-tri/viet-nam","claude","singapore"],"dg-note-properties":{"title":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore","date":"2026-06-15","created":"2026-06-15 11:47","tags":["chinh-tri/viet-nam","claude","singapore"],"status":"done","garden_url":"https://garden.haphan.digital/700-vaults/710-research/713-politic-history-vietnam/tu-mo-hinh-singapore-viet-nam-co-the-ap-dung-gi/","aliases":"Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore"}}
 ---
 
 # Singapore — Trúng Số Hay Thiết Kế? Và Tại Sao Việt Nam Không Phải Singapore

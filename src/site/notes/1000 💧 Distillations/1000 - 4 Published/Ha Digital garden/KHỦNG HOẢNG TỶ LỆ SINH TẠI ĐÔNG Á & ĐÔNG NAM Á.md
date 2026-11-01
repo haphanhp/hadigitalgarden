@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/khung-hoang-ty-le-sinh-tai-dong-a-and-dong-nam-a/","title":"KHỦNG HOẢNG TỶ LỆ SINH TẠI ĐÔNG Á & ĐÔNG NAM Á","tags":["asia","east-asia","birthrate","published/digitalgarden",null],"dg-note-properties":{"title":"KHỦNG HOẢNG TỶ LỆ SINH TẠI ĐÔNG Á & ĐÔNG NAM Á","date":"2026-07-08","created":"2026-07-08 10:29","ai_model":"claude","account":"baohavnasia@gmail.com","browser":"arc","created_by":"AI Assistant","tags":["asia","east-asia","birthrate","published/digitalgarden",null],"status":"live"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/khung-hoang-ty-le-sinh-tai-dong-a-and-dong-nam-a/","title":"KHỦNG HOẢNG TỶ LỆ SINH TẠI ĐÔNG Á & ĐÔNG NAM Á","tags":["asia","east-asia","birthrate","published/digitalgarden",null],"dg-note-properties":{"title":"KHỦNG HOẢNG TỶ LỆ SINH TẠI ĐÔNG Á & ĐÔNG NAM Á","date":"2026-07-08","created":"2026-07-08 10:29","ai_model":"claude","account":"baohavnasia@gmail.com","browser":"arc","created_by":"AI Assistant","tags":["asia","east-asia","birthrate","published/digitalgarden",null],"status":"live","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/khung-hoang-ty-le-sinh-tai-dong-a-dong-nam-a/","aliases":"KHỦNG HOẢNG TỶ LỆ SINH TẠI ĐÔNG Á & ĐÔNG NAM Á"}}
 ---
 
 

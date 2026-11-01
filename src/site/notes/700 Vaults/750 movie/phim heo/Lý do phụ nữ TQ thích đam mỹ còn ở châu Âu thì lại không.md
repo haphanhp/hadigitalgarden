@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/phim-heo/ly-do-phu-nu-tq-thich-dam-my-con-o-chau-au-thi-lai-khong/","tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"dg-note-properties":{"favorite":false,"tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cauhoi","phimheo"],"date":"2026-06-27","AutoNoteMover":"disable","date created":"Saturday, June 27th 2026, 11:14:25 am","date modified":"Monday, July 20th 2026, 9:57:10 pm"}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/phim-heo/ly-do-phu-nu-tq-thich-dam-my-con-o-chau-au-thi-lai-khong/","tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cau-hoi","phimheo"],"dg-note-properties":{"favorite":false,"tags":["sociology","gender-studies","sexual-script-theory","censorship","east-asia","danmei","psychological-anthropology","seedling/video-content","cau-hoi","phimheo"],"date":"2026-06-27","AutoNoteMover":"disable","date created":"Saturday, June 27th 2026, 11:14:25 am","date modified":"Monday, July 20th 2026, 9:57:10 pm","garden_url":"https://garden.haphan.digital/700-vaults/750-movie/phim-heo/ly-do-phu-nu-tq-thich-dam-my-con-o-chau-au-thi-lai-khong/","aliases":"Lý do phụ nữ TQ thích đam mỹ còn ở châu Âu thì lại không"}}
 ---
 
 
-Bắt nguồn từ [[700 Vaults/750 movie/phim heo/Sexual script theory thông qua nền văn hóa các lãnh thổ\|Sexual script theory thông qua nền văn hóa các lãnh thổ]]
+Bắt nguồn từ [[700 Vaults/750 movie/phim heo/Sexual script theory thông qua nền văn hóa các lãnh thổ\|sexual script theory thông qua cross cutural]]
 
 Đoạn văn này là một bản tóm tắt các **nghiên cứu học thuật (Academic Research)** về tâm lý học và xã hội học giới tính. Nó dùng các lý thuyết khoa học để giải thích một nghịch lý lớn thứ hai: **Tại sao ở các nước Đông Á (như Nhật, Hàn, Trung), phụ nữ lại cực kỳ cuồng thể loại truyện Đam mỹ/Boy's Love (BL - truyện yêu đương giữa nam và nam)?**
 

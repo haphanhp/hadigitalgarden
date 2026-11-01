@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/tai-sao-he-thong-khong-tu-thay-doi-va-khi-nao-no-thay-doi/","title":"Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi","tags":["Vietnampolitic","claude"],"dg-note-properties":{"title":"Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi","date":"2026-06-15","created":"2026-06-15 11:47","tags":["Vietnampolitic","claude"],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/tai-sao-he-thong-khong-tu-thay-doi-va-khi-nao-no-thay-doi/","title":"Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi","tags":["chinh-tri/viet-nam","claude"],"dg-note-properties":{"title":"Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi","date":"2026-06-15","created":"2026-06-15 11:47","tags":["chinh-tri/viet-nam","claude"],"status":"done","garden_url":"https://garden.haphan.digital/700-vaults/710-research/713-politic-history-vietnam/tai-sao-he-thong-khong-tu-thay-doi-va-khi-nao-no-thay-doi/","aliases":"Tại Sao Hệ Thống Không Tự Thay Đổi — Và Khi Nào Nó Thay Đổi"}}
 ---
 
 

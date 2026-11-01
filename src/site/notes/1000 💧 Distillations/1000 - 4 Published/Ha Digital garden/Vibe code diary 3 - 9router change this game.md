@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-3-9router-change-this-game/","title":"Vibe code diary - 9router change this game","tags":["tech/ai","vibecoding","diary","writing","published/digitalgarden"],"dg-note-properties":{"title":"Vibe code diary - 9router change this game","date":"2026-07-22","created":"2026-07-22 11:02","tags":["tech/ai","vibecoding","diary","writing","published/digitalgarden"],"status":"done","date created":"Wednesday, July 22nd 2026, 11:01:32 am","date modified":"Wednesday, July 22nd 2026, 2:27:39 pm","parent-project":"vibe-code-diary","priority":1}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-3-9router-change-this-game/","title":"Vibe code diary - 9router change this game","tags":["tech/ai","vibe-coding","diary","writing","published/digitalgarden"],"dg-note-properties":{"title":"Vibe code diary - 9router change this game","date":"2026-07-22","created":"2026-07-22 11:02","tags":["tech/ai","vibe-coding","diary","writing","published/digitalgarden"],"status":"done","date created":"Wednesday, July 22nd 2026, 11:01:32 am","date modified":"Wednesday, July 22nd 2026, 2:27:39 pm","parent-project":"vibe-code-diary","priority":1,"garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-3-9router-change-this-game/","aliases":"Vibe code diary - 9router change this game"}}
 ---
 
 
@@ -87,7 +87,7 @@ Nhưng mình đã sai, việc render sang vercel gặp nhiều vấn đề:
 - chạy soát lỗi yaml toàn vault định kỳ, biến nó thành lịch tự động
 - kéo data hàng trăm bộ phim thông qua API và script python và javascript chỉ trong vòng 5 phút thay vì trước đó làm thủ công mất nguyên 1 ngày [[700 Vaults/750 movie/Japan movie/list-100-phim-nhat-hay-nhat\|list-100-phim-nhat-hay-nhat]]
 - Kéo về xong thì lại nhờ Cline check lỗi, đối chiếu coi có sót file trùng file không, Cline viết code Python liên kết các file vừa tải bằng cách chèn wiki link hàng loạt 
-- Cline viết file tổng kết MD chèn ngược wikilink về các file con. [[700 Vaults/750 movie/792.03 China movie/list-100-phim-trung-quoc-dai-loan-hongkong-hay-nhat\|list-100-phim-trung-quoc-dai-loan-hongkong-hay-nhat]]
+- Cline viết file tổng kết MD chèn ngược wikilink về các file con. [[700 Vaults/750 movie/792.03 China movie/list-100-phim-trung-quoc-dai-loan-hongkong-hay-nhat\|100 phim Trung Quốc — Đài Loan — Hồng Kông hay nhất]]
 - hoàn thành https://2ndbrainha.vercel.app/ trong vòng 2 ngày giải quyết được nút thắt lớn nhất, có 2 ngày 11/7 làm việc tập trung cực kỳ phê 
 
 ### Next to do

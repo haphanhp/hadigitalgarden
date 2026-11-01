@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nguon-luc-nha-nuoc-den-tu-dau/","title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","tags":["xahoi","tax"],"dg-note-properties":{"title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","date":"2026-07-04","created":"2026-07-04 15:24","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Brave","created_by":"AI Assistant","tags":["xahoi","tax"],"status":"published"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nguon-luc-nha-nuoc-den-tu-dau/","title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","tags":["xa-hoi","tax"],"dg-note-properties":{"title":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU","date":"2026-07-04","created":"2026-07-04 15:24","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Brave","created_by":"AI Assistant","tags":["xa-hoi","tax"],"status":"published","garden_url":"https://garden.haphan.digital/700-vaults/710-research/713-politic-history-vietnam/nguon-luc-nha-nuoc-den-tu-dau/","aliases":"NGUỒN LỰC NHÀ NƯỚC ĐẾN TỪ ĐÂU"}}
 ---
 
 ***Bài viết phiên bản ngắn gọn hơn*** 

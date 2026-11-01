@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/toan-canh-vu-an-mang-ong-hua-hong-hai-o-dak-lak/","title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","tags":["tintuc","published/digitalgarden",null],"dg-note-properties":{"title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","date":"2026-07-08","created":"2026-07-08 10:49","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Edge","created_by":"AI Assistant","tags":["tintuc","published/digitalgarden",null],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/toan-canh-vu-an-mang-ong-hua-hong-hai-o-dak-lak/","title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","tags":["tin-tuc","published/digitalgarden"],"dg-note-properties":{"title":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk","date":"2026-07-08","created":"2026-07-08 10:49","ai_model":"claude","account":"haphanbdsreal@gmail.com","browser":"Edge","created_by":"AI Assistant","tags":["tin-tuc","published/digitalgarden"],"status":"draft","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/toan-canh-vu-an-mang-ong-hua-hong-hai-o-dak-lak/","aliases":"Toàn cảnh vụ án mạng ông Hứa Hồng Hải ở Đắk Lắk"}}
 ---
 
 link liên quan :

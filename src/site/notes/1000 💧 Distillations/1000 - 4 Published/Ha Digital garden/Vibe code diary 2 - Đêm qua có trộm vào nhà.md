@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-2-dem-qua-co-trom-vao-nha/","title":"Vibe code diary 2 - Đêm qua có trộm vào nhà","tags":["tech/ai","vibecoding","diary","writing","published/digitalgarden"],"dg-note-properties":{"title":"Vibe code diary 2 - Đêm qua có trộm vào nhà","date":"2026-07-22","created":"2026-07-22 11:02","tags":["tech/ai","vibecoding","diary","writing","published/digitalgarden"],"status":"draft","parent-project":"vibe-code-diary","priority":1}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-2-dem-qua-co-trom-vao-nha/","title":"Vibe code diary 2 - Đêm qua có trộm vào nhà","tags":["tech/ai","vibe-coding","diary","writing","published/digitalgarden"],"dg-note-properties":{"title":"Vibe code diary 2 - Đêm qua có trộm vào nhà","date":"2026-07-22","created":"2026-07-22 11:02","tags":["tech/ai","vibe-coding","diary","writing","published/digitalgarden"],"status":"draft","parent-project":"vibe-code-diary","priority":1,"garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/vibe-code-diary-2-dem-qua-co-trom-vao-nha/","aliases":"Vibe code diary 2 - Đêm qua có trộm vào nhà"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-1-input/inspired-content-seed-idea/nhan-chung-hoc-tinh-duc-tai-sao-phim-nguoi-lon-la-tam-guong-soi-van-hoa-quoc-gia/","title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","tags":["phimheo","seedling/video-content",null],"dg-note-properties":{"title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","date":"2026-06-27","created":"2026-06-27 20:28","tags":["phimheo","seedling/video-content",null],"status":"draft"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-1-input/inspired-content-seed-idea/nhan-chung-hoc-tinh-duc-tai-sao-phim-nguoi-lon-la-tam-guong-soi-van-hoa-quoc-gia/","title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","tags":["phimheo","seedling/video-content",null],"dg-note-properties":{"title":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia","date":"2026-06-27","created":"2026-06-27 20:28","tags":["phimheo","seedling/video-content",null],"status":"draft","garden_url":"https://garden.haphan.digital/1000-distillations/1000-1-input/inspired-content-seed-idea/nhan-chung-hoc-tinh-duc-tai-sao-phim-nguoi-lon-la-tam-guong-soi-van-hoa-quoc-gia/","aliases":"Nhân chủng học tình dục - Tại sao phim heo là tấm gương soi văn hóa quốc gia"}}
 ---
 
 
@@ -86,10 +86,10 @@ Các hãng nghiên cứu cung cấp báo cáo trả phí về quy mô thị trư
 
 [[700 Vaults/750 movie/phim heo/Phân tích dữ liệu Pornhub theo quốc gia\|Phân tích dữ liệu Pornhub theo quốc gia]]
 [[700 Vaults/750 movie/phim heo/Porn as cultural mirror\|Porn as cultural mirror]]
-[[700 Vaults/750 movie/phim heo/Porn và tính liên kết chính trị văn hóa xã hội - Liên hệ ở Trung Quốc và Việt Nam\|Porn và tính liên kết chính trị văn hóa xã hội - Liên hệ ở Trung Quốc và Việt Nam]]
+[[700 Vaults/750 movie/phim heo/Porn và tính liên kết chính trị văn hóa xã hội - Liên hệ ở Trung Quốc và Việt Nam\|Porn và tính liên kết chính trị]]
 [[700 Vaults/750 movie/phim heo/Tim hiểu porn industry how they make money\|Tim hiểu porn industry how they make money]]
 [[700 Vaults/750 movie/phim heo/Cach_The_Gioi_Van_Hanh_Qua_Porn_Data\|Cach_The_Gioi_Van_Hanh_Qua_Porn_Data]]
 [[700 Vaults/750 movie/phim heo/Ví dụ về porn industry và các tiết lộ quan trọng - porn có liên kết gì đối với tỉ lệ sinh sản quốc gia - độ trễ của các thay đổi tùy theo tính chất\|Ví dụ về porn industry và các tiết lộ quan trọng - porn có liên kết gì đối với tỉ lệ sinh sản quốc gia - độ trễ của các thay đổi tùy theo tính chất]]
-[[700 Vaults/750 movie/phim heo/Sexual script theory thông qua nền văn hóa các lãnh thổ\|Sexual script theory thông qua nền văn hóa các lãnh thổ]]
+[[700 Vaults/750 movie/phim heo/Sexual script theory thông qua nền văn hóa các lãnh thổ\|sexual script theory thông qua cross cutural]]
 [[700 Vaults/750 movie/phim heo/Vietnam sexual scripts history\|Vietnam sexual scripts history]]
 [[700 Vaults/750 movie/phim heo/Mổ xẻ sexual script thay đổi theo trục thời gian\|Mổ xẻ sexual script thay đổi theo trục thời gian]]

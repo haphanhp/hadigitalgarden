@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/kiem-duyet/toan-canh-kiem-duyet-viet-nam/","title":"Toàn cảnh kiểm duyệt Việt Nam","tags":["vietnam/kiểm-duyệt","vietnam/tự-do-ngôn-luận","vietnam/tự-do-báo-chí","vietnam/chính-trị","vietnam/lịch-sử","tư-liệu/tổng-quan","censored"],"dg-note-properties":{"title":"Toàn cảnh kiểm duyệt Việt Nam","aliases":["kiểm duyệt VN tổng quan","Vietnam censorship overview","tự do ngôn luận Việt Nam"],"tags":["vietnam/kiểm-duyệt","vietnam/tự-do-ngôn-luận","vietnam/tự-do-báo-chí","vietnam/chính-trị","vietnam/lịch-sử","tư-liệu/tổng-quan","censored"],"topic":"kiểm duyệt Việt Nam","category":"tổng quan","status":"đang-bổ-sung","related":["[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]]","[[Phim bị cấm chiếu Việt Nam\|Phim bị cấm chiếu Việt Nam]]","[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn Việt Nam]]"],"sources":["Freedom House","RSF / Reporters Without Borders","ISEAS – Yusof Ishak Institute","Reuters Institute for the Study of Journalism","Index on Censorship","OONI / iMAP","Arab News / Reuters"],"created":"2026-06-27"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/kiem-duyet/toan-canh-kiem-duyet-viet-nam/","title":"Toàn cảnh kiểm duyệt Việt Nam","tags":["chinh-tri/kiem-duyet","chinh-tri/viet-nam","chinh-tri/tu-do-ngon-luan","chinh-tri/tu-do-bao-chi","lich-su/viet-nam","tu-lieu/tong-quan","censored"],"dg-note-properties":{"title":"Toàn cảnh kiểm duyệt Việt Nam","aliases":["kiểm duyệt VN tổng quan","Vietnam censorship overview","tự do ngôn luận Việt Nam"],"tags":["chinh-tri/kiem-duyet","chinh-tri/viet-nam","chinh-tri/tu-do-ngon-luan","chinh-tri/tu-do-bao-chi","lich-su/viet-nam","tu-lieu/tong-quan","censored"],"topic":"kiểm duyệt Việt Nam","category":"tổng quan","status":"đang-bổ-sung","related":["[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt, cấm và thu hồi tại Việt Nam]]","[[Phim bị cấm chiếu Việt Nam\|Phim bị cấm chiếu Việt Nam]]","[[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn tại Việt Nam]]"],"sources":["Freedom House","RSF / Reporters Without Borders","ISEAS – Yusof Ishak Institute","Reuters Institute for the Study of Journalism","Index on Censorship","OONI / iMAP","Arab News / Reuters"],"created":"2026-06-27","AutoNoteMover":"disable","garden_url":"https://garden.haphan.digital/700-vaults/710-research/713-politic-history-vietnam/kiem-duyet/toan-canh-kiem-duyet-viet-nam/"}}
 ---
 
 
 # Toàn cảnh kiểm duyệt Việt Nam
 
-> **Đọc cùng:** [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]] · [[Phim bị cấm chiếu Việt Nam\|Phim bị cấm chiếu Việt Nam]] · [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn Việt Nam]]
+> **Đọc cùng:** [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt, cấm và thu hồi tại Việt Nam]] · [[Phim bị cấm chiếu Việt Nam\|Phim bị cấm chiếu Việt Nam]] · [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn tại Việt Nam]]
 
 > **Về số liệu:** RSF (Reporters Without Borders) xếp Việt Nam **hạng 174/180** về tự do báo chí (2024). Freedom House xếp Việt Nam trong nhóm **"Not Free"** liên tục. Vietnam là một trong những quốc gia **giam giữ nhà báo nhiều nhất thế giới** với 38 nhà báo đang bị giam (RSF, 2024).
 
@@ -31,7 +31,7 @@ Trực thuộc Bộ Văn hóa – Thể thao – Du lịch. Duyệt và cấp ph
 
 ### Cục Xuất bản, In và Phát hành
 
-Trực thuộc MIC. Cấp phép xuất bản. Mọi sách phải được NXB nhà nước hoặc được nhà nước cấp phép xuất bản. Không có NXB tư nhân hợp pháp. → Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]]
+Trực thuộc MIC. Cấp phép xuất bản. Mọi sách phải được NXB nhà nước hoặc được nhà nước cấp phép xuất bản. Không có NXB tư nhân hợp pháp. → Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt, cấm và thu hồi tại Việt Nam]]
 
 ---
 
@@ -98,7 +98,7 @@ Ngoài quân nhân, còn có đội ngũ dân sự tự nguyện ("E47") gồm c
 - Nguồn: [ISEAS — How the Vietnamese State Uses Cyber Troops (2021)](https://www.iseas.edu.sg/articles-commentaries/iseas-perspective/2021-22-how-the-vietnamese-state-uses-cyber-troops-to-shape-online-discourse-by-dien-nguyen-an-luong/)
 - Nguồn: [Reuters Institute — As more Vietnamese get online (2021)](https://reutersinstitute.politics.ox.ac.uk/news/more-vietnamese-get-online-new-battlefront-regime-social-media)
 - Nguồn: [Arab News — Vietnam's influencer army (2021)](https://www.arabnews.com/node/1891276/media)
-- Nguồn: [Viet Tan — #StopVNtrolls report](https://viettan.org/en/stopvntrolls/)
+- Nguồn: [Viet Tan — #stop-vn-trolls report](https://viettan.org/en/stopvntrolls/)
 
 ---
 
@@ -138,7 +138,7 @@ Không có NXB tư nhân hợp pháp. Mọi sách phải qua một trong ~60 NXB
 2. **Sau in:** Cơ quan quản lý có thể ra lệnh thu hồi sau khi sách đã phát hành — trường hợp _Chuyện ở Nông Trại_ (Orwell, 2013), _Một cơn gió bụi_ (Trần Trọng Kim, 2017), _Mối chúa_ (Tạ Duy Anh, 2017).
 3. **Cấm tái bản:** Sách in một lần rồi bị cấm tái bản vô thời hạn — trường hợp _Đường về nô lệ_ (Hayek, 2009).
 
-Phản ứng ngầm: Tồn tại hệ sinh thái NXB ngoài luồng — **NXB Giấy Vụn** (từ 2002, nhận Giải Tự Do Xuất Bản IPA 2011), **NXB Tự Do** (từ 2019, bị đàn áp trực tiếp). → Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt Việt Nam]]
+Phản ứng ngầm: Tồn tại hệ sinh thái NXB ngoài luồng — **NXB Giấy Vụn** (từ 2002, nhận Giải Tự Do Xuất Bản IPA 2011), **NXB Tự Do** (từ 2019, bị đàn áp trực tiếp). → Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Sách bị kiểm duyệt Việt Nam\|Sách bị kiểm duyệt, cấm và thu hồi tại Việt Nam]]
 
 ---
 
@@ -159,7 +159,7 @@ Không giống Trung Quốc (chặn tường lửa toàn diện), Việt Nam dù
 
 Người dùng Việt Nam phổ biến dùng **VPN** để vượt tường lửa — điều này cũng thực tế được dung thứ ở mức độ nhất định vì chặn VPN hoàn toàn sẽ ảnh hưởng kinh doanh và thương mại.
 
-→ Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn Việt Nam]]
+→ Xem chi tiết: [[700 Vaults/710 Research/713 Politic History Vietnam/Kiểm duyệt/Tạp chí và website bị chặn Việt Nam\|Tạp chí và website bị chặn tại Việt Nam]]
 
 ---
 
@@ -274,7 +274,7 @@ Người Việt Nam đã phát triển nhiều chiến lược thích ứng:
 |Reuters Institute — Vietnam social media (2021)|https://reutersinstitute.politics.ox.ac.uk/news/more-vietnamese-get-online-new-battlefront-regime-social-media|Phân tích độc lập|
 |Arab News — Vietnam influencer army (2021)|https://www.arabnews.com/node/1891276/media|Lực lượng 47|
 |FairPlanet — Vietnam disinformation (2024)|https://www.fairplanet.org/story/inside-vietnams-top-down-disinformation-campaign/|Ban Tuyên giáo|
-|Viet Tan — #StopVNtrolls|https://viettan.org/en/stopvntrolls/|E47, dư luận viên|
+|Viet Tan — #stop-vn-trolls|https://viettan.org/en/stopvntrolls/|E47, dư luận viên|
 |Index on Censorship — Vietnam literary censorship (2025)|https://www.indexoncensorship.org/2025/01/a-story-of-forgotten-fiction-book-censorship-vietnam/|Kiểm duyệt văn học|
 |OONI/iMAP — Vietnam Internet Censorship 2022|https://imap.sinarproject.org/reports/2022/imap-state-of-internet-censorship-country-report-2022-vietnam/2022-vietnam|Dữ liệu kỹ thuật|
 |Wikipedia VN — Kiểm duyệt Internet ở Việt Nam|https://vi.wikipedia.org/wiki/Ki%E1%BB%83m_duy%E1%BB%87t_Internet_%E1%BB%9F_Vi%E1%BB%87t_Nam|Khung pháp lý|

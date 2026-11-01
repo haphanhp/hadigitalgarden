@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","Claude","evergreen"],"dg-note-properties":{"allias":null,"title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","Claude","evergreen"],"status":"done","date created":"Monday, June 15th 2026, 6:30:30 pm","date modified":"Monday, July 20th 2026, 3:16:06 pm"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","tags":["published/digitalgarden","claude","evergreen"],"dg-note-properties":{"allias":null,"title":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân","date":"2026-06-15","created":"2026-06-15 12:40","tags":["published/digitalgarden","claude","evergreen"],"status":"done","date created":"Monday, June 15th 2026, 6:30:30 pm","date modified":"Monday, July 20th 2026, 3:16:06 pm","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/bon-cach-tai-cau-truc-ban-than-o-quy-mo-ca-nhan/","aliases":"Bốn cách tái cấu trúc bản thân ở quy mô cá nhân"}}
 ---
 
 

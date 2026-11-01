@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/notion-ai-or-linear/","title":"Notion AI or Linear","tags":["tool/vibecoding"],"dg-note-properties":{"title":"Notion AI or Linear","date":"2026-06-21","created":"2026-06-21 09:22","tags":["tool/vibecoding"],"status":"draft","category":["tool","Vận hành / Kỹ thuật","vibecoding/ nên biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/notion-ai-or-linear/","title":"Notion AI or Linear","tags":["tool/vibe-coding"],"dg-note-properties":{"title":"Notion AI or Linear","date":"2026-06-21","created":"2026-06-21 09:22","tags":["tool/vibe-coding"],"status":"draft","category":["tool","Vận hành / Kỹ thuật","vibecoding/ nên biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null,"garden_url":"https://garden.haphan.digital/800-tool-cong-cu/notion-ai-or-linear/","aliases":"Notion AI or Linear"}}
 ---
 
 

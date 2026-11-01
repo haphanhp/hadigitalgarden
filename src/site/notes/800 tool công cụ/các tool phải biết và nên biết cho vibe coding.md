@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/cac-tool-phai-biet-va-nen-biet-cho-vibe-coding/","tags":["tool/vibecoding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/cac-tool-phai-biet-va-nen-biet-cho-vibe-coding/","tags":["tool/vibe-coding"],"dg-note-properties":{"name":"các tool phải biết và nên biết cho vibe coding","type":"tool","tags":["tool/vibe-coding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null,"garden_url":"https://garden.haphan.digital/800-tool-cong-cu/cac-tool-phai-biet-va-nen-biet-cho-vibe-coding/","aliases":"các tool phải biết và nên biết cho vibe coding"}}
 ---
 
 
@@ -22,7 +22,7 @@ IDE AI-native #1. Tab completion, chat trong editor, agent tự sửa bug.
 
 IDE từ Codeium. Cascade agent mạnh, ít tốn token hơn Cursor.
 
-[[900 Templates/AI template\|AI template]] (Anthropic)
+[[AI template\|AI template]] (Anthropic)
 
 LLM mạnh nhất cho code dài, kiến trúc, reasoning. Dùng qua API hoặc claude.ai.
 
@@ -34,7 +34,7 @@ Brainstorm, debug nhanh, giải thích concept. Tích hợp sẵn nhiều nơi.
 
 Prompt → UI component (React/Tailwind). Xuất code thẳng vào dự án.
 
-[[Bolt.new\|Bolt.new]]
+[[800 tool công cụ/Bolt.new\|Bolt.new]]
 
 Full-stack app từ prompt, chạy ngay trên browser. Prototype cực nhanh.
 
@@ -64,7 +64,7 @@ CLI agent của Anthropic. Codebase-aware, chạy terminal, mạnh cho refactor 
 
 Prompt → full app có UI đẹp. Tốt cho non-dev muốn build SaaS nhanh.
 
-[[Replit Agent\|Replit Agent]]
+[[800 tool công cụ/Replit Agent\|Replit Agent]]
 
 Cloud IDE + AI agent. Deploy, database, hosting tất cả trong 1 nơi.
 

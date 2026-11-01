@@ -1,7 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/750-movie/show/dayo-wong/2024-the-do-show-phong-van-huynh-tu-hoa-phan-1/","title":"Huỳnh Tử Hoa (黃子華) trả lời The Do Show 2024 - Phân tích từng phần và thuật ngữ Trung-Anh-Việt","tags":["stand-up","hong-kong","dayo-wong","nam-2024","cantonese","interview"],"dg-note-properties":{"title":"Huỳnh Tử Hoa (黃子華) trả lời The Do Show 2024 - Phân tích từng phần và thuật ngữ Trung-Anh-Việt","seo_title":"The Do Show 2024: phỏng vấn Huỳnh Tử Hoa, phân tích và thuật ngữ Quảng Đông","description":"Phân tích phỏng vấn The Do Show 2024: Huỳnh Tử Hoa kể tuổi thơ, sáu năm mưu cầu nghề diễn, nỗi sợ sân khấu và lý do gác kiếm stand-up.","slug":"huynh-tu-hoa-2024-the-do-show-phong-van-phan-1","keywords":["Huỳnh Tử Hoa","黃子華","Dayo Wong","The Do Show","鄭裕玲","棟篤笑","金盆啷口","stand-up comedy Hồng Kông","phỏng vấn","tiếng Quảng Đông"],"aliases":["Dayo Wong The Do Show 2024","The Do Show 黃子華 上集","黃子華 The Do Show 訪談"],"lang":["vi","zh-HK","en"],"type":"interview-analysis","date":"2026-09-30","show_year":2024,"duration":"1:01:02","source_video":"https://www.youtube.com/watch?v=klc8vWNos2o","channel":"The Do Show","account":"tudotaichinh","browser":"brave","link url":"không có","tags":["stand-up","hong-kong","dayo-wong","nam-2024","cantonese","interview"]}}
+{"dg-publish":true,"permalink":"/700-vaults/750-movie/show/dayo-wong/2024-the-do-show-phong-van-huynh-tu-hoa-phan-1/","title":"The Do Show 2024: phỏng vấn Huỳnh Tử Hoa, phân tích và thuật ngữ Quảng Đông","tags":["stand-up","hong-kong","dayo-wong","nam-2024","cantonese","interview"],"dg-note-properties":{"title":"The Do Show 2024: phỏng vấn Huỳnh Tử Hoa, phân tích và thuật ngữ Quảng Đông","description":"Phân tích phỏng vấn The Do Show 2024: Huỳnh Tử Hoa kể tuổi thơ, sáu năm mưu cầu nghề diễn, nỗi sợ sân khấu và lý do gác kiếm stand-up.","slug":"huynh-tu-hoa-2024-the-do-show-phong-van-phan-1","keywords":["Huỳnh Tử Hoa","黃子華","Dayo Wong","The Do Show","鄭裕玲","棟篤笑","金盆啷口","stand-up comedy Hồng Kông","phỏng vấn","tiếng Quảng Đông"],"aliases":["Dayo Wong The Do Show 2024","The Do Show 黃子華 上集","黃子華 The Do Show 訪談"],"lang":["vi","zh-HK","en"],"type":"interview-analysis","date":"2026-09-30","show_year":2024,"duration":"1:01:02","source_video":"https://www.youtube.com/watch?v=klc8vWNos2o","channel":"The Do Show","account":"tudotaichinh","browser":"brave","link url":"không có","tags":["stand-up","hong-kong","dayo-wong","nam-2024","cantonese","interview"],"garden_url":"https://garden.haphan.digital/700-vaults/750-movie/show/dayo-wong/2024-the-do-show-phong-van-huynh-tu-hoa-phan-1/"}}
 ---
 
+#### The Do Show 訪談｜黃子華·上集｜男親女愛｜破·地獄｜一蚊雞保鑣｜ 飯戲攻心 ｜毒舌大狀｜棟篤笑｜#4K
+
+- URL: <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/klc8vWNos2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+- Views: 2,2 Tr lượt xem
+- Date: 1 năm trước
+- Duration: 1:01:02
+- Channel: The Do Show
 
 ### Tóm tắt nhanh
 
@@ -150,15 +157,7 @@
 
 ---
 
-### Nội dung note cũ (giữ nguyên, chỉ hạ bậc heading)
-
-#### The Do Show 訪談｜黃子華·上集｜男親女愛｜破·地獄｜一蚊雞保鑣｜ 飯戲攻心 ｜毒舌大狀｜棟篤笑｜#4K
-
-- URL: https://www.youtube.com/watch?v=klc8vWNos2o
-- Views: 2,2 Tr lượt xem
-- Date: 1 năm trước
-- Duration: 1:01:02
-- Channel: The Do Show
+### Nội dung input script tự động
 
 #### Transcript
 

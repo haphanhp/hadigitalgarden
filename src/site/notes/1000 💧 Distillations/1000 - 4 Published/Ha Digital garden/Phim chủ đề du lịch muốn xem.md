@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/phim-chu-de-du-lich-muon-xem/","tags":["movie","published/digitalgarden","published"],"dg-note-properties":{"favorite":false,"tags":["movie","published/digitalgarden","published"],"aliases":[],"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:08 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/750-movie/phim-chu-de-du-lich-muon-xem/"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/phim-chu-de-du-lich-muon-xem/","tags":["movie","published/digitalgarden","published"],"dg-note-properties":{"favorite":false,"tags":["movie","published/digitalgarden","published"],"aliases":[],"date created":"Sunday, April 12th 2026, 3:54:39 pm","date modified":"Monday, July 20th 2026, 9:57:08 pm","url":"https://hadigitalgarden.vercel.app/700-vaults/750-movie/phim-chu-de-du-lich-muon-xem/","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/phim-chu-de-du-lich-muon-xem/"}}
 ---
 
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/timeline-vietnam-history/","title":"Timeline Vietnam history","tags":["history","vietnam","published/digitalgarden"],"dg-note-properties":{"title":"Timeline Vietnam history","date":"2026-07-04","created":"2026-07-04 12:45","tags":["history","vietnam","published/digitalgarden"],"published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}},"date created":"Saturday, July 4th 2026, 12:45:07 pm","date modified":"Thursday, July 16th 2026, 1:18:20 am"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/timeline-vietnam-history/","title":"Timeline Vietnam history","tags":["lich-su","lich-su/viet-nam","published/digitalgarden"],"dg-note-properties":{"title":"Timeline Vietnam history","date":"2026-07-04","created":"2026-07-04 12:45","tags":["lich-su","lich-su/viet-nam","published/digitalgarden"],"published":{"digital_garden":{"status":false,"url":"","date":""},"medium":{"status":false,"url":"","date":""},"substack":{"status":false,"url":"","date":""},"facebook":{"status":false,"url":"","date":""},"linkedin":{"status":false,"url":"","date":""}},"date created":"Saturday, July 4th 2026, 12:45:07 pm","date modified":"Thursday, July 16th 2026, 1:18:20 am","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/timeline-vietnam-history/","aliases":"Timeline Vietnam history"}}
 ---
-
 
 
 ## 🗺️ Vietnam History Map of Content (MOC)

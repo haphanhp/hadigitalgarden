@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bat-dau-gieo-hat-cho-khu-vuon-tu-cho-nay/","title":"Bắt đầu từ chỗ này đi","tags":["digitalgarden","output/writing"],"dg-note-properties":{"title":"Bắt đầu từ chỗ này đi","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digitalgarden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/"}}
+{"dg-publish":true,"permalink":"/1000-distillations/1000-4-published/ha-digital-garden/bat-dau-gieo-hat-cho-khu-vuon-tu-cho-nay/","title":"Bắt đầu từ chỗ này đi","tags":["digital-garden","output/writing"],"dg-note-properties":{"title":"Bắt đầu từ chỗ này đi","date":"2026-06-11","created":"2026-06-11 14:48","tags":["digital-garden","output/writing"],"stage":"🌱 Seedling","cssclass":"mermaid-card","url":"https://hadigitalgarden.vercel.app/1000-distillations/published/ha-digital-garden/bat-dau-tu-cho-nay-di/","garden_url":"https://garden.haphan.digital/1000-distillations/1000-4-published/ha-digital-garden/bat-dau-gieo-hat-cho-khu-vuon-tu-cho-nay/","aliases":"Bắt đầu từ chỗ này đi"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nha-nuoc-viet-nam-thieu-di-gia-tri-nao-de-la-mot-nha-nuoc-tot/","title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","tags":["politic","Claude","Vietnampolitic",null],"dg-note-properties":{"title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","date":"2026-06-15","created":"2026-06-15 13:02","tags":["politic","Claude","Vietnampolitic",null],"status":"done"}}
+{"dg-publish":true,"permalink":"/700-vaults/710-research/713-politic-history-vietnam/nha-nuoc-viet-nam-thieu-di-gia-tri-nao-de-la-mot-nha-nuoc-tot/","title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","tags":["chinh-tri","claude","chinh-tri/viet-nam"],"dg-note-properties":{"title":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt","date":"2026-06-15","created":"2026-06-15 13:02","tags":["chinh-tri","claude","chinh-tri/viet-nam"],"status":"done","garden_url":"https://garden.haphan.digital/700-vaults/710-research/713-politic-history-vietnam/nha-nuoc-viet-nam-thieu-di-gia-tri-nao-de-la-mot-nha-nuoc-tot/","aliases":"Nhà Nước Việt Nam thiếu đi giá trị nào để là một nhà nước tốt"}}
 ---
 
 

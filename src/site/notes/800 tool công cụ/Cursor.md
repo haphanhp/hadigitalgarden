@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/800-tool-cong-cu/cursor/","tags":["tool/vibecoding"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibecoding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null}}
+{"dg-publish":true,"permalink":"/800-tool-cong-cu/cursor/","tags":["tool/vibe-coding"],"dg-note-properties":{"name":null,"type":"tool","tags":["tool/vibe-coding"],"category":["tool","Vận hành / Kỹ thuật","vibecoding/ phải biết"],"pricing":null,"priority":"⭐⭐⭐","is_fit":null,"garden_url":"https://garden.haphan.digital/800-tool-cong-cu/cursor/","aliases":"Cursor"}}
 ---
 
 
