@@ -291,7 +291,7 @@ a[href^="#"]:hover {
   }
 
   /* Nút ghim thanh trái: chỉ hiện ở màn hình rộng */
-  .dg-pin-btn {
+  .filetree-sidebar .dg-pin-btn {
     display: flex;
   }
 
@@ -473,11 +473,13 @@ a[href^="#"] {
    NÚT CHỌN NGÔN NGỮ GOOGLE
    Điều kiện hiển thị: luôn hiện chữ "Choose language" thay cho chữ Google tự dịch theo trình duyệt.
    ============================================ */
-.goog-te-gadget-simple .goog-te-menu-value span:first-child {
+.goog-te-gadget-simple .goog-te-menu-value span:first-child,
+.goog-te-gadget-simple a[class*="VIpgJd"] > span.text {
   font-size: 0 !important;
 }
 
-.goog-te-gadget-simple .goog-te-menu-value span:first-child::before {
+.goog-te-gadget-simple .goog-te-menu-value span:first-child::before,
+.goog-te-gadget-simple a[class*="VIpgJd"] > span.text::before {
   content: "🌐 Choose language";
   font-size: 14px;
   color: #1E2840;
@@ -516,7 +518,7 @@ html[data-dg-theme="light"] .dg-theme-btn {
 /* ============================================
    CHẾ ĐỘ SÁNG
    Điều kiện hiển thị: chỉ khi khách chọn Sáng (html có data-dg-theme="light").
-   Nền sáng, mọi chữ chuyển sang màu tối. Ô graph giữ nền tối trong mờ để các nút sao còn nhìn rõ.
+   Nền sáng, mọi chữ chuyển sang màu tối. Ô graph dùng nền pastel cùng tông với ô nội dung.
    ============================================ */
 html[data-dg-theme="light"] body {
   background-color: #eef2f9 !important;
@@ -637,7 +639,14 @@ html[data-dg-theme="light"] .filetree-sidebar .foldername {
 
 /* Ô graph: nền tối trong mờ trong cả hai chế độ */
 html[data-dg-theme="light"] #graph-component {
-  background: rgba(13, 17, 23, 0.6) !important;
+  background: linear-gradient(130deg, rgba(201, 238, 250, 0.85) 0%, rgba(226, 216, 248, 0.85) 65%, rgba(243, 220, 241, 0.85) 100%) !important;
+  border: 1px solid rgba(27, 35, 64, 0.15) !important;
+}
+
+html[data-dg-theme="light"] #graph-controls span,
+html[data-dg-theme="light"] .graph-title-container,
+html[data-dg-theme="light"] .graph-title {
+  color: #5b21b6 !important;
 }
 
 /* Tag, ô tìm kiếm */
