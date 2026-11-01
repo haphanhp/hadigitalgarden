@@ -354,3 +354,61 @@ a[href^="#"]:hover {
     padding: 0 16px;
   }
 }
+
+/* ============================================
+   CHỮ NỔI BẬT + PHÓNG TO (+2 cỡ)
+   Điều kiện hiển thị: áp dụng mọi kích thước màn hình.
+   - Callout (khung gập) trước đây chữ nhạt chìm vào nền gradient: nay có nền tối trong mờ + chữ trắng đậm.
+   - Cỡ chữ tăng 2 bậc so với mặc định template (18px -> 20px, các cỡ rem +0.125 mỗi bậc).
+   ============================================ */
+body {
+  --dg-content-font-size: 20px;
+  --dg-notelink-size: 1.1rem;
+  --dg-backlinks-card-size: 1.1rem;
+  --dg-backlinks-title-size: 1.15rem;
+  --dg-toc-font-size: 1.2rem;
+  --dg-toc-title-size: 0.95rem;
+  --dg-graph-ctrl-size: 0.9rem;
+}
+
+.content .callout {
+  background: rgba(15, 19, 40, 0.55) !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  border-left: 4px solid #5DD4E8 !important;
+  border-radius: 10px;
+  font-size: 1.15rem;
+}
+
+.content .callout-title,
+.content .callout-title-inner,
+.content .callout-title-inner p,
+.content .callout-icon,
+.content .callout-fold,
+.content .callout .lucide {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+.content .callout-content,
+.content .callout-content p,
+.content .callout-content li {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.content table th,
+.content table td {
+  font-size: 1.1rem;
+}
+
+.sidebar a,
+.filetree-sidebar a {
+  font-size: 1.05rem !important;
+}
+
+.tag,
+a[href^="#"] {
+  font-size: 0.95rem !important;
+}
