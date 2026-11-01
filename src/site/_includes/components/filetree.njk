@@ -33,6 +33,9 @@
 
       <div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display: none;">
       <nav class="filetree-sidebar">
+        <button id="dg-pin-btn" class="dg-pin-btn" type="button" aria-pressed="false" title="Ghim thanh bên / Pin sidebar" aria-label="Ghim thanh bên / Pin sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z"/></svg>
+        </button>
         {% for imp in dynamics.filetree.beforeTitle %}
             {% include imp %}
         {% endfor %}
@@ -59,3 +62,25 @@
       </nav>
       </div>
     </div>
+
+<script>
+/* Ghim thanh bên trái: mặc định ẩn (rê chuột mới hiện); khách bấm ghim để giữ cố định, nhớ lựa chọn cho lần sau */
+(function () {
+  var KEY = 'dg-filetree-pinned';
+  function apply(p) {
+    document.body.classList.toggle('filetree-pinned', p);
+    var b = document.getElementById('dg-pin-btn');
+    if (b) b.setAttribute('aria-pressed', p ? 'true' : 'false');
+  }
+  var pinned = false;
+  try { pinned = localStorage.getItem(KEY) === '1'; } catch (e) {}
+  apply(pinned);
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('#dg-pin-btn');
+    if (!b) return;
+    pinned = !document.body.classList.contains('filetree-pinned');
+    apply(pinned);
+    try { localStorage.setItem(KEY, pinned ? '1' : '0'); } catch (err) {}
+  });
+})();
+</script>

@@ -9,6 +9,23 @@ Tự động tạo từ `git log`, nhóm theo ngày, kèm giờ + hash commit ng
 
 ---
 
+## 2026-11-01 — Ghi chú thay đổi giao diện (viết tay, không từ git log)
+
+Dọn lỗi Vercel và chỉnh giao diện garden.haphan.digital (PR haphanhp/hadigitalgarden#14 và đợt chỉnh chữ sau đó).
+
+- **Lỗi Vercel**: email báo lỗi đến từ nhánh `update-template-to-v1.96.0-…` do plugin tự tạo (xóa dần file component nên `npm run build` lỗi). `main` vẫn build ổn. Nhánh đã bị xóa trên GitHub, 4 email lỗi đã chuyển vào thùng rác.
+- **Layout màn hình rộng hơn 1400px** (`src/site/styles/custom-style.scss`): thanh trái (filetree) ẩn, chỉ lộ dải 14px, rê chuột vào mới trượt ra; ô nội dung rộng 70vw trừ 68px; cột phải bắt đầu cách ô nội dung 24px; ô nội dung và ô graph cùng mép trên 20px, cùng bo góc 18px; tắt padding body để canh lề chính xác.
+- **Màu nền**: hai thanh bên đổi từ đen `#0f1318` sang xanh `#1E2840` (cùng màu nền trang).
+- **Graph view**: hiển thị 3D (có chuyển động ánh sáng) ngay trong cột phải, nền trong mờ (blur), cao 66vh; lỗi quay về 2D nếu thư viện 3D không tải được; tắt zoom bằng cuộn chuột trong ô này để không chặn cuộn trang (`src/site/_includes/components/graphScript.njk`).
+- **Khoảng cách cột phải**: tiêu đề mục lục, tag, "Pages mentioning this page" cách graph 24px, thụt vào 16px.
+- **Chữ nhạt**: callout (khung gập) trên trang index phim có chữ chìm vào nền gradient; nay có nền tối trong mờ, viền sáng, chữ trắng đậm.
+- **Cỡ chữ**: tăng 2 bậc, nội dung 18px lên 20px, các cỡ rem của sidebar, backlinks, mục lục, tag, bảng và callout tăng tương ứng.
+- **Ghim thanh trái**: thêm nút ghim ở góc trên thanh trái (chỉ màn hình >1400px). Mặc định ẩn, rê chuột mới hiện; bấm ghim thì thanh đứng yên, ô nội dung tự thu hẹp nhường chỗ, lựa chọn lưu trong localStorage (`dg-filetree-pinned`). Sửa `filetree.njk` và `custom-style.scss`.
+- **Chọn ngôn ngữ**: nút Google Translate luôn hiện "Choose language" (ghi đè chữ Google tự dịch theo trình duyệt bằng CSS); bỏ nhãn "🌐 Language" tĩnh phía trên để khỏi trùng (`src/helpers/userSetup.js`).
+- **Sáng/Tối**: thêm nút ☀️ Light / 🌙 Dark ở góc dưới phải, cạnh nút ngôn ngữ (`src/helpers/userSetup.js` chèn nút và script; style trong `custom-style.scss`). Lần đầu theo cài đặt sáng/tối của thiết bị, sau đó nhớ lựa chọn trong localStorage (`dg-theme`). Chế độ sáng đổi nền, ô nội dung (gradient pastel), hai thanh bên, tag, callout, bảng, ô tìm kiếm sang nền sáng và chữ tối; ô graph giữ nền tối trong mờ để các nút sao còn nhìn rõ.
+- **Chưa làm**: điện thoại và màn hình nhỏ giữ layout gốc, sẽ tính sau.
+- **Lưu ý**: `graphScript.njk` là file template, sẽ bị ghi đè nếu cập nhật template (đã quyết định không bấm update plugin nữa).
+
 ## 2026-07-15 (1 commit)
 
 - `7b56622` 22:50 — Add content src/site/notes/1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/digital garden.md
