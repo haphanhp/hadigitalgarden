@@ -433,7 +433,7 @@ function nodeStarColor(node, degree, maxDegree) {
 }
 
 // ─── 3D Graph — Starfield Edition ────────────────────────────────────────────
-function render3DGraph(graphData, containerId) {
+function render3DGraph(graphData, containerId, opts = {}) {
     if (!graphData || !graphData.nodes || graphData.nodes.length === 0) return null;
     const el = document.getElementById(containerId);
     if (!el) return null;
@@ -463,11 +463,11 @@ function render3DGraph(graphData, containerId) {
 
     const THREE = window.THREE;
 
-    const Graph = ForceGraph3D()(el)
+    const Graph = ForceGraph3D({ rendererConfig: { alpha: true, antialias: true } })(el)
         .width(el.clientWidth)
         .height(el.clientHeight)
         .graphData({ nodes, links })
-        .backgroundColor('#0a0a0f')
+        .backgroundColor(opts.transparent ? 'rgba(0,0,0,0)' : '#0a0a0f')
         .showNavInfo(false)
 
         // ── Nodes ──
@@ -575,6 +575,12 @@ function render3DGraph(graphData, containerId) {
     Graph.d3AlphaDecay(0.02).d3VelocityDecay(0.3);
     Graph.warmupTicks(50);
 
+    // Bản nhỏ ở cột phải: tắt zoom bằng cuộn chuột để không chặn cuộn trang
+    if (opts.local) {
+        const ctrl = Graph.controls();
+        if (ctrl) { ctrl.noZoom = true; ctrl.enableZoom = false; }
+    }
+
     const onResize = () => { Graph.width(el.clientWidth).height(el.clientHeight); };
     window.addEventListener('resize', onResize);
 
@@ -603,7 +609,10 @@ async function init() {
 function renderLocal() {
     if (localGraphCleanup) { localGraphCleanup(); localGraphCleanup = null; }
     const data = filterLocalGraphData(graphDataCache);
-    localGraphCleanup = renderGraph(data, 'link-graph', false);
+    // Ưu tiên 3D (có chuyển động ánh sáng); không có thư viện 3D thì quay về 2D
+    const can3D = typeof window.ForceGraph3D === 'function' || typeof ForceGraph3D === 'function';
+    localGraphCleanup = (can3D && render3DGraph(data, 'link-graph', { transparent: true, local: true }))
+        || renderGraph(data, 'link-graph', false);
 }
 
 // ─── Mode toggle ─────────────────────────────────────────────────────────────
