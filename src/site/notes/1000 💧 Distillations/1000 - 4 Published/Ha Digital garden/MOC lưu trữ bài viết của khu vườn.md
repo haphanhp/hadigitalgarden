@@ -34,12 +34,12 @@ Phim Nói Tiếng Hoa Bị Kiểm Duyệt
 ### sách tiếng Việt
 
 ### vibe code
-Vibe code diary 2 - Đêm qua có trộm vào nhà
-Vibe code diary 0 - Bắt đầu niềm vui của việc xây dựng
-Vibe code diary 1 - Trình quản lý dự án tự tạo cho mình
-Vibe code diary 3 - 9router change this game
-Vibe code diary 4 - Chỉ dừng lại khi hết token
-Vibe code diary 5 - kéo data hàng ngàn bộ phim trong 5 phút với API - Xây kho data phim tại nhà. 
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 0 - Bắt đầu niềm vui của việc xây dựng\|Vibe code diary 0]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 1 - Trình quản lý dự án tự tạo cho mình\|Vibe code diary 1 - Trình quản lý dự án tự tạo cho mình]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 2 - Đêm qua có trộm vào nhà\|Vibe code diary 2 - Đêm qua có trộm vào nhà]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 3 - 9router change this game\|Vibe code diary - 9router change this game]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 4 - Chỉ dừng lại khi hết token\|Vibe code diary 4 - Chỉ dừng lại khi hết token]]
+[[1000 💧 Distillations/1000 - 4 Published/Ha Digital garden/Vibe code diary 5\|Vibe code diary 5 -]] kéo data hàng ngàn bộ phim trong 5 phút với API - Xây kho data phim tại nhà.
 
 ## Project
 https://projects.haphan.digital/
