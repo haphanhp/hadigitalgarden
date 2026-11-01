@@ -93,7 +93,7 @@ body {
 .sidebar,
 nav.sidebar,
 .sidebar-left {
-  background: #0f1318 !important;
+  background: #1E2840 !important;
   border-right: 1px solid rgba(147, 112, 219, 0.2) !important;
 }
 
@@ -119,7 +119,7 @@ nav.sidebar,
 .right-sidebar,
 .sidebar-right,
 aside {
-  background: #0f1318 !important;
+  background: #1E2840 !important;
   border-left: 1px solid rgba(147, 112, 219, 0.2) !important;
 }
 
@@ -261,4 +261,96 @@ a[href^="#"]:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800 !important;
+}
+
+/* ============================================
+   LAYOUT DESKTOP (>1400px)
+   Điều kiện hiển thị: chỉ áp dụng khi màn hình rộng hơn 1400px.
+   - Thanh trái (filetree) ẩn, chỉ lộ dải mỏng 14px; rê chuột vào mới trượt ra.
+   - Ô nội dung và ô graph cùng mép trên (20px), cùng bo góc 18px, cách nhau 24px.
+   - Cột phải: graph 3D trong mờ, bên dưới là mục lục/liên kết cách đều 24px.
+   - Điện thoại/màn nhỏ giữ nguyên layout gốc của template.
+   ============================================ */
+@media (min-width: 1401px) {
+  body.markdown-preview-view {
+    padding: 0 !important;
+  }
+
+  .filetree-wrapper {
+    width: var(--dg-filetree-width) !important;
+    justify-content: flex-start !important;
+    background: #1E2840 !important;
+    box-shadow: inset -14px 0 0 rgba(147, 112, 219, 0.25);
+    transform: translateX(calc(-100% + 14px));
+    transition: transform 0.25s ease;
+    z-index: 20;
+  }
+
+  .filetree-wrapper:hover {
+    transform: translateX(0);
+  }
+
+  /* Ô nội dung: thu hẹp thêm ~1cm (38px) so với 70% màn hình */
+  .content {
+    box-sizing: border-box;
+    max-width: none !important;
+    width: calc(70vw - 68px);
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    margin-right: 0 !important;
+  }
+
+  /* Cột phải: cùng mép trên với ô nội dung, cách ô nội dung 24px */
+  .sidebar {
+    top: 20px !important;
+    left: calc(70vw - 14px) !important;
+    right: 20px;
+    width: auto;
+    max-width: none !important;
+    height: calc(100vh - 40px);
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .sidebar-container {
+    height: 100%;
+    padding-right: 0;
+    gap: 24px;
+  }
+
+  .sidebar .graph {
+    width: 100% !important;
+    flex-shrink: 0;
+  }
+
+  /* Ô graph: bo góc 18px như ô nội dung, nền trong mờ */
+  #graph-component {
+    border-radius: 18px !important;
+    background: rgba(13, 17, 23, 0.35) !important;
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    overflow: hidden;
+  }
+
+  .graph-title-container {
+    background: transparent !important;
+  }
+
+  #link-graph,
+  #link-graph canvas {
+    width: 100% !important;
+    height: 66vh !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 18px !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Mục lục/liên kết bên dưới graph: cách đều và thụt vào cho cân với ô trên */
+  .sidebar .toc,
+  .sidebar .backlinks {
+    margin-top: 0;
+    padding: 0 16px;
+  }
 }
